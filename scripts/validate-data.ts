@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /** src/data/**\/*.yaml をスキーマ検証する。ビルドを待たずに AI 生成データを検品する用。 */
-import { loadAll } from '../src/lib/load.ts';
+import { loadAll } from '../src/lib/load-fs.ts';
 import { LANES } from '../src/lib/model.ts';
 
 const { periods, events, byLane, files, errors } = loadAll();

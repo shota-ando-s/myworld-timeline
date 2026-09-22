@@ -1,11 +1,6 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
-import { DataFileSchema } from './schema.ts';
+import { DataFileSchema, EventSchema, PeriodSchema } from './schema.ts';
 import { LANES, type Item, type LaneId, type Period, type TimelineEvent } from './model.ts';
-
-const DATA_DIR = fileURLToPath(new URL('../data', import.meta.url));
 
 export type LoadResult = {
   periods: Period[];
@@ -16,18 +11,8 @@ export type LoadResult = {
   errors: string[];
 };
 
-/** src/data 以下の *.yaml を再帰的に集める（_ で始まるファイルは説明書扱いで無視） */
-function collectFiles(dir: string): string[] {
-  if (!fs.existsSync(dir)) return [];
-  const out: string[] = [];
-  for (const entry of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
-    if (entry.name.startsWith('_') || entry.name.startsWith('.')) continue;
-    const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) out.push(...collectFiles(full));
-    else if (/\.ya?ml$/.test(entry.name)) out.push(full);
-  }
-  return out;
-}
+/** 読み込むデータファイル1枚（パスと中身） */
+export type RawFile = { path: string; text: string };
 
 function formatPath(p: readonly PropertyKey[]): string {
   return p
@@ -46,17 +31,21 @@ function titleAt(raw: unknown, issuePath: readonly PropertyKey[]): string {
   return typeof t === 'string' ? `「${t}」` : '';
 }
 
-export function loadAll(): LoadResult {
+/**
+ * YAML のテキスト群を読んで検証する。
+ * ファイルの集め方は呼び出し側に任せる（ビルド時は Vite のグロブ、CLI は fs）。
+ */
+export function parseFiles(rawFiles: RawFile[]): LoadResult {
   const errors: string[] = [];
   const periods: Period[] = [];
   const events: TimelineEvent[] = [];
-  const files = collectFiles(DATA_DIR);
+  const files = [...rawFiles].sort((a, b) => a.path.localeCompare(b.path));
 
   for (const file of files) {
-    const rel = path.relative(process.cwd(), file);
+    const rel = file.path;
     let raw: unknown;
     try {
-      raw = yaml.load(fs.readFileSync(file, 'utf8'));
+      raw = yaml.load(file.text);
     } catch (e) {
       errors.push(`${rel}: YAML として読めません — ${(e as Error).message.split('\n')[0]}`);
       continue;
@@ -66,29 +55,38 @@ export function loadAll(): LoadResult {
     const parsed = DataFileSchema.safeParse(raw);
     if (!parsed.success) {
       for (const issue of parsed.error.issues) {
-        errors.push(`${rel} ${formatPath(issue.path)}${titleAt(raw, issue.path)}: ${issue.message}`);
+        errors.push(`${rel} ${formatPath(issue.path)}: ${issue.message}`);
       }
       continue;
     }
 
     const fileLane = parsed.data.lane;
-    const fallbackLane = LANES.find((l) => l.id === path.basename(file).replace(/\.ya?ml$/, ''))?.id;
+    const basename = rel.split('/').pop()!.replace(/\.ya?ml$/, '');
+    const fallbackLane = LANES.find((l) => l.id === basename)?.id;
 
-    for (const p of parsed.data.periods) {
-      const lane = p.lane ?? fileLane ?? fallbackLane;
-      if (!lane) {
-        errors.push(`${rel} periods「${p.title}」: lane が決まりません（ファイル先頭に lane: を書くか、項目に lane: を足してください）`);
-        continue;
-      }
-      periods.push({ ...p, lane, kind: 'period' });
-    }
-    for (const e of parsed.data.events) {
-      const lane = e.lane ?? fileLane ?? fallbackLane;
-      if (!lane) {
-        errors.push(`${rel} events「${e.title}」: lane が決まりません（ファイル先頭に lane: を書くか、項目に lane: を足してください）`);
-        continue;
-      }
-      events.push({ ...e, lane, kind: 'event' });
+    // 1項目ずつ検証する。1つ壊れていても他の項目は読み込み、エラーは全部出す
+    for (const [kind, list] of [
+      ['periods', parsed.data.periods],
+      ['events', parsed.data.events],
+    ] as const) {
+      list.forEach((entry, i) => {
+        const result = kind === 'periods' ? PeriodSchema.safeParse(entry) : EventSchema.safeParse(entry);
+        const where = `${rel} ${kind}[${i}]${titleAt(raw, [kind, i])}`;
+        if (!result.success) {
+          for (const issue of result.error.issues) {
+            errors.push(`${where}${issue.path.length ? '.' + formatPath(issue.path) : ''}: ${issue.message}`);
+          }
+          return;
+        }
+        const item = result.data;
+        const lane = item.lane ?? fileLane ?? fallbackLane;
+        if (!lane) {
+          errors.push(`${where}: lane が決まりません（ファイル先頭に lane: を書くか、項目に lane: を足してください）`);
+          return;
+        }
+        if (kind === 'periods') periods.push({ ...(item as Omit<Period, 'lane' | 'kind'>), lane, kind: 'period' });
+        else events.push({ ...(item as Omit<TimelineEvent, 'lane' | 'kind'>), lane, kind: 'event' });
+      });
     }
   }
 
@@ -116,12 +114,15 @@ export function loadAll(): LoadResult {
   for (const p of periods) byLane.get(p.lane)!.periods.push(p);
   for (const e of events) byLane.get(e.lane)!.events.push(e);
 
-  return { periods, events, items: [...periods, ...events], byLane, files, errors };
+  return { periods, events, items: [...periods, ...events], byLane, files: files.map((f) => f.path), errors };
 }
 
 /** ビルド時用: データが壊れていたら止める */
-export function loadOrThrow(): LoadResult {
-  const result = loadAll();
+export function orThrow(result: LoadResult): LoadResult {
+  // 読み込み経路が壊れるとデータ0件のまま静かにビルドが通ってしまうので、ここで止める
+  if (result.items.length === 0) {
+    throw new Error('年表データが1件も読み込めませんでした（src/data/*.yaml の読み込み経路を確認してください）');
+  }
   if (result.errors.length > 0) {
     throw new Error(
       `年表データに ${result.errors.length} 件の問題があります:\n` +

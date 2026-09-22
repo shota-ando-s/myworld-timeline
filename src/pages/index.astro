@@ -5,7 +5,7 @@ import DetailPanel from '../components/DetailPanel.astro';
 import FilterBar from '../components/FilterBar.astro';
 import Lane, { type LaneView } from '../components/Lane.astro';
 import TimeAxis from '../components/TimeAxis.astro';
-import { loadOrThrow } from '../lib/load.ts';
+import { loadOrThrow } from '../lib/load-glob.ts';
 import { BAR_GAP, BAR_H, LANE_PAD_TOP, MIN_BAR_W, laneHeight, packEvents, packPeriods } from '../lib/layout.ts';
 import { LANES, itemSpan } from '../lib/model.ts';
 import { timelineWidth, yearToX } from '../lib/scale.ts';

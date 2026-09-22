@@ -24,7 +24,7 @@ export function estimateTextWidth(text: string, fontSize = 11): number {
 
 /** [開始x, 終了x] の配列を、重ならないように行へ割り当てる */
 function packSpans(spans: [number, number][], gap: number): { rows: number[]; rowCount: number } {
-  const order = spans.map((s, i) => i).sort((a, b) => spans[a]![0] - spans[b]![0]);
+  const order = spans.map((_, i) => i).sort((a, b) => spans[a]![0] - spans[b]![0]);
   const rowEnds: number[] = [];
   const rows = new Array<number>(spans.length).fill(0);
   for (const i of order) {

@@ -57,9 +57,12 @@ export const EventSchema = z.strictObject({
   circa: z.boolean().default(false),
 });
 
-/** データファイル1枚 */
+/**
+ * データファイル1枚の外枠だけを見るスキーマ。
+ * 中身は1項目ずつ検証する（1つ壊れていても残りを読み、エラーをまとめて出すため）。
+ */
 export const DataFileSchema = z.strictObject({
   lane: z.enum(LANE_IDS).optional(),
-  periods: z.array(PeriodSchema).default([]),
-  events: z.array(EventSchema).default([]),
+  periods: z.array(z.unknown()).default([]),
+  events: z.array(z.unknown()).default([]),
 });

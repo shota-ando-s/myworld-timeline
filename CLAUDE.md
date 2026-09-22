@@ -9,6 +9,7 @@
 |---|---|
 | 開発サーバ | `npm run dev` （http://localhost:4321/myworld-timeline） |
 | **データ検証** | `npm run validate` |
+| 型チェック | `npm run check` |
 | 本番ビルド | `npm run build` |
 | ビルド結果の確認 | `npm run preview` |
 
@@ -108,7 +109,9 @@ events:                # 点イベント（単年の出来事）
 |---|---|
 | `src/lib/model.ts` | レーン・カテゴリの定義、年の整形。**ブラウザにも送られるので zod や node API を入れない** |
 | `src/lib/schema.ts` | zod スキーマ（検証はここ） |
-| `src/lib/load.ts` | YAML 読み込みと横断チェック |
+| `src/lib/load.ts` | YAML の検証本体（1項目ずつ検証し、id重複・related切れも見る） |
+| `src/lib/load-glob.ts` | Astro 側の読み込み。`import.meta.glob` でビルドに YAML を同梱する |
+| `src/lib/load-fs.ts` | `npm run validate` 用の読み込み（node の fs） |
 | `src/lib/scale.ts` | 年↔x座標の区分線形スケール、目盛り、時代帯 |
 | `src/lib/layout.ts` | レーン内の段組み（重なり回避） |
 | `src/pages/index.astro` | ビルド時に全項目の DOM を出力 |
