@@ -1,0 +1,102 @@
+lane: korea
+
+periods:
+  - id: gojoseon
+    title: 古朝鮮
+    start: -700
+    startCirca: true
+    end: -108
+    category: politics
+    tags: [朝鮮, 古代]
+    summary: 半島北部にあったとされる最初の国家。前108年に漢に滅ぼされた。
+
+  - id: korea-three-kingdoms
+    title: 三国時代（高句麗・百済・新羅）
+    start: -57
+    startCirca: true
+    end: 668
+    category: politics
+    tags: [朝鮮]
+    summary: 三つの王国が競い合い、中国・日本の双方と深く関わった。
+
+  - id: unified-silla
+    title: 統一新羅
+    start: 668
+    end: 935
+    category: politics
+    tags: [朝鮮]
+    summary: 唐と結んで半島を統一。仏教文化が栄えた。
+
+  - id: goryeo
+    title: 高麗
+    start: 918
+    end: 1392
+    category: politics
+    tags: [朝鮮]
+    summary: Korea の語源となった王朝。高麗青磁と大蔵経の木版で知られる。
+
+  - id: joseon
+    title: 朝鮮王朝（李氏朝鮮）
+    start: 1392
+    end: 1910
+    category: politics
+    tags: [朝鮮, 儒教]
+    summary: 500年続いた儒教国家。ハングルの制定と両班による統治が特徴。
+
+  - id: japanese-rule-korea
+    title: 日本統治期
+    start: 1910
+    end: 1945
+    category: politics
+    tags: [朝鮮, 植民地]
+    summary: 韓国併合から敗戦まで、朝鮮半島は日本の統治下に置かれた。
+
+events:
+  - id: buddhism-goguryeo
+    year: 372
+    title: 高句麗に仏教が伝わる
+    category: religion
+    tags: [朝鮮, 仏教]
+    summary: 前秦から伝来し、のちに百済経由で日本へも伝わる流れの起点となった。
+
+  - id: silla-unification
+    year: 668
+    title: 新羅が半島を統一
+    category: politics
+    tags: [朝鮮]
+    summary: 唐と連合して百済・高句麗を滅ぼし、その後は唐の勢力も追い出した。
+
+  - id: mongol-invasion-goryeo
+    year: 1231
+    title: モンゴルの高麗侵攻
+    category: war
+    tags: [朝鮮, モンゴル]
+    summary: 30年に及ぶ抵抗の末に服属し、元の日本遠征にも動員された。
+
+  - id: yi-seonggye
+    year: 1392
+    title: 李成桂が朝鮮王朝を開く
+    category: politics
+    tags: [朝鮮]
+    summary: 高麗の武将が王朝を交代させ、儒教を国の背骨に据えた。
+
+  - id: hangul
+    year: 1446
+    title: 訓民正音（ハングル）の公布
+    category: culture
+    tags: [朝鮮, 文字]
+    summary: 世宗が民衆にも書ける文字を作らせ、独自の表記体系が生まれた。
+
+  - id: imjin-war
+    year: 1592
+    title: 文禄の役（壬辰倭乱）
+    category: war
+    tags: [朝鮮, 日本]
+    summary: 豊臣秀吉の侵攻に明の援軍と李舜臣の水軍が抗し、半島は荒廃した。
+
+  - id: korean-war
+    year: 1950
+    title: 朝鮮戦争
+    category: war
+    tags: [朝鮮, 冷戦]
+    summary: 南北の戦争に米中が介入。1953年の休戦で分断が固定された。

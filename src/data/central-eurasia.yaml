@@ -1,0 +1,86 @@
+lane: central-eurasia
+
+periods:
+  - id: xiongnu
+    title: 匈奴
+    start: -209
+    end: 155
+    endCirca: true
+    category: politics
+    tags: [遊牧, モンゴル高原]
+    summary: 漢と対峙した最初の遊牧帝国。草原の国家のひな型になった。
+
+  - id: gokturk
+    title: 突厥
+    start: 552
+    end: 744
+    category: politics
+    tags: [遊牧, トルコ系]
+    summary: モンゴル高原から中央アジアまで支配し、独自の文字を残した。
+
+  - id: uyghur-khaganate
+    title: ウイグル可汗国
+    start: 744
+    end: 840
+    category: politics
+    tags: [遊牧, トルコ系]
+    summary: 唐と結んで安史の乱の鎮圧を助け、交易で栄えた。
+
+  - id: mongol-empire
+    title: モンゴル帝国
+    start: 1206
+    end: 1368
+    category: war
+    tags: [モンゴル, 遊牧]
+    summary: 史上最大の陸上帝国。ユーラシアが一つの交通圏になった。
+
+  - id: timurid
+    title: ティムール朝
+    start: 1370
+    end: 1507
+    category: politics
+    tags: [中央アジア]
+    summary: サマルカンドを都にモンゴルの再興を掲げ、学芸を保護した。
+
+events:
+  - id: talas
+    year: 751
+    title: タラス河畔の戦い
+    category: war
+    tags: [イスラム, 唐, 技術伝播]
+    summary: 唐がアッバース朝に敗れ、この時に製紙法が西へ伝わったとされる。
+
+  - id: chinggis-khan
+    year: 1206
+    title: チンギス・ハンの即位
+    category: politics
+    tags: [モンゴル]
+    summary: 分裂していた草原の諸部族を統合し、世界征服の出発点となった。
+
+  - id: mongol-central-asia
+    year: 1219
+    title: モンゴルの中央アジア遠征
+    category: war
+    tags: [モンゴル]
+    summary: ホラズムを壊滅させ、西方への道を開いた。
+
+  - id: legnica
+    year: 1241
+    title: ワールシュタットの戦い
+    category: war
+    tags: [モンゴル, ヨーロッパ]
+    summary: モンゴル軍がポーランド・ドイツ連合軍を破り、西欧に衝撃を与えた。
+
+  - id: ankara-battle
+    year: 1402
+    title: アンカラの戦い
+    category: war
+    tags: [ティムール, オスマン]
+    summary: ティムールがオスマン皇帝を捕らえ、オスマンは一時崩壊状態になった。
+
+  - id: dzungar-fall
+    year: 1757
+    title: ジュンガルの滅亡
+    category: war
+    tags: [清, 遊牧]
+    summary: 最後の遊牧帝国が清に滅ぼされ、草原の時代が終わった。

@@ -1,0 +1,123 @@
+lane: americas
+
+periods:
+  - id: olmec
+    title: オルメカ文明
+    start: -1200
+    startCirca: true
+    end: -400
+    endCirca: true
+    category: culture
+    tags: [メソアメリカ]
+    summary: 巨石人頭像で知られる、メソアメリカ最初の高度な文化。
+
+  - id: teotihuacan
+    title: テオティワカン
+    start: 100
+    startCirca: true
+    end: 550
+    endCirca: true
+    category: society
+    tags: [メソアメリカ, 都市]
+    summary: 人口10万を超えたとされる計画都市。誰が築いたかは今も謎が多い。
+
+  - id: maya-classic
+    title: マヤ文明古典期
+    start: 250
+    end: 900
+    category: culture
+    tags: [メソアメリカ, 文字]
+    summary: 独自の文字と精密な暦を持つ都市国家群が熱帯雨林に栄えた。
+
+  - id: aztec
+    title: アステカ王国
+    start: 1428
+    end: 1521
+    category: politics
+    tags: [メソアメリカ]
+    summary: 湖上の都テノチティトランを中心に、貢納で周辺を支配した。
+
+  - id: inca
+    title: インカ帝国
+    start: 1438
+    end: 1533
+    category: politics
+    tags: [アンデス]
+    summary: 文字を持たずに、道路網とキープ（結縄）で巨大な山岳帝国を運営した。
+
+  - id: spanish-america
+    title: スペイン領アメリカ
+    start: 1521
+    end: 1825
+    category: politics
+    tags: [植民地, スペイン]
+    summary: 銀の大量産出が世界経済を動かし、先住民社会は大きく変わった。
+
+  - id: united-states
+    title: アメリカ合衆国
+    start: 1776
+    ongoing: true
+    category: politics
+    tags: [アメリカ]
+    summary: 独立宣言から始まり、20世紀には世界最大の経済・軍事大国となった。
+
+events:
+  - id: columbus
+    year: 1492
+    title: コロンブスがカリブ海に到達
+    category: economy
+    tags: [大航海時代]
+    summary: 二つの大陸が結びつき、作物・病原菌・人の大規模な交換が始まった。
+    detail: |
+      ジャガイモやトウモロコシがユーラシアへ渡って人口を押し上げた一方、
+      天然痘などの病気がアメリカ大陸の人口を激減させた。
+      世界史がひとつながりになった転換点として扱われる。
+
+  - id: tenochtitlan-fall
+    year: 1521
+    title: コルテスがテノチティトランを攻略
+    category: war
+    tags: [スペイン, アステカ]
+    summary: 数百人の兵と現地の反アステカ勢力、そして疫病が帝国を倒した。
+
+  - id: inca-fall
+    year: 1533
+    title: ピサロがインカ帝国を滅ぼす
+    category: war
+    tags: [スペイン, アンデス]
+    summary: 内戦直後の帝国を少数のスペイン人が制圧し、銀山開発が始まった。
+
+  - id: potosi
+    year: 1545
+    title: ポトシ銀山の発見
+    category: economy
+    tags: [銀, 世界経済]
+    summary: 流れ出した銀はヨーロッパ経由で明にまで達し、世界の物価を動かした。
+
+  - id: us-independence
+    year: 1776
+    title: アメリカ独立宣言
+    category: politics
+    tags: [アメリカ, 革命]
+    summary: 人は平等に造られたと宣言し、以後の革命と憲法に影響を与えた。
+
+  - id: us-civil-war
+    year: 1861
+    title: 南北戦争
+    category: war
+    tags: [アメリカ, 奴隷制]
+    summary: 4年の内戦の末に奴隷制が廃止され、連邦の統一が守られた。
+
+  - id: great-depression
+    year: 1929
+    title: 世界恐慌
+    category: economy
+    tags: [アメリカ, 経済危機]
+    summary: ニューヨーク株式市場の暴落が世界中に波及し、各国の政治を変えた。
+
+  - id: apollo-11
+    year: 1969
+    title: アポロ11号の月面着陸
+    category: science
+    tags: [宇宙, 冷戦]
+    summary: 米ソの競争のなかで、人類が初めて地球以外の天体に立った。

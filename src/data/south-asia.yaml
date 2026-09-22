@@ -1,0 +1,124 @@
+lane: south-asia
+
+periods:
+  - id: indus
+    title: インダス文明
+    start: -2600
+    startCirca: true
+    end: -1900
+    endCirca: true
+    category: society
+    tags: [インド, 都市]
+    summary: モヘンジョダロなど計画都市の文明。文字は今も解読されていない。
+
+  - id: vedic
+    title: ヴェーダ時代
+    start: -1500
+    startCirca: true
+    end: -500
+    endCirca: true
+    category: religion
+    tags: [インド, バラモン教]
+    summary: アーリヤ人の進入とヴェーダの成立。カースト的な身分の原型ができた。
+
+  - id: maurya
+    title: マウリヤ朝
+    start: -322
+    end: -185
+    category: politics
+    tags: [インド]
+    summary: インド初の統一王朝。アショーカ王の治世に仏教が各地へ広がった。
+
+  - id: kushan
+    title: クシャーナ朝
+    start: 30
+    startCirca: true
+    end: 375
+    endCirca: true
+    category: economy
+    tags: [インド, 交易]
+    summary: 東西交易の要を押さえ、ギリシア風の仏像（ガンダーラ美術）を生んだ。
+
+  - id: gupta
+    title: グプタ朝
+    start: 320
+    end: 550
+    category: culture
+    tags: [インド, ヒンドゥー教]
+    summary: ヒンドゥー文化の古典期。ゼロを含む十進法の記数法が整えられた。
+
+  - id: delhi-sultanate
+    title: デリー・スルタン朝
+    start: 1206
+    end: 1526
+    category: politics
+    tags: [インド, イスラム]
+    summary: 北インドにイスラム政権が定着した約320年。
+
+  - id: mughal
+    title: ムガル帝国
+    start: 1526
+    end: 1858
+    category: politics
+    tags: [インド, イスラム]
+    summary: ヒンドゥーとイスラムが混ざり合う文化を育てた大帝国。
+
+  - id: british-raj
+    title: イギリス領インド帝国
+    start: 1858
+    end: 1947
+    category: politics
+    tags: [インド, 植民地]
+    summary: 東インド会社に代わり英国政府が直接統治した90年。
+
+events:
+  - id: buddha-birth
+    year: -563
+    circa: true
+    title: ブッダの生誕
+    category: religion
+    tags: [仏教, インド]
+    summary: 生没年には諸説ある。苦をどう終わらせるかという問いが東アジア全体に広がった。
+
+  - id: ashoka
+    year: -268
+    circa: true
+    title: アショーカ王の即位
+    category: politics
+    tags: [インド, 仏教]
+    summary: 戦争の惨禍を悔いて仏教に帰依し、石柱に統治の理念を刻ませた。
+
+  - id: vasco-da-gama
+    year: 1498
+    title: ヴァスコ・ダ・ガマのカリカット到達
+    category: economy
+    tags: [大航海時代, 交易]
+    summary: 喜望峰を回る航路が開かれ、ヨーロッパがインド洋交易に直接参入した。
+
+  - id: panipat-1
+    year: 1526
+    title: 第一次パーニーパットの戦い
+    category: war
+    tags: [インド, ムガル]
+    summary: バーブルが火器を用いて勝利し、ムガル帝国が始まった。
+
+  - id: plassey
+    year: 1757
+    title: プラッシーの戦い
+    category: war
+    tags: [インド, イギリス]
+    summary: 東インド会社がベンガルの実権を握り、インド植民地化の起点となった。
+
+  - id: indian-rebellion
+    year: 1857
+    title: インド大反乱
+    category: society
+    tags: [インド, 抵抗]
+    summary: 傭兵の蜂起が広域の反乱に発展し、ムガル帝国と東インド会社が終わった。
+
+  - id: india-independence
+    year: 1947
+    title: インド・パキスタン分離独立
+    category: politics
+    tags: [インド, 独立]
+    summary: 非暴力の運動が実を結ぶ一方、宗教による分割で大規模な混乱が起きた。

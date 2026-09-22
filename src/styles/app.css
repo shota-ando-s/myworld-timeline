@@ -1,0 +1,338 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { height: 100%; margin: 0; }
+
+body {
+  display: grid;
+  /* 列を明示しないと暗黙の auto 列が中身の最大幅まで広がり、ページごと横スクロールしてしまう */
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr);
+  height: 100dvh;
+  overflow: hidden;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: #1c5cab; }
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+
+/* ───────── 上部バー ───────── */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 8px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--rule-strong);
+  flex-wrap: wrap;
+}
+
+.topbar__title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.topbar__title small {
+  display: block;
+  font-family: var(--sans);
+  font-size: 10px;
+  color: var(--ink-3);
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.filters { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+.famgroup { display: flex; align-items: center; gap: 4px; }
+.famgroup__name {
+  font-size: 10px; color: var(--ink-3); writing-mode: horizontal-tb;
+  margin-right: 2px; white-space: nowrap;
+}
+
+.chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 3px 9px 3px 7px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 12px;
+  white-space: nowrap;
+  transition: background 120ms, opacity 120ms;
+}
+.chip[aria-pressed='true'] { background: var(--fam-tint); border-color: var(--fam); }
+.chip[aria-pressed='false'] { opacity: 0.5; }
+.chip:hover { background: var(--fam-tint-2); }
+
+.controls { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.control {
+  display: inline-flex; align-items: center; gap: 4px;
+  border: 1px solid var(--rule-strong); border-radius: 6px;
+  background: var(--surface); padding: 2px;
+}
+.control button {
+  border: 0; background: transparent; padding: 2px 8px; border-radius: 4px; line-height: 1.4;
+}
+.control button:hover { background: var(--paper-alt); }
+.control__value { font-size: 12px; min-width: 34px; text-align: center; color: var(--ink-2); }
+.control input[type='number'] {
+  width: 74px; border: 0; background: transparent; padding: 2px 4px; font: inherit; font-size: 12px;
+}
+.control input[type='number']:focus { outline: none; }
+
+.lanepick { position: relative; }
+.lanepick > summary { list-style: none; padding: 3px 10px; border: 1px solid var(--rule-strong); border-radius: 6px; background: var(--surface); font-size: 12px; }
+.lanepick > summary::-webkit-details-marker { display: none; }
+.lanepick__menu {
+  position: absolute; right: 0; top: calc(100% + 4px); z-index: 20;
+  background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 8px;
+  padding: 8px 10px; box-shadow: 0 6px 24px rgb(0 0 0 / 12%);
+  display: grid; gap: 2px; white-space: nowrap;
+}
+.lanepick__menu label { display: flex; gap: 6px; align-items: center; font-size: 12px; }
+
+/* ───────── 本体 ───────── */
+.app { display: grid; grid-template-columns: minmax(0, 1fr) auto; min-height: 0; }
+
+.tl { position: relative; overflow: auto; overscroll-behavior-x: contain; }
+.tl__inner { position: relative; width: max-content; min-width: 100%; }
+
+/* 時代帯と目盛り */
+.axis {
+  position: sticky; top: 0; z-index: 6;
+  display: flex; background: var(--surface);
+  border-bottom: 1px solid var(--rule-strong);
+}
+.axis__corner {
+  position: sticky; left: 0; z-index: 7;
+  width: var(--label-w); flex: 0 0 var(--label-w);
+  background: var(--surface); border-right: 1px solid var(--rule-strong);
+  display: flex; align-items: flex-end; padding: 0 8px 4px;
+  font-size: 10px; color: var(--ink-3);
+}
+.axis__track { position: relative; width: var(--w); flex: 0 0 var(--w); height: 52px; }
+
+.era {
+  position: absolute; top: 0; height: 21px;
+  left: var(--x1); width: var(--ew);
+  border-right: 1px solid var(--rule);
+  font-size: 11px; color: var(--ink-2);
+  display: flex; align-items: center; justify-content: center;
+  background: var(--paper-alt);
+}
+.era[data-i='1'] { background: var(--paper); }
+.era > span { position: sticky; left: calc(var(--label-w) + 8px); padding: 0 6px; }
+
+.tick { position: absolute; top: 21px; bottom: 0; left: var(--x); border-left: 1px solid var(--rule); }
+.tick[data-major] { border-left-color: var(--rule-strong); }
+.tick > span { position: absolute; left: 4px; top: 2px; font-size: 11px; color: var(--ink-3); white-space: nowrap; }
+.tick[data-major] > span { color: var(--ink-2); font-weight: 600; }
+
+/* レーン */
+.lane { display: flex; border-bottom: 1px solid var(--rule); }
+.lane[data-stripe='1'] { background: var(--paper-alt); }
+.lane[hidden] { display: none; }
+
+.lane__label {
+  position: sticky; left: 0; z-index: 4;
+  width: var(--label-w); flex: 0 0 var(--label-w);
+  padding: 7px 10px 0;
+  background: inherit;
+  border-right: 1px solid var(--rule-strong);
+  background-color: var(--paper);
+}
+.lane[data-stripe='1'] .lane__label { background-color: var(--paper-alt); }
+.lane__label b { display: block; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; }
+.lane__label small { display: block; font-size: 10px; color: var(--ink-3); line-height: 1.35; }
+
+.lane__track { position: relative; width: var(--w); flex: 0 0 var(--w); height: var(--h); }
+
+/* 期間バー */
+.bar {
+  position: absolute;
+  left: var(--bx); width: var(--bw); height: var(--bar-h);
+  top: calc(8px + var(--row) * (var(--bar-h) + var(--bar-gap)));
+  display: flex; align-items: center;
+  padding: 0 6px;
+  border: 1px solid var(--fam-tint-2);
+  border-left: 3px solid var(--fam);
+  border-radius: 3px;
+  background: var(--fam-tint);
+  font-size: 11.5px; line-height: 1;
+  /* clip は overflow:hidden と違ってスクロール文脈を作らないので、
+     中のラベルを sticky にして「帯が画面に残っている間ずっと名前が見える」ようにできる */
+  overflow: clip;
+  white-space: nowrap;
+  text-align: left;
+  transition: background 120ms;
+}
+.bar__label { position: sticky; left: calc(var(--label-w) + 6px); max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.bar:hover { background: var(--fam-tint-2); }
+.bar[data-start-circa] { border-left-style: dashed; }
+.bar[data-end-circa] { border-right: 2px dashed var(--fam); }
+.bar[data-ongoing] { border-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; }
+
+/* 点イベント */
+.ev {
+  position: absolute;
+  left: var(--ex); top: calc(var(--ev-top) + var(--row) * var(--ev-row-h));
+  transform: translateX(calc(var(--dot) / -2));
+  display: flex; align-items: center; gap: 4px;
+  height: var(--ev-row-h);
+  padding: 0; border: 0; background: none;
+  white-space: nowrap;
+}
+.ev__dot {
+  width: var(--dot); height: var(--dot); flex: 0 0 var(--dot);
+  background: var(--fam);
+  box-shadow: 0 0 0 2px var(--paper);
+}
+.lane[data-stripe='1'] .ev__dot { box-shadow: 0 0 0 2px var(--paper-alt); }
+.ev__label { font-size: 11px; line-height: 1; color: var(--ink-2); }
+.ev:hover .ev__label { color: var(--ink); text-decoration: underline; }
+.ev[data-circa] .ev__label::after { content: '頃'; color: var(--ink-3); font-size: 10px; }
+
+[data-shape='circle'] { border-radius: 50%; }
+[data-shape='square'] { border-radius: 1px; }
+[data-shape='diamond'] { clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
+[data-shape='triangle'] { clip-path: polygon(50% 4%, 100% 100%, 0 100%); }
+[data-shape='triangle-down'] { clip-path: polygon(0 0, 100% 0, 50% 96%); }
+[data-shape='plus'] { clip-path: polygon(38% 0, 62% 0, 62% 38%, 100% 38%, 100% 62%, 62% 62%, 62% 100%, 38% 100%, 38% 62%, 0 62%, 0 38%, 38% 38%); }
+[data-shape='pill'] { border-radius: 999px; clip-path: inset(22% 0 22% 0 round 999px); }
+[data-shape='ring'] { border-radius: 50%; background: var(--paper); box-shadow: inset 0 0 0 3px var(--fam), 0 0 0 2px var(--paper); }
+.lane[data-stripe='1'] [data-shape='ring'] { background: var(--paper-alt); box-shadow: inset 0 0 0 3px var(--fam), 0 0 0 2px var(--paper-alt); }
+
+/* フィルタで外れたもの: 消さずに減光して位置感覚を保つ */
+.bar[data-off], .ev[data-off] { opacity: 0.12; pointer-events: none; }
+
+/* 選択中 */
+.bar[data-selected] { outline: 2px solid var(--ink); outline-offset: 1px; background: var(--fam-tint-2); }
+.ev[data-selected] .ev__dot { outline: 2px solid var(--ink); outline-offset: 2px; }
+.ev[data-selected] .ev__label { color: var(--ink); font-weight: 600; }
+
+/* 同時代スキャンライン */
+.scan {
+  position: absolute; top: 0; bottom: 0;
+  left: calc(var(--label-w) + var(--scan-x));
+  width: 0; z-index: 5; pointer-events: none;
+}
+.scan::before {
+  content: ''; position: absolute; top: 52px; bottom: 0; left: -1px; width: 2px;
+  background: var(--ink); opacity: 0.55;
+}
+/* ハンドルは軸（sticky）の中に置く。縦線と違って常に見えていてほしいため */
+.scan__handle {
+  position: absolute; top: 25px; left: var(--scan-x); transform: translateX(-50%);
+  z-index: 2; pointer-events: auto;
+  background: var(--ink); color: var(--paper);
+  border: 0; border-radius: 4px; padding: 2px 8px;
+  font-size: 11px; line-height: 1.5; white-space: nowrap;
+  cursor: ew-resize;
+}
+.scan[hidden] { display: none; }
+
+/* ───────── 右パネル ───────── */
+.panel {
+  width: 380px; flex: 0 0 380px;
+  border-left: 1px solid var(--rule-strong);
+  background: var(--surface);
+  overflow-y: auto;
+  padding: 16px 18px 40px;
+}
+.panel[data-empty] .panel__body { display: none; }
+.panel:not([data-empty]) .panel__hint { display: none; }
+.panel__hint { color: var(--ink-3); font-size: 12.5px; }
+.panel__hint ul { padding-left: 1.1em; margin: 8px 0 0; }
+
+.panel__close {
+  float: right; border: 0; background: transparent; color: var(--ink-3);
+  font-size: 18px; line-height: 1; padding: 2px 4px;
+}
+.panel__kicker { font-size: 11px; color: var(--ink-3); display: flex; align-items: center; gap: 6px; }
+.panel__title { font-family: var(--serif); font-size: 20px; margin: 2px 0 2px; line-height: 1.4; }
+.panel__date { font-size: 12px; color: var(--ink-2); margin-bottom: 12px; }
+.panel__summary { margin: 0 0 12px; }
+.panel__detail { font-size: 13px; color: var(--ink-2); white-space: pre-wrap; margin: 0 0 14px; }
+.panel h3 { font-size: 11px; color: var(--ink-3); font-weight: 600; margin: 16px 0 6px; letter-spacing: 0.06em; }
+.panel__tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.panel__tags span { font-size: 11px; background: var(--paper-alt); border-radius: 4px; padding: 1px 6px; color: var(--ink-2); }
+.panel__links { margin: 0; padding-left: 1.1em; font-size: 12.5px; }
+
+.snapshot { display: grid; gap: 10px; }
+.snapshot__lane { border-top: 1px solid var(--rule); padding-top: 7px; }
+.snapshot__lane > b { font-size: 12px; display: block; margin-bottom: 3px; }
+.snapshot__lane[data-quiet] > b { color: var(--ink-3); font-weight: 400; }
+.snapshot__row { display: flex; gap: 6px; align-items: baseline; font-size: 12.5px; }
+.snapshot__row + .snapshot__row { margin-top: 2px; }
+.snapshot__year { color: var(--ink-3); font-size: 11px; flex: 0 0 auto; font-variant-numeric: tabular-nums; }
+.snapshot button.link {
+  border: 0; background: none; padding: 0; text-align: left; color: var(--ink);
+  text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 2px;
+}
+.snapshot button.link:hover { text-decoration-color: var(--ink); }
+.snapshot__dot { width: 8px; height: 8px; flex: 0 0 8px; background: var(--fam); border-radius: 2px; align-self: center; }
+
+/* ───────── スマホ: 12レーンの横年表は成立しないので縦の年代順リストに切り替える ───────── */
+.mlist { display: none; }
+
+@media (max-width: 720px) {
+  body { height: 100dvh; }
+  /* 上段: タイトルと年ジャンプ / 下段: 横スクロールするカテゴリチップ */
+  .topbar { gap: 8px 10px; padding: 6px 12px; flex-wrap: wrap; row-gap: 6px; }
+  .topbar__title { font-size: 15px; order: 1; }
+  .topbar__title small { display: none; }
+  .filters {
+    order: 3; flex: 1 0 100%; width: 100%;
+    min-width: 0; max-width: 100%;  /* flex アイテムの min-width:auto を切らないと中身の幅で広がる */
+    flex-wrap: nowrap; overflow-x: auto; gap: 8px; padding-bottom: 2px;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .filters::-webkit-scrollbar { display: none; }
+  .famgroup__name { display: none; }
+  .controls { order: 2; margin-left: auto; flex: 0 0 auto; }
+  .controls .control:last-child, .lanepick { display: none; }
+  .control { flex: 0 0 auto; }
+  .control input[type='number'] { width: 58px; }
+  .control button, .chip { white-space: nowrap; }
+  .famgroup { flex: 0 0 auto; }
+  .mrow__year { padding-top: 3px; }
+
+  .app { grid-template-columns: minmax(0, 1fr); }
+  .tl { display: none; }
+
+  .mlist { display: block; overflow-y: auto; padding: 0 0 48px; }
+  .mlist__era {
+    position: sticky; top: 0; z-index: 2;
+    background: var(--paper-alt); border-bottom: 1px solid var(--rule-strong);
+    padding: 5px 14px; font-size: 12px; font-weight: 600; color: var(--ink-2);
+  }
+  .mrow {
+    display: grid; grid-template-columns: 82px 1fr; gap: 10px; align-items: start;
+    width: 100%; padding: 9px 14px; border: 0; border-bottom: 1px solid var(--rule);
+    background: none; text-align: left;
+  }
+  .mrow[hidden] { display: none; }
+  .mrow__year { font-size: 11px; color: var(--ink-3); font-variant-numeric: tabular-nums; padding-top: 2px; }
+  .mrow__main { display: flex; gap: 7px; align-items: baseline; }
+  .mrow__title { font-size: 14px; line-height: 1.5; }
+  .mrow__lane { font-size: 10px; color: var(--ink-3); display: block; }
+  .mrow .ev__dot { align-self: center; flex: 0 0 var(--dot); }
+
+  .panel {
+    position: fixed; inset: 0; z-index: 30; width: auto; flex: none;
+    border-left: 0; padding: 14px 16px 40px;
+  }
+  .panel[data-empty] { display: none; }
+  .panel__close { font-size: 26px; padding: 0 8px; }
+}

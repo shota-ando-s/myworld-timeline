@@ -1,0 +1,37 @@
+---
+import { ERAS, ticks, yearToX } from '../lib/scale.ts';
+
+interface Props {
+  zoom: number;
+}
+const { zoom } = Astro.props;
+
+const eras = ERAS.map((e, i) => ({
+  ...e,
+  i: i % 2,
+  x1: yearToX(e.from, zoom),
+  w: yearToX(e.to, zoom) - yearToX(e.from, zoom),
+}));
+const tickList = ticks(zoom);
+---
+
+<div class="axis">
+  <div class="axis__corner">年代 →</div>
+  <div class="axis__track" id="axis-track">
+    {
+      eras.map((e) => (
+        <div class="era" data-i={e.i} style={`--x1:${e.x1}px; --ew:${e.w}px`}>
+          <span>{e.label}</span>
+        </div>
+      ))
+    }
+    {
+      tickList.map((t) => (
+        <div class="tick" data-year={t.year} data-major={t.major ? '' : undefined} style={`--x:${t.x}px`}>
+          <span>{t.label}</span>
+        </div>
+      ))
+    }
+    <button type="button" class="scan__handle" id="scan-handle" hidden>1600年</button>
+  </div>
+</div>

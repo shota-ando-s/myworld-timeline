@@ -1,0 +1,150 @@
+lane: west-asia
+
+periods:
+  - id: sumer
+    title: シュメール都市国家群
+    start: -3000
+    startCirca: true
+    end: -2334
+    category: politics
+    tags: [メソポタミア, 都市]
+    summary: ウルクやウルなど、世界最古級の都市文明。文字と法と灌漑が生まれた。
+
+  - id: akkad
+    title: アッカド帝国
+    start: -2334
+    end: -2154
+    category: politics
+    tags: [メソポタミア]
+    summary: サルゴンがメソポタミアを統一した、史上初の「帝国」とされる国家。
+
+  - id: old-babylon
+    title: 古バビロニア王国
+    start: -1894
+    end: -1595
+    category: politics
+    tags: [メソポタミア]
+    summary: ハンムラビのもとで統一され、法と天文の伝統を残した。
+
+  - id: neo-assyria
+    title: 新アッシリア帝国
+    start: -911
+    end: -609
+    category: war
+    tags: [メソポタミア, 軍事]
+    summary: 鉄製武器と騎兵でオリエントを初めて統一した軍事帝国。
+
+  - id: achaemenid
+    title: アケメネス朝ペルシア
+    start: -550
+    end: -330
+    category: politics
+    tags: [ペルシア]
+    summary: エジプトからインダスまでを結んだ大帝国。寛容な統治と王の道で知られる。
+
+  - id: parthia
+    title: パルティア
+    start: -247
+    end: 224
+    category: politics
+    tags: [ペルシア]
+    summary: ローマと数百年にわたり対峙し、東西交易の中継で富んだ。
+
+  - id: sasanian
+    title: ササン朝ペルシア
+    start: 224
+    end: 651
+    category: politics
+    tags: [ペルシア, ゾロアスター教]
+    summary: ペルシア文化の復興を掲げた帝国。イスラム勢力に滅ぼされた。
+
+  - id: umayyad
+    title: ウマイヤ朝
+    start: 661
+    end: 750
+    category: politics
+    tags: [イスラム]
+    summary: 大西洋から中央アジアまで拡大した最初のイスラム世襲王朝。
+
+  - id: abbasid
+    title: アッバース朝
+    start: 750
+    end: 1258
+    category: culture
+    tags: [イスラム, バグダード]
+    summary: バグダードを中心に、ギリシア・インドの学問を継承発展させた黄金期。
+
+  - id: ottoman
+    title: オスマン帝国
+    start: 1299
+    end: 1922
+    category: politics
+    tags: [イスラム, トルコ]
+    summary: 三大陸にまたがり600年続いた帝国。ヨーロッパ史とも深く絡み合う。
+
+  - id: safavid
+    title: サファヴィー朝
+    start: 1501
+    end: 1736
+    category: religion
+    tags: [イラン, シーア派]
+    summary: シーア派を国教とし、現在のイランの宗教的な輪郭を作った。
+
+events:
+  - id: cuneiform
+    year: -3300
+    circa: true
+    title: 楔形文字の発明
+    category: science
+    tags: [文字, メソポタミア]
+    summary: 倉庫の記録から始まった文字が、歴史を記録できる社会を作った。
+
+  - id: hammurabi-code
+    year: -1750
+    circa: true
+    title: ハンムラビ法典
+    category: society
+    tags: [法, メソポタミア]
+    summary: 石柱に刻まれた282条。国家が刑罰の基準を公示した初期の例。
+
+  - id: kadesh
+    year: -1274
+    title: カデシュの戦い
+    category: war
+    tags: [エジプト, ヒッタイト]
+    summary: エジプトとヒッタイトが激突し、現存最古級の講和条約が結ばれた。
+
+  - id: cyrus-babylon
+    year: -539
+    title: キュロス2世がバビロンを征服
+    category: war
+    tags: [ペルシア]
+    summary: 捕囚のユダヤ人を解放し、寛容な支配の伝説を残した。
+
+  - id: hijra
+    year: 622
+    title: ヒジュラ（聖遷）
+    category: religion
+    tags: [イスラム]
+    summary: ムハンマドのメディナ移住。イスラム暦の元年にあたる。
+
+  - id: baghdad-sack
+    year: 1258
+    title: モンゴル軍によるバグダード占領
+    category: war
+    tags: [イスラム, モンゴル]
+    summary: アッバース朝が滅び、イスラム世界の学術の中心が失われた。
+
+  - id: israel-founded
+    year: 1948
+    title: イスラエル建国
+    category: politics
+    tags: [中東, 現代]
+    summary: 直後に第一次中東戦争が起き、今日まで続く対立の起点となった。
+
+  - id: iranian-revolution
+    year: 1979
+    title: イラン革命
+    category: religion
+    tags: [イラン, 現代]
+    summary: 王政が倒れイスラム共和国が成立。中東の力関係が大きく変わった。

@@ -1,0 +1,45 @@
+/* 明るい教科書・図鑑風。ライト固定（color-scheme を明示して強制ダークを避ける） */
+:root {
+  color-scheme: light;
+
+  --paper: #faf8f4;
+  --paper-alt: #f4f1ea;
+  --surface: #ffffff;
+  --ink: #1a1a17;
+  --ink-2: #55534d;
+  --ink-3: #8a877f;
+  --rule: #e2ded4;
+  --rule-strong: #c9c4b6;
+  --focus: #2a78d6;
+
+  /* カテゴリの4系統。全ペアで色覚差の検証済み（CVD ΔE 9.2 / 通常視 16.3）。
+     系統内の2カテゴリは形で区別する。 */
+  --fam-state: #2a78d6;
+  --fam-conflict: #eb6834;
+  --fam-material: #1baf7a;
+  --fam-mind: #4a3aa7;
+
+  --fam-state-tint: #dbe5f0;
+  --fam-conflict-tint: #f8e2d7;
+  --fam-material-tint: #d9ede2;
+  --fam-mind-tint: #e0dbe8;
+
+  --fam-state-tint-2: #c0d4ec;
+  --fam-conflict-tint-2: #f6d0be;
+  --fam-material-tint-2: #bce4d2;
+  --fam-mind-tint-2: #c9c3de;
+
+  --label-w: 152px;
+  --bar-h: 22px;
+  --bar-gap: 3px;
+  --ev-row-h: 19px;
+  --dot: 11px;
+
+  --sans: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", system-ui, sans-serif;
+  --serif: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+}
+
+[data-fam='state'] { --fam: var(--fam-state); --fam-tint: var(--fam-state-tint); --fam-tint-2: var(--fam-state-tint-2); }
+[data-fam='conflict'] { --fam: var(--fam-conflict); --fam-tint: var(--fam-conflict-tint); --fam-tint-2: var(--fam-conflict-tint-2); }
+[data-fam='material'] { --fam: var(--fam-material); --fam-tint: var(--fam-material-tint); --fam-tint-2: var(--fam-material-tint-2); }
+[data-fam='mind'] { --fam: var(--fam-mind); --fam-tint: var(--fam-mind-tint); --fam-tint-2: var(--fam-mind-tint-2); }

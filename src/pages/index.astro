@@ -1,0 +1,84 @@
+---
+import '../styles/tokens.css';
+import '../styles/app.css';
+import DetailPanel from '../components/DetailPanel.astro';
+import FilterBar from '../components/FilterBar.astro';
+import Lane, { type LaneView } from '../components/Lane.astro';
+import TimeAxis from '../components/TimeAxis.astro';
+import { loadOrThrow } from '../lib/load.ts';
+import { BAR_GAP, BAR_H, LANE_PAD_TOP, MIN_BAR_W, laneHeight, packEvents, packPeriods } from '../lib/layout.ts';
+import { LANES, itemSpan } from '../lib/model.ts';
+import { timelineWidth, yearToX } from '../lib/scale.ts';
+
+/** 初期表示のズーム。クライアント側で変更されると JS が座標を計算し直す */
+const ZOOM = 1;
+
+const data = loadOrThrow();
+const width = timelineWidth(ZOOM);
+const groupOrder = [...new Set(LANES.map((l) => l.group))];
+
+const laneViews: LaneView[] = LANES.map((lane) => {
+  const { periods, events } = data.byLane.get(lane.id)!;
+  const packedBars = packPeriods(periods, ZOOM);
+  const packedDots = packEvents(events, ZOOM);
+  const barsHeight = packedBars.rowCount > 0 ? packedBars.rowCount * BAR_H + (packedBars.rowCount - 1) * BAR_GAP : 0;
+
+  return {
+    lane,
+    stripe: groupOrder.indexOf(lane.group) % 2,
+    height: laneHeight(packedBars.rowCount, packedDots.rowCount),
+    evTop: LANE_PAD_TOP + barsHeight + (barsHeight && packedDots.rowCount ? 6 : 0),
+    bars: periods.map((item, i) => {
+      const [from, to] = itemSpan(item);
+      const x = yearToX(from, ZOOM);
+      return { item, row: packedBars.rows[i]!, x, w: Math.max(yearToX(to, ZOOM) - x, MIN_BAR_W) };
+    }),
+    dots: events.map((item, i) => ({ item, row: packedDots.rows[i]!, x: yearToX(item.year, ZOOM) })),
+  };
+});
+
+const payload = JSON.stringify(data.items).replace(/</g, '\\u003c');
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>世界史タイムライン</title>
+    <meta
+      name="description"
+      content="紀元前3500年から現代まで、世界の各地域で何が並行して起きていたかを見比べる年表。"
+    />
+    <link rel="icon" href={new URL('favicon.svg', Astro.url.origin + import.meta.env.BASE_URL + '/').pathname} />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <h1 class="topbar__title">
+        世界史タイムライン
+        <small>紀元前3500年 — {new Date().getFullYear()}年 / 全{data.items.length}項目</small>
+      </h1>
+      <FilterBar />
+    </header>
+
+    <main class="app">
+      <div class="tl" id="tl">
+        <div class="tl__inner" style={`--w:${width}px; --scan-x:0px`} id="tl-inner">
+          <TimeAxis zoom={ZOOM} />
+          <div class="lanes" id="lanes">
+            {laneViews.map((view) => <Lane view={view} />)}
+          </div>
+          <div class="scan" id="scan" hidden></div>
+        </div>
+      </div>
+      <div class="mlist" id="mlist"></div>
+      <DetailPanel />
+    </main>
+
+    <script type="application/json" id="tl-data" is:inline set:html={payload} />
+    <script>
+      import '../scripts/timeline.ts';
+    </script>
+  </body>
+</html>

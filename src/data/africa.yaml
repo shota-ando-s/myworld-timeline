@@ -1,0 +1,121 @@
+lane: africa
+
+periods:
+  - id: egypt-old-kingdom
+    title: エジプト古王国
+    start: -2686
+    end: -2181
+    category: politics
+    tags: [エジプト, ピラミッド]
+    summary: ピラミッド建設の時代。強大な王権と官僚制がナイルの恵みを組織した。
+
+  - id: egypt-middle-kingdom
+    title: エジプト中王国
+    start: -2055
+    end: -1650
+    category: politics
+    tags: [エジプト]
+    summary: 混乱期を経て再統一された時代。文学と工芸の古典期とされる。
+
+  - id: egypt-new-kingdom
+    title: エジプト新王国
+    start: -1550
+    end: -1069
+    category: politics
+    tags: [エジプト]
+    summary: 対外遠征でシリアまで勢力を広げた帝国期。ツタンカーメンやラメセス2世の時代。
+
+  - id: kush
+    title: クシュ王国（ヌビア）
+    start: -1070
+    end: 350
+    category: politics
+    tags: [スーダン, アフリカ]
+    summary: 一時はエジプトを支配した黒人王朝。のちメロエで製鉄と独自文字を発達させた。
+
+  - id: aksum
+    title: アクスム王国
+    start: 100
+    startCirca: true
+    end: 940
+    endCirca: true
+    category: economy
+    tags: [エチオピア, 交易]
+    summary: 紅海交易で栄え、4世紀にキリスト教を受け入れた。
+
+  - id: great-zimbabwe
+    title: 大ジンバブエ
+    start: 1100
+    startCirca: true
+    end: 1450
+    endCirca: true
+    category: economy
+    tags: [アフリカ南部, 石造建築]
+    summary: 金と象牙の交易で栄え、モルタルを使わない石積みの都市を残した。
+
+  - id: mali-empire
+    title: マリ帝国
+    start: 1235
+    end: 1670
+    category: economy
+    tags: [西アフリカ, 金]
+    summary: サハラ縦断交易の金と塩で栄え、トンブクトゥが学問の都となった。
+
+  - id: songhai
+    title: ソンガイ帝国
+    start: 1464
+    end: 1591
+    category: politics
+    tags: [西アフリカ]
+    summary: マリに代わり西アフリカ最大の版図を築いたイスラム国家。
+
+events:
+  - id: great-pyramid
+    year: -2560
+    circa: true
+    title: ギザの大ピラミッド完成
+    category: culture
+    tags: [エジプト, 建築]
+    summary: 高さ約147メートル。3800年間、人類が作った最も高い建造物だった。
+
+  - id: alexander-egypt
+    year: -332
+    title: アレクサンドロスのエジプト征服
+    category: war
+    tags: [エジプト, ヘレニズム]
+    summary: アレクサンドリアが建設され、地中海世界の学問の中心になっていく。
+
+  - id: mansa-musa-hajj
+    year: 1324
+    title: マンサ・ムーサのメッカ巡礼
+    category: economy
+    tags: [西アフリカ, 金]
+    summary: 惜しみなく配った金でカイロの金相場が下落したと伝わるほどの富を示した。
+
+  - id: atlantic-slave-trade
+    year: 1526
+    title: 大西洋奴隷貿易の本格化
+    category: economy
+    tags: [アフリカ, 植民地]
+    summary: アメリカ大陸へ人が組織的に運ばれ、以後3世紀以上続く巨大な人的収奪となった。
+
+  - id: berlin-conference
+    year: 1884
+    title: ベルリン会議（アフリカ分割）
+    category: politics
+    tags: [アフリカ, 帝国主義]
+    summary: ヨーロッパ列強が地図の上で境界を引き、現在の国境線の多くが決まった。
+
+  - id: year-of-africa
+    year: 1960
+    title: アフリカの年
+    category: politics
+    tags: [アフリカ, 独立]
+    summary: 1年で17か国が独立し、脱植民地化が一気に進んだ。
+
+  - id: end-of-apartheid
+    year: 1994
+    title: 南アフリカでアパルトヘイト撤廃
+    category: society
+    tags: [アフリカ, 人権]
+    summary: 全人種参加の選挙でマンデラが大統領に選ばれ、人種隔離体制が終わった。

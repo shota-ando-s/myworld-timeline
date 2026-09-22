@@ -1,0 +1,106 @@
+lane: east-europe
+
+periods:
+  - id: kievan-rus
+    title: キエフ・ルーシ
+    start: 882
+    end: 1240
+    category: politics
+    tags: [ロシア, ウクライナ]
+    summary: 東スラヴ最初の国家。ビザンツからキリスト教と文字を受け取った。
+
+  - id: mongol-yoke
+    title: タタールのくびき
+    start: 1240
+    end: 1480
+    category: politics
+    tags: [ロシア, モンゴル]
+    summary: ルーシ諸公がキプチャク・ハン国に従属した240年。西欧との距離が開いた。
+
+  - id: tsardom-russia
+    title: ロシア・ツァーリ国
+    start: 1547
+    end: 1721
+    category: politics
+    tags: [ロシア]
+    summary: イヴァン4世がツァーリを称し、シベリアへ拡大していった。
+
+  - id: russian-empire
+    title: ロシア帝国
+    start: 1721
+    end: 1917
+    category: politics
+    tags: [ロシア]
+    summary: ピョートル1世の西欧化以降、ヨーロッパの大国として振る舞った。
+
+  - id: soviet-union
+    title: ソヴィエト連邦
+    start: 1922
+    end: 1991
+    category: politics
+    tags: [ロシア, 社会主義]
+    summary: 世界初の社会主義国家。冷戦期は米国と並ぶ超大国だった。
+
+events:
+  - id: rus-christianization
+    year: 988
+    title: ウラディミル1世のキリスト教受容
+    category: religion
+    tags: [ロシア, 正教]
+    summary: ビザンツ流の正教を国の宗教とし、東スラヴ文化の方向が決まった。
+
+  - id: kiev-sack
+    year: 1240
+    title: モンゴル軍がキエフを攻略
+    category: war
+    tags: [ロシア, モンゴル]
+    summary: ルーシ諸公国が壊滅し、政治の中心が北東のモスクワへ移っていく。
+
+  - id: great-stand-ugra
+    year: 1480
+    title: ウグラ川の対峙
+    category: politics
+    tags: [ロシア]
+    summary: モスクワ大公がハンへの貢納を拒み、事実上の独立を果たした。
+
+  - id: saint-petersburg
+    year: 1703
+    title: サンクトペテルブルク建設
+    category: society
+    tags: [ロシア, 西欧化]
+    summary: ピョートル1世が「ヨーロッパへの窓」として新首都を造った。
+
+  - id: napoleon-russia
+    year: 1812
+    title: ナポレオンのロシア遠征
+    category: war
+    tags: [ロシア, フランス]
+    summary: 冬とロシアの焦土作戦に敗れ、ナポレオン没落の決定打となった。
+
+  - id: serf-emancipation
+    year: 1861
+    title: 農奴解放令
+    category: society
+    tags: [ロシア, 改革]
+    summary: 2000万人以上の農奴が法的に解放されたが、土地問題は残った。
+
+  - id: russian-revolution
+    year: 1917
+    title: ロシア革命
+    category: society
+    tags: [ロシア, 革命]
+    summary: 帝政が倒れ、世界で初めて社会主義を掲げる政権が生まれた。
+
+  - id: fall-of-berlin-wall
+    year: 1989
+    title: ベルリンの壁崩壊と東欧革命
+    category: politics
+    tags: [冷戦, 東欧]
+    summary: 東欧各国の体制が相次いで倒れ、冷戦の終わりが決定的になった。
+
+  - id: ussr-dissolution
+    year: 1991
+    title: ソ連解体
+    category: politics
+    tags: [ロシア, 冷戦]
+    summary: 15の共和国に分かれ、米ソ二極の時代が終わった。

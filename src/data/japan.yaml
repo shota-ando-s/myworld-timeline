@@ -1,0 +1,200 @@
+lane: japan
+
+periods:
+  - id: jomon
+    title: 縄文時代
+    start: -3500
+    startCirca: true
+    end: -900
+    endCirca: true
+    category: society
+    tags: [日本, 先史]
+    summary: 狩猟採集を基盤に定住と土器づくりが続いた長い時代。
+    detail: |
+      実際の始まりは紀元前1万4000年頃までさかのぼるが、この年表の左端は紀元前3500年のため
+      途中から描いている。世界四大文明が都市を築いていた頃、日本列島では大規模な農耕を伴わない
+      定住生活が長く続いていた。
+
+  - id: yayoi
+    title: 弥生時代
+    start: -900
+    startCirca: true
+    end: 250
+    endCirca: true
+    category: society
+    tags: [日本, 稲作]
+    summary: 大陸から水稲耕作と金属器が伝わり、むらがくにへとまとまっていった。
+
+  - id: kofun
+    title: 古墳時代
+    start: 250
+    startCirca: true
+    end: 592
+    category: politics
+    tags: [日本, ヤマト政権]
+    summary: 巨大古墳が各地に築かれ、ヤマト政権が列島の広い範囲をまとめた。
+
+  - id: asuka
+    title: 飛鳥時代
+    start: 592
+    end: 710
+    category: politics
+    tags: [日本]
+    summary: 仏教と中国風の律令制度を取り入れ、天皇を中心とする国家の形が整えられた。
+
+  - id: nara
+    title: 奈良時代
+    start: 710
+    end: 794
+    category: politics
+    tags: [日本, 律令]
+    summary: 平城京を都とし、律令国家と国家仏教が最も整った時期。
+
+  - id: heian
+    title: 平安時代
+    start: 794
+    end: 1185
+    category: politics
+    tags: [日本, 貴族]
+    summary: 摂関政治から院政へ。国風文化が花開き、やがて武士が台頭する。
+
+  - id: kamakura
+    title: 鎌倉時代
+    start: 1185
+    end: 1333
+    category: politics
+    tags: [日本, 武家]
+    summary: 初の本格的な武家政権。元寇を退けたのち御家人の不満から倒れた。
+
+  - id: muromachi
+    title: 室町時代
+    start: 1336
+    end: 1573
+    category: politics
+    tags: [日本, 武家]
+    summary: 足利将軍家の時代。日明貿易と禅の文化が栄えた一方、後半は幕府の統制が崩れた。
+
+  - id: sengoku
+    title: 戦国時代
+    start: 1467
+    end: 1590
+    category: war
+    tags: [日本, 内戦]
+    summary: 応仁の乱から秀吉の全国統一まで、各地の大名が争った約120年。
+
+  - id: azuchi-momoyama
+    title: 安土桃山時代
+    start: 1573
+    end: 1603
+    category: politics
+    tags: [日本]
+    summary: 信長・秀吉による統一事業と、豪壮な桃山文化の時代。
+
+  - id: edo
+    title: 江戸時代
+    start: 1603
+    end: 1868
+    category: politics
+    tags: [日本, 幕藩体制]
+    summary: 徳川幕府のもとで260年あまり大きな戦乱がなく、町人文化と国内経済が育った。
+
+  - id: meiji
+    title: 明治時代
+    start: 1868
+    end: 1912
+    category: politics
+    tags: [日本, 近代化]
+    summary: 近代国家への急速な組み替え。立憲制・産業化・対外戦争が一気に進んだ。
+
+events:
+  - id: na-no-kuni-gold-seal
+    year: 57
+    title: 奴国の王が後漢から金印を授かる
+    category: politics
+    tags: [日本, 外交]
+    summary: 『後漢書』が伝える、日本列島の勢力が中国の王朝と結んだ最古級の記録。
+
+  - id: himiko-envoy
+    year: 239
+    title: 卑弥呼が魏に使いを送る
+    category: politics
+    tags: [日本, 邪馬台国]
+    summary: 「親魏倭王」の称号と銅鏡を受けたと『魏志』倭人伝が記す。
+
+  - id: buddhism-to-japan
+    year: 538
+    circa: true
+    title: 仏教の公式伝来
+    category: religion
+    tags: [日本, 仏教]
+    summary: 百済の聖明王から欽明天皇へ仏像と経典が贈られたと伝わる（552年説もある）。
+
+  - id: isshi-incident
+    year: 645
+    title: 乙巳の変（大化の改新のはじまり）
+    category: politics
+    tags: [日本, 改革]
+    summary: 蘇我氏を倒し、中国にならった中央集権国家づくりが始まった。
+
+  - id: yoritomo-shogun
+    year: 1192
+    title: 源頼朝が征夷大将軍になる
+    category: politics
+    tags: [日本, 武家]
+    summary: 武士による全国支配の枠組みが公式に認められた。
+
+  - id: mongol-invasions-japan
+    year: 1274
+    title: 文永の役（元寇のはじまり）
+    category: war
+    tags: [日本, モンゴル]
+    summary: 元と高麗の連合軍が九州北部に来襲。1281年の弘安の役でも撃退した。
+
+  - id: onin-war
+    year: 1467
+    title: 応仁の乱
+    category: war
+    tags: [日本, 内戦]
+    summary: 京都を焼いた11年の内乱。幕府の権威が失われ戦国時代に入る。
+
+  - id: teppo-tanegashima
+    year: 1543
+    title: 鉄砲伝来
+    category: science
+    tags: [日本, 技術, 南蛮]
+    summary: 種子島に漂着したポルトガル人が火縄銃を伝え、戦い方と築城が変わった。
+
+  - id: sekigahara
+    year: 1600
+    title: 関ヶ原の戦い
+    category: war
+    tags: [日本]
+    summary: 徳川家康が覇権を確立し、3年後の幕府開設につながった。
+
+  - id: sakoku
+    year: 1639
+    title: いわゆる鎖国の完成
+    category: politics
+    tags: [日本, 対外関係]
+    summary: ポルトガル船の来航を禁止し、対外窓口を長崎・対馬・薩摩・松前に限った。
+
+  - id: perry-arrival
+    year: 1853
+    title: ペリー来航
+    category: politics
+    tags: [日本, 開国]
+    summary: アメリカの艦隊が浦賀に現れ、翌年の開国と幕府の動揺につながった。
+
+  - id: meiji-restoration
+    year: 1868
+    title: 明治維新
+    category: society
+    tags: [日本, 近代化]
+    summary: 幕府が倒れ、天皇を中心とする新政府が近代化に舵を切った。
+
+  - id: japan-surrender
+    year: 1945
+    title: ポツダム宣言受諾（敗戦）
+    category: war
+    tags: [日本, 第二次世界大戦]
+    summary: 広島・長崎への原爆投下とソ連参戦を経て降伏し、占領下で戦後改革が始まった。

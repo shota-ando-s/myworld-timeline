@@ -1,0 +1,152 @@
+lane: mediterranean
+
+periods:
+  - id: minoan
+    title: ミノア文明
+    start: -2000
+    startCirca: true
+    end: -1400
+    endCirca: true
+    category: culture
+    tags: [ギリシア, クレタ]
+    summary: クレタ島の宮殿文明。城壁を持たない海の交易文明だった。
+
+  - id: mycenaean
+    title: ミケーネ文明
+    start: -1600
+    startCirca: true
+    end: -1200
+    endCirca: true
+    category: politics
+    tags: [ギリシア]
+    summary: ギリシア本土の戦士王たちの文明。前1200年頃に一斉に崩壊した。
+
+  - id: greek-poleis
+    title: 古代ギリシアのポリス時代
+    start: -800
+    end: -338
+    category: politics
+    tags: [ギリシア, 都市国家]
+    summary: アテネ・スパルタなど小さな都市国家が競い合い、民主政と哲学が生まれた。
+
+  - id: hellenistic
+    title: ヘレニズム時代
+    start: -323
+    end: -30
+    category: culture
+    tags: [ギリシア, オリエント]
+    summary: アレクサンドロスの遺産を継ぐ王国群。ギリシア文化が西アジアと融合した。
+
+  - id: roman-republic
+    title: ローマ共和政
+    start: -509
+    end: -27
+    category: politics
+    tags: [ローマ]
+    summary: 元老院と市民による統治で地中海を制覇し、その拡大が内部から共和政を壊した。
+
+  - id: roman-empire
+    title: ローマ帝国
+    start: -27
+    end: 476
+    category: politics
+    tags: [ローマ]
+    summary: 地中海世界を一つにまとめた帝国。法・道路・都市の遺産は今も残る。
+
+  - id: byzantine
+    title: ビザンツ帝国（東ローマ）
+    start: 395
+    end: 1453
+    category: politics
+    tags: [ローマ, ギリシア正教]
+    summary: 西ローマ滅亡後も1000年続き、ギリシア・ローマの遺産を中世へ受け渡した。
+
+  - id: italian-renaissance
+    title: イタリア・ルネサンス
+    start: 1300
+    startCirca: true
+    end: 1550
+    category: culture
+    tags: [イタリア, 文化]
+    summary: フィレンツェなど商業都市の富を背景に、古典の復興と人間中心の文化が花開いた。
+
+events:
+  - id: first-olympiad
+    year: -776
+    title: 第1回オリンピア競技祭
+    category: culture
+    tags: [ギリシア]
+    summary: 古代ギリシア人が共通の暦の起点とした祭典。
+
+  - id: marathon
+    year: -490
+    title: マラトンの戦い
+    category: war
+    tags: [ギリシア, ペルシア戦争]
+    summary: アテネ軍がペルシアの遠征軍を撃退し、ポリスの自信を決定づけた。
+
+  - id: peloponnesian-war
+    year: -431
+    title: ペロポネソス戦争がはじまる
+    category: war
+    tags: [ギリシア]
+    summary: アテネとスパルタの27年戦争。ギリシア世界全体が疲弊した。
+
+  - id: socrates-death
+    year: -399
+    title: ソクラテスの処刑
+    category: religion
+    tags: [ギリシア, 哲学]
+    summary: 民主政アテネが哲学者を死刑にした事件。西洋哲学の原点の一つ。
+
+  - id: punic-war-1
+    year: -264
+    title: 第一次ポエニ戦争
+    category: war
+    tags: [ローマ, カルタゴ]
+    summary: カルタゴとの120年に及ぶ抗争の始まり。勝利でローマは海の帝国になった。
+
+  - id: caesar-assassination
+    year: -44
+    title: カエサル暗殺
+    category: politics
+    tags: [ローマ]
+    summary: 共和政の終わりを象徴する事件。17年後に帝政が始まる。
+
+  - id: vesuvius
+    year: 79
+    title: ヴェスヴィオ山の噴火
+    category: disaster
+    tags: [ローマ, 災害]
+    summary: ポンペイなどが火山灰に埋もれ、結果としてローマ人の日常が保存された。
+
+  - id: edict-of-milan
+    year: 313
+    title: ミラノ勅令
+    category: religion
+    tags: [ローマ, キリスト教]
+    summary: キリスト教が公認され、迫害される宗教から帝国の宗教へ向かう。
+
+  - id: rome-division
+    year: 395
+    title: ローマ帝国の東西分裂
+    category: politics
+    tags: [ローマ]
+    summary: テオドシウス帝の死後、帝国は二度と一つに戻らなかった。
+
+  - id: west-rome-fall
+    year: 476
+    title: 西ローマ帝国の滅亡
+    category: politics
+    tags: [ローマ]
+    summary: ゲルマン人傭兵隊長が皇帝を廃位。ヨーロッパの中世が始まる。
+
+  - id: fall-of-constantinople
+    year: 1453
+    title: コンスタンティノープル陥落
+    category: war
+    tags: [オスマン, ビザンツ]
+    summary: オスマン帝国が1000年の都を攻略し、ビザンツ帝国が滅んだ。
+    detail: |
+      大砲による城壁の突破は、中世の築城術が終わったことを示した。
+      逃れた学者がイタリアへ渡り、ルネサンスの古典研究を後押ししたとも言われる。

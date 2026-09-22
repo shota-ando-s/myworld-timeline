@@ -1,0 +1,48 @@
+---
+import { CATEGORIES, FAMILIES, LANES } from '../lib/model.ts';
+---
+
+<div class="filters" id="filters">
+  <span class="visually-hidden" id="filters-label">カテゴリで絞り込む</span>
+  {
+    FAMILIES.map((fam) => (
+      <div class="famgroup" data-fam={fam.id}>
+        <span class="famgroup__name">{fam.label}</span>
+        {CATEGORIES.filter((c) => c.family === fam.id).map((cat) => (
+          <button type="button" class="chip" data-cat={cat.id} data-fam={fam.id} aria-pressed="true">
+            <span class="ev__dot" data-shape={cat.shape} aria-hidden="true" />
+            {cat.label}
+          </button>
+        ))}
+      </div>
+    ))
+  }
+</div>
+
+<div class="controls">
+  <details class="lanepick" id="lanepick">
+    <summary>地域 <span id="lanepick-count"></span></summary>
+    <div class="lanepick__menu">
+      {
+        LANES.map((lane) => (
+          <label>
+            <input type="checkbox" value={lane.id} checked />
+            {lane.label}
+          </label>
+        ))
+      }
+    </div>
+  </details>
+
+  <div class="control">
+    <label class="visually-hidden" for="year-input">年に移動</label>
+    <input type="number" id="year-input" placeholder="例: 1600" step="10" />
+    <button type="button" id="year-go">この年の世界</button>
+  </div>
+
+  <div class="control">
+    <button type="button" id="zoom-out" aria-label="縮小">−</button>
+    <span class="control__value" id="zoom-value">×1</span>
+    <button type="button" id="zoom-in" aria-label="拡大">＋</button>
+  </div>
+</div>

@@ -1,0 +1,67 @@
+---
+import { categoryById, formatItemDate, type Period, type TimelineEvent } from '../lib/model.ts';
+
+export interface LaneView {
+  lane: { id: string; label: string; note: string; group: string };
+  stripe: number;
+  height: number;
+  evTop: number;
+  bars: { item: Period; row: number; x: number; w: number }[];
+  dots: { item: TimelineEvent; row: number; x: number }[];
+}
+
+interface Props {
+  view: LaneView;
+}
+const { view } = Astro.props;
+const { lane } = view;
+---
+
+<section class="lane" data-lane={lane.id} data-group={lane.group} data-stripe={view.stripe}>
+  <div class="lane__label">
+    <b>{lane.label}</b>
+    <small>{lane.note}</small>
+  </div>
+  <div class="lane__track" style={`--h:${view.height}px; --ev-top:${view.evTop}px`}>
+    {
+      view.bars.map(({ item, row, x, w }) => (
+        <button
+          type="button"
+          class="bar"
+          data-id={item.id}
+          data-kind="period"
+          data-cat={item.category}
+          data-fam={categoryById.get(item.category)!.family}
+          data-start={item.start}
+          data-end={item.end ?? ''}
+          data-start-circa={item.startCirca ? '' : undefined}
+          data-end-circa={item.endCirca ? '' : undefined}
+          data-ongoing={item.ongoing ? '' : undefined}
+          style={`--bx:${x}px; --bw:${w}px; --row:${row}`}
+          title={`${item.title}（${formatItemDate(item)}）`}
+        >
+          <span class="bar__label">{item.title}</span>
+        </button>
+      ))
+    }
+    {
+      view.dots.map(({ item, row, x }) => (
+        <button
+          type="button"
+          class="ev"
+          data-id={item.id}
+          data-kind="event"
+          data-cat={item.category}
+          data-fam={categoryById.get(item.category)!.family}
+          data-year={item.year}
+          data-circa={item.circa ? '' : undefined}
+          style={`--ex:${x}px; --row:${row}`}
+          title={`${formatItemDate(item)} ${item.title}`}
+        >
+          <span class="ev__dot" data-shape={categoryById.get(item.category)!.shape} />
+          <span class="ev__label">{item.title}</span>
+        </button>
+      ))
+    }
+  </div>
+</section>

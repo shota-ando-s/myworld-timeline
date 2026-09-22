@@ -1,0 +1,98 @@
+lane: southeast-asia
+
+periods:
+  - id: funan
+    title: 扶南
+    start: 100
+    startCirca: true
+    end: 550
+    endCirca: true
+    category: economy
+    tags: [東南アジア, 交易]
+    summary: メコン下流の港市国家。インドと中国を結ぶ海の道の要だった。
+
+  - id: srivijaya
+    title: シュリーヴィジャヤ
+    start: 670
+    startCirca: true
+    end: 1025
+    category: economy
+    tags: [東南アジア, 海上交易]
+    summary: スマトラを拠点にマラッカ海峡を押さえた海の王国。仏教の学びの中心でもあった。
+
+  - id: angkor
+    title: アンコール朝（クメール）
+    start: 802
+    end: 1431
+    category: politics
+    tags: [カンボジア]
+    summary: 巨大な灌漑網と石造寺院を築いた王朝。アンコール・ワットで知られる。
+
+  - id: ly-dynasty
+    title: 李朝（大越）
+    start: 1009
+    end: 1225
+    category: politics
+    tags: [ベトナム]
+    summary: 中国の支配を脱したベトナムが、独立国家としての体制を固めた王朝。
+
+  - id: majapahit
+    title: マジャパヒト王国
+    start: 1293
+    end: 1527
+    category: politics
+    tags: [インドネシア, ジャワ]
+    summary: ジャワを中心に群島世界へ影響を広げた、ヒンドゥー系最後の大国。
+
+  - id: french-indochina
+    title: フランス領インドシナ
+    start: 1887
+    end: 1954
+    category: politics
+    tags: [ベトナム, 植民地]
+    summary: ベトナム・カンボジア・ラオスがフランスの統治下に置かれた時期。
+
+  - id: vietnam-war
+    title: ベトナム戦争
+    start: 1955
+    end: 1975
+    category: war
+    tags: [ベトナム, 冷戦]
+    summary: 南北の内戦に米国が大規模介入し、冷戦期最大級の戦争になった。
+
+events:
+  - id: jayavarman-2
+    year: 802
+    title: ジャヤヴァルマン2世の即位
+    category: politics
+    tags: [カンボジア]
+    summary: 神なる王として即位し、アンコール朝の600年が始まった。
+
+  - id: angkor-wat
+    year: 1113
+    circa: true
+    title: アンコール・ワットの造営開始
+    category: culture
+    tags: [カンボジア, 建築]
+    summary: ヒンドゥーの宇宙観を石で表した巨大寺院。のちに仏教寺院となった。
+
+  - id: malacca-portugal
+    year: 1511
+    title: ポルトガルのマラッカ占領
+    category: war
+    tags: [大航海時代, 交易]
+    summary: 香辛料交易の要衝が奪われ、ヨーロッパのアジア進出が本格化した。
+
+  - id: voc-founded
+    year: 1602
+    title: オランダ東インド会社の設立
+    category: economy
+    tags: [オランダ, 会社]
+    summary: 株式と軍事力を備えた巨大商社が、群島世界の支配へ乗り出した。
+
+  - id: asean
+    year: 1967
+    title: ASEAN（東南アジア諸国連合）結成
+    category: politics
+    tags: [現代, 地域統合]
+    summary: 冷戦下で地域の安定と協力をめざす枠組みが作られた。

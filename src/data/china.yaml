@@ -1,0 +1,174 @@
+lane: china
+
+periods:
+  - id: shang
+    title: 殷（商）
+    start: -1600
+    startCirca: true
+    end: -1046
+    category: politics
+    tags: [中国, 王朝]
+    summary: 実在が確認できる最古の王朝。甲骨文字と青銅器で知られる。
+
+  - id: zhou
+    title: 周
+    start: -1046
+    end: -256
+    category: politics
+    tags: [中国, 王朝]
+    summary: 封建制と天命思想を打ち立てた長命な王朝。後半は諸侯が自立していく。
+
+  - id: spring-autumn-warring
+    title: 春秋戦国時代
+    start: -770
+    end: -221
+    category: war
+    tags: [中国, 分裂]
+    summary: 諸侯が覇を競った分裂期。同時に諸子百家が生まれた思想の黄金期でもある。
+
+  - id: qin
+    title: 秦
+    start: -221
+    end: -206
+    category: politics
+    tags: [中国, 王朝, 統一]
+    summary: 初の統一王朝。郡県制・文字と度量衡の統一を短期間で断行した。
+
+  - id: han
+    title: 漢
+    start: -202
+    end: 220
+    category: politics
+    tags: [中国, 王朝]
+    summary: 400年続いた大帝国。儒学の官学化とシルクロード交易が本格化した。
+
+  - id: three-kingdoms
+    title: 三国時代
+    start: 220
+    end: 280
+    category: war
+    tags: [中国, 分裂]
+    summary: 魏・呉・蜀が並び立った分裂期。以後およそ370年の混乱が続く。
+
+  - id: sui
+    title: 隋
+    start: 581
+    end: 618
+    category: politics
+    tags: [中国, 王朝]
+    summary: 南北を再統一し、大運河と科挙という後世の土台を作って短命に終わった。
+
+  - id: tang
+    title: 唐
+    start: 618
+    end: 907
+    category: politics
+    tags: [中国, 王朝]
+    summary: 長安を中心とする国際帝国。日本を含む東アジア全体の手本となった。
+
+  - id: song
+    title: 宋
+    start: 960
+    end: 1279
+    category: politics
+    tags: [中国, 王朝]
+    summary: 軍事では劣勢ながら、経済・技術・都市文化が飛躍的に発展した。
+
+  - id: yuan
+    title: 元
+    start: 1271
+    end: 1368
+    category: politics
+    tags: [中国, モンゴル, 征服王朝]
+    summary: モンゴルが立てた王朝。ユーラシア規模の人と物の往来が中国を通った。
+
+  - id: ming
+    title: 明
+    start: 1368
+    end: 1644
+    category: politics
+    tags: [中国, 王朝]
+    summary: 漢人王朝の復活。海禁と朝貢体制のもとで東アジアの秩序を作った。
+
+  - id: qing
+    title: 清
+    start: 1636
+    end: 1912
+    category: politics
+    tags: [中国, 征服王朝]
+    summary: 満洲人の王朝。最大版図を実現したのち、19世紀に列強の圧力で揺らいだ。
+
+  - id: prc
+    title: 中華人民共和国
+    start: 1949
+    ongoing: true
+    category: politics
+    tags: [中国, 現代]
+    summary: 内戦に勝利した共産党が建国。1978年以降の改革開放で経済大国へ。
+
+events:
+  - id: qin-unification
+    year: -221
+    title: 秦の始皇帝が中国を統一
+    category: politics
+    tags: [中国, 統一]
+    summary: 戦国の争いを終わらせ、皇帝という称号と中央集権の型を作った。
+    detail: |
+      郡県制によって地方を直接支配し、文字・度量衡・車軌を統一した。
+      統一の枠組みはその後2000年にわたり中国の標準であり続けた。
+
+  - id: silk-road-zhang-qian
+    year: -139
+    title: 張騫の西域派遣
+    category: economy
+    tags: [中国, シルクロード]
+    summary: 匈奴に対抗する同盟を探す旅が、結果的に東西交易路の情報をもたらした。
+
+  - id: cai-lun-paper
+    year: 105
+    title: 蔡倫が製紙法を改良
+    category: science
+    tags: [中国, 技術]
+    summary: 安く大量に作れる紙が生まれ、記録と学問のあり方が変わった。
+
+  - id: an-lushan
+    year: 755
+    title: 安史の乱
+    category: war
+    tags: [中国, 唐]
+    summary: 8年に及ぶ大反乱で唐は衰退に向かい、律令的な支配が崩れた。
+
+  - id: zheng-he
+    year: 1405
+    title: 鄭和の南海遠征がはじまる
+    category: economy
+    tags: [中国, 航海]
+    summary: 大艦隊が東南アジア・インド・アフリカ東岸まで到達。7回続いたのち中止された。
+
+  - id: ming-fall
+    year: 1644
+    title: 明の滅亡と清の北京入城
+    category: war
+    tags: [中国, 王朝交代]
+    summary: 李自成の反乱で明が倒れ、その混乱に乗じて清が中国支配を始めた。
+
+  - id: opium-war
+    year: 1840
+    title: アヘン戦争
+    category: war
+    tags: [中国, 列強]
+    summary: イギリスに敗れて香港を割譲。東アジアの国際秩序が根底から変わった。
+
+  - id: xinhai-revolution
+    year: 1911
+    title: 辛亥革命
+    category: society
+    tags: [中国, 革命]
+    summary: 2000年以上続いた皇帝の支配が終わり、翌年に中華民国が成立した。
+
+  - id: reform-opening
+    year: 1978
+    title: 改革開放
+    category: economy
+    tags: [中国, 現代]
+    summary: 鄧小平のもとで市場経済を導入し、世界の工場へと変わっていった。

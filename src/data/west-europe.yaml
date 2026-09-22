@@ -1,0 +1,137 @@
+lane: west-europe
+
+periods:
+  - id: frankish-kingdom
+    title: フランク王国
+    start: 481
+    end: 843
+    category: politics
+    tags: [ヨーロッパ, ゲルマン]
+    summary: 西ヨーロッパを統合した最初のゲルマン国家。分裂して独仏伊の原型になった。
+
+  - id: holy-roman-empire
+    title: 神聖ローマ帝国
+    start: 962
+    end: 1806
+    category: politics
+    tags: [ドイツ, ヨーロッパ]
+    summary: ドイツを中心とする緩やかな連合体。名目上のローマ帝国の後継を844年間名乗った。
+
+  - id: hundred-years-war
+    title: 百年戦争
+    start: 1337
+    end: 1453
+    category: war
+    tags: [イギリス, フランス]
+    summary: 英仏の王位と領土をめぐる断続的な戦争。両国の国民意識を育てた。
+
+  - id: industrial-revolution
+    title: 産業革命
+    start: 1760
+    startCirca: true
+    end: 1840
+    category: economy
+    tags: [イギリス, 技術]
+    summary: 石炭と蒸気機関による機械生産が始まり、人類の暮らしの前提が変わった。
+
+  - id: ww1
+    title: 第一次世界大戦
+    start: 1914
+    end: 1918
+    category: war
+    tags: [世界大戦]
+    summary: 総力戦となり、ヨーロッパの帝国と旧秩序が崩れ落ちた。
+
+  - id: ww2
+    title: 第二次世界大戦
+    start: 1939
+    end: 1945
+    category: war
+    tags: [世界大戦]
+    summary: 史上最大の戦争。戦後は米ソ二極と脱植民地化の時代になる。
+
+events:
+  - id: charlemagne-coronation
+    year: 800
+    title: カール大帝の戴冠
+    category: politics
+    tags: [フランク, 教皇]
+    summary: ローマ教皇が皇帝の冠を授け、西ヨーロッパが独自の「帝国」を持った。
+
+  - id: treaty-of-verdun
+    year: 843
+    title: ヴェルダン条約
+    category: politics
+    tags: [フランク]
+    summary: フランク王国が三分割され、のちのフランス・ドイツ・イタリアの輪郭ができた。
+
+  - id: norman-conquest
+    year: 1066
+    title: ノルマン・コンクェスト
+    category: war
+    tags: [イギリス]
+    summary: ノルマンディー公がイングランドを征服し、英語と王権の性格が変わった。
+
+  - id: council-of-clermont
+    year: 1095
+    title: クレルモン教会会議（十字軍の提唱）
+    category: religion
+    tags: [十字軍, 教皇]
+    summary: 聖地回復の呼びかけから、約200年続く東方への軍事遠征が始まった。
+
+  - id: magna-carta
+    year: 1215
+    title: マグナ・カルタ
+    category: society
+    tags: [イギリス, 法]
+    summary: 王も法に従うという原則を文書にした、立憲政治の出発点。
+
+  - id: black-death
+    year: 1348
+    title: 黒死病の大流行
+    category: disaster
+    tags: [疫病, ヨーロッパ]
+    summary: 数年で人口の3分の1が失われ、荘園制と教会の権威が大きく揺らいだ。
+
+  - id: gutenberg-press
+    year: 1450
+    circa: true
+    title: グーテンベルクの活版印刷
+    category: science
+    tags: [技術, 出版]
+    summary: 本の複製費用が激減し、知識の広がる速さが一変した。
+
+  - id: ninety-five-theses
+    year: 1517
+    title: ルターの九十五か条の論題
+    category: religion
+    tags: [宗教改革]
+    summary: 免罪符批判から宗教改革が始まり、西欧キリスト教世界が二つに割れた。
+
+  - id: peace-of-westphalia
+    year: 1648
+    title: ウェストファリア条約
+    category: politics
+    tags: [国際関係]
+    summary: 三十年戦争を終わらせ、主権国家が並び立つ国際秩序の原型を作った。
+
+  - id: glorious-revolution
+    year: 1688
+    title: 名誉革命（イギリス）
+    category: politics
+    tags: [イギリス, 立憲]
+    summary: 流血なく王を替え、議会が王権に優越する仕組みを確立した。
+
+  - id: french-revolution
+    year: 1789
+    title: フランス革命
+    category: society
+    tags: [フランス, 革命]
+    summary: 身分制社会を打ち倒し、人権と国民主権の理念を世界に広げた。
+
+  - id: eu-founded
+    year: 1993
+    title: ヨーロッパ連合（EU）発足
+    category: politics
+    tags: [ヨーロッパ, 統合]
+    summary: 二度の大戦への反省から始まった統合が、通貨と市民権を共有する段階に進んだ。
