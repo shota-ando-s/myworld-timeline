@@ -9,6 +9,9 @@ leaders:
     category: politics
     tags: [フランク, カトリック]
     summary: フランク族を統一しカトリックに改宗したことで、ローマ教会と結ぶ王権の型ができた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クローヴィス1世_(フランク王)
 
   - id: charlemagne
     title: カール大帝
@@ -28,6 +31,9 @@ leaders:
     category: politics
     tags: [ドイツ, 神聖ローマ]
     summary: マジャール人を破り帝冠を受けて、ドイツ王が皇帝を兼ねる千年の枠組みを始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オットー1世_(神聖ローマ皇帝)
 
   - id: hugh-capet
     title: ユーグ・カペー
@@ -58,6 +64,9 @@ leaders:
     category: war
     tags: [神聖ローマ, イタリア政策]
     summary: 皇帝の威信をイタリアで示そうと遠征を重ね、ドイツ国内の分立を進めてしまった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フリードリヒ1世_(神聖ローマ皇帝)
 
   - id: philip-augustus
     title: フィリップ2世
@@ -66,6 +75,9 @@ leaders:
     category: politics
     tags: [フランス]
     summary: イングランド王から大陸の領地を奪い、フランス王権が実力を持つ転機を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フィリップ2世_(フランス王)
 
   - id: king-john
     title: ジョン王
@@ -140,6 +152,9 @@ leaders:
     category: religion
     tags: [イングランド, 宗教改革]
     summary: 離婚問題からローマと断絶し、国王が教会の頭を兼ねる国教会を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヘンリー8世_(イングランド王)
 
   - id: charles-v
     title: カール5世
@@ -148,6 +163,9 @@ leaders:
     category: politics
     tags: [神聖ローマ, スペイン]
     summary: スペインと新大陸とドイツを一人で抱え、宗教改革と対仏戦に追われ続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カール5世_(神聖ローマ皇帝)
 
   - id: philip-ii-spain
     title: フェリペ2世
@@ -156,6 +174,9 @@ leaders:
     category: politics
     tags: [スペイン, 太陽の沈まぬ国]
     summary: 新大陸の銀で世界帝国を築いたが、オランダの独立と無敵艦隊の敗北で退潮に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フェリペ2世_(スペイン王)
 
   - id: elizabeth-i
     title: エリザベス1世
@@ -186,6 +207,9 @@ leaders:
     category: politics
     tags: [イングランド, 共和政]
     summary: 国王を処刑して共和政を敷き、王のいない統治が可能だと示した（そして難しさも示した）。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オリバー・クロムウェル
 
   - id: frederick-the-great
     title: フリードリヒ2世
@@ -194,6 +218,9 @@ leaders:
     category: politics
     tags: [プロイセン, 啓蒙専制]
     summary: 「国家第一の僕」を称して軍と官僚を鍛え、プロイセンを列強に押し上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フリードリヒ2世_(プロイセン王)
 
   - id: maria-theresa
     title: マリア・テレジア
@@ -246,6 +273,9 @@ leaders:
     category: politics
     tags: [オーストリア, ウィーン体制]
     summary: 勢力均衡と自由主義の抑圧でヨーロッパの秩序を30年保った保守外交の象徴。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クレメンス・フォン・メッテルニヒ
 
   - id: queen-victoria
     title: ヴィクトリア女王
@@ -265,6 +295,9 @@ leaders:
     category: politics
     tags: [ドイツ, 統一]
     summary: 三つの戦争でドイツを統一し、社会保険という飴も使って国民を国家に結びつけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オットー・フォン・ビスマルク
 
   - id: wilhelm-ii
     title: ヴィルヘルム2世
@@ -273,6 +306,9 @@ leaders:
     category: politics
     tags: [ドイツ, 帝国主義]
     summary: ビスマルクを退けて世界政策に走り、列強の対立を第一次世界大戦へ導いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴィルヘルム2世_(ドイツ皇帝)
 
   - id: hitler
     title: ヒトラー
@@ -292,6 +328,9 @@ leaders:
     category: war
     tags: [イギリス, 第二次世界大戦]
     summary: 単独でドイツに立ち向かう時期のイギリスを言葉で支え、米ソとの連合を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウィンストン・チャーチル
 
   - id: franco
     title: フランコ
@@ -300,6 +339,9 @@ leaders:
     category: politics
     tags: [スペイン, 独裁]
     summary: 内戦に勝って36年続く独裁を敷き、その死が西欧に残った独裁の終わりになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランシスコ・フランコ
 
   - id: adenauer
     title: アデナウアー
@@ -330,6 +372,9 @@ leaders:
     category: politics
     tags: [西ドイツ, 東方外交]
     summary: 東側との和解を進め、ワルシャワでの跪きが戦後和解の象徴になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴィリー・ブラント
 
   - id: thatcher
     title: サッチャー
@@ -338,6 +383,9 @@ leaders:
     category: economy
     tags: [イギリス, 新自由主義]
     summary: 民営化と規制緩和で戦後の福祉国家路線を転換し、各国の政策に影響を与えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マーガレット・サッチャー
 
   - id: mitterrand
     title: ミッテラン
@@ -357,6 +405,9 @@ leaders:
     category: politics
     tags: [ドイツ, 統一]
     summary: 東西ドイツの統一を短期間でまとめ、ユーロ導入を政治的に押し切った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヘルムート・コール
 
   - id: merkel
     title: メルケル
@@ -365,6 +416,9 @@ leaders:
     category: politics
     tags: [ドイツ, EU]
     summary: 金融危機・難民・コロナで16年間EUの重心となり、慎重な調整型の指導を貫いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アンゲラ・メルケル
 
   - id: macron
     title: マクロン
@@ -373,3 +427,6 @@ leaders:
     category: politics
     tags: [フランス, EU]
     summary: 既存政党によらず当選し、EU改革と国内の抗議運動のあいだで舵を取っている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エマニュエル・マクロン

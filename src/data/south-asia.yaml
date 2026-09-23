@@ -38,6 +38,9 @@ periods:
     category: politics
     tags: [インド]
     summary: ガンジス流域に都市国家が並び立った時代。仏教とジャイナ教はここで生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/十六大国
 
   - id: maurya
     title: マウリヤ朝
@@ -59,6 +62,9 @@ periods:
     category: economy
     tags: [インド, 交易]
     summary: デカン高原を拠点にローマとの海上交易で栄えた王朝。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サータヴァーハナ朝
 
   - id: kushan
     title: クシャーナ朝
@@ -69,6 +75,9 @@ periods:
     category: economy
     tags: [インド, 交易]
     summary: 東西交易の要を押さえ、ギリシア風の仏像（ガンダーラ美術）を生んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クシャーナ朝
 
   - id: gupta
     title: グプタ朝
@@ -88,6 +97,9 @@ periods:
     category: politics
     tags: [インド]
     summary: 北インドを一時的に統一。玄奘が訪れて記録を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴァルダナ朝
 
   - id: chola
     title: チョーラ朝
@@ -107,6 +119,9 @@ periods:
     category: politics
     tags: [インド, イスラム]
     summary: 北インドにイスラム政権が定着した約320年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/デリー・スルターン朝
 
   - id: vijayanagara
     title: ヴィジャヤナガル王国
@@ -148,6 +163,9 @@ periods:
     category: economy
     tags: [インド, イギリス]
     summary: 一民間会社が軍と徴税権を持ち、インド亜大陸の大半を統治した100年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イギリス東インド会社
 
   - id: british-raj
     title: イギリス領インド帝国
@@ -167,6 +185,9 @@ periods:
     category: politics
     tags: [インド, 現代]
     summary: 多言語・多宗教のまま民主主義を続ける、人口世界最大の国家。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インド
 
 events:
   - id: buddha-birth
@@ -176,6 +197,9 @@ events:
     category: religion
     tags: [仏教, インド]
     summary: 生没年には諸説ある。苦をどう終わらせるかという問いが東アジア全体に広がった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/釈迦
 
   - id: buddha-death
     year: -483
@@ -184,6 +208,9 @@ events:
     category: religion
     tags: [仏教]
     summary: 弟子たちが記憶を持ち寄って教えをまとめ、経典の伝統が始まった。諸説あり。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/結集
 
   - id: mahavira
     year: -527
@@ -192,6 +219,9 @@ events:
     category: religion
     tags: [インド, 不殺生]
     summary: 徹底した不殺生を説く教え。のちのガンディーの思想にもつながる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジャイナ教
 
   - id: upanishads
     year: -600
@@ -200,6 +230,9 @@ events:
     category: religion
     tags: [インド, 思想]
     summary: 宇宙と自己は本来一つだという思索。輪廻と解脱の枠組みがここで整う。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウパニシャッド
 
   - id: alexander-indus
     year: -326
@@ -207,6 +240,9 @@ events:
     category: war
     tags: [マケドニア, インド]
     summary: 兵の疲弊で引き返したが、この遠征が統一王朝マウリヤの成立を促した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヒュダスペス河畔の戦い
 
   - id: ashoka
     year: -268
@@ -225,6 +261,9 @@ events:
     category: war
     tags: [インド, 仏教]
     summary: 十数万の死者を出した勝利のあと、アショーカは武力による拡大をやめた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カリンガ戦争
 
   - id: gandhara-art
     year: 150
@@ -233,6 +272,9 @@ events:
     category: culture
     tags: [仏教, ギリシア]
     summary: ギリシア彫刻の技法で仏の姿が作られ、仏像という表現が生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガンダーラ美術
 
   - id: mahabharata
     year: -300
@@ -241,6 +283,9 @@ events:
     category: culture
     tags: [インド, 文学]
     summary: 『マハーバーラタ』と『ラーマーヤナ』が、南アジア全域の物語の共通言語になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マハーバーラタ
 
   - id: indian-numerals
     year: 500
@@ -249,6 +294,9 @@ events:
     category: science
     tags: [数学, インド]
     summary: 位取りとゼロの組み合わせがアラビア経由でヨーロッパに伝わり、計算を一変させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インド数字
 
   - id: nalanda
     year: 427
@@ -257,6 +305,9 @@ events:
     category: science
     tags: [仏教, 学問]
     summary: 各地から学僧が集まった一大学問所。玄奘も学んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナーランダ僧院
 
   - id: sind-conquest
     year: 712
@@ -264,6 +315,9 @@ events:
     category: war
     tags: [イスラム, インド]
     summary: イスラム勢力が初めてインドに拠点を得た。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シンド州
 
   - id: ghazni-raids
     year: 1001
@@ -271,6 +325,9 @@ events:
     category: war
     tags: [イスラム, インド]
     summary: 17回に及ぶ略奪遠征で北インドの富が流出し、政治地図が塗り替わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガズナ朝
 
   - id: tarain-battle
     year: 1192
@@ -278,6 +335,9 @@ events:
     category: war
     tags: [イスラム, インド]
     summary: 北インドにイスラム政権が定着する決定打になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ゴール朝
 
   - id: vasco-da-gama
     year: 1498
@@ -285,6 +345,9 @@ events:
     category: economy
     tags: [大航海時代, 交易]
     summary: 喜望峰を回る航路が開かれ、ヨーロッパがインド洋交易に直接参入した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴァスコ・ダ・ガマ
 
   - id: panipat-1
     year: 1526
@@ -313,6 +376,9 @@ events:
     category: religion
     tags: [インド]
     summary: ヒンドゥーとイスラムの両方を批判的に受け止め、唯一神と平等を説いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シク教
 
   - id: east-india-company-founded
     year: 1600
@@ -320,6 +386,9 @@ events:
     category: economy
     tags: [イギリス, 交易]
     summary: 貿易会社として始まり、150年後には領土を支配する権力になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イギリス東インド会社
 
   - id: taj-mahal
     year: 1632
@@ -357,6 +426,9 @@ events:
     category: disaster
     tags: [インド, 飢饉]
     summary: 数百万人が餓死。会社の徴税優先が被害を拡大したと批判された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イギリス東インド会社
 
   - id: indian-rebellion
     year: 1857
@@ -374,6 +446,9 @@ events:
     category: politics
     tags: [インド, 独立運動]
     summary: 当初は穏健な請願団体。やがて独立運動の中心組織になる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インド国民会議
 
   - id: bengal-partition
     year: 1905
@@ -391,6 +466,9 @@ events:
     category: society
     tags: [インド, 非暴力]
     summary: 南アフリカで培った非暴力抵抗を持ち帰り、独立運動を大衆のものにした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マハトマ・ガンディー
 
   - id: amritsar-massacre
     year: 1919
@@ -398,6 +476,9 @@ events:
     category: society
     tags: [インド, イギリス]
     summary: 非武装の群衆への発砲が、イギリス統治への信頼を決定的に失わせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アムリットサル事件
 
   - id: salt-march
     year: 1930
@@ -428,6 +509,9 @@ events:
     category: society
     tags: [インド]
     summary: 宗教の融和を説き続けた人物が、同じヒンドゥー教徒に殺された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マハトマ・ガンディー
 
   - id: india-constitution
     year: 1950
@@ -445,6 +529,9 @@ events:
     category: politics
     tags: [南アジア]
     summary: 宗教だけでは国はまとまらないことを示し、パキスタンが東西に割れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バングラデシュ独立戦争
 
   - id: india-liberalization
     year: 1991
@@ -452,3 +539,6 @@ events:
     category: economy
     tags: [インド, 経済]
     summary: 統制経済を転換し、ITサービスを軸に高成長の時代に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インド

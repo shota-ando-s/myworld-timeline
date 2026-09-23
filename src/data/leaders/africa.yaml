@@ -11,6 +11,9 @@ leaders:
     category: politics
     tags: [エジプト, ピラミッド]
     summary: ギザの大ピラミッドを築かせ、初期国家が動員できた力の大きさを今に伝える。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クフ
 
   - id: senusret-iii
     title: センウセレト3世
@@ -30,6 +33,9 @@ leaders:
     category: war
     tags: [エジプト, 新王国]
     summary: 異民族ヒクソスを追い出してエジプトを再統一し、新王国を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イアフメス1世
 
   - id: hatshepsut
     title: ハトシェプスト
@@ -75,6 +81,9 @@ leaders:
     category: politics
     tags: [エジプト]
     summary: 在位も短く事績も乏しいが、ほぼ無傷で見つかった墓が古代の豊かさを伝えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ツタンカーメン
 
   - id: ramesses-ii
     title: ラメセス2世
@@ -83,6 +92,9 @@ leaders:
     category: war
     tags: [エジプト, カデシュ]
     summary: ヒッタイトと史上最古級の和平条約を結び、巨大建築でファラオの威信を刻んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラムセス2世
 
   - id: shoshenq-i
     title: シェションク1世
@@ -93,6 +105,9 @@ leaders:
     category: war
     tags: [エジプト, リビア系]
     summary: リビア系の王としてエジプトをまとめ直し、パレスチナへ遠征した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シェションク1世
 
   - id: piye
     title: ピイ（ピアンキ）
@@ -101,6 +116,9 @@ leaders:
     category: war
     tags: [クシュ, ヌビア]
     summary: ヌビアからエジプトを征服し、黒人王朝と呼ばれる第25王朝を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ピイ_(ファラオ)
 
   - id: taharqa
     title: タハルカ
@@ -109,6 +127,9 @@ leaders:
     category: war
     tags: [クシュ, アッシリア]
     summary: クシュ王朝のエジプト支配を頂点に導いたが、アッシリアの侵攻に追われた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト第25王朝
 
   - id: necho-ii
     title: ネコ2世
@@ -152,6 +173,9 @@ leaders:
     category: religion
     tags: [アクスム, キリスト教]
     summary: アクスム王国にキリスト教を受け入れ、今日まで続くエチオピア教会の起点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクスム王国
 
   - id: kaleb
     title: カレブ王
@@ -162,6 +186,9 @@ leaders:
     category: war
     tags: [アクスム, 紅海]
     summary: 紅海を渡ってイエメンに遠征し、アクスムを紅海交易の覇者にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクスム王国
 
   - id: al-muizz
     title: ムイッズ
@@ -205,6 +232,9 @@ leaders:
     category: war
     tags: [ソンガイ帝国, トンブクトゥ]
     summary: 川を使う水軍と騎兵でニジェール川流域を制し、ソンガイを帝国に育てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スンニ・アリ
 
   - id: qaitbay
     title: カーイトバーイ
@@ -235,6 +265,9 @@ leaders:
     category: war
     tags: [カネム・ボルヌ, 火器]
     summary: オスマンから火器を導入し、サハラ交易の要を押さえた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カネム・ボルヌ帝国
 
   - id: nzinga
     title: ンジンガ女王
@@ -243,6 +276,9 @@ leaders:
     category: politics
     tags: [アンゴラ, 奴隷貿易]
     summary: ポルトガルの奴隷貿易に外交と戦の両方で40年抗い続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ンドンゴ王国
 
   - id: osei-tutu
     title: オセイ・トゥトゥ
@@ -251,6 +287,9 @@ leaders:
     category: politics
     tags: [アシャンティ, 黄金]
     summary: 「黄金の床几」の下に諸部族をまとめ、金と奴隷の交易で栄える王国を建てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アシャンティ王国
 
   - id: usman-dan-fodio
     title: オスマン・ダン・フォディオ
@@ -259,6 +298,9 @@ leaders:
     category: religion
     tags: [ソコト, ジハード]
     summary: 宗教改革のジハードでソコト帝国を建て、西アフリカのイスラム化を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウスマン・ダン・フォディオ
 
   - id: muhammad-ali-egypt
     title: ムハンマド・アリー
@@ -311,6 +353,9 @@ leaders:
     category: politics
     tags: [エジプト, アラブ民族主義]
     summary: スエズ運河の国有化で列強に勝ち、アラブ民族主義の旗手になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガマール・アブドゥル＝ナーセル
 
   - id: nkrumah
     title: ンクルマ
@@ -319,6 +364,9 @@ leaders:
     category: politics
     tags: [ガーナ, 汎アフリカ主義]
     summary: サハラ以南で最初の独立を実現し、アフリカ統一の理念を唱えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クワメ・エンクルマ
 
   - id: kenyatta
     title: ケニヤッタ
@@ -327,6 +375,9 @@ leaders:
     category: politics
     tags: [ケニア, 独立]
     summary: 独立運動の指導者から初代大統領となり、白人入植者との和解を選んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョモ・ケニヤッタ
 
   - id: nyerere
     title: ニエレレ
@@ -335,6 +386,9 @@ leaders:
     category: society
     tags: [タンザニア, ウジャマー]
     summary: 村落共同体に基づくアフリカ型社会主義を試み、教育の普及に成果を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジュリウス・ニエレレ
 
   - id: mobutu
     title: モブツ
@@ -354,6 +408,9 @@ leaders:
     category: politics
     tags: [リビア, 独裁]
     summary: 独自の革命思想で42年統治し、「アラブの春」のなかで殺された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムアンマル・アル＝カッザーフィー
 
   - id: sadat
     title: サダト
@@ -362,6 +419,9 @@ leaders:
     category: politics
     tags: [エジプト, 和平]
     summary: 第四次中東戦争のあとイスラエルと和平を結び、アラブ世界から孤立して暗殺された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アンワル・アッ＝サーダート
 
   - id: mubarak
     title: ムバラク
@@ -370,6 +430,9 @@ leaders:
     category: politics
     tags: [エジプト]
     summary: 30年続いた強権支配が、「アラブの春」の街頭デモで終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホスニー・ムバーラク
 
   - id: sankara
     title: サンカラ
@@ -389,3 +452,6 @@ leaders:
     category: society
     tags: [南アフリカ, 和解]
     summary: 27年の投獄を経て大統領となり、報復ではなく和解で新しい国を始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ネルソン・マンデラ

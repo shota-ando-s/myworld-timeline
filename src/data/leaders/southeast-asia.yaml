@@ -9,6 +9,9 @@ leaders:
     category: religion
     tags: [クメール, 神王]
     summary: 自らを神と一体の王と宣言し、アンコール王朝600年の正統性の型を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クメール王朝
 
   - id: anawrahta
     title: アノーラター
@@ -17,6 +20,9 @@ leaders:
     category: religion
     tags: [パガン, 上座部仏教]
     summary: ビルマを統一して上座部仏教を国教とし、東南アジア大陸部の宗教地図を決めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パガン王朝
 
   - id: suryavarman-ii
     title: スーリヤヴァルマン2世
@@ -47,6 +53,9 @@ leaders:
     category: culture
     tags: [スコータイ, タイ文字]
     summary: タイ文字を定めたと伝えられ、タイ人の国家意識の出発点とされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラームカムヘーン
 
   - id: gajah-mada
     title: ガジャ・マダ
@@ -143,6 +152,9 @@ leaders:
     category: politics
     tags: [タイ, チャクリー朝]
     summary: バンコクに新王朝を開き、現在まで続くタイ王室の祖になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラーマ1世
 
   - id: gia-long
     title: 嘉隆帝
@@ -195,6 +207,9 @@ leaders:
     category: politics
     tags: [インドネシア, 非同盟]
     summary: 独立を宣言し、バンドン会議で「第三世界」という立場を世界に示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スカルノ
 
   - id: ho-chi-minh
     title: ホー・チ・ミン
@@ -214,6 +229,9 @@ leaders:
     category: politics
     tags: [カンボジア, 中立]
     summary: 独立を勝ち取り中立を保とうとしたが、インドシナ戦争の渦に巻き込まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ノロドム・シハヌーク
 
   - id: lee-kuan-yew
     title: リー・クアンユー
@@ -222,6 +240,9 @@ leaders:
     category: economy
     tags: [シンガポール, 開発]
     summary: 資源のない都市国家を一代で先進国にし、「開発独裁」の成功例として語られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/リー・クアンユー
 
   - id: marcos
     title: マルコス
@@ -230,6 +251,9 @@ leaders:
     category: politics
     tags: [フィリピン, 戒厳令]
     summary: 戒厳令で長期支配を敷き、ピープルパワー革命で国外に追われた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フェルディナンド・マルコス
 
   - id: suharto
     title: スハルト
@@ -249,6 +273,9 @@ leaders:
     category: disaster
     tags: [カンボジア, 虐殺]
     summary: 都市と知識人を否定する極端な農本主義で、人口の2割近い犠牲を出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ポル・ポト
 
   - id: mahathir
     title: マハティール

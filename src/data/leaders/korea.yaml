@@ -8,6 +8,9 @@ leaders:
     category: war
     tags: [高句麗]
     summary: 満洲と半島北部へ版図を広げ、碑文が当時の東アジアの勢力図を今に伝える。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/好太王
 
   - id: jangsu
     title: 長寿王
@@ -60,6 +63,9 @@ leaders:
     category: politics
     tags: [渤海]
     summary: 高句麗の遺民を率いて渤海を建て、「海東の盛国」の礎を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大祚栄
 
   - id: wang-geon
     title: 王建
@@ -68,6 +74,9 @@ leaders:
     category: politics
     tags: [高麗]
     summary: 豪族との婚姻を重ねて後三国を統一し、高麗500年の出発点を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/太祖_(高麗王)
 
   - id: gwangjong
     title: 光宗
@@ -76,6 +85,9 @@ leaders:
     category: society
     tags: [高麗, 科挙]
     summary: 奴婢の身分を洗い直し科挙を導入して、豪族から国王へ権力を移した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/光宗_(高麗王)
 
   - id: choe-chungheon
     title: 崔忠献
@@ -128,6 +140,9 @@ leaders:
     category: culture
     tags: [朝鮮王朝, ハングル]
     summary: 訓民正音の創製と科学技術の振興で、朝鮮の文化的な頂点を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/世宗_(朝鮮王)
 
   - id: sejo-joseon
     title: 世祖
@@ -136,6 +151,9 @@ leaders:
     category: society
     tags: [朝鮮王朝, 法典]
     summary: 甥から王位を奪ったが、『経国大典』の編纂で統治を法典として固めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/世祖_(朝鮮王)
 
   - id: seonjo
     title: 宣祖
@@ -177,6 +195,9 @@ leaders:
     category: politics
     tags: [朝鮮王朝, 蕩平策]
     summary: 党派を均等に登用する蕩平策で対立を抑え、52年の在位で民政を立て直した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/英祖_(朝鮮王)
 
   - id: jeongjo
     title: 正祖
@@ -207,6 +228,9 @@ leaders:
     category: politics
     tags: [朝鮮王朝, 大韓帝国]
     summary: 大韓帝国を称して自立を図ったが、日本の保護国化を止められなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高宗_(朝鮮)
 
   - id: syngman-rhee
     title: 李承晩
@@ -358,3 +382,6 @@ leaders:
     category: politics
     tags: [韓国]
     summary: 前大統領の罷免を受けた繰り上げ選挙で当選した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/李在明

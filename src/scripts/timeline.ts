@@ -385,15 +385,15 @@ function renderItem(item: Item) {
     <p class="panel__summary">${esc(item.summary)}</p>
     ${item.detail ? `<p class="panel__detail">${esc(item.detail.trim())}</p>` : ''}
     ${
-      item.tags.length
-        ? `<h3>タグ</h3><div class="panel__tags">${item.tags.map((t) => `<span>${esc(t)}</span>`).join('')}</div>`
+      item.links.length
+        ? `<p class="panel__source">参考: ${item.links
+            .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`)
+            .join(' / ')}</p>`
         : ''
     }
     ${
-      item.links.length
-        ? `<h3>もっと読む</h3><ul class="panel__links">${item.links
-            .map((l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a></li>`)
-            .join('')}</ul>`
+      item.tags.length
+        ? `<h3>タグ</h3><div class="panel__tags">${item.tags.map((t) => `<span>${esc(t)}</span>`).join('')}</div>`
         : ''
     }
     ${

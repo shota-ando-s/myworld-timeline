@@ -14,6 +14,9 @@ periods:
       実際の始まりは紀元前1万4000年頃までさかのぼるが、この年表の左端は紀元前3500年のため
       途中から描いている。世界四大文明が都市を築いていた頃、日本列島では大規模な農耕を伴わない
       定住生活が長く続いていた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/縄文時代
 
   - id: yayoi
     title: 弥生時代
@@ -24,6 +27,9 @@ periods:
     category: society
     tags: [日本, 稲作]
     summary: 大陸から水稲耕作と金属器が伝わり、むらがくにへとまとまっていった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/弥生時代
 
   - id: kofun
     title: 古墳時代
@@ -33,6 +39,9 @@ periods:
     category: politics
     tags: [日本, ヤマト政権]
     summary: 巨大古墳が各地に築かれ、ヤマト政権が列島の広い範囲をまとめた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/古墳時代
 
   - id: asuka
     title: 飛鳥時代
@@ -52,6 +61,9 @@ periods:
     category: politics
     tags: [日本, 律令]
     summary: 平城京を都とし、律令国家と国家仏教が最も整った時期。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/奈良時代
 
   - id: heian
     title: 平安時代
@@ -82,6 +94,9 @@ periods:
     category: politics
     tags: [日本, 天皇]
     summary: 退位した上皇が実権を握る仕組み。摂関家の力を削ぐ一方、武士の登用を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/院政
 
   - id: kamakura
     title: 鎌倉時代
@@ -112,6 +127,9 @@ periods:
     category: politics
     tags: [日本, 武家]
     summary: 足利将軍家の時代。日明貿易と禅の文化が栄えた一方、後半は幕府の統制が崩れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/室町時代
 
   - id: sengoku
     title: 戦国時代
@@ -120,6 +138,9 @@ periods:
     category: war
     tags: [日本, 内戦]
     summary: 応仁の乱から秀吉の全国統一まで、各地の大名が争った約120年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/戦国時代
 
   - id: azuchi-momoyama
     title: 安土桃山時代
@@ -142,6 +163,9 @@ periods:
     detail: |
       参勤交代で大名の力を削ぎ、身分と土地を固定することで長い平和を実現した。
       その安定が都市と流通を育て、識字率や出版の水準は同時代の世界でも高い部類にあった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/江戸時代
 
   - id: meiji
     title: 明治時代
@@ -227,6 +251,9 @@ events:
     category: politics
     tags: [日本, 外交]
     summary: 『後漢書』が伝える、日本列島の勢力が中国の王朝と結んだ最古級の記録。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/漢委奴国王印
 
   - id: himiko-envoy
     year: 239
@@ -234,6 +261,9 @@ events:
     category: politics
     tags: [日本, 邪馬台国]
     summary: 「親魏倭王」の称号と銅鏡を受けたと『魏志』倭人伝が記す。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/卑弥呼
 
   - id: wa-king-bu
     year: 478
@@ -241,6 +271,9 @@ events:
     category: politics
     tags: [日本, 外交]
     summary: 中国の王朝に列島支配の承認を求めた文書。ヤマト政権の広がりを示す。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/武_(倭王)
 
   - id: buddhism-to-japan
     year: 538
@@ -249,6 +282,9 @@ events:
     category: religion
     tags: [日本, 仏教]
     summary: 百済の聖明王から欽明天皇へ仏像と経典が贈られたと伝わる（552年説もある）。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日本の仏教
 
   - id: shotoku-regent
     year: 593
@@ -256,6 +292,9 @@ events:
     category: politics
     tags: [日本, 飛鳥]
     summary: 中国にならった国家づくりが始まり、仏教が国の支えとして位置づけられた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/聖徳太子
 
   - id: seventeen-articles
     year: 604
@@ -354,6 +393,9 @@ events:
     category: religion
     tags: [日本, 仏教]
     summary: 国家の総力を挙げた事業。仏教で国を守るという考えが極まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東大寺盧舎那仏像
 
   - id: saicho-kukai
     year: 804
@@ -361,6 +403,9 @@ events:
     category: religion
     tags: [日本, 仏教]
     summary: 天台宗と真言宗が持ち帰られ、貴族から民衆まで届く日本仏教の土台になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/最澄
 
   - id: kentoshi-end
     year: 894
@@ -378,6 +423,9 @@ events:
     category: war
     tags: [日本, 武士]
     summary: 関東で新皇を名乗った反乱。鎮圧を担った武士の力が中央に知られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/承平天慶の乱
 
   - id: michinaga
     year: 1016
@@ -385,6 +433,9 @@ events:
     category: politics
     tags: [日本, 藤原氏]
     summary: 「この世をば我が世とぞ思ふ」と詠んだ摂関政治の絶頂期。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/藤原道長
 
   - id: genji-monogatari
     year: 1008
@@ -413,6 +464,9 @@ events:
     category: politics
     tags: [日本, 平氏]
     summary: 武士として初めて朝廷の頂点に立ち、日宋貿易で富を築いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/平清盛
 
   - id: dannoura
     year: 1185
@@ -461,6 +515,9 @@ events:
     category: religion
     tags: [日本, 仏教]
     summary: 念仏や題目、坐禅など、庶民にも開かれた教えが相次いで現れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/鎌倉仏教
 
   - id: mongol-invasions-japan
     year: 1274
@@ -468,6 +525,9 @@ events:
     category: war
     tags: [日本, モンゴル]
     summary: 元と高麗の連合軍が九州北部に来襲。1281年の弘安の役でも撃退した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/元寇
 
   - id: kamakura-fall
     year: 1333
@@ -495,6 +555,9 @@ events:
     category: economy
     tags: [日本, 明, 交易]
     summary: 明の朝貢体制に入って銅銭と生糸を得た。幕府の重要な財源になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日明貿易
 
   - id: onin-war
     year: 1467
@@ -512,6 +575,9 @@ events:
     category: science
     tags: [日本, 技術, 南蛮]
     summary: 種子島に漂着したポルトガル人が火縄銃を伝え、戦い方と築城が変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/鉄砲伝来
 
   - id: xavier-japan
     year: 1549
@@ -519,6 +585,9 @@ events:
     category: religion
     tags: [日本, キリスト教]
     summary: キリスト教が伝わり、南蛮貿易とともに西日本の大名に影響を与えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランシスコ・ザビエル
 
   - id: muromachi-fall
     year: 1573
@@ -526,6 +595,9 @@ events:
     category: politics
     tags: [日本]
     summary: 織田信長が将軍を追放し、武力による全国統一の段階に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/室町幕府
 
   - id: nagashino
     year: 1575
@@ -563,6 +635,9 @@ events:
     category: politics
     tags: [日本, 統一]
     summary: 100年以上続いた戦国の争乱が終わり、検地と身分制で全国が再編された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/豊臣政権
 
   - id: sekigahara
     year: 1600
@@ -590,6 +665,9 @@ events:
     category: politics
     tags: [日本, 対外関係]
     summary: ポルトガル船の来航を禁止し、対外窓口を長崎・対馬・薩摩・松前に限った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/鎖国
 
   - id: meireki-fire
     year: 1657
@@ -638,6 +716,9 @@ events:
     category: disaster
     tags: [日本, 飢饉]
     summary: 冷害と浅間山の噴火が重なり、東北を中心に多数の餓死者を出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/天明の大飢饉
 
   - id: foreign-ship-order
     year: 1825
@@ -655,6 +736,9 @@ events:
     category: politics
     tags: [日本, 開国]
     summary: アメリカの艦隊が浦賀に現れ、翌年の開国と幕府の動揺につながった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/黒船来航
 
   - id: harris-treaty
     year: 1858
@@ -702,6 +786,9 @@ events:
     category: society
     tags: [日本, 近代化]
     summary: 国民皆学と鉄道が同じ年に始まり、人と知識の流れが一変した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/学制
 
   - id: meiji-constitution
     year: 1889
@@ -789,6 +876,9 @@ events:
     category: politics
     tags: [日本, 戦後]
     summary: 独立を回復すると同時に、日米安保条約で西側陣営に位置づけられた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日本国との平和条約
 
   - id: tokyo-olympics-1964
     year: 1964
@@ -827,6 +917,9 @@ events:
     category: economy
     tags: [日本, 停滞]
     summary: 地価と株価の急落が金融機関を傷め、「失われた30年」と呼ばれる停滞に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バブル景気
 
   - id: kobe-earthquake
     year: 1995

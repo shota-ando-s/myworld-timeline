@@ -20,6 +20,9 @@ leaders:
     category: war
     tags: [マケドニア, ヘレニズム]
     summary: 13年でギリシアからインダスまで征服し、東西の文化が混じるヘレニズム世界を生んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アレクサンドロス3世
 
   - id: hannibal-barca
     title: ハンニバル
@@ -28,6 +31,9 @@ leaders:
     category: war
     tags: [カルタゴ, ポエニ戦争]
     summary: 象を連れてアルプスを越えローマを追い詰め、最強の敵として長く記憶された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハンニバル
 
   - id: julius-caesar
     title: カエサル
@@ -168,6 +174,9 @@ leaders:
     category: religion
     tags: [ビザンツ, 聖像禁止]
     summary: コンスタンティノープルを守り抜き、聖像禁止令で東西教会の溝を深めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/レオーン3世
 
   - id: basil-ii
     title: バシレイオス2世
@@ -231,6 +240,9 @@ leaders:
     category: culture
     tags: [シチリア, 神聖ローマ]
     summary: アラビア語も解する宮廷を南イタリアに営み、「世界の驚異」と呼ばれた皇帝。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フリードリヒ2世_(神聖ローマ皇帝)
 
   - id: pope-boniface-viii
     title: 教皇ボニファティウス8世
@@ -371,6 +383,9 @@ leaders:
     category: politics
     tags: [イタリア, 統一]
     summary: 外交と同盟でオーストリアを追い出し、イタリア統一を現実の政治にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カミッロ・カヴール
 
   - id: garibaldi
     title: ガリバルディ
@@ -379,6 +394,9 @@ leaders:
     category: war
     tags: [イタリア, 統一]
     summary: 千人隊で南イタリアを制圧し、征服地を国王に差し出して統一を完成させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジュゼッペ・ガリバルディ
 
   - id: victor-emmanuel-ii
     title: ヴィットーリオ・エマヌエーレ2世
@@ -398,6 +416,9 @@ leaders:
     category: politics
     tags: [イタリア, ファシズム]
     summary: ファシズムという新しい独裁の型を作り、各国の運動の手本にされた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベニート・ムッソリーニ
 
   - id: pope-pius-xii
     title: 教皇ピウス12世

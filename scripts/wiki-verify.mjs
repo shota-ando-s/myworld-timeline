@@ -14,17 +14,22 @@ const pairs = process.argv.slice(2).map((a) => {
   return { id: a.slice(0, at), title: a.slice(at + 1) };
 });
 
-const url = `https://ja.wikipedia.org/w/api.php?${new URLSearchParams({
-  action: 'query', format: 'json', formatversion: '2', prop: 'extracts|pageprops|info',
-  inprop: 'url', exintro: '1', explaintext: '1', exlimit: '20', redirects: '1',
-  titles: [...new Set(pairs.map((p) => p.title))].join('|'),
-})}`;
-const data = await (await fetch(url, { headers: { 'User-Agent': UA } })).json();
-
+// 冒頭文はまとめて20件までしか返らないので、20件ずつに割って聞く
 const alias = new Map();
-for (const n of data.query?.normalized ?? []) alias.set(n.from, n.to);
-for (const r of data.query?.redirects ?? []) alias.set(r.from, r.to);
-const byTitle = new Map((data.query?.pages ?? []).map((p) => [p.title, p]));
+const byTitle = new Map();
+const titles = [...new Set(pairs.map((p) => p.title))];
+for (let i = 0; i < titles.length; i += 20) {
+  const url = `https://ja.wikipedia.org/w/api.php?${new URLSearchParams({
+    action: 'query', format: 'json', formatversion: '2', prop: 'extracts|pageprops|info',
+    inprop: 'url', exintro: '1', explaintext: '1', exlimit: '20', redirects: '1',
+    titles: titles.slice(i, i + 20).join('|'),
+  })}`;
+  const data = await (await fetch(url, { headers: { 'User-Agent': UA } })).json();
+  for (const n of data.query?.normalized ?? []) alias.set(n.from, n.to);
+  for (const r of data.query?.redirects ?? []) alias.set(r.from, r.to);
+  for (const p of data.query?.pages ?? []) byTitle.set(p.title, p);
+  await new Promise((r) => setTimeout(r, 150));
+}
 
 const out = {};
 for (const { id, title } of pairs) {

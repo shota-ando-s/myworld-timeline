@@ -23,6 +23,9 @@ periods:
     category: religion
     tags: [アンデス]
     summary: アンデス各地を結んだ最初の宗教的中心。神殿に人々が巡礼した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チャビン・デ・ワンタル
 
   - id: nazca
     title: ナスカ文化
@@ -46,6 +49,9 @@ periods:
     category: society
     tags: [メソアメリカ, 都市]
     summary: 人口10万を超えたとされる計画都市。誰が築いたかは今も謎が多い。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/テオティワカン
 
   - id: moche
     title: モチェ文化
@@ -83,6 +89,9 @@ periods:
     category: politics
     tags: [アンデス]
     summary: チチカカ湖畔の高地国家。精密な石組みの建築で知られる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ティワナク
 
   - id: mississippian
     title: ミシシッピ文化
@@ -105,6 +114,9 @@ periods:
     category: politics
     tags: [メソアメリカ]
     summary: アステカが理想の先祖として仰いだ王国。軍事と工芸で知られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トルテカ文明
 
   - id: aztec
     title: アステカ王国
@@ -135,6 +147,9 @@ periods:
     category: politics
     tags: [植民地, スペイン]
     summary: 銀の大量産出が世界経済を動かし、先住民社会は大きく変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スペイン帝国
 
   - id: portuguese-brazil
     title: ポルトガル領ブラジル
@@ -143,6 +158,9 @@ periods:
     category: economy
     tags: [ブラジル, 植民地]
     summary: 砂糖と金の生産に大量の奴隷が投入され、アメリカ最大の奴隷社会になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ブラジルの歴史
 
   - id: thirteen-colonies
     title: イギリス領13植民地
@@ -162,6 +180,9 @@ periods:
     category: politics
     tags: [アメリカ]
     summary: 独立宣言から始まり、20世紀には世界最大の経済・軍事大国となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アメリカ合衆国
 
   - id: latin-american-independence
     title: ラテンアメリカ独立戦争
@@ -170,6 +191,9 @@ periods:
     category: war
     tags: [ラテンアメリカ, 独立]
     summary: ナポレオンの本国侵攻を機に、20年ほどで大陸の大半が独立した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イスパノアメリカ独立戦争
 
   - id: civil-rights-movement
     title: 公民権運動
@@ -190,6 +214,9 @@ events:
     category: disaster
     tags: [メソアメリカ]
     summary: 南部の都市が次々に放棄された。干ばつと戦争と環境負荷が重なったとみられる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マヤ文明
 
   - id: norse-vinland
     year: 1000
@@ -198,6 +225,9 @@ events:
     category: economy
     tags: [北アメリカ, 北欧]
     summary: コロンブスより500年早く到達したが、定住は続かず記憶も途切れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴィンランド
 
   - id: tenochtitlan-founded
     year: 1325
@@ -205,6 +235,9 @@ events:
     category: society
     tags: [メソアメリカ, 都市]
     summary: 湖の上に築かれた都市。人工島の農地で20万人以上を養ったとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/テノチティトラン
 
   - id: columbus
     year: 1492
@@ -236,6 +269,9 @@ events:
     category: economy
     tags: [ブラジル]
     summary: 染料になる木から国名が付き、やがて砂糖と奴隷の一大拠点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ペドロ・アルヴァレス・カブラル
 
   - id: tenochtitlan-fall
     year: 1521
@@ -243,6 +279,9 @@ events:
     category: war
     tags: [スペイン, アステカ]
     summary: 数百人の兵と現地の反アステカ勢力、そして疫病が帝国を倒した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エルナン・コルテス
 
   - id: inca-fall
     year: 1533
@@ -250,6 +289,9 @@ events:
     category: war
     tags: [スペイン, アンデス]
     summary: 内戦直後の帝国を少数のスペイン人が制圧し、銀山開発が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランシスコ・ピサロ
 
   - id: smallpox-americas
     year: 1520
@@ -258,6 +300,9 @@ events:
     category: disaster
     tags: [疫病, 先住民]
     summary: 免疫のない先住民社会で人口の大半が失われ、征服が容易になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/天然痘
 
   - id: potosi
     year: 1545
@@ -265,6 +310,9 @@ events:
     category: economy
     tags: [銀, 世界経済]
     summary: 流れ出した銀はヨーロッパ経由で明にまで達し、世界の物価を動かした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/セロ・リコ
 
   - id: jamestown
     year: 1607
@@ -272,6 +320,9 @@ events:
     category: society
     tags: [北アメリカ, イギリス]
     summary: イギリス人の最初の恒久的植民地。タバコ栽培が経済の柱になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジェームズタウン_(バージニア州)
 
   - id: first-africans-virginia
     year: 1619
@@ -279,6 +330,9 @@ events:
     category: society
     tags: [北アメリカ, 奴隷制]
     summary: 北米の奴隷制の起点とされ、その影響は今日まで続いている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アメリカ合衆国の奴隷制度の歴史
 
   - id: mayflower
     year: 1620
@@ -346,6 +400,9 @@ events:
     category: politics
     tags: [メキシコ, 独立]
     summary: 司祭イダルゴの呼びかけから始まり、11年後に独立を達成した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/メキシコ独立革命
 
   - id: monroe-doctrine
     year: 1823
@@ -353,6 +410,9 @@ events:
     category: politics
     tags: [アメリカ, 外交]
     summary: 欧州の干渉を拒む一方、のちに中南米への影響力を正当化する根拠にもなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モンロー主義
 
   - id: indian-removal
     year: 1830
@@ -360,6 +420,9 @@ events:
     category: society
     tags: [先住民, アメリカ]
     summary: 「涙の道」と呼ばれる強制移動で多数が命を落とした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インディアン移住法
 
   - id: gold-rush
     year: 1848
@@ -387,6 +450,9 @@ events:
     category: society
     tags: [アメリカ, 人権]
     summary: 戦争の目的を「連邦の維持」から「奴隷制の廃止」へ広げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/奴隷解放宣言
 
   - id: transcontinental-railroad
     year: 1869
@@ -394,6 +460,9 @@ events:
     category: economy
     tags: [アメリカ, 鉄道]
     summary: 東西が1週間で結ばれ、国内市場と西部開拓が一気に進んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大陸横断鉄道
 
   - id: wounded-knee
     year: 1890
@@ -401,6 +470,9 @@ events:
     category: society
     tags: [先住民, アメリカ]
     summary: 先住民の組織的抵抗が終わった出来事として記憶されている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウンデット・ニーの虐殺
 
   - id: spanish-american-war
     year: 1898
@@ -418,6 +490,9 @@ events:
     category: science
     tags: [アメリカ, 技術]
     summary: 12秒の飛行から始まり、半世紀で旅客機と空の戦争の時代になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ライト兄弟
 
   - id: model-t
     year: 1908
@@ -425,6 +500,9 @@ events:
     category: economy
     tags: [アメリカ, 大量生産]
     summary: 流れ作業による大量生産が、自動車を一般の人が買えるものに変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フォード・モデルT
 
   - id: panama-canal
     year: 1914
@@ -452,6 +530,9 @@ events:
     category: economy
     tags: [アメリカ, 政府]
     summary: 政府が雇用と福祉に積極的に関与する形を作り、各国の政策の手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ニューディール政策
 
   - id: trinity-test
     year: 1945
@@ -470,6 +551,9 @@ events:
     category: economy
     tags: [アメリカ, 国際通貨]
     summary: ドルを基軸とする戦後の国際経済の枠組みが作られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ブレトン・ウッズ協定
 
   - id: brown-v-board
     year: 1954
@@ -477,6 +561,9 @@ events:
     category: society
     tags: [アメリカ, 人権]
     summary: 公立学校の人種隔離を違憲とし、公民権運動の法的な突破口になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ブラウン対教育委員会裁判
 
   - id: cuban-missile-crisis
     year: 1962
@@ -514,6 +601,9 @@ events:
     category: politics
     tags: [ラテンアメリカ, 冷戦]
     summary: 選挙で選ばれた社会主義政権が軍に倒され、冷戦の代理対立が中南米に及んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チリ・クーデター
 
   - id: nafta
     year: 1994
@@ -521,6 +611,9 @@ events:
     category: economy
     tags: [北アメリカ, 貿易]
     summary: 国境を越えた生産網が広がり、雇用の移動をめぐる論争も生んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/北米自由貿易協定
 
   - id: september-11
     year: 2001
@@ -528,6 +621,9 @@ events:
     category: war
     tags: [アメリカ, テロ]
     summary: 以後20年の対テロ戦争が始まり、世界中で安全と自由の均衡が問い直された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アメリカ同時多発テロ事件
 
   - id: lehman-shock
     year: 2008

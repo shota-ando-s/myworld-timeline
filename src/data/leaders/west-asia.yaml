@@ -11,6 +11,9 @@ leaders:
     category: war
     tags: [アッカド, 帝国]
     summary: 複数の都市国家を一人の王の下に束ね、世界最初の「帝国」を作ったとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サルゴン_(アッカド王)
 
   - id: ur-nammu
     title: ウル・ナンム
@@ -32,6 +35,9 @@ leaders:
     category: society
     tags: [バビロニア, 法]
     summary: メソポタミアを再統一し、石柱に刻んだ法で統治の基準を公示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハンムラビ
 
   - id: suppiluliuma-i
     title: シュッピルリウマ1世
@@ -42,6 +48,9 @@ leaders:
     category: war
     tags: [ヒッタイト]
     summary: ヒッタイトをオリエントの大国に押し上げ、エジプトと勢力を二分した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シュッピルリウマ1世
 
   - id: nebuchadnezzar-i
     title: ネブカドネザル1世
@@ -52,6 +61,9 @@ leaders:
     category: war
     tags: [バビロニア, エラム]
     summary: エラムからマルドゥク神像を取り戻し、バビロンの守護神を国家の中心に据えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ネブカドネザル1世
 
   - id: tiglath-pileser-iii
     title: ティグラト・ピレセル3世
@@ -71,6 +83,9 @@ leaders:
     category: culture
     tags: [アッシリア, 図書館]
     summary: 各地の粘土板を集めた大図書館を作り、ギルガメシュ叙事詩を今日まで残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アッシュルバニパル
 
   - id: nebuchadnezzar-ii
     title: ネブカドネザル2世
@@ -189,6 +204,9 @@ leaders:
     category: war
     tags: [正統カリフ, 征服]
     summary: シリア・エジプト・ペルシアを一気に征服し、イスラム世界の骨格を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウマル・イブン・ハッターブ
 
   - id: ali-ibn-abi-talib
     title: アリー
@@ -197,6 +215,9 @@ leaders:
     category: religion
     tags: [正統カリフ, シーア派]
     summary: その継承をめぐる対立がスンナ派とシーア派の分かれ目になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アリー・イブン・アビー・ターリブ
 
   - id: muawiya
     title: ムアーウィヤ
@@ -227,6 +248,9 @@ leaders:
     category: culture
     tags: [アッバース朝, バグダード]
     summary: バグダードの繁栄を象徴する君主で、『千夜一夜物語』にも姿をとどめた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハールーン・アッ＝ラシード
 
   - id: al-mamun
     title: マアムーン
@@ -246,6 +270,9 @@ leaders:
     category: politics
     tags: [セルジューク朝, スルタン]
     summary: バグダードに入ってスルタンの称号を得、軍事とカリフの権威を分ける形を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トゥグリル・ベグ
 
   - id: saladin
     title: サラディン
@@ -254,6 +281,9 @@ leaders:
     category: war
     tags: [アイユーブ朝, 十字軍]
     summary: エルサレムを奪回し、その寛大な処置が敵味方の双方に語り継がれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サラーフッディーン
 
   - id: baybars
     title: バイバルス
@@ -406,6 +436,9 @@ leaders:
     category: politics
     tags: [イラン, 近代化]
     summary: 軍人から王朝を起こし、上からの近代化と中央集権を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/レザー・パフラヴィー
 
   - id: ibn-saud
     title: イブン・サウード
@@ -425,6 +458,9 @@ leaders:
     category: economy
     tags: [イラン, 石油国有化]
     summary: 石油を国有化して英米のクーデタで倒され、資源をめぐる南北の対立を象徴した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モハンマド・モサッデク
 
   - id: khomeini
     title: ホメイニ
@@ -444,6 +480,9 @@ leaders:
     category: war
     tags: [イラク, 独裁]
     summary: イラン・クウェートへの戦争を重ね、最後は米軍の侵攻で倒された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サッダーム・フセイン
 
   - id: khamenei
     title: ハメネイ
@@ -452,6 +491,9 @@ leaders:
     category: religion
     tags: [イラン, 最高指導者]
     summary: 選挙で選ばれる大統領の上に立つ最高指導者として、30年以上体制を保っている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アリー・ハーメネイー
 
   - id: erdogan
     title: エルドアン
@@ -460,3 +502,6 @@ leaders:
     category: politics
     tags: [トルコ]
     summary: 世俗主義の枠を緩めながら大統領制へ移行し、地域大国としての独自外交を進めている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/レジェップ・タイイップ・エルドアン

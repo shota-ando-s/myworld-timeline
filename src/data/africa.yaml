@@ -30,6 +30,9 @@ periods:
     category: politics
     tags: [エジプト]
     summary: 混乱期を経て再統一された時代。文学と工芸の古典期とされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト中王国
 
   - id: egypt-new-kingdom
     title: エジプト新王国
@@ -38,6 +41,9 @@ periods:
     category: politics
     tags: [エジプト]
     summary: 対外遠征でシリアまで勢力を広げた帝国期。ツタンカーメンやラメセス2世の時代。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト新王国
 
   - id: bantu-expansion
     title: バントゥー系の拡散
@@ -48,6 +54,9 @@ periods:
     category: society
     tags: [アフリカ, 移動]
     summary: 農耕と製鉄を携えた人々が中部・南部アフリカに広がり、言語地図を作り替えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バントゥー系民族
 
   - id: kush
     title: クシュ王国（ヌビア）
@@ -56,6 +65,9 @@ periods:
     category: politics
     tags: [スーダン, アフリカ]
     summary: 一時はエジプトを支配した黒人王朝。のちメロエで製鉄と独自文字を発達させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クシュ
 
   - id: ptolemaic-egypt
     title: プトレマイオス朝
@@ -77,6 +89,9 @@ periods:
     category: economy
     tags: [エチオピア, 交易]
     summary: 紅海交易で栄え、4世紀にキリスト教を受け入れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクスム王国
 
   - id: ghana-empire
     title: ガーナ王国
@@ -86,6 +101,9 @@ periods:
     category: economy
     tags: [西アフリカ, 金]
     summary: サハラ縦断交易の金と塩を押さえた最初の西アフリカ帝国。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガーナ王国
 
   - id: fatimid
     title: ファーティマ朝
@@ -119,6 +137,9 @@ periods:
     category: economy
     tags: [アフリカ南部, 石造建築]
     summary: 金と象牙の交易で栄え、モルタルを使わない石積みの都市を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/グレート・ジンバブエ遺跡
 
   - id: ayyubid
     title: アイユーブ朝
@@ -149,6 +170,9 @@ periods:
     category: economy
     tags: [西アフリカ, 金]
     summary: サハラ縦断交易の金と塩で栄え、トンブクトゥが学問の都となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マリ帝国
 
   - id: mamluk
     title: マムルーク朝
@@ -168,6 +192,9 @@ periods:
     category: religion
     tags: [エチオピア, キリスト教]
     summary: 700年続いたキリスト教王朝。20世紀まで独立を保った数少ないアフリカの国。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エチオピア帝国
 
   - id: kongo-kingdom
     title: コンゴ王国
@@ -202,6 +229,9 @@ periods:
       アメリカ大陸の砂糖・綿花・タバコ農園の労働力として組織的に運ばれた。
       銃と引き換えに人を売る構図が内陸の戦争を煽り、
       奪われた世代の空白は経済にも国家の形成にも影響を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大西洋奴隷貿易
 
   - id: ashanti
     title: アシャンティ王国
@@ -221,6 +251,9 @@ periods:
     category: politics
     tags: [アフリカ, 帝国主義]
     summary: 30年ほどでほぼ全土が欧州の植民地になり、現在の国境線が引かれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アフリカ分割
 
   - id: apartheid
     title: アパルトヘイト
@@ -241,6 +274,9 @@ events:
     category: politics
     tags: [エジプト]
     summary: ナイル沿いに統一国家が生まれ、3000年続く王朝の伝統が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト第1王朝
 
   - id: great-pyramid
     year: -2560
@@ -249,6 +285,9 @@ events:
     category: culture
     tags: [エジプト, 建築]
     summary: 高さ約147メートル。3800年間、人類が作った最も高い建造物だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ギザの大ピラミッド
 
   - id: akhenaten
     year: -1350
@@ -257,6 +296,9 @@ events:
     category: religion
     tags: [エジプト, 一神教]
     summary: 太陽神アテンのみを崇めさせた試み。一代で廃され、記録も削られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクエンアテン
 
   - id: assyria-conquers-egypt
     year: -671
@@ -264,6 +306,9 @@ events:
     category: war
     tags: [エジプト, アッシリア]
     summary: 3000年の独立が破られ、以後エジプトは外来勢力の支配を繰り返す。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アッシリア
 
   - id: alexander-egypt
     year: -332
@@ -271,6 +316,9 @@ events:
     category: war
     tags: [エジプト, ヘレニズム]
     summary: アレクサンドリアが建設され、地中海世界の学問の中心になっていく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト末期王朝
 
   - id: library-of-alexandria
     year: -280
@@ -279,6 +327,9 @@ events:
     category: science
     tags: [エジプト, 学問]
     summary: 世界中の書物を集めようとした施設。地球の大きさもここで計算された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アレクサンドリア図書館
 
   - id: cleopatra-death
     year: -30
@@ -286,6 +337,9 @@ events:
     category: politics
     tags: [エジプト, ローマ]
     summary: プトレマイオス朝が滅び、エジプトはローマの穀倉になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クレオパトラ7世
 
   - id: aksum-christianity
     year: 325
@@ -294,6 +348,9 @@ events:
     category: religion
     tags: [エチオピア, キリスト教]
     summary: ローマ帝国とほぼ同時期に国教化し、独自の教会が今日まで続いている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクスム王国
 
   - id: islam-conquers-egypt
     year: 641
@@ -301,6 +358,9 @@ events:
     category: war
     tags: [エジプト, イスラム]
     summary: 北アフリカがイスラム世界に入り、言語も信仰も大きく変わっていく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アムル・イブン・アル＝アース
 
   - id: cairo-founded
     year: 969
@@ -308,6 +368,9 @@ events:
     category: society
     tags: [エジプト, 都市]
     summary: ファーティマ朝の新都。アズハル学院はいまも続く世界最古級の大学の一つ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カイロ
 
   - id: mansa-musa-hajj
     year: 1324
@@ -325,6 +388,9 @@ events:
     category: economy
     tags: [交易, 旅行記]
     summary: 30年の旅の記録が、サハラ以南の社会を外の世界に伝えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イブン・バットゥータ
 
   - id: ceuta-captured
     year: 1415
@@ -332,6 +398,9 @@ events:
     category: war
     tags: [ポルトガル, 大航海時代]
     summary: ヨーロッパのアフリカ進出の出発点。金と奴隷を求めて海岸線を南下していく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ポルトガル海上帝国
 
   - id: cape-of-good-hope
     year: 1488
@@ -339,6 +408,9 @@ events:
     category: economy
     tags: [ポルトガル, 航海]
     summary: アフリカ南端を回る航路が見つかり、10年後にインドへつながった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/喜望峰
 
   - id: songhai-falls
     year: 1591
@@ -346,6 +418,9 @@ events:
     category: war
     tags: [西アフリカ, モロッコ]
     summary: 火器を持つモロッコ軍に敗れ、サハラ交易の中心が失われた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ソンガイ帝国
 
   - id: cape-colony
     year: 1652
@@ -353,6 +428,9 @@ events:
     category: politics
     tags: [南アフリカ, オランダ]
     summary: 補給地として始まった入植が、のちの人種隔離社会の起点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ケープ植民地
 
   - id: napoleon-egypt
     year: 1798
@@ -360,6 +438,9 @@ events:
     category: war
     tags: [エジプト, フランス]
     summary: 学者を同行させた遠征でロゼッタ・ストーンが見つかり、古代エジプト学が生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト・シリア戦役
 
   - id: liberia-founded
     year: 1822
@@ -367,6 +448,9 @@ events:
     category: society
     tags: [西アフリカ, 奴隷制]
     summary: 解放奴隷の移住地として作られ、1847年にアフリカ初の共和国として独立した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/リベリア
 
   - id: algeria-invasion
     year: 1830
@@ -374,6 +458,9 @@ events:
     category: war
     tags: [北アフリカ, フランス]
     summary: 130年に及ぶ支配の始まり。入植者社会が生まれ、独立戦争は苛烈になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランス領アルジェリア
 
   - id: suez-canal
     year: 1869
@@ -381,6 +468,9 @@ events:
     category: economy
     tags: [エジプト, 交通]
     summary: ヨーロッパとアジアの距離が一気に縮み、エジプトは列強の争点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スエズ運河
 
   - id: zulu-war
     year: 1879
@@ -418,6 +508,9 @@ events:
     category: war
     tags: [南アフリカ, イギリス]
     summary: 金とダイヤをめぐる戦争。強制収容所が用いられ、帝国主義の評判を傷つけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ボーア戦争
 
   - id: italy-invades-ethiopia
     year: 1935
@@ -425,6 +518,9 @@ events:
     category: war
     tags: [エチオピア, ファシズム]
     summary: 国際連盟が止められなかったことが、その無力さを世界に示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第二次エチオピア戦争
 
   - id: egypt-revolution-1952
     year: 1952
@@ -442,6 +538,9 @@ events:
     category: politics
     tags: [エジプト, 冷戦]
     summary: 運河の国有化に英仏イスラエルが軍事介入したが米ソの圧力で撤退。帝国の時代の終わりを示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第二次中東戦争
 
   - id: ghana-independence
     year: 1957
@@ -449,6 +548,9 @@ events:
     category: politics
     tags: [西アフリカ, 独立]
     summary: サハラ以南で最初の独立。各地の独立運動を勇気づけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガーナ
 
   - id: year-of-africa
     year: 1960
@@ -466,6 +568,9 @@ events:
     category: politics
     tags: [アフリカ, 地域統合]
     summary: 植民地時代の国境を認めたうえで連帯をめざす選択をした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アフリカ連合
 
   - id: biafra-war
     year: 1967
@@ -500,6 +605,9 @@ events:
     category: society
     tags: [アフリカ, 人権]
     summary: 全人種参加の選挙でマンデラが大統領に選ばれ、人種隔離体制が終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アパルトヘイト
 
   - id: south-sudan
     year: 2011

@@ -9,6 +9,9 @@ periods:
     category: politics
     tags: [メソポタミア, 都市]
     summary: ウルクやウルなど、世界最古級の都市文明。文字と法と灌漑が生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シュメール
 
   - id: akkad
     title: アッカド帝国
@@ -17,6 +20,9 @@ periods:
     category: politics
     tags: [メソポタミア]
     summary: サルゴンがメソポタミアを統一した、史上初の「帝国」とされる国家。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アッカド帝国
 
   - id: old-babylon
     title: 古バビロニア王国
@@ -25,6 +31,9 @@ periods:
     category: politics
     tags: [メソポタミア]
     summary: ハンムラビのもとで統一され、法と天文の伝統を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バビロン第1王朝
 
   - id: hittite
     title: ヒッタイト
@@ -34,6 +43,9 @@ periods:
     category: war
     tags: [アナトリア, 鉄]
     summary: 鉄器と戦車で勢力を広げ、エジプトと世界最古級の講和条約を結んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヒッタイト
 
   - id: phoenicia
     title: フェニキア諸都市
@@ -43,6 +55,9 @@ periods:
     category: economy
     tags: [地中海, 交易]
     summary: 地中海一帯に交易網と植民市を広げ、アルファベットを各地に伝えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フェニキア
 
   - id: israel-kingdom
     title: イスラエル・ユダ王国
@@ -52,6 +67,9 @@ periods:
     category: religion
     tags: [ユダヤ教]
     summary: ダビデ・ソロモンの王国と分裂後の王国。一神教の伝統がここで形を得た。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユダ王国
 
   - id: neo-assyria
     title: 新アッシリア帝国
@@ -118,6 +136,9 @@ periods:
     category: politics
     tags: [ペルシア, ゾロアスター教]
     summary: ペルシア文化の復興を掲げた帝国。イスラム勢力に滅ぼされた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サーサーン朝
 
   - id: rashidun
     title: 正統カリフ時代
@@ -126,6 +147,9 @@ periods:
     category: religion
     tags: [イスラム]
     summary: ムハンマドの死後30年で、シリア・エジプト・ペルシアを制した急拡大の時期。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/正統カリフ
 
   - id: umayyad
     title: ウマイヤ朝
@@ -159,6 +183,9 @@ periods:
     category: politics
     tags: [トルコ系, イスラム]
     summary: トルコ系が西アジアの支配層になり、十字軍を招く直接の原因にもなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/セルジューク朝
 
   - id: ilkhanate
     title: イルハン朝
@@ -178,6 +205,9 @@ periods:
     category: politics
     tags: [イスラム, トルコ]
     summary: 三大陸にまたがり600年続いた帝国。ヨーロッパ史とも深く絡み合う。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オスマン帝国
 
   - id: safavid
     title: サファヴィー朝
@@ -231,6 +261,9 @@ events:
     category: science
     tags: [文字, メソポタミア]
     summary: 倉庫の記録から始まった文字が、歴史を記録できる社会を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/楔形文字
 
   - id: ur-nammu-code
     year: -2100
@@ -239,6 +272,9 @@ events:
     category: society
     tags: [法, メソポタミア]
     summary: 現存する最古級の法典。刑罰を賠償で定める考え方がすでに見える。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウル・ナンム法典
 
   - id: hammurabi-code
     year: -1750
@@ -247,6 +283,9 @@ events:
     category: society
     tags: [法, メソポタミア]
     summary: 石柱に刻まれた282条。国家が刑罰の基準を公示した初期の例。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハンムラビ法典
 
   - id: alphabet-invented
     year: -1050
@@ -255,6 +294,9 @@ events:
     category: science
     tags: [文字, フェニキア]
     summary: 20数文字で言葉を書ける仕組み。書く技術が専門家のものでなくなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アルファベット
 
   - id: kadesh
     year: -1274
@@ -262,6 +304,9 @@ events:
     category: war
     tags: [エジプト, ヒッタイト]
     summary: エジプトとヒッタイトが激突し、現存最古級の講和条約が結ばれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カデシュの戦い
 
   - id: israel-falls
     year: -722
@@ -269,6 +314,9 @@ events:
     category: war
     tags: [アッシリア, ユダヤ教]
     summary: 住民が各地へ移され、「失われた十支族」の伝承が生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アッシリア
 
   - id: babylonian-captivity
     year: -586
@@ -276,6 +324,9 @@ events:
     category: religion
     tags: [ユダヤ教]
     summary: 神殿を失った経験が、土地に依らない一神教の信仰を鍛え上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バビロン捕囚
 
   - id: cyrus-babylon
     year: -539
@@ -283,6 +334,9 @@ events:
     category: war
     tags: [ペルシア]
     summary: 捕囚のユダヤ人を解放し、寛容な支配の伝説を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/キュロス2世
 
   - id: zoroaster
     year: -600
@@ -291,6 +345,9 @@ events:
     category: religion
     tags: [ペルシア]
     summary: 善と悪の対立や最後の審判という枠組みが、のちの一神教にも影響したとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ゾロアスター教
 
   - id: achaemenid-falls
     year: -330
@@ -309,6 +366,9 @@ events:
     category: religion
     tags: [イスラム]
     summary: 交易都市メッカの商人として育ち、40歳頃から預言者として活動を始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムハンマド・イブン＝アブドゥッラーフ
 
   - id: hijra
     year: 622
@@ -326,6 +386,9 @@ events:
     category: war
     tags: [イスラム, ビザンツ]
     summary: ビザンツからシリアを奪い、イスラム勢力の大拡張が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヤルムークの戦い
 
   - id: nahavand
     year: 642
@@ -343,6 +406,9 @@ events:
     category: religion
     tags: [イスラム, シーア派]
     summary: ムハンマドの孫が殺され、スンナ派とシーア派の分裂が決定的になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カルバラーの戦い
 
   - id: baghdad-founded
     year: 762
@@ -350,6 +416,9 @@ events:
     category: society
     tags: [イスラム, 都市]
     summary: 円形の計画都市として築かれ、100万人規模の世界最大級の都市になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バグダード
 
   - id: house-of-wisdom
     year: 830
@@ -369,6 +438,9 @@ events:
     category: science
     tags: [数学]
     summary: 「アルゴリズム」の語源になった学者。方程式を体系的に解く方法を示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フワーリズミー
 
   - id: seljuk-baghdad
     year: 1055
@@ -376,6 +448,9 @@ events:
     category: politics
     tags: [トルコ系, カリフ]
     summary: カリフは宗教的権威に退き、実権はスルタンが握る形が定着した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/セルジューク朝
 
   - id: jerusalem-crusade
     year: 1099
@@ -383,6 +458,9 @@ events:
     category: war
     tags: [十字軍]
     summary: 住民の大量殺害を伴い、以後の対立の記憶として長く残った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第1回十字軍
 
   - id: saladin-jerusalem
     year: 1187
@@ -390,6 +468,9 @@ events:
     category: war
     tags: [イスラム, 十字軍]
     summary: 寛大な処置が敵味方の双方に語り継がれ、騎士道の理想像にもなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヒッティーンの戦い
 
   - id: ibn-sina
     year: 1025
@@ -398,6 +479,9 @@ events:
     category: science
     tags: [医学, イスラム]
     summary: ヨーロッパの大学でも600年にわたり使われた医学の教科書。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イブン・スィーナー
 
   - id: baghdad-sack
     year: 1258
@@ -405,6 +489,9 @@ events:
     category: war
     tags: [イスラム, モンゴル]
     summary: アッバース朝が滅び、イスラム世界の学術の中心が失われた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バグダードの戦い
 
   - id: ain-jalut
     year: 1260
@@ -422,6 +509,9 @@ events:
     category: religion
     tags: [歴史学, 思想]
     summary: 王朝の盛衰を社会の仕組みから説明し、歴史学と社会学の先駆けとなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イブン・ハルドゥーン
 
   - id: ottoman-egypt
     year: 1517
@@ -429,6 +519,9 @@ events:
     category: politics
     tags: [オスマン, カリフ]
     summary: 聖地の保護者となり、スンナ派イスラム世界の盟主の地位を得た。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オスマン帝国
 
   - id: vienna-siege-1
     year: 1529
@@ -476,6 +569,9 @@ events:
     category: economy
     tags: [中東, 石油]
     summary: 中東が世界のエネルギーの中心になり、列強の介入を招く原因になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/BP_(企業)
 
   - id: sykes-picot
     year: 1916
@@ -503,6 +599,9 @@ events:
     category: politics
     tags: [トルコ, 世俗化]
     summary: カリフ制を廃止し、政教分離と文字改革を断行した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トルコ
 
   - id: saudi-arabia
     year: 1932
@@ -510,6 +609,9 @@ events:
     category: politics
     tags: [中東]
     summary: 建国直後に発見された石油が、王国と世界経済を結びつけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サウジアラビア
 
   - id: israel-founded
     year: 1948
@@ -527,6 +629,9 @@ events:
     category: economy
     tags: [石油, 中東]
     summary: 産油国が価格決定の主導権を握り、資源が外交の武器になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/石油輸出国機構
 
   - id: six-day-war
     year: 1967
@@ -554,6 +659,9 @@ events:
     category: religion
     tags: [イラン, 現代]
     summary: 王政が倒れイスラム共和国が成立。中東の力関係が大きく変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イラン革命
 
   - id: gulf-war
     year: 1991
@@ -561,6 +669,9 @@ events:
     category: war
     tags: [中東, 冷戦後]
     summary: 冷戦後初の大規模な多国籍軍の行動。中東への米軍の常駐が深まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/湾岸戦争
 
   - id: iraq-war
     year: 2003
@@ -578,3 +689,6 @@ events:
     category: society
     tags: [中東, 民主化]
     summary: 各国で長期政権が倒れたが、多くは内戦や強権の復活に至った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アラブの春

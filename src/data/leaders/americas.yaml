@@ -9,6 +9,9 @@ leaders:
     category: politics
     tags: [マヤ, パレンケ]
     summary: 碑文と地下墓を残し、マヤ古典期の都市国家の政治と信仰を今に伝える。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/キニチ・ハナーブ・パカル1世
 
   - id: itzcoatl
     title: イツコアトル
@@ -28,6 +31,9 @@ leaders:
     category: politics
     tags: [インカ, アンデス]
     summary: クスコの一都市をアンデス全域の帝国に広げ、マチュピチュを造らせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パチャクテク
 
   - id: moctezuma-ii
     title: モクテスマ2世
@@ -47,6 +53,9 @@ leaders:
     category: war
     tags: [スペイン, 征服]
     summary: 現地の反アステカ勢力と疫病を味方につけ、わずかな兵力で帝国を倒した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エルナン・コルテス
 
   - id: pizarro
     title: ピサロ
@@ -55,6 +64,9 @@ leaders:
     category: war
     tags: [スペイン, 征服]
     summary: 内戦で割れたインカを少数の兵で制し、銀山の富をスペインにもたらした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランシスコ・ピサロ
 
   - id: atahualpa
     title: アタワルパ
@@ -74,6 +86,9 @@ leaders:
     category: war
     tags: [ペルー, 反乱]
     summary: インカの末裔を名乗って先住民の大反乱を起こし、植民地支配を揺るがした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホセ・ガブリエル・コンドルカンキ
 
   - id: washington
     title: ワシントン
@@ -82,6 +97,9 @@ leaders:
     category: politics
     tags: [アメリカ, 建国]
     summary: 二期で自ら退いたことが、権力を譲る共和国の慣習を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョージ・ワシントン
 
   - id: jefferson
     title: ジェファソン
@@ -90,6 +108,9 @@ leaders:
     category: politics
     tags: [アメリカ, 領土拡大]
     summary: 独立宣言を起草し、ルイジアナ買収で国土を一気に倍にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トーマス・ジェファーソン
 
   - id: san-martin
     title: サン・マルティン
@@ -98,6 +119,9 @@ leaders:
     category: war
     tags: [南米, 独立]
     summary: アンデスを越えてチリ・ペルーを解放し、南から独立戦争を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホセ・デ・サン＝マルティン
 
   - id: bolivar
     title: ボリバル
@@ -106,6 +130,9 @@ leaders:
     category: politics
     tags: [南米, 独立]
     summary: 北から南米の独立を導き、統一国家の夢は果たせず「解放者」と呼ばれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シモン・ボリバル
 
   - id: andrew-jackson
     title: ジャクソン
@@ -114,6 +141,9 @@ leaders:
     category: politics
     tags: [アメリカ, 民主化]
     summary: 庶民の支持で当選した一方、先住民強制移住という汚点も残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アンドリュー・ジャクソン
 
   - id: juarez
     title: フアレス
@@ -133,6 +163,9 @@ leaders:
     category: society
     tags: [アメリカ, 南北戦争]
     summary: 分裂の危機に連邦を保ち、奴隷解放を戦争目的として掲げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エイブラハム・リンカーン
 
   - id: porfirio-diaz
     title: ディアス
@@ -141,6 +174,9 @@ leaders:
     category: economy
     tags: [メキシコ, 開発独裁]
     summary: 外資による近代化と長期独裁が、メキシコ革命の火種になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ポルフィリオ・ディアス
 
   - id: theodore-roosevelt
     title: セオドア・ローズヴェルト
@@ -149,6 +185,9 @@ leaders:
     category: politics
     tags: [アメリカ, 帝国主義]
     summary: パナマ運河を進め、アメリカを世界の大国として振る舞わせ始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/セオドア・ルーズベルト
 
   - id: woodrow-wilson
     title: ウィルソン
@@ -157,6 +196,9 @@ leaders:
     category: politics
     tags: [アメリカ, 国際連盟]
     summary: 民族自決と国際連盟を掲げ、自国は加盟できないまま戦後秩序の理念を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウッドロウ・ウィルソン
 
   - id: vargas
     title: ヴァルガス
@@ -165,6 +207,9 @@ leaders:
     category: politics
     tags: [ブラジル, ポピュリズム]
     summary: 労働者を味方につける統治でブラジルの工業化と大衆政治の型を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジェトゥリオ・ドルネレス・ヴァルガス
 
   - id: fdr
     title: F・ローズヴェルト
@@ -173,6 +218,9 @@ leaders:
     category: economy
     tags: [アメリカ, ニューディール]
     summary: 恐慌への大規模な介入と戦争指導で、政府の役割そのものを作り替えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランクリン・ルーズベルト
 
   - id: truman
     title: トルーマン
@@ -181,6 +229,9 @@ leaders:
     category: politics
     tags: [アメリカ, 冷戦]
     summary: 原爆投下を決め、封じ込め政策で冷戦の枠組みを敷いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハリー・S・トルーマン
 
   - id: peron
     title: ペロン
@@ -189,6 +240,9 @@ leaders:
     category: politics
     tags: [アルゼンチン, ポピュリズム]
     summary: 労働者への分配と個人的人気で、今日まで続くアルゼンチン政治の対立軸を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フアン・ペロン
 
   - id: eisenhower
     title: アイゼンハワー
@@ -197,6 +251,9 @@ leaders:
     category: politics
     tags: [アメリカ]
     summary: 州間高速道路網を整え、退任演説で軍産複合体の危険を警告した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ドワイト・D・アイゼンハワー
 
   - id: castro
     title: カストロ
@@ -205,6 +262,9 @@ leaders:
     category: politics
     tags: [キューバ, 革命]
     summary: 米国の目の前に社会主義国を作り、半世紀の経済封鎖にも体制を保った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フィデル・カストロ
 
   - id: jfk
     title: ケネディ
@@ -213,6 +273,9 @@ leaders:
     category: politics
     tags: [アメリカ, 冷戦]
     summary: キューバ危機を交渉で回避し、月着陸計画と公民権に道を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョン・F・ケネディ
 
   - id: lyndon-johnson
     title: ジョンソン
@@ -221,6 +284,9 @@ leaders:
     category: society
     tags: [アメリカ, 公民権]
     summary: 公民権法と「偉大な社会」を実現する一方、ベトナム戦争の泥沼に踏み込んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/リンドン・ジョンソン
 
   - id: nixon
     title: ニクソン
@@ -229,6 +295,9 @@ leaders:
     category: politics
     tags: [アメリカ, 米中接近]
     summary: 訪中とドル金交換停止で冷戦と経済の枠組みを変え、盗聴事件で辞任した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/リチャード・ニクソン
 
   - id: pinochet
     title: ピノチェト
@@ -248,6 +317,9 @@ leaders:
     category: economy
     tags: [アメリカ, 新自由主義]
     summary: 減税と規制緩和、軍拡を同時に進め、冷戦終結の局面をソ連と作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロナルド・レーガン
 
   - id: bill-clinton
     title: クリントン
@@ -256,6 +328,9 @@ leaders:
     category: economy
     tags: [アメリカ, グローバル化]
     summary: 冷戦後の好況とNAFTA・WTOで、グローバル化を政策として推し進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ビル・クリントン
 
   - id: george-w-bush
     title: ブッシュ（子）
@@ -264,6 +339,9 @@ leaders:
     category: war
     tags: [アメリカ, 対テロ戦争]
     summary: 同時多発テロ後にアフガン・イラクへ派兵し、対テロ戦争の時代を始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョージ・W・ブッシュ
 
   - id: lula
     title: ルラ
@@ -272,6 +350,9 @@ leaders:
     category: society
     tags: [ブラジル, 貧困対策]
     summary: 労働組合出身の大統領として現金給付で貧困を減らし、南南外交を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルイス・イナシオ・ルーラ・ダ・シルヴァ
 
   - id: obama
     title: オバマ
@@ -280,6 +361,9 @@ leaders:
     category: politics
     tags: [アメリカ]
     summary: 初の黒人大統領として金融危機に対処し、医療保険改革を実現した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バラク・オバマ
 
   - id: trump
     title: トランプ（第1期）
@@ -288,6 +372,9 @@ leaders:
     category: politics
     tags: [アメリカ, 自国第一]
     summary: 既存の同盟と自由貿易の前提を揺さぶり、支持者の分断そのものを力に変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ドナルド・トランプ
 
   - id: biden
     title: バイデン
@@ -307,3 +394,6 @@ leaders:
     category: politics
     tags: [アメリカ, 関税]
     summary: 4年をおいて返り咲き、関税と対外関与の見直しを一段と強めている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ドナルド・トランプ

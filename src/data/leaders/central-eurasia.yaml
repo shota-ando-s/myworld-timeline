@@ -56,6 +56,9 @@ leaders:
     category: politics
     tags: [突厥, 碑文]
     summary: 突厥碑文に「唐に近づくな」と自らの言葉を刻み、遊牧民の自意識を文字で残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/毘伽可汗
 
   - id: satuq-bughra-khan
     title: サトゥク・ブグラ・ハン
@@ -66,6 +69,9 @@ leaders:
     category: religion
     tags: [カラハン朝, イスラム化]
     summary: テュルク系の君主として初めてイスラムに改宗し、中央アジアの宗教地図を変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カラハン朝
 
   - id: chinggis-reign
     title: チンギス・ハン
@@ -74,6 +80,9 @@ leaders:
     category: war
     tags: [モンゴル]
     summary: 部族の枠を解体して千戸制に組み替え、ユーラシアを貫く帝国の出発点を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チンギス・カン
 
   - id: batu
     title: バトゥ
@@ -82,6 +91,9 @@ leaders:
     category: war
     tags: [モンゴル, キプチャク・ハン国]
     summary: ロシアと東欧に遠征し、以後200年続くルーシ支配の基礎を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バトゥ
 
   - id: ogedei
     title: オゴデイ
@@ -90,6 +102,9 @@ leaders:
     category: politics
     tags: [モンゴル, カラコルム]
     summary: 首都と駅伝制を整えて帝国を運営に乗せ、その急死が東欧遠征を止めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オゴデイ
 
   - id: mongke
     title: モンケ
@@ -144,6 +159,9 @@ leaders:
     category: politics
     tags: [モンゴル]
     summary: 分裂していたモンゴルを一時まとめ直し、以後の部族編成の原型を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ダヤン・ハーン
 
   - id: shaybani-khan
     title: シャイバーニー・ハン
@@ -152,6 +170,9 @@ leaders:
     category: war
     tags: [ウズベク, 中央アジア]
     summary: ティムール朝を倒して中央アジアを制し、今日の民族分布の枠を決めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムハンマド・シャイバーニー
 
   - id: altan-khan
     title: アルタン・ハン
@@ -160,6 +181,9 @@ leaders:
     category: religion
     tags: [モンゴル, チベット仏教]
     summary: 明と和議を結んで交易を開き、ダライ・ラマの称号を贈ってモンゴルを仏教化した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アルタン・ハーン
 
   - id: galdan
     title: ガルダン
@@ -190,6 +214,9 @@ leaders:
     category: politics
     tags: [カザフスタン]
     summary: ソ連解体から28年国を率い、資源収入と多方位外交で体制を保った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヌルスルタン・ナザルバエフ
 
   - id: karimov
     title: カリモフ

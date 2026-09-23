@@ -20,6 +20,9 @@ periods:
     category: politics
     tags: [朝鮮, 中国]
     summary: 楽浪郡を中心とする中国の直轄地。大陸の文物が半島に流れ込む窓口になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/漢四郡
 
   - id: korea-three-kingdoms
     title: 三国時代（高句麗・百済・新羅）
@@ -29,6 +32,9 @@ periods:
     category: politics
     tags: [朝鮮]
     summary: 三つの王国が競い合い、中国・日本の双方と深く関わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/三国時代_(朝鮮半島)
 
   - id: balhae
     title: 渤海
@@ -37,6 +43,9 @@ periods:
     category: politics
     tags: [朝鮮, 満洲]
     summary: 高句麗の後継を名乗り、唐や日本と使節を交わした「海東の盛国」。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/渤海_(国)
 
   - id: unified-silla
     title: 統一新羅
@@ -81,6 +90,9 @@ periods:
     detail: |
       朱子学を国の原理として徹底し、科挙で選ばれた両班が官職と土地を握った。
       身分と儀礼の秩序が細かく定められ、その影響は現代の社会慣習にも残るとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/李氏朝鮮
 
   - id: korean-empire
     title: 大韓帝国
@@ -100,6 +112,9 @@ periods:
     category: politics
     tags: [朝鮮, 植民地]
     summary: 韓国併合から敗戦まで、朝鮮半島は日本の統治下に置かれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日本統治時代の朝鮮
 
   - id: korea-division
     title: 南北分断
@@ -108,6 +123,9 @@ periods:
     category: politics
     tags: [朝鮮, 冷戦]
     summary: 38度線での分割占領から始まり、80年たっても解消していない。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/38度線
 
   - id: south-korea
     title: 大韓民国
@@ -116,6 +134,9 @@ periods:
     category: politics
     tags: [韓国]
     summary: 独裁と経済成長を経て、1987年以降は民主主義を定着させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大韓民国
 
   - id: north-korea
     title: 朝鮮民主主義人民共和国
@@ -124,6 +145,9 @@ periods:
     category: politics
     tags: [北朝鮮]
     summary: 一族による支配が三代続き、核開発で国際社会と対峙している。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/朝鮮民主主義人民共和国
 
 events:
   - id: lelang-falls
@@ -132,6 +156,9 @@ events:
     category: war
     tags: [朝鮮, 中国]
     summary: 400年続いた中国の直轄支配が終わり、半島は三国の争いの時代に入る。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高句麗
 
   - id: buddhism-goguryeo
     year: 372
@@ -139,6 +166,9 @@ events:
     category: religion
     tags: [朝鮮, 仏教]
     summary: 前秦から伝来し、のちに百済経由で日本へも伝わる流れの起点となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高句麗
 
   - id: pyongyang-capital
     year: 427
@@ -146,6 +176,9 @@ events:
     category: politics
     tags: [朝鮮]
     summary: 南進策に転じ、百済・新羅との三国の争いが本格化した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高句麗
 
   - id: salsu-battle
     year: 612
@@ -153,6 +186,9 @@ events:
     category: war
     tags: [朝鮮, 隋]
     summary: 100万と称された隋の大軍を退け、隋の滅亡を早めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/隋の高句麗遠征
 
   - id: baekje-falls
     year: 660
@@ -182,6 +218,9 @@ events:
     category: culture
     tags: [朝鮮, 仏教, 建築]
     summary: 統一新羅の仏教文化の到達点。石窟の仏像は東アジア彫刻の傑作とされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/仏国寺
 
   - id: goryeo-founded
     year: 918
@@ -199,6 +238,9 @@ events:
     category: society
     tags: [朝鮮, 官僚制]
     summary: 中国にならった試験制度が、以後1000年の支配層の形を決めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/科挙
 
   - id: khitan-invasion
     year: 1010
@@ -206,6 +248,9 @@ events:
     category: war
     tags: [朝鮮, 遼]
     summary: 三度の侵攻を退け、宋・遼と並ぶ独自の地位を保った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高麗
 
   - id: samguk-sagi
     year: 1145
@@ -233,6 +278,9 @@ events:
     category: religion
     tags: [朝鮮, 仏教, 印刷]
     summary: 8万枚を超える版木を16年かけて彫った。国を守る祈りの事業だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高麗八万大蔵経
 
   - id: jikji
     year: 1377
@@ -240,6 +288,9 @@ events:
     category: science
     tags: [朝鮮, 印刷]
     summary: 現存する世界最古の金属活字本。グーテンベルクより70年以上早い。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/直指心体要節
 
   - id: yi-seonggye
     year: 1392
@@ -260,6 +311,9 @@ events:
     detail: |
       発音のしくみを分析して字形に反映させた、世界でも珍しい計画的な文字。
       当初は両班に軽んじられたが、20世紀に国民の文字として復権した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/訓民正音
 
   - id: imjin-war
     year: 1592
@@ -267,6 +321,9 @@ events:
     category: war
     tags: [朝鮮, 日本]
     summary: 豊臣秀吉の侵攻に明の援軍と李舜臣の水軍が抗し、半島は荒廃した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/文禄・慶長の役
 
   - id: qing-submission
     year: 1637
@@ -274,6 +331,9 @@ events:
     category: war
     tags: [朝鮮, 清]
     summary: 明への義理と現実の力の間で引き裂かれ、以後は清に朝貢した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/清
 
   - id: silhak
     year: 1700
@@ -282,6 +342,9 @@ events:
     category: religion
     tags: [朝鮮, 思想]
     summary: 観念的な朱子学を批判し、農業・商業・技術を重んじる学問が現れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/実学
 
   - id: korea-catholicism
     year: 1784
@@ -289,6 +352,9 @@ events:
     category: religion
     tags: [朝鮮, キリスト教]
     summary: 宣教師なしに書物から信仰が広まった珍しい例。のちに厳しい弾圧を受けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/韓国のキリスト教
 
   - id: ganghwa-treaty
     year: 1876
@@ -327,6 +393,9 @@ events:
     category: society
     tags: [朝鮮, 独立]
     summary: 全土に広がった非暴力の独立宣言。中国の五・四運動にも影響した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/三・一運動
     related: [may-fourth]
 
   - id: korea-liberation
@@ -335,6 +404,9 @@ events:
     category: politics
     tags: [朝鮮, 冷戦]
     summary: 独立の喜びのすぐあとに、38度線で米ソに分けられた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/連合軍軍政期_(朝鮮史)
 
   - id: two-koreas
     year: 1948
@@ -342,6 +414,9 @@ events:
     category: politics
     tags: [朝鮮]
     summary: 統一政府の望みが絶たれ、2年後の戦争に向かった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/連合軍軍政期_(朝鮮史)
 
   - id: korean-war
     year: 1950
@@ -359,6 +434,9 @@ events:
     category: society
     tags: [韓国, 民主化]
     summary: 学生の抗議が大統領を辞任に追い込み、民主化運動の原点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/四月革命_(韓国)
 
   - id: korea-japan-treaty
     year: 1965
@@ -366,6 +444,9 @@ events:
     category: politics
     tags: [韓国, 日本]
     summary: 国交が結ばれ経済協力が始まったが、歴史認識の対立は残った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日本国と大韓民国との間の基本関係に関する条約
 
   - id: gwangju-uprising
     year: 1980
@@ -413,6 +494,9 @@ events:
     category: politics
     tags: [朝鮮]
     summary: 分断後初めて南北の指導者が会ったが、和解は定着しなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/南北首脳会談
 
   - id: hallyu
     year: 1997
@@ -421,3 +505,6 @@ events:
     category: culture
     tags: [韓国, 大衆文化]
     summary: ドラマと音楽がアジアから世界へ広がり、文化が有力な輸出品になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/韓流

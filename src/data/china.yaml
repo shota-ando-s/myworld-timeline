@@ -98,6 +98,9 @@ periods:
     category: war
     tags: [中国, 分裂]
     summary: 魏・呉・蜀が並び立った分裂期。以後およそ370年の混乱が続く。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/三国時代_(中国)
 
   - id: western-eastern-jin
     title: 晋（西晋・東晋）
@@ -269,6 +272,9 @@ periods:
     category: science
     tags: [中国, 近代化]
     summary: 西洋の技術だけを取り入れて国を建て直そうとした試み。日清戦争の敗北で限界が露呈した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/洋務運動
 
   - id: roc-mainland
     title: 中華民国（大陸期）
@@ -310,6 +316,9 @@ periods:
     category: politics
     tags: [中国, 現代]
     summary: 内戦に勝利した共産党が建国。1978年以降の改革開放で経済大国へ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/中華人民共和国
 
   - id: great-leap-forward
     title: 大躍進
@@ -340,6 +349,9 @@ events:
     category: war
     tags: [中国, 王朝交代]
     summary: 周が殷を倒し、「天命が革まる」という王朝交代の理屈がここから語られるようになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/牧野の戦い
     related: [shang, zhou]
 
   - id: zhou-move-east
@@ -348,6 +360,9 @@ events:
     category: politics
     tags: [中国]
     summary: 都を洛邑へ移して王室が弱体化し、諸侯が実力で競う春秋時代に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/春秋時代
 
   - id: confucius-born
     year: -551
@@ -356,6 +371,9 @@ events:
     category: religion
     tags: [中国, 儒学]
     summary: 秩序をどう回復するかという問いへの答えが、2000年以上にわたり東アジアの規範になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/孔子
 
   - id: shang-yang-reform
     year: -356
@@ -363,6 +381,9 @@ events:
     category: society
     tags: [中国, 法家]
     summary: 血筋でなく功績で人を遇する制度を秦に敷き、のちの統一の土台を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/商鞅
 
   - id: qin-unification
     year: -221
@@ -384,6 +405,9 @@ events:
     category: society
     tags: [中国, 思想統制]
     summary: 思想の統一をはかって書物を焼き学者を弾圧。秦が短命に終わる一因ともされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/焚書坑儒
 
   - id: chen-sheng-rebellion
     year: -209
@@ -391,6 +415,9 @@ events:
     category: war
     tags: [中国, 反乱]
     summary: 農民が起こした中国史上初の大規模反乱。秦の崩壊を早めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/陳勝・呉広の乱
 
   - id: battle-of-gaixia
     year: -202
@@ -408,6 +435,9 @@ events:
     category: politics
     tags: [中国, 漢]
     summary: 匈奴への反攻と西域経営で版図を広げ、内には中央集権を強めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/武帝_(漢)
 
   - id: confucianism-official
     year: -136
@@ -415,6 +445,9 @@ events:
     category: religion
     tags: [中国, 儒学]
     summary: 五経博士が置かれ、儒学が官僚を育てる正統の学問として定着した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/儒教
 
   - id: silk-road-zhang-qian
     year: -139
@@ -422,6 +455,9 @@ events:
     category: economy
     tags: [中国, シルクロード]
     summary: 匈奴に対抗する同盟を探す旅が、結果的に東西交易路の情報をもたらした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/張騫
 
   - id: cai-lun-paper
     year: 105
@@ -429,6 +465,9 @@ events:
     category: science
     tags: [中国, 技術]
     summary: 安く大量に作れる紙が生まれ、記録と学問のあり方が変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/蔡倫
 
   - id: yellow-turban
     year: 184
@@ -456,6 +495,9 @@ events:
     category: politics
     tags: [中国, 統一]
     summary: 三国の分裂を終わらせたが、内紛と北方民族の進出で36年しか保たなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/西晋
 
   - id: northern-wei-unifies-north
     year: 439
@@ -463,6 +505,9 @@ events:
     category: politics
     tags: [中国, 遊牧]
     summary: 鮮卑の王朝が華北をまとめ、漢化政策で南北の文化を橋渡しした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/北魏
 
   - id: equal-field-system
     year: 485
@@ -470,6 +515,9 @@ events:
     category: society
     tags: [中国, 土地制度]
     summary: 国家が農民に土地を配る仕組み。隋唐へ受け継がれ、日本の班田収授にも影響した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/均田制
 
   - id: sui-reunification
     year: 589
@@ -477,6 +525,9 @@ events:
     category: politics
     tags: [中国, 統一]
     summary: 370年ぶりに南北がひとつになり、唐へ続く繁栄の前提ができた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/隋
 
   - id: grand-canal
     year: 605
@@ -484,6 +535,9 @@ events:
     category: economy
     tags: [中国, 土木]
     summary: 南の米を北の都へ運ぶ大動脈。国家を支えた一方、重い労役が隋を倒す原因にもなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/京杭大運河
 
   - id: imperial-exam-start
     year: 587
@@ -515,6 +569,9 @@ events:
     category: religion
     tags: [中国, 仏教]
     summary: 17年かけて経典を持ち帰り、東アジアの仏教研究の水準を一段押し上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/玄奘
 
   - id: an-lushan
     year: 755
@@ -532,6 +589,9 @@ events:
     category: war
     tags: [中国, 反乱]
     summary: 全土を巻き込む反乱で唐の支配は事実上終わり、貴族社会も崩れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/黄巣の乱
 
   - id: tang-falls
     year: 907
@@ -570,6 +630,9 @@ events:
     category: economy
     tags: [中国, 改革]
     summary: 財政と軍事を立て直す大改革。激しい党争を招き、宋の政治を二分した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/新法・旧法の争い
 
   - id: jingkang-incident
     year: 1127
@@ -587,6 +650,9 @@ events:
     category: war
     tags: [中国, モンゴル]
     summary: 華北がモンゴルの手に落ち、南宋との対決が残された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/金_(王朝)
 
   - id: battle-of-yamen
     year: 1279
@@ -627,6 +693,9 @@ events:
     category: politics
     tags: [中国, 都]
     summary: 北方の防衛を優先して都を移し、紫禁城が政治の中心になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/北京市
 
   - id: tumu-crisis
     year: 1449
@@ -644,6 +713,9 @@ events:
     category: economy
     tags: [中国, 交易]
     summary: ヨーロッパがアジア交易に常駐する拠点を得て、銀が大量に中国へ流入し始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マカオ
 
   - id: matteo-ricci
     year: 1582
@@ -651,6 +723,9 @@ events:
     category: religion
     tags: [中国, イエズス会]
     summary: 世界地図や暦法を伝え、中国とヨーロッパの学問が本格的に出会った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マテオ・リッチ
 
   - id: later-jin-founded
     year: 1616
@@ -658,6 +733,9 @@ events:
     category: politics
     tags: [中国, 満洲]
     summary: 女真の諸部族を統合し、20年余りのちに清と改称して明を圧迫した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヌルハチ
 
   - id: ming-fall
     year: 1644
@@ -665,6 +743,9 @@ events:
     category: war
     tags: [中国, 王朝交代]
     summary: 李自成の反乱で明が倒れ、その混乱に乗じて清が中国支配を始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/明
     related: [ming, qing]
 
   - id: taiwan-annexed
@@ -673,6 +754,9 @@ events:
     category: war
     tags: [中国, 台湾]
     summary: 明の遺臣が拠っていた台湾を平定し、清の支配が海にも及んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/清
 
   - id: nerchinsk
     year: 1689
@@ -690,6 +774,9 @@ events:
     category: economy
     tags: [中国, イギリス]
     summary: 自由貿易を求めた使節が拒まれ、両者の世界観の隔たりが露わになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョージ・マカートニー
 
   - id: opium-war
     year: 1840
@@ -757,6 +844,9 @@ events:
     category: war
     tags: [中国, 列強]
     summary: 排外運動に清が同調して八か国連合軍に敗れ、巨額の賠償金を負った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/義和団の乱
 
   - id: exam-abolished
     year: 1905
@@ -786,6 +876,9 @@ events:
     category: society
     tags: [中国, 思想]
     summary: 学生の抗議から始まり、旧来の価値観を問い直す文化運動へ広がった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/五四運動
 
   - id: ccp-founded
     year: 1921
@@ -793,6 +886,9 @@ events:
     category: politics
     tags: [中国]
     summary: 数十人で始まった組織が、28年後には大陸を統治することになる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/中国共産党
 
   - id: long-march
     year: 1934
@@ -821,6 +917,9 @@ events:
     category: politics
     tags: [中国, 現代]
     summary: 内戦に敗れた国民党は台湾へ移り、ここから今日に続く両岸の分断が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/中華人民共和国
 
   - id: un-seat
     year: 1971
@@ -828,6 +927,9 @@ events:
     category: politics
     tags: [中国, 外交]
     summary: 中国を代表する政府が中華民国から中華人民共和国に変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アルバニア決議
 
   - id: nixon-visit
     year: 1972
@@ -835,6 +937,9 @@ events:
     category: politics
     tags: [中国, 冷戦]
     summary: 米中が接近し、冷戦の構図とアジアの力関係が組み替わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ニクソン大統領の中国訪問
 
   - id: reform-opening
     year: 1978
@@ -862,3 +967,6 @@ events:
     category: economy
     tags: [中国, 世界経済]
     summary: 世界の生産と貿易の中心に組み込まれ、以後20年の高成長につながった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/世界貿易機関

@@ -33,6 +33,9 @@ leaders:
     category: society
     tags: [キエフ・ルーシ, 法]
     summary: 最初の法典と婚姻外交でキエフ・ルーシの最盛期を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヤロスラフ1世
 
   - id: vladimir-monomakh
     title: ウラジーミル・モノマフ
@@ -41,6 +44,9 @@ leaders:
     category: politics
     tags: [キエフ・ルーシ]
     summary: 分裂しかけた諸公をまとめ直し、キエフ・ルーシ最後の輝きを作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウラジーミル2世モノマフ
 
   - id: andrei-bogolyubsky
     title: アンドレイ・ボゴリュブスキー
@@ -225,6 +231,9 @@ leaders:
     category: politics
     tags: [ポーランド, 独立]
     summary: 123年ぶりに独立したポーランドを率い、ソ連の西進を食い止めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユゼフ・ピウスツキ
 
   - id: stalin
     title: スターリン
@@ -244,6 +253,9 @@ leaders:
     category: politics
     tags: [ユーゴスラビア, 非同盟]
     summary: ソ連と距離を置く独自路線で、多民族のユーゴスラビアを一代でまとめた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヨシップ・ブロズ・チトー
 
   - id: khrushchev
     title: フルシチョフ
@@ -296,6 +308,9 @@ leaders:
     category: politics
     tags: [ポーランド, 連帯]
     summary: 造船所の電気工から自主管理労組を率い、東欧の体制転換の象徴になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/レフ・ヴァウェンサ
 
   - id: yeltsin
     title: エリツィン
@@ -315,6 +330,9 @@ leaders:
     category: politics
     tags: [ロシア]
     summary: 資源収入と中央集権で秩序を回復させ、ウクライナ侵攻で西側と決定的に対立した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウラジーミル・プーチン
 
   - id: zelensky
     title: ゼレンスキー
@@ -323,3 +341,6 @@ leaders:
     category: politics
     tags: [ウクライナ, 戦争]
     summary: 侵攻を受けた国にとどまって抗戦を指揮し、各国の支援を引き出し続けている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウォロディミル・ゼレンスキー

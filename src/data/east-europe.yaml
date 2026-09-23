@@ -19,6 +19,9 @@ periods:
     category: economy
     tags: [ロシア, 交易]
     summary: 市民集会が公を選んだ商業都市。北方交易でハンザ同盟と結んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ノヴゴロド公国
 
   - id: mongol-yoke
     title: タタールのくびき
@@ -27,6 +30,9 @@ periods:
     category: politics
     tags: [ロシア, モンゴル]
     summary: ルーシ諸公がキプチャク・ハン国に従属した240年。西欧との距離が開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/タタールのくびき
 
   - id: grand-duchy-moscow
     title: モスクワ大公国
@@ -35,6 +41,9 @@ periods:
     category: politics
     tags: [ロシア]
     summary: 徴税の代行役から始まり、諸公国をまとめ上げてロシアの中核になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モスクワ大公国
 
   - id: polish-lithuanian
     title: ポーランド・リトアニア
@@ -109,6 +118,9 @@ periods:
     category: politics
     tags: [ロシア, 社会主義]
     summary: 世界初の社会主義国家。冷戦期は米国と並ぶ超大国だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ソビエト連邦
 
   - id: eastern-bloc
     title: 東側陣営
@@ -117,6 +129,9 @@ periods:
     category: politics
     tags: [冷戦, 東欧]
     summary: 東欧諸国がソ連型の体制に組み込まれ、西側と断絶した46年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東側諸国
 
   - id: russian-federation
     title: ロシア連邦
@@ -125,6 +140,9 @@ periods:
     category: politics
     tags: [ロシア, 現代]
     summary: ソ連の後継国家。市場化の混乱を経て資源輸出と強権の国になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロシア
 
 events:
   - id: rurik
@@ -134,6 +152,9 @@ events:
     category: politics
     tags: [ロシア, ヴァイキング]
     summary: 北欧系の一族がスラヴの地に招かれたと年代記が伝える、ルーシの起点。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/リューリク
 
   - id: rus-christianization
     year: 988
@@ -141,6 +162,9 @@ events:
     category: religion
     tags: [ロシア, 正教]
     summary: ビザンツ流の正教を国の宗教とし、東スラヴ文化の方向が決まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウラジーミル1世
 
   - id: moscow-first-mention
     year: 1147
@@ -148,6 +172,9 @@ events:
     category: society
     tags: [ロシア, 都市]
     summary: 森の中の小さな拠点が、300年後には全ルーシの中心になる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モスクワ
 
   - id: kiev-sack
     year: 1240
@@ -155,6 +182,9 @@ events:
     category: war
     tags: [ロシア, モンゴル]
     summary: ルーシ諸公国が壊滅し、政治の中心が北東のモスクワへ移っていく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モンゴルのルーシ侵攻
 
   - id: battle-on-ice
     year: 1242
@@ -162,6 +192,9 @@ events:
     category: war
     tags: [ロシア, ドイツ騎士団]
     summary: 西からのカトリック勢力を退け、ロシアは正教圏として歩むことになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ペイプシ湖
 
   - id: kulikovo
     year: 1380
@@ -179,6 +212,9 @@ events:
     category: religion
     tags: [ロシア, 正教]
     summary: ビザンツ皇女と結婚したイヴァン3世が、正教世界の後継者を名乗った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第三のローマ
 
   - id: great-stand-ugra
     year: 1480
@@ -186,6 +222,9 @@ events:
     category: politics
     tags: [ロシア]
     summary: モスクワ大公がハンへの貢納を拒み、事実上の独立を果たした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウグラ河畔の対峙
 
   - id: yermak-siberia
     year: 1581
@@ -193,6 +232,9 @@ events:
     category: economy
     tags: [ロシア, 毛皮]
     summary: 毛皮を求める東進が始まり、60年ほどで太平洋岸に到達する。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロシアのシベリア征服
 
   - id: romanov-founded
     year: 1613
@@ -210,6 +252,9 @@ events:
     category: politics
     tags: [ロシア, ウクライナ]
     summary: コサックがポーランドから離れてロシアに保護を求めた協定。解釈は今も争われる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヘーチマン国家
 
   - id: saint-petersburg
     year: 1703
@@ -217,6 +262,9 @@ events:
     category: society
     tags: [ロシア, 西欧化]
     summary: ピョートル1世が「ヨーロッパへの窓」として新首都を造った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サンクトペテルブルク
 
   - id: poltava
     year: 1709
@@ -234,6 +282,9 @@ events:
     category: politics
     tags: [ポーランド, 東欧]
     summary: 3度の分割で国家が地図から消え、123年後まで戻らなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ポーランド分割
 
   - id: napoleon-russia
     year: 1812
@@ -241,6 +292,9 @@ events:
     category: war
     tags: [ロシア, フランス]
     summary: 冬とロシアの焦土作戦に敗れ、ナポレオン没落の決定打となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/1812年ロシア戦役
 
   - id: decembrist
     year: 1825
@@ -298,6 +352,9 @@ events:
     category: economy
     tags: [ロシア, 鉄道]
     summary: 9000キロを結ぶ大動脈。極東進出を可能にし、日露戦争の背景にもなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シベリア鉄道
 
   - id: bloody-sunday
     year: 1905
@@ -305,6 +362,9 @@ events:
     category: society
     tags: [ロシア, 革命]
     summary: 皇帝への請願行進への発砲が、体制への信頼を崩した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/血の日曜日事件
 
   - id: russian-revolution
     year: 1917
@@ -336,6 +396,9 @@ events:
     category: society
     tags: [ソ連, 独裁]
     summary: 党幹部から軍人、一般市民まで大量に処刑・収容され、社会が恐怖で縛られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大粛清
 
   - id: operation-barbarossa
     year: 1941
@@ -393,6 +456,9 @@ events:
     category: disaster
     tags: [ソ連, 原発]
     summary: 情報隠蔽への不信が体制への信頼を損ない、ソ連崩壊を早めたとも言われる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チェルノブイリ原子力発電所事故
 
   - id: fall-of-berlin-wall
     year: 1989
@@ -410,6 +476,9 @@ events:
     category: politics
     tags: [ロシア, 冷戦]
     summary: 15の共和国に分かれ、米ソ二極の時代が終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ソビエト連邦の崩壊
 
   - id: eu-eastern-enlargement
     year: 2004
@@ -417,6 +486,9 @@ events:
     category: politics
     tags: [東欧, ヨーロッパ]
     summary: 旧東側の8か国が加盟し、ヨーロッパの東西の境が引き直された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/欧州連合加盟国
 
   - id: ukraine-invasion
     year: 2022

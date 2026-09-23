@@ -10,6 +10,9 @@ leaders:
     category: politics
     tags: [マウリヤ朝]
     summary: アレクサンドロス撤退後の空白を突いて北インドを統一し、最初の広域帝国を築いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チャンドラグプタ
 
   - id: ashoka-reign
     title: アショーカ王
@@ -31,6 +34,9 @@ leaders:
     category: religion
     tags: [シュンガ朝, バラモン教]
     summary: マウリヤ朝を倒し、仏教保護からバラモン教復興へ流れを引き戻した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シュンガ朝
 
   - id: kanishka
     title: カニシカ王
@@ -41,6 +47,9 @@ leaders:
     category: religion
     tags: [クシャーナ朝, 大乗仏教]
     summary: 東西交易の要を押さえ、大乗仏教とガンダーラ美術の広がりを後押しした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カニシカ1世
 
   - id: chandragupta-ii
     title: チャンドラグプタ2世
@@ -60,6 +69,9 @@ leaders:
     category: politics
     tags: [北インド]
     summary: グプタ朝崩壊後の北インドを再統一し、玄奘を迎えてその記録に姿を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハルシャ・ヴァルダナ
 
   - id: dharmapala
     title: ダルマパーラ
@@ -70,6 +82,9 @@ leaders:
     category: religion
     tags: [パーラ朝, 仏教]
     summary: ナーランダーなどの仏教僧院を支え、インド仏教最後の繁栄を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パーラ朝
 
   - id: rajaraja-i
     title: ラージャラージャ1世
@@ -89,6 +104,9 @@ leaders:
     category: war
     tags: [ガズナ朝, 侵入]
     summary: 十数度の北インド侵入でイスラム勢力の進出路を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マフムード_(ガズナ朝)
 
   - id: rajendra-i
     title: ラージェンドラ1世
@@ -97,6 +115,9 @@ leaders:
     category: war
     tags: [チョーラ朝, 海上遠征]
     summary: ガンジス川とシュリーヴィジャヤに遠征し、南インドの海上帝国を最大にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラージェーンドラ1世
 
   - id: prithviraj-iii
     title: プリトビーラージ3世
@@ -105,6 +126,9 @@ leaders:
     category: war
     tags: [ラージプート, ターラインの戦い]
     summary: 敗北によって北インドにイスラム政権が定着する転機となった王。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チャーハマーナ朝
 
   - id: iltutmish
     title: イルトゥトミシュ
@@ -113,6 +137,9 @@ leaders:
     category: politics
     tags: [デリー・スルタン朝]
     summary: デリーの政権を軍閥から国家に育て、インドのイスラム支配を定着させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/奴隷王朝
 
   - id: alauddin-khalji
     title: アラーウッディーン・ハルジー
@@ -121,6 +148,9 @@ leaders:
     category: economy
     tags: [デリー・スルタン朝, 物価統制]
     summary: 価格統制と徴税の強化で大軍を養い、モンゴルの侵入を退けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アラー・ウッディーン・ハルジー
 
   - id: muhammad-bin-tughluq
     title: ムハンマド・ビン・トゥグルク
@@ -140,6 +170,9 @@ leaders:
     category: society
     tags: [デリー・スルタン朝, 灌漑]
     summary: 運河と施療院の整備で内政を立て直し、戦争より統治に力を注いだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フィールーズ・シャー・トゥグルク
 
   - id: krishnadevaraya
     title: クリシュナデーヴァラーヤ
@@ -148,6 +181,9 @@ leaders:
     category: culture
     tags: [ヴィジャヤナガル]
     summary: 南インドのヒンドゥー王国を最盛期に導き、詩人としても名を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴィジャヤナガル王国
 
   - id: babur
     title: バーブル
@@ -222,6 +258,9 @@ leaders:
     category: war
     tags: [マイソール, イギリス]
     summary: ロケット兵器も使ってイギリスに最後まで抵抗した南インドの君主。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ティプー・スルターン
 
   - id: ranjit-singh
     title: ランジート・シング
@@ -241,6 +280,9 @@ leaders:
     category: society
     tags: [インド, 非暴力]
     summary: 非暴力・不服従という戦い方を発明し、植民地支配への抵抗の形を世界に広めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マハトマ・ガンディー
 
   - id: jinnah
     title: ジンナー
@@ -271,6 +313,9 @@ leaders:
     category: society
     tags: [インド, 憲法, カースト]
     summary: 被差別カースト出身の法律家として憲法を起草し、不可触民制の廃止を書き込んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ビームラーオ・アンベードカル
 
   - id: indira-gandhi
     title: インディラ・ガンディー
@@ -290,6 +335,9 @@ leaders:
     category: religion
     tags: [パキスタン, イスラム化]
     summary: 軍政のもとで法のイスラム化を進め、アフガン戦争に深く関わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムハンマド・ジア＝ウル＝ハク
 
   - id: rajiv-gandhi
     title: ラジーブ・ガンディー
@@ -298,6 +346,9 @@ leaders:
     category: science
     tags: [インド, 情報化]
     summary: 通信と計算機の規制を緩め、後のIT産業の下地を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラジーヴ・ガンディー
 
   - id: benazir-bhutto
     title: ベナジル・ブット
@@ -306,6 +357,9 @@ leaders:
     category: politics
     tags: [パキスタン]
     summary: イスラム圏で初の女性首相となり、のちに選挙運動中に暗殺された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベーナズィール・ブットー
 
   - id: manmohan-singh
     title: マンモハン・シン
@@ -314,6 +368,9 @@ leaders:
     category: economy
     tags: [インド, 自由化]
     summary: 1991年の経済自由化を設計した経済学者で、首相として高成長を続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マンモハン・シン
 
   - id: modi
     title: モディ
@@ -322,3 +379,6 @@ leaders:
     category: politics
     tags: [インド, ヒンドゥー・ナショナリズム]
     summary: 強い指導者像とヒンドゥー色の政治で長期政権を築き、インドを世界の主要国に押し出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナレンドラ・モディ

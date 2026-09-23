@@ -32,6 +32,9 @@ leaders:
     category: politics
     tags: [中国, 漢]
     summary: 減税と倹約で国力を蓄えた「文景の治」の前半で、後の武帝の遠征を支えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/文帝_(漢)
 
   - id: emperor-wu-han
     title: 武帝（前漢）
@@ -40,6 +43,9 @@ leaders:
     category: politics
     tags: [中国, 漢]
     summary: 匈奴への反攻と西域経営で版図を最大にし、儒学を官学として国家の背骨にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/武帝_(漢)
 
   - id: wang-mang
     title: 王莽
@@ -92,6 +98,9 @@ leaders:
     category: politics
     tags: [中国, 晋]
     summary: 三国を統一したが、一族に兵権を分け与えた結果が八王の乱と分裂を招いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/司馬炎
 
   - id: emperor-xiaowen-wei
     title: 孝文帝（北魏）
@@ -144,6 +153,9 @@ leaders:
     category: politics
     tags: [中国, 唐, 女帝]
     summary: 中国史でただ一人の女帝として、科挙出身者の登用で門閥貴族の力をそいだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/武則天
 
   - id: tang-xuanzong
     title: 玄宗
@@ -163,6 +175,9 @@ leaders:
     category: politics
     tags: [契丹, 遼]
     summary: 遊牧民と農耕民を別々の制度で治める二重統治を考え出し、征服王朝の型を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/耶律阿保機
 
   - id: song-taizu
     title: 太祖 趙匡胤
@@ -182,6 +197,9 @@ leaders:
     category: politics
     tags: [中国, 宋, 改革]
     summary: 王安石を起用して財政と軍制の大改革に踏み切り、以後の党争の火種にもなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/神宗_(宋)
 
   - id: song-huizong
     title: 徽宗
@@ -190,6 +208,9 @@ leaders:
     category: culture
     tags: [中国, 宋, 芸術]
     summary: 一流の画家・書家でありながら国を守れず、金の捕虜となって北宋を終わらせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/徽宗
 
   - id: aguda
     title: 完顔阿骨打
@@ -209,6 +230,9 @@ leaders:
     category: war
     tags: [中国, 南宋]
     summary: 金への反攻を主導しながら和平派に殺され、後世に忠義の象徴として祀られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/岳飛
 
   - id: kublai-khan
     title: クビライ
@@ -261,6 +285,9 @@ leaders:
     category: politics
     tags: [中国, 明]
     summary: 道教の修行に没頭して政務を離れ、北虜南倭に悩まされた45年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/嘉靖帝
 
   - id: wanli
     title: 万暦帝
@@ -269,6 +296,9 @@ leaders:
     category: politics
     tags: [中国, 明]
     summary: 治世後半に政務を放棄し、朝廷の空転が明の滅亡を準備したとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/万暦帝
 
   - id: nurhaci
     title: ヌルハチ
@@ -277,6 +307,9 @@ leaders:
     category: politics
     tags: [中国, 満洲, 清]
     summary: 女真の諸部を八旗という軍事社会組織にまとめ、清の土台を築いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヌルハチ
 
   - id: hong-taiji
     title: ホンタイジ
@@ -296,6 +329,9 @@ leaders:
     category: politics
     tags: [中国, 清]
     summary: 61年の在位で三藩の乱・台湾・ロシア国境を片付け、清の最盛期を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/康熙帝
 
   - id: yongzheng
     title: 雍正帝
@@ -304,6 +340,9 @@ leaders:
     category: politics
     tags: [中国, 清]
     summary: 軍機処の設置と徹底した実務で財政を立て直し、父と子の繁栄をつないだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/雍正帝
 
   - id: qianlong
     title: 乾隆帝
@@ -312,6 +351,9 @@ leaders:
     category: politics
     tags: [中国, 清]
     summary: 版図を最大に広げた一方、晩年の腐敗と対外的な硬直が衰退の始まりになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/乾隆帝
 
   - id: cixi
     title: 西太后
@@ -353,6 +395,9 @@ leaders:
     category: politics
     tags: [中国, 国民党]
     summary: 北伐で中国を名目上統一し、日本との戦争と国共内戦を戦って台湾へ退いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/蔣介石
 
   - id: mao-zedong
     title: 毛沢東
@@ -384,6 +429,9 @@ leaders:
     category: politics
     tags: [中国, 共産党]
     summary: 天安門事件後の孤立を切り抜け、WTO加盟で世界経済への参加を確定させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/江沢民
 
   - id: hu-jintao
     title: 胡錦濤
@@ -392,6 +440,9 @@ leaders:
     category: politics
     tags: [中国, 共産党]
     summary: 二桁成長と北京五輪の時代を統べ、中国を世界第2の経済大国に押し上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/胡錦濤
 
   - id: xi-jinping
     title: 習近平
@@ -400,3 +451,6 @@ leaders:
     category: politics
     tags: [中国, 共産党]
     summary: 任期制限を外して権力を集中させ、対外的にも強い姿勢を前面に出している。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/習近平

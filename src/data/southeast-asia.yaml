@@ -10,6 +10,9 @@ periods:
     category: economy
     tags: [東南アジア, 交易]
     summary: メコン下流の港市国家。インドと中国を結ぶ海の道の要だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/扶南国
 
   - id: champa
     title: チャンパー
@@ -18,6 +21,9 @@ periods:
     category: politics
     tags: [ベトナム, 交易]
     summary: 中部ベトナムのヒンドゥー系国家。1600年続き、ベトナムの南進で消えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チャンパ王国
 
   - id: srivijaya
     title: シュリーヴィジャヤ
@@ -27,6 +33,9 @@ periods:
     category: economy
     tags: [東南アジア, 海上交易]
     summary: スマトラを拠点にマラッカ海峡を押さえた海の王国。仏教の学びの中心でもあった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シュリーヴィジャヤ王国
 
   - id: angkor
     title: アンコール朝（クメール）
@@ -38,6 +47,9 @@ periods:
     detail: |
       貯水池と水路で雨季と乾季の水をならし、広大な水田を支えた。
       その水利システムの維持が難しくなったことが、衰退の一因と考えられている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クメール王朝
 
   - id: pagan
     title: パガン朝
@@ -46,6 +58,9 @@ periods:
     category: religion
     tags: [ミャンマー, 仏教]
     summary: ビルマ最初の統一王朝。平原に数千の仏塔を建て、上座部仏教を根づかせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パガン王朝
 
   - id: ly-dynasty
     title: 李朝（大越）
@@ -54,6 +69,9 @@ periods:
     category: politics
     tags: [ベトナム]
     summary: 中国の支配を脱したベトナムが、独立国家としての体制を固めた王朝。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/李朝_(ベトナム)
 
   - id: tran-dynasty
     title: 陳朝
@@ -73,6 +91,9 @@ periods:
     category: culture
     tags: [タイ]
     summary: タイ人最初の王国。タイ文字が作られ、上座部仏教が国の柱になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スコータイ王朝
 
   - id: majapahit
     title: マジャパヒト王国
@@ -92,6 +113,9 @@ periods:
     category: economy
     tags: [タイ, 交易]
     summary: 400年続いた国際交易都市。日本人町も置かれ、朱印船が行き交った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アユタヤ王朝
 
   - id: malacca-sultanate
     title: マラッカ王国
@@ -122,6 +146,9 @@ periods:
     category: religion
     tags: [フィリピン, 植民地]
     summary: 333年の統治でアジア唯一のカトリック国になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スペイン領東インド
 
   - id: konbaung
     title: コンバウン朝
@@ -130,6 +157,9 @@ periods:
     category: politics
     tags: [ミャンマー]
     summary: ビルマ最後の王朝。三度の英緬戦争に敗れて滅びた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コンバウン王朝
 
   - id: chakri
     title: チャクリー朝（タイ）
@@ -138,6 +168,9 @@ periods:
     category: politics
     tags: [タイ]
     summary: 英仏の緩衝地帯という位置を利用し、東南アジアで唯一植民地化を免れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チャクリー王朝
 
   - id: nguyen-dynasty
     title: 阮朝
@@ -157,6 +190,9 @@ periods:
     category: politics
     tags: [インドネシア, 植民地]
     summary: 強制栽培制度で本国を潤し、群島が一つの「インドネシア」にまとめられた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オランダ領東インド
 
   - id: french-indochina
     title: フランス領インドシナ
@@ -176,6 +212,9 @@ periods:
     category: war
     tags: [東南アジア, 第二次世界大戦]
     summary: 欧米の支配が3年で崩れたことが、戦後の独立運動を大きく後押しした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大東亜共栄圏
 
   - id: vietnam-war
     title: ベトナム戦争
@@ -195,6 +234,9 @@ periods:
     category: society
     tags: [カンボジア]
     summary: 都市を解体し貨幣と学校を廃した4年で、人口の4分の1が失われたとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/民主カンプチア
 
 events:
   - id: indianization
@@ -204,6 +246,9 @@ events:
     category: religion
     tags: [東南アジア, 交易]
     summary: 交易とともにヒンドゥー教・仏教・サンスクリットが伝わり、王権の形を与えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インドの歴史
 
   - id: jayavarman-2
     year: 802
@@ -211,6 +256,9 @@ events:
     category: politics
     tags: [カンボジア]
     summary: 神なる王として即位し、アンコール朝の600年が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クメール王朝
 
   - id: borobudur
     year: 800
@@ -219,6 +267,9 @@ events:
     category: culture
     tags: [インドネシア, 仏教]
     summary: 立体の曼荼羅と呼ばれる巨大仏教遺跡。ジャワの富と技術を示す。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ボロブドゥール遺跡
 
   - id: angkor-wat
     year: 1113
@@ -227,6 +278,9 @@ events:
     category: culture
     tags: [カンボジア, 建築]
     summary: ヒンドゥーの宇宙観を石で表した巨大寺院。のちに仏教寺院となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アンコール・ワット
 
   - id: bach-dang-1288
     year: 1288
@@ -245,6 +299,9 @@ events:
     category: religion
     tags: [インドネシア, 交易]
     summary: 征服ではなく商人と神秘主義者を通じて広がり、今日の世界最大のムスリム人口につながった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マラッカ王国
 
   - id: malacca-portugal
     year: 1511
@@ -252,6 +309,9 @@ events:
     category: war
     tags: [大航海時代, 交易]
     summary: 香辛料交易の要衝が奪われ、ヨーロッパのアジア進出が本格化した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マラッカ
 
   - id: magellan-philippines
     year: 1521
@@ -259,6 +319,9 @@ events:
     category: economy
     tags: [フィリピン, 航海]
     summary: 世界一周の途上で到達。以後スペインが太平洋を越えて支配に乗り出す。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フェルディナンド・マゼラン
 
   - id: manila-galleon
     year: 1565
@@ -266,6 +329,9 @@ events:
     category: economy
     tags: [フィリピン, 銀]
     summary: アメリカ大陸の銀とアジアの絹が太平洋で直接結ばれ、世界経済が一巡した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マニラ・ガレオン
     related: [potosi]
 
   - id: voc-founded
@@ -284,6 +350,9 @@ events:
     category: war
     tags: [タイ, ビルマ]
     summary: ビルマ軍に都を焼かれたが、15年後にはバンコクで王朝が再建された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アユタヤ王朝
 
   - id: anglo-burmese-war
     year: 1824
@@ -301,6 +370,9 @@ events:
     category: economy
     tags: [インドネシア, 植民地]
     summary: 農民に輸出作物を作らせて本国財政を潤し、現地には飢饉をもたらした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/強制栽培制度
 
   - id: saigon-captured
     year: 1859
@@ -308,6 +380,9 @@ events:
     category: war
     tags: [ベトナム, フランス]
     summary: インドシナ植民地化の第一歩になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホーチミン市
 
   - id: vietnam-protectorate
     year: 1883
@@ -315,6 +390,9 @@ events:
     category: politics
     tags: [ベトナム, フランス]
     summary: 阮朝は名目だけ残り、清との宗属関係も清仏戦争で断たれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランス領インドシナ
 
   - id: philippine-revolution
     year: 1896
@@ -332,6 +410,9 @@ events:
     category: politics
     tags: [ベトナム, 独立運動]
     summary: ホー・チ・ミンが独立と社会主義を結びつけ、以後の運動の軸になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インドシナ共産党
 
   - id: indonesia-independence
     year: 1945
@@ -339,6 +420,9 @@ events:
     category: politics
     tags: [東南アジア, 独立]
     summary: 日本の降伏直後に相次いで宣言され、旧宗主国との独立戦争に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インドネシア
 
   - id: dien-bien-phu
     year: 1954
@@ -356,6 +440,9 @@ events:
     category: politics
     tags: [インドネシア, 第三世界]
     summary: アジア・アフリカ29か国が集まり、米ソのどちらにもつかない立場を打ち出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アジア・アフリカ会議
 
   - id: asean
     year: 1967
@@ -363,6 +450,9 @@ events:
     category: politics
     tags: [現代, 地域統合]
     summary: 冷戦下で地域の安定と協力をめざす枠組みが作られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東南アジア諸国連合
 
   - id: singapore-independence
     year: 1965
@@ -370,6 +460,9 @@ events:
     category: economy
     tags: [シンガポール]
     summary: 資源のない小国が貿易と金融で先進国になる道を示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シンガポール
 
   - id: fall-of-saigon
     year: 1975

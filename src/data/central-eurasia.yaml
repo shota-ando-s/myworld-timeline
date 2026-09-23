@@ -10,6 +10,9 @@ periods:
     category: war
     tags: [遊牧, 黒海]
     summary: 騎馬と黄金細工で知られる最初期の遊牧国家。ギリシア人が詳しく記録した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スキタイ
 
   - id: xiongnu
     title: 匈奴
@@ -35,6 +38,9 @@ periods:
       一人の商人が端から端まで運んだのではなく、オアシス都市をつなぐリレーで物が動いた。
       仏教・マニ教・ネストリウス派・イスラムも同じ道を東へ進み、
       14世紀のペストもこの経路をたどったとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シルクロード
 
   - id: rouran
     title: 柔然
@@ -43,6 +49,9 @@ periods:
     category: politics
     tags: [遊牧, モンゴル高原]
     summary: 北魏と対立した草原の帝国。「可汗」の称号を初めて用いたとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/柔然
 
   - id: gokturk
     title: 突厥
@@ -62,6 +71,9 @@ periods:
     category: economy
     tags: [遊牧, 交易]
     summary: ビザンツとイスラムの間で交易を握り、支配層がユダヤ教を受け入れた珍しい国。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハザール
 
   - id: uyghur-khaganate
     title: ウイグル可汗国
@@ -70,6 +82,9 @@ periods:
     category: politics
     tags: [遊牧, トルコ系]
     summary: 唐と結んで安史の乱の鎮圧を助け、交易で栄えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/回鶻
 
   - id: mongol-empire
     title: モンゴル帝国
@@ -92,6 +107,9 @@ periods:
     category: politics
     tags: [モンゴル, 中央アジア]
     summary: 中央アジアを受け継いだモンゴルの一国。やがてトルコ化・イスラム化した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チャガタイ・ウルス
 
   - id: golden-horde
     title: キプチャク・ハン国
@@ -100,6 +118,9 @@ periods:
     category: politics
     tags: [モンゴル, ロシア]
     summary: 南ロシアの草原を支配し、ルーシ諸公を240年従属させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョチ・ウルス
 
   - id: timurid
     title: ティムール朝
@@ -119,6 +140,9 @@ periods:
     category: war
     tags: [遊牧, 清]
     summary: 最後の遊牧帝国。清とロシアに挟まれて滅び、草原の時代が終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジュンガル
 
   - id: russian-central-asia
     title: ロシアの中央アジア征服
@@ -127,6 +151,9 @@ periods:
     category: war
     tags: [ロシア, 中央アジア]
     summary: 30年でオアシス都市が次々に併合され、草原がロシア帝国の一部になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トルキスタン総督府
 
   - id: soviet-central-asia
     title: ソ連下の中央アジア
@@ -135,6 +162,9 @@ periods:
     category: politics
     tags: [ソ連, 中央アジア]
     summary: 民族ごとに共和国の線が引かれ、綿花の単作とアラル海の縮小が進んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ソビエト連邦
 
 events:
   - id: yuezhi-defeat
@@ -144,6 +174,9 @@ events:
     category: war
     tags: [遊牧, 中央アジア]
     summary: 追われた月氏が西へ移動し、のちにクシャーナ朝を生む連鎖が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/匈奴
 
   - id: huns-westward
     year: 375
@@ -151,6 +184,9 @@ events:
     category: war
     tags: [遊牧, ヨーロッパ]
     summary: 草原の一押しがヨーロッパ全体を動かし、西ローマ滅亡の連鎖につながった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ゲルマン人
     related: [west-rome-fall]
 
   - id: attila
@@ -159,6 +195,9 @@ events:
     category: war
     tags: [フン族, ヨーロッパ]
     summary: 「神の鞭」と恐れられた王の進撃がカタラウヌムで止まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カタラウヌムの戦い
 
   - id: gokturk-submits
     year: 630
@@ -166,6 +205,9 @@ events:
     category: war
     tags: [突厥, 唐]
     summary: 唐の皇帝が遊牧世界の盟主「天可汗」を兼ねる体制が生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東突厥
 
   - id: talas
     year: 751
@@ -183,6 +225,9 @@ events:
     category: war
     tags: [遊牧]
     summary: ウイグル人が西へ移り、今の新疆のトルコ系社会の原型になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/回鶻
 
   - id: turkic-islam
     year: 960
@@ -191,6 +236,9 @@ events:
     category: religion
     tags: [イスラム, トルコ系]
     summary: 草原とイスラム世界が結びつき、以後の西アジア支配層はトルコ系になる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カラハン朝
 
   - id: chinggis-khan
     year: 1206
@@ -198,6 +246,9 @@ events:
     category: politics
     tags: [モンゴル]
     summary: 分裂していた草原の諸部族を統合し、世界征服の出発点となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チンギス・カン
 
   - id: mongol-central-asia
     year: 1219
@@ -205,6 +256,9 @@ events:
     category: war
     tags: [モンゴル]
     summary: ホラズムを壊滅させ、西方への道を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モンゴル帝国
 
   - id: chinggis-death
     year: 1227
@@ -212,6 +266,9 @@ events:
     category: politics
     tags: [モンゴル]
     summary: 息子たちに領地が分けられ、ユーラシアに四つのモンゴル国家が並んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モンゴル帝国
 
   - id: legnica
     year: 1241
@@ -230,6 +287,9 @@ events:
     category: economy
     tags: [モンゴル, 交易]
     summary: 一つの権力の下で東西の往来が安全になり、人と技術と情報が大量に動いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パクス・モンゴリカ
 
   - id: marco-polo
     year: 1271
@@ -237,6 +297,9 @@ events:
     category: economy
     tags: [交易, ヨーロッパ]
     summary: 『東方見聞録』がヨーロッパにアジアへの憧れを植えつけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マルコ・ポーロ
 
   - id: plague-spreads-west
     year: 1346
@@ -244,6 +307,9 @@ events:
     category: disaster
     tags: [疫病, 交易路]
     summary: 交易路を通って黒海からヨーロッパへ広がり、翌年から大流行になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ペストの歴史
     related: [black-death]
 
   - id: timur-enthroned
@@ -272,6 +338,9 @@ events:
     category: science
     tags: [中央アジア, 天文学]
     summary: 肉眼観測で当時世界最高精度の星表を作り、ヨーロッパにも影響した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウルグ・ベク天文台
 
   - id: timur-death
     year: 1405
@@ -290,6 +359,9 @@ events:
     category: politics
     tags: [中央アジア]
     summary: ティムール朝が倒れ、オアシス都市がハン国に分かれていく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウズベク人
 
   - id: kazan-conquest
     year: 1552
@@ -297,6 +369,9 @@ events:
     category: war
     tags: [ロシア, 遊牧]
     summary: 定住国家が火器で草原を押し返し始めた転換点。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カザン・ハン国
 
   - id: steppe-decline
     year: 1600
@@ -305,6 +380,9 @@ events:
     category: economy
     tags: [交易, 航海]
     summary: 海路が主役になり、1500年続いた内陸の交易が相対的に沈んでいった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シルクロード
 
   - id: dzungar-fall
     year: 1757
@@ -312,6 +390,9 @@ events:
     category: war
     tags: [清, 遊牧]
     summary: 最後の遊牧帝国が清に滅ぼされ、草原の時代が終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジュンガル
 
   - id: tashkent-taken
     year: 1865
@@ -319,6 +400,9 @@ events:
     category: war
     tags: [ロシア, 中央アジア]
     summary: 英露が中央アジアで勢力を競う「グレート・ゲーム」が本格化した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/タシュケント
 
   - id: anglo-russian-entente
     year: 1907
@@ -336,6 +420,9 @@ events:
     category: politics
     tags: [ソ連, 民族]
     summary: ソ連が引いた民族の線引きが、現在の5か国の国境になっている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/中央アジア
 
   - id: aral-sea
     year: 1960
@@ -354,6 +441,9 @@ events:
     category: politics
     tags: [中央アジア, 現代]
     summary: ソ連解体で、望まないまま独立した国家が並ぶことになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/中央アジア
 
   - id: belt-and-road
     year: 2013
@@ -361,3 +451,6 @@ events:
     category: economy
     tags: [中国, 中央アジア]
     summary: 内陸の交通路を再び主役にしようとする試み。シルクロードの現代版を掲げる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/一帯一路

@@ -21,6 +21,9 @@ periods:
     category: culture
     tags: [フランク, 学問]
     summary: 修道院で古典写本が写され、ラテン語と学校の伝統が中世に引き継がれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カロリング朝ルネサンス
 
   - id: holy-roman-empire
     title: 神聖ローマ帝国
@@ -29,6 +32,9 @@ periods:
     category: politics
     tags: [ドイツ, ヨーロッパ]
     summary: ドイツを中心とする緩やかな連合体。名目上のローマ帝国の後継を844年間名乗った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/神聖ローマ帝国
 
   - id: crusades
     title: 十字軍
@@ -37,6 +43,9 @@ periods:
     category: religion
     tags: [ヨーロッパ, 中東]
     summary: 聖地回復を掲げた遠征。結果として東方の物と知識がヨーロッパに流れ込んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/十字軍
 
   - id: capetian-france
     title: カペー朝フランス
@@ -68,6 +77,9 @@ periods:
     category: economy
     tags: [ポルトガル, スペイン, 航海]
     summary: ヨーロッパが海路で世界とつながり、富と病と支配が同時に広がった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大航海時代
 
   - id: reformation
     title: 宗教改革
@@ -76,6 +88,9 @@ periods:
     category: religion
     tags: [ヨーロッパ, キリスト教]
     summary: 西方キリスト教世界が分裂し、100年以上の宗教戦争を経て共存の原則に至った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/宗教改革
 
   - id: thirty-years-war
     title: 三十年戦争
@@ -96,6 +111,9 @@ periods:
     category: religion
     tags: [ヨーロッパ, 思想]
     summary: 理性と経験で社会を問い直す思想。アメリカ独立とフランス革命の下地になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/啓蒙思想
 
   - id: industrial-revolution
     title: 産業革命
@@ -130,6 +148,9 @@ periods:
     category: politics
     tags: [イギリス, 帝国主義]
     summary: 海軍と資本で世界の4分の1を支配し、自由貿易の秩序を主導した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イギリス帝国
 
   - id: ww1
     title: 第一次世界大戦
@@ -171,6 +192,9 @@ periods:
     category: politics
     tags: [ヨーロッパ, 米ソ]
     summary: 直接戦火を交えないまま世界を二分した対立。ヨーロッパはその最前線だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/冷戦
 
 events:
   - id: charlemagne-coronation
@@ -199,6 +223,9 @@ events:
     category: war
     tags: [北欧, 交易]
     summary: 略奪と交易と植民を同時に行い、ヨーロッパの海と川の世界を塗り替えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴァイキング
 
   - id: norman-conquest
     year: 1066
@@ -206,6 +233,9 @@ events:
     category: war
     tags: [イギリス]
     summary: ノルマンディー公がイングランドを征服し、英語と王権の性格が変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ノルマン・コンクエスト
 
   - id: council-of-clermont
     year: 1095
@@ -235,6 +265,9 @@ events:
     category: science
     tags: [大学, 学問]
     summary: 学生と教師の組合から生まれ、ヨーロッパの大学制度の出発点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ボローニャ大学
 
   - id: magna-carta
     year: 1215
@@ -242,6 +275,9 @@ events:
     category: society
     tags: [イギリス, 法]
     summary: 王も法に従うという原則を文書にした、立憲政治の出発点。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マグナ・カルタ
 
   - id: black-death
     year: 1348
@@ -252,6 +288,9 @@ events:
     detail: |
       働き手が激減したことで農民の立場が相対的に強まり、賃金が上がって農奴制が緩んだ。
       祈っても救われなかった経験は、教会への信頼と死生観にも影響を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/黒死病
 
   - id: joan-of-arc
     year: 1429
@@ -259,6 +298,9 @@ events:
     category: war
     tags: [フランス, 百年戦争]
     summary: 劣勢のフランスを立て直し、王国としてのまとまりを取り戻す転機になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オルレアン包囲戦
 
   - id: gutenberg-press
     year: 1450
@@ -267,6 +309,9 @@ events:
     category: science
     tags: [技術, 出版]
     summary: 本の複製費用が激減し、知識の広がる速さが一変した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/活版印刷
 
   - id: reconquista-end
     year: 1492
@@ -284,6 +329,9 @@ events:
     category: religion
     tags: [宗教改革]
     summary: 免罪符批判から宗教改革が始まり、西欧キリスト教世界が二つに割れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/95か条の論題
     related: [reformation]
 
   - id: copernicus
@@ -292,6 +340,9 @@ events:
     category: science
     tags: [天文学]
     summary: 地球が宇宙の中心ではないという見方が、世界像の作り替えを始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ニコラウス・コペルニクス
 
   - id: st-bartholomew
     year: 1572
@@ -329,6 +380,9 @@ events:
     category: science
     tags: [天文学, 教会]
     summary: 科学の主張と教会の権威が正面から衝突した事件として記憶されている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガリレオ・ガリレイ
 
   - id: peace-of-westphalia
     year: 1648
@@ -336,6 +390,9 @@ events:
     category: politics
     tags: [国際関係]
     summary: 三十年戦争を終わらせ、主権国家が並び立つ国際秩序の原型を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴェストファーレン条約
 
   - id: versailles-palace
     year: 1682
@@ -343,6 +400,9 @@ events:
     category: politics
     tags: [フランス, 絶対王政]
     summary: 貴族を宮廷に集めて力を削ぐ絶対王政の完成形。各国の宮廷が手本にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルイ14世_(フランス王)
 
   - id: glorious-revolution
     year: 1688
@@ -360,6 +420,9 @@ events:
     category: science
     tags: [物理学]
     summary: 天も地も同じ法則で動くと示し、科学革命の到達点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/自然哲学の数学的諸原理
 
   - id: encyclopedie
     year: 1751
@@ -377,6 +440,9 @@ events:
     category: science
     tags: [イギリス, 技術]
     summary: 燃料効率を大きく高め、工場と鉄道と船を動かす動力になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/蒸気機関
 
   - id: french-revolution
     year: 1789
@@ -397,6 +463,9 @@ events:
     category: society
     tags: [フランス, 法]
     summary: 法の下の平等と所有権を定めた法典は、ヨーロッパ各国の民法の手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナポレオン・ボナパルト
 
   - id: waterloo
     year: 1815
@@ -414,6 +483,9 @@ events:
     category: science
     tags: [イギリス, 鉄道]
     summary: 人と物が動く速さと量が桁違いになり、産業革命が社会全体に及んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ストックトン・アンド・ダーリントン鉄道
 
   - id: revolutions-1848
     year: 1848
@@ -493,6 +565,9 @@ events:
     category: disaster
     tags: [疫病, 世界]
     summary: 戦争の死者を上回る数千万人が亡くなり、人の移動が疫病を広げることを示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スペインかぜ
 
   - id: treaty-of-versailles
     year: 1919
@@ -531,6 +606,9 @@ events:
     category: society
     tags: [ドイツ, 人権]
     summary: 約600万人のユダヤ人が組織的に殺害され、人権という概念の重みが変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホロコースト
 
   - id: d-day
     year: 1944
@@ -548,6 +626,9 @@ events:
     category: economy
     tags: [アメリカ, 戦後復興]
     summary: 米国の大規模援助が西欧の復興を支え、同時に東西の分断を固定した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マーシャル・プラン
 
   - id: berlin-wall-built
     year: 1961
@@ -565,6 +646,9 @@ events:
     category: politics
     tags: [ヨーロッパ, 統合]
     summary: 二度の大戦への反省から始まった統合が、通貨と市民権を共有する段階に進んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/欧州連合
 
   - id: euro-introduced
     year: 2002
@@ -572,6 +656,9 @@ events:
     category: economy
     tags: [ヨーロッパ, 通貨]
     summary: 国家の象徴だった通貨を手放す実験。統合の深さと限界を同時に示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユーロ
 
   - id: brexit
     year: 2020
@@ -579,3 +666,6 @@ events:
     category: politics
     tags: [ヨーロッパ, 統合]
     summary: 統合が一方向には進まないことを示し、各国の主権論議に火をつけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イギリスの欧州連合離脱

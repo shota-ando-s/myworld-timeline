@@ -10,6 +10,9 @@ periods:
     category: culture
     tags: [ギリシア, クレタ]
     summary: クレタ島の宮殿文明。城壁を持たない海の交易文明だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ミノア文明
 
   - id: mycenaean
     title: ミケーネ文明
@@ -20,6 +23,9 @@ periods:
     category: politics
     tags: [ギリシア]
     summary: ギリシア本土の戦士王たちの文明。前1200年頃に一斉に崩壊した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ミケーネ文明
 
   - id: greek-dark-ages
     title: ギリシアの暗黒時代
@@ -41,6 +47,9 @@ periods:
     category: politics
     tags: [ギリシア, 都市国家]
     summary: アテネ・スパルタなど小さな都市国家が競い合い、民主政と哲学が生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/古代ギリシア
 
   - id: etruscan
     title: エトルリア
@@ -50,6 +59,9 @@ periods:
     category: culture
     tags: [イタリア]
     summary: ローマ以前のイタリアを支配した都市連合。建築と占いの技術をローマに残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エトルリア
 
   - id: hellenistic
     title: ヘレニズム時代
@@ -58,6 +70,9 @@ periods:
     category: culture
     tags: [ギリシア, オリエント]
     summary: アレクサンドロスの遺産を継ぐ王国群。ギリシア文化が西アジアと融合した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヘレニズム
 
   - id: roman-republic
     title: ローマ共和政
@@ -66,6 +81,9 @@ periods:
     category: politics
     tags: [ローマ]
     summary: 元老院と市民による統治で地中海を制覇し、その拡大が内部から共和政を壊した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/共和政ローマ
 
   - id: roman-empire
     title: ローマ帝国
@@ -96,6 +114,9 @@ periods:
     category: war
     tags: [ローマ, 混乱]
     summary: 50年で20人以上の皇帝が立ち、疫病と侵入で帝国が分解しかけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/3世紀の危機
 
   - id: byzantine
     title: ビザンツ帝国（東ローマ）
@@ -104,6 +125,9 @@ periods:
     category: politics
     tags: [ローマ, ギリシア正教]
     summary: 西ローマ滅亡後も1000年続き、ギリシア・ローマの遺産を中世へ受け渡した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東ローマ帝国
 
   - id: papal-states
     title: 教皇領
@@ -112,6 +136,9 @@ periods:
     category: religion
     tags: [イタリア, 教皇]
     summary: 教皇が世俗の君主でもあった1100年。宗教と政治の絡み合いの舞台になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/教皇領
 
   - id: venice-republic
     title: ヴェネツィア共和国
@@ -159,6 +186,9 @@ events:
     category: disaster
     tags: [地中海, 海の民]
     summary: 東地中海の王国が数十年で次々に倒れ、交易網ごと失われた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/前1200年のカタストロフ
 
   - id: homer-epics
     year: -750
@@ -167,6 +197,9 @@ events:
     category: culture
     tags: [ギリシア, 文学]
     summary: 『イリアス』『オデュッセイア』がギリシア人共通の教養と英雄像を与えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホメーロス
 
   - id: rome-founded
     year: -753
@@ -175,6 +208,9 @@ events:
     category: politics
     tags: [ローマ]
     summary: ロムルスによる建国譚。ローマ人が自らの起源として語り継いだ年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ローマ建国紀元
 
   - id: first-olympiad
     year: -776
@@ -182,6 +218,9 @@ events:
     category: culture
     tags: [ギリシア]
     summary: 古代ギリシア人が共通の暦の起点とした祭典。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/古代オリンピック
 
   - id: solon-reform
     year: -594
@@ -189,6 +228,9 @@ events:
     category: society
     tags: [アテネ, 法]
     summary: 借金による奴隷化を禁じ、市民の権利を財産で区分した。民主政への第一歩。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ソロン
 
   - id: cleisthenes
     year: -508
@@ -196,6 +238,9 @@ events:
     category: society
     tags: [アテネ, 民主政]
     summary: 血縁でなく地域で市民を編成し、アテネ民主政の骨格ができた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クレイステネス
 
   - id: marathon
     year: -490
@@ -223,6 +268,9 @@ events:
     category: culture
     tags: [アテネ, 建築]
     summary: ペリクレス時代のアテネの繁栄と自負を形にした建築。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パルテノン神殿
 
   - id: peloponnesian-war
     year: -431
@@ -271,6 +319,9 @@ events:
     category: war
     tags: [マケドニア, ペルシア]
     summary: 10年でインダスまで達し、ギリシア文化が西アジアへ広がる道を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アレクサンドロス3世
     related: [hellenistic]
 
   - id: euclid-elements
@@ -280,6 +331,9 @@ events:
     category: science
     tags: [数学, アレクサンドリア]
     summary: 定義と証明で組み立てる方法を確立し、2000年以上教科書であり続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユークリッド原論
 
   - id: punic-war-1
     year: -264
@@ -307,6 +361,9 @@ events:
     category: war
     tags: [ローマ, 地中海]
     summary: 同じ年に東西の対抗勢力が消え、地中海がローマの内海になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カルタゴ
 
   - id: spartacus
     year: -73
@@ -314,6 +371,9 @@ events:
     category: society
     tags: [ローマ, 奴隷]
     summary: 剣闘士が率いた大規模な奴隷反乱。ローマ社会の土台を可視化した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第三次奴隷戦争
 
   - id: caesar-assassination
     year: -44
@@ -321,6 +381,9 @@ events:
     category: politics
     tags: [ローマ]
     summary: 共和政の終わりを象徴する事件。17年後に帝政が始まる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガイウス・ユリウス・カエサル
 
   - id: actium
     year: -31
@@ -349,6 +412,9 @@ events:
     category: religion
     tags: [キリスト教, ローマ]
     summary: ローマ属州での一処刑が、やがて世界最大の宗教の出発点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナザレのイエス
 
   - id: great-fire-rome
     year: 64
@@ -356,6 +422,9 @@ events:
     category: disaster
     tags: [ローマ, キリスト教]
     summary: 責任を負わされた信徒への迫害が、殉教という記憶を宗教に刻んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ローマ大火
 
   - id: vesuvius
     year: 79
@@ -363,6 +432,9 @@ events:
     category: disaster
     tags: [ローマ, 災害]
     summary: ポンペイなどが火山灰に埋もれ、結果としてローマ人の日常が保存された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ポンペイ
 
   - id: trajan-peak
     year: 117
@@ -370,6 +442,9 @@ events:
     category: politics
     tags: [ローマ]
     summary: トラヤヌス帝のもとで領土が最大に。以後は守りに転じる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ローマ帝国
 
   - id: antonine-constitution
     year: 212
@@ -407,6 +482,9 @@ events:
     category: religion
     tags: [ローマ, キリスト教]
     summary: 他の宗教が禁じられ、ヨーロッパが一つの信仰でまとまる道が決まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/テオドシウス1世
 
   - id: rome-division
     year: 395
@@ -414,6 +492,9 @@ events:
     category: politics
     tags: [ローマ]
     summary: テオドシウス帝の死後、帝国は二度と一つに戻らなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東ローマ帝国
 
   - id: west-rome-fall
     year: 476
@@ -421,6 +502,9 @@ events:
     category: politics
     tags: [ローマ]
     summary: ゲルマン人傭兵隊長が皇帝を廃位。ヨーロッパの中世が始まる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/西ローマ帝国
 
   - id: justinian-code
     year: 529
@@ -428,6 +512,9 @@ events:
     category: society
     tags: [ビザンツ, 法]
     summary: ローマ法を集大成し、のちのヨーロッパ各国の法の源になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ローマ法大全
 
   - id: hagia-sophia
     year: 537
@@ -435,6 +522,9 @@ events:
     category: culture
     tags: [ビザンツ, 建築]
     summary: 巨大な円蓋で空間を包む技術。1000年間、世界最大の教会だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アヤソフィア
 
   - id: plague-of-justinian
     year: 541
@@ -442,6 +532,9 @@ events:
     category: disaster
     tags: [ビザンツ, 疫病]
     summary: 地中海の人口を大きく減らし、ローマ世界の再統一の望みを絶った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ペストの歴史
 
   - id: iconoclasm
     year: 726
@@ -449,6 +542,9 @@ events:
     category: religion
     tags: [ビザンツ, 教会]
     summary: 聖画像をめぐる100年の対立。東西の教会が離れていく一因になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イコノクラスム
 
   - id: great-schism
     year: 1054
@@ -456,6 +552,9 @@ events:
     category: religion
     tags: [キリスト教]
     summary: カトリックと正教が互いを破門。ヨーロッパの東西の溝が決定的になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東西教会の分裂
 
   - id: fourth-crusade
     year: 1204
@@ -473,6 +572,9 @@ events:
     category: economy
     tags: [フィレンツェ, 金融]
     summary: 為替と複式簿記で欧州に支店網を築き、その富が芸術家を育てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/メディチ家
 
   - id: medici-florence
     year: 1434
@@ -480,6 +582,9 @@ events:
     category: politics
     tags: [フィレンツェ, ルネサンス]
     summary: 商人が都市の実権を握り、芸術と学問の保護者になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/メディチ家
 
   - id: fall-of-constantinople
     year: 1453
@@ -490,6 +595,9 @@ events:
     detail: |
       大砲による城壁の突破は、中世の築城術が終わったことを示した。
       逃れた学者がイタリアへ渡り、ルネサンスの古典研究を後押ししたとも言われる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コンスタンティノープルの陥落
 
   - id: last-supper
     year: 1498
@@ -517,6 +625,9 @@ events:
     category: religion
     tags: [イタリア, 政治思想]
     summary: 政治を道徳から切り離して観察し、近代の政治学の出発点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/君主論
 
   - id: lepanto
     year: 1571
