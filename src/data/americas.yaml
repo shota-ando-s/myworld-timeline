@@ -11,6 +11,26 @@ periods:
     tags: [メソアメリカ]
     summary: 巨石人頭像で知られる、メソアメリカ最初の高度な文化。
 
+  - id: chavin
+    title: チャビン文化
+    start: -900
+    startCirca: true
+    end: -200
+    endCirca: true
+    category: religion
+    tags: [アンデス]
+    summary: アンデス各地を結んだ最初の宗教的中心。神殿に人々が巡礼した。
+
+  - id: nazca
+    title: ナスカ文化
+    start: -100
+    startCirca: true
+    end: 800
+    endCirca: true
+    category: culture
+    tags: [アンデス, 地上絵]
+    summary: 乾燥した大地に巨大な地上絵を残した。用途は今も議論が続く。
+
   - id: teotihuacan
     title: テオティワカン
     start: 100
@@ -21,6 +41,16 @@ periods:
     tags: [メソアメリカ, 都市]
     summary: 人口10万を超えたとされる計画都市。誰が築いたかは今も謎が多い。
 
+  - id: moche
+    title: モチェ文化
+    start: 100
+    startCirca: true
+    end: 700
+    endCirca: true
+    category: culture
+    tags: [アンデス, 土器]
+    summary: 精巧な人物土器と金細工を残した北ペルーの社会。
+
   - id: maya-classic
     title: マヤ文明古典期
     start: 250
@@ -28,6 +58,38 @@ periods:
     category: culture
     tags: [メソアメリカ, 文字]
     summary: 独自の文字と精密な暦を持つ都市国家群が熱帯雨林に栄えた。
+    detail: |
+      ゼロを含む記数法と、数百年先まで計算できる暦を持っていた。
+      統一帝国ではなく、競い合う都市国家の集まりだった点がギリシアに似る。
+
+  - id: tiwanaku
+    title: ティワナク
+    start: 500
+    startCirca: true
+    end: 1000
+    endCirca: true
+    category: politics
+    tags: [アンデス]
+    summary: チチカカ湖畔の高地国家。精密な石組みの建築で知られる。
+
+  - id: mississippian
+    title: ミシシッピ文化
+    start: 800
+    startCirca: true
+    end: 1600
+    endCirca: true
+    category: society
+    tags: [北アメリカ, 都市]
+    summary: 巨大な土のピラミッドを築いた北米の農耕社会。カホキアは1万人規模だった。
+
+  - id: toltec
+    title: トルテカ
+    start: 900
+    startCirca: true
+    end: 1168
+    category: politics
+    tags: [メソアメリカ]
+    summary: アステカが理想の先祖として仰いだ王国。軍事と工芸で知られた。
 
   - id: aztec
     title: アステカ王国
@@ -53,6 +115,22 @@ periods:
     tags: [植民地, スペイン]
     summary: 銀の大量産出が世界経済を動かし、先住民社会は大きく変わった。
 
+  - id: portuguese-brazil
+    title: ポルトガル領ブラジル
+    start: 1500
+    end: 1822
+    category: economy
+    tags: [ブラジル, 植民地]
+    summary: 砂糖と金の生産に大量の奴隷が投入され、アメリカ最大の奴隷社会になった。
+
+  - id: thirteen-colonies
+    title: イギリス領13植民地
+    start: 1607
+    end: 1776
+    category: politics
+    tags: [北アメリカ, イギリス]
+    summary: 自治の経験を積んだ植民地が、課税をめぐる対立から独立へ向かった。
+
   - id: united-states
     title: アメリカ合衆国
     start: 1776
@@ -61,7 +139,46 @@ periods:
     tags: [アメリカ]
     summary: 独立宣言から始まり、20世紀には世界最大の経済・軍事大国となった。
 
+  - id: latin-american-independence
+    title: ラテンアメリカ独立戦争
+    start: 1808
+    end: 1826
+    category: war
+    tags: [ラテンアメリカ, 独立]
+    summary: ナポレオンの本国侵攻を機に、20年ほどで大陸の大半が独立した。
+
+  - id: civil-rights-movement
+    title: 公民権運動
+    start: 1954
+    end: 1968
+    category: society
+    tags: [アメリカ, 人権]
+    summary: 法的な人種隔離を撤廃させ、世界の人権運動の手本になった。
+
 events:
+  - id: maya-collapse
+    year: 900
+    circa: true
+    title: マヤ古典期の崩壊
+    category: disaster
+    tags: [メソアメリカ]
+    summary: 南部の都市が次々に放棄された。干ばつと戦争と環境負荷が重なったとみられる。
+
+  - id: norse-vinland
+    year: 1000
+    circa: true
+    title: ヴァイキングの北米到達
+    category: economy
+    tags: [北アメリカ, 北欧]
+    summary: コロンブスより500年早く到達したが、定住は続かず記憶も途切れた。
+
+  - id: tenochtitlan-founded
+    year: 1325
+    title: テノチティトランの建設
+    category: society
+    tags: [メソアメリカ, 都市]
+    summary: 湖の上に築かれた都市。人工島の農地で20万人以上を養ったとされる。
+
   - id: columbus
     year: 1492
     title: コロンブスがカリブ海に到達
@@ -72,6 +189,20 @@ events:
       ジャガイモやトウモロコシがユーラシアへ渡って人口を押し上げた一方、
       天然痘などの病気がアメリカ大陸の人口を激減させた。
       世界史がひとつながりになった転換点として扱われる。
+
+  - id: tordesillas
+    year: 1494
+    title: トルデシリャス条約
+    category: politics
+    tags: [スペイン, ポルトガル]
+    summary: 地球を2国で分ける線を引いた。ブラジルがポルトガル語圏になった理由でもある。
+
+  - id: brazil-landfall
+    year: 1500
+    title: ポルトガル人のブラジル到達
+    category: economy
+    tags: [ブラジル]
+    summary: 染料になる木から国名が付き、やがて砂糖と奴隷の一大拠点になった。
 
   - id: tenochtitlan-fall
     year: 1521
@@ -87,12 +218,48 @@ events:
     tags: [スペイン, アンデス]
     summary: 内戦直後の帝国を少数のスペイン人が制圧し、銀山開発が始まった。
 
+  - id: smallpox-americas
+    year: 1520
+    circa: true
+    title: 天然痘の大流行
+    category: disaster
+    tags: [疫病, 先住民]
+    summary: 免疫のない先住民社会で人口の大半が失われ、征服が容易になった。
+
   - id: potosi
     year: 1545
     title: ポトシ銀山の発見
     category: economy
     tags: [銀, 世界経済]
     summary: 流れ出した銀はヨーロッパ経由で明にまで達し、世界の物価を動かした。
+
+  - id: jamestown
+    year: 1607
+    title: ジェームズタウンの建設
+    category: society
+    tags: [北アメリカ, イギリス]
+    summary: イギリス人の最初の恒久的植民地。タバコ栽培が経済の柱になった。
+
+  - id: first-africans-virginia
+    year: 1619
+    title: 最初のアフリカ人がヴァージニアに連れてこられる
+    category: society
+    tags: [北アメリカ, 奴隷制]
+    summary: 北米の奴隷制の起点とされ、その影響は今日まで続いている。
+
+  - id: mayflower
+    year: 1620
+    title: メイフラワー号の到着
+    category: religion
+    tags: [北アメリカ, 移民]
+    summary: 信仰の自由を求めた入植者の自治の誓約が、建国神話の一部になった。
+
+  - id: pueblo-revolt
+    year: 1680
+    title: プエブロの反乱
+    category: society
+    tags: [先住民, スペイン]
+    summary: 先住民がスペイン人を12年間追い出した、北米で最も成功した抵抗の一つ。
 
   - id: us-independence
     year: 1776
@@ -101,12 +268,110 @@ events:
     tags: [アメリカ, 革命]
     summary: 人は平等に造られたと宣言し、以後の革命と憲法に影響を与えた。
 
+  - id: us-constitution
+    year: 1787
+    title: アメリカ合衆国憲法
+    category: society
+    tags: [アメリカ, 立憲]
+    summary: 三権分立と連邦制を定めた成文憲法。各国の憲法の手本になった。
+
+  - id: haitian-revolution
+    year: 1791
+    title: ハイチ革命
+    category: society
+    tags: [カリブ, 奴隷制]
+    summary: 奴隷が自力で独立を勝ち取った史上唯一の例。各国に衝撃を与えた。
+
+  - id: louisiana-purchase
+    year: 1803
+    title: ルイジアナ買収
+    category: politics
+    tags: [アメリカ, 領土]
+    summary: 国土が一夜で倍になり、西部への拡大が国の性格を決めていく。
+
+  - id: mexico-independence
+    year: 1810
+    title: メキシコ独立運動のはじまり
+    category: politics
+    tags: [メキシコ, 独立]
+    summary: 司祭イダルゴの呼びかけから始まり、11年後に独立を達成した。
+
+  - id: monroe-doctrine
+    year: 1823
+    title: モンロー宣言
+    category: politics
+    tags: [アメリカ, 外交]
+    summary: 欧州の干渉を拒む一方、のちに中南米への影響力を正当化する根拠にもなった。
+
+  - id: indian-removal
+    year: 1830
+    title: インディアン強制移住法
+    category: society
+    tags: [先住民, アメリカ]
+    summary: 「涙の道」と呼ばれる強制移動で多数が命を落とした。
+
+  - id: gold-rush
+    year: 1848
+    title: カリフォルニアのゴールドラッシュ
+    category: economy
+    tags: [アメリカ, 移民]
+    summary: 世界中から30万人が押し寄せ、太平洋岸の開発と中国系移民の流入が始まった。
+
   - id: us-civil-war
     year: 1861
     title: 南北戦争
     category: war
     tags: [アメリカ, 奴隷制]
     summary: 4年の内戦の末に奴隷制が廃止され、連邦の統一が守られた。
+
+  - id: emancipation-proclamation
+    year: 1863
+    title: 奴隷解放宣言
+    category: society
+    tags: [アメリカ, 人権]
+    summary: 戦争の目的を「連邦の維持」から「奴隷制の廃止」へ広げた。
+
+  - id: transcontinental-railroad
+    year: 1869
+    title: 大陸横断鉄道の完成
+    category: economy
+    tags: [アメリカ, 鉄道]
+    summary: 東西が1週間で結ばれ、国内市場と西部開拓が一気に進んだ。
+
+  - id: wounded-knee
+    year: 1890
+    title: ウンデッド・ニーの虐殺
+    category: society
+    tags: [先住民, アメリカ]
+    summary: 先住民の組織的抵抗が終わった出来事として記憶されている。
+
+  - id: spanish-american-war
+    year: 1898
+    title: 米西戦争
+    category: war
+    tags: [アメリカ, 帝国主義]
+    summary: フィリピンとプエルトリコを得て、アメリカが海外帝国に踏み出した。
+
+  - id: wright-brothers
+    year: 1903
+    title: ライト兄弟の初飛行
+    category: science
+    tags: [アメリカ, 技術]
+    summary: 12秒の飛行から始まり、半世紀で旅客機と空の戦争の時代になった。
+
+  - id: model-t
+    year: 1908
+    title: T型フォードの発売
+    category: economy
+    tags: [アメリカ, 大量生産]
+    summary: 流れ作業による大量生産が、自動車を一般の人が買えるものに変えた。
+
+  - id: panama-canal
+    year: 1914
+    title: パナマ運河の開通
+    category: economy
+    tags: [中米, 交通]
+    summary: 太平洋と大西洋が直結し、アメリカの世界戦略の要になった。
 
   - id: great-depression
     year: 1929
@@ -115,9 +380,80 @@ events:
     tags: [アメリカ, 経済危機]
     summary: ニューヨーク株式市場の暴落が世界中に波及し、各国の政治を変えた。
 
+  - id: new-deal
+    year: 1933
+    title: ニューディール政策
+    category: economy
+    tags: [アメリカ, 政府]
+    summary: 政府が雇用と福祉に積極的に関与する形を作り、各国の政策の手本になった。
+
+  - id: trinity-test
+    year: 1945
+    title: 人類初の核実験
+    category: science
+    tags: [アメリカ, 核]
+    summary: 3週間後に広島・長崎で使用され、戦争と国際政治の前提が変わった。
+    related: [japan-surrender]
+
+  - id: bretton-woods
+    year: 1944
+    title: ブレトン・ウッズ体制
+    category: economy
+    tags: [アメリカ, 国際通貨]
+    summary: ドルを基軸とする戦後の国際経済の枠組みが作られた。
+
+  - id: brown-v-board
+    year: 1954
+    title: ブラウン判決
+    category: society
+    tags: [アメリカ, 人権]
+    summary: 公立学校の人種隔離を違憲とし、公民権運動の法的な突破口になった。
+
+  - id: cuban-missile-crisis
+    year: 1962
+    title: キューバ危機
+    category: war
+    tags: [冷戦, 核]
+    summary: 核戦争に最も近づいた13日間。以後、米ソは危機管理の仕組みを整えた。
+
+  - id: march-on-washington
+    year: 1963
+    title: ワシントン大行進
+    category: society
+    tags: [アメリカ, 人権]
+    summary: キング牧師の「私には夢がある」の演説が、公民権法の成立を後押しした。
+
   - id: apollo-11
     year: 1969
     title: アポロ11号の月面着陸
     category: science
     tags: [宇宙, 冷戦]
     summary: 米ソの競争のなかで、人類が初めて地球以外の天体に立った。
+
+  - id: chile-coup
+    year: 1973
+    title: チリのクーデタ
+    category: politics
+    tags: [ラテンアメリカ, 冷戦]
+    summary: 選挙で選ばれた社会主義政権が軍に倒され、冷戦の代理対立が中南米に及んだ。
+
+  - id: nafta
+    year: 1994
+    title: NAFTA（北米自由貿易協定）
+    category: economy
+    tags: [北アメリカ, 貿易]
+    summary: 国境を越えた生産網が広がり、雇用の移動をめぐる論争も生んだ。
+
+  - id: september-11
+    year: 2001
+    title: 9.11同時多発テロ
+    category: war
+    tags: [アメリカ, テロ]
+    summary: 以後20年の対テロ戦争が始まり、世界中で安全と自由の均衡が問い直された。
+
+  - id: lehman-shock
+    year: 2008
+    title: 世界金融危機
+    category: economy
+    tags: [アメリカ, 経済危機]
+    summary: 住宅バブルの崩壊が世界に波及し、金融規制と格差の議論を呼んだ。

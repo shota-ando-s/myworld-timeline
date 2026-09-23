@@ -11,6 +11,14 @@ periods:
     tags: [東南アジア, 交易]
     summary: メコン下流の港市国家。インドと中国を結ぶ海の道の要だった。
 
+  - id: champa
+    title: チャンパー
+    start: 192
+    end: 1832
+    category: politics
+    tags: [ベトナム, 交易]
+    summary: 中部ベトナムのヒンドゥー系国家。1600年続き、ベトナムの南進で消えた。
+
   - id: srivijaya
     title: シュリーヴィジャヤ
     start: 670
@@ -27,6 +35,17 @@ periods:
     category: politics
     tags: [カンボジア]
     summary: 巨大な灌漑網と石造寺院を築いた王朝。アンコール・ワットで知られる。
+    detail: |
+      貯水池と水路で雨季と乾季の水をならし、広大な水田を支えた。
+      その水利システムの維持が難しくなったことが、衰退の一因と考えられている。
+
+  - id: pagan
+    title: パガン朝
+    start: 1044
+    end: 1297
+    category: religion
+    tags: [ミャンマー, 仏教]
+    summary: ビルマ最初の統一王朝。平原に数千の仏塔を建て、上座部仏教を根づかせた。
 
   - id: ly-dynasty
     title: 李朝（大越）
@@ -36,6 +55,22 @@ periods:
     tags: [ベトナム]
     summary: 中国の支配を脱したベトナムが、独立国家としての体制を固めた王朝。
 
+  - id: tran-dynasty
+    title: 陳朝
+    start: 1225
+    end: 1400
+    category: war
+    tags: [ベトナム, モンゴル]
+    summary: モンゴルの三度の侵攻を退け、ベトナムの独立意識を決定づけた。
+
+  - id: sukhothai
+    title: スコータイ朝
+    start: 1238
+    end: 1438
+    category: culture
+    tags: [タイ]
+    summary: タイ人最初の王国。タイ文字が作られ、上座部仏教が国の柱になった。
+
   - id: majapahit
     title: マジャパヒト王国
     start: 1293
@@ -43,6 +78,70 @@ periods:
     category: politics
     tags: [インドネシア, ジャワ]
     summary: ジャワを中心に群島世界へ影響を広げた、ヒンドゥー系最後の大国。
+
+  - id: ayutthaya
+    title: アユタヤ朝
+    start: 1351
+    end: 1767
+    category: economy
+    tags: [タイ, 交易]
+    summary: 400年続いた国際交易都市。日本人町も置かれ、朱印船が行き交った。
+
+  - id: malacca-sultanate
+    title: マラッカ王国
+    start: 1400
+    end: 1511
+    category: economy
+    tags: [マレーシア, イスラム]
+    summary: 海峡を押さえた港市国家。ここを起点にイスラムが群島へ広がった。
+
+  - id: le-dynasty
+    title: 黎朝
+    start: 1428
+    end: 1789
+    category: politics
+    tags: [ベトナム]
+    summary: 明の支配を退けて成立。南進を進め、現在のベトナムの形に近づけた。
+
+  - id: spanish-philippines
+    title: スペイン領フィリピン
+    start: 1565
+    end: 1898
+    category: religion
+    tags: [フィリピン, 植民地]
+    summary: 333年の統治でアジア唯一のカトリック国になった。
+
+  - id: konbaung
+    title: コンバウン朝
+    start: 1752
+    end: 1885
+    category: politics
+    tags: [ミャンマー]
+    summary: ビルマ最後の王朝。三度の英緬戦争に敗れて滅びた。
+
+  - id: chakri
+    title: チャクリー朝（タイ）
+    start: 1782
+    ongoing: true
+    category: politics
+    tags: [タイ]
+    summary: 英仏の緩衝地帯という位置を利用し、東南アジアで唯一植民地化を免れた。
+
+  - id: nguyen-dynasty
+    title: 阮朝
+    start: 1802
+    end: 1945
+    category: politics
+    tags: [ベトナム]
+    summary: ベトナム最後の王朝。半ばからフランスの保護下に置かれた。
+
+  - id: dutch-east-indies
+    title: オランダ領東インド
+    start: 1800
+    end: 1949
+    category: politics
+    tags: [インドネシア, 植民地]
+    summary: 強制栽培制度で本国を潤し、群島が一つの「インドネシア」にまとめられた。
 
   - id: french-indochina
     title: フランス領インドシナ
@@ -52,6 +151,14 @@ periods:
     tags: [ベトナム, 植民地]
     summary: ベトナム・カンボジア・ラオスがフランスの統治下に置かれた時期。
 
+  - id: japanese-occupation-sea
+    title: 日本軍の占領
+    start: 1942
+    end: 1945
+    category: war
+    tags: [東南アジア, 第二次世界大戦]
+    summary: 欧米の支配が3年で崩れたことが、戦後の独立運動を大きく後押しした。
+
   - id: vietnam-war
     title: ベトナム戦争
     start: 1955
@@ -60,13 +167,37 @@ periods:
     tags: [ベトナム, 冷戦]
     summary: 南北の内戦に米国が大規模介入し、冷戦期最大級の戦争になった。
 
+  - id: khmer-rouge
+    title: クメール・ルージュの支配
+    start: 1975
+    end: 1979
+    category: society
+    tags: [カンボジア]
+    summary: 都市を解体し貨幣と学校を廃した4年で、人口の4分の1が失われたとされる。
+
 events:
+  - id: indianization
+    year: 100
+    circa: true
+    title: インド文化の伝播
+    category: religion
+    tags: [東南アジア, 交易]
+    summary: 交易とともにヒンドゥー教・仏教・サンスクリットが伝わり、王権の形を与えた。
+
   - id: jayavarman-2
     year: 802
     title: ジャヤヴァルマン2世の即位
     category: politics
     tags: [カンボジア]
     summary: 神なる王として即位し、アンコール朝の600年が始まった。
+
+  - id: borobudur
+    year: 800
+    circa: true
+    title: ボロブドゥールの造営
+    category: culture
+    tags: [インドネシア, 仏教]
+    summary: 立体の曼荼羅と呼ばれる巨大仏教遺跡。ジャワの富と技術を示す。
 
   - id: angkor-wat
     year: 1113
@@ -76,12 +207,42 @@ events:
     tags: [カンボジア, 建築]
     summary: ヒンドゥーの宇宙観を石で表した巨大寺院。のちに仏教寺院となった。
 
+  - id: bach-dang-1288
+    year: 1288
+    title: 白藤江の戦い
+    category: war
+    tags: [ベトナム, モンゴル]
+    summary: 川底に杭を仕込む戦術で元の艦隊を破り、三度目の侵攻を退けた。
+
+  - id: islam-spreads-sea
+    year: 1400
+    circa: true
+    title: イスラムの群島への広がり
+    category: religion
+    tags: [インドネシア, 交易]
+    summary: 征服ではなく商人と神秘主義者を通じて広がり、今日の世界最大のムスリム人口につながった。
+
   - id: malacca-portugal
     year: 1511
     title: ポルトガルのマラッカ占領
     category: war
     tags: [大航海時代, 交易]
     summary: 香辛料交易の要衝が奪われ、ヨーロッパのアジア進出が本格化した。
+
+  - id: magellan-philippines
+    year: 1521
+    title: マゼラン艦隊のフィリピン到達
+    category: economy
+    tags: [フィリピン, 航海]
+    summary: 世界一周の途上で到達。以後スペインが太平洋を越えて支配に乗り出す。
+
+  - id: manila-galleon
+    year: 1565
+    title: マニラ・ガレオン貿易の開始
+    category: economy
+    tags: [フィリピン, 銀]
+    summary: アメリカ大陸の銀とアジアの絹が太平洋で直接結ばれ、世界経済が一巡した。
+    related: [potosi]
 
   - id: voc-founded
     year: 1602
@@ -90,9 +251,122 @@ events:
     tags: [オランダ, 会社]
     summary: 株式と軍事力を備えた巨大商社が、群島世界の支配へ乗り出した。
 
+  - id: ayutthaya-falls
+    year: 1767
+    title: アユタヤの陥落
+    category: war
+    tags: [タイ, ビルマ]
+    summary: ビルマ軍に都を焼かれたが、15年後にはバンコクで王朝が再建された。
+
+  - id: anglo-burmese-war
+    year: 1824
+    title: 第一次英緬戦争
+    category: war
+    tags: [ミャンマー, イギリス]
+    summary: 三度の戦争でビルマは滅び、インド帝国の一部に組み込まれた。
+
+  - id: cultivation-system
+    year: 1830
+    title: ジャワの強制栽培制度
+    category: economy
+    tags: [インドネシア, 植民地]
+    summary: 農民に輸出作物を作らせて本国財政を潤し、現地には飢饉をもたらした。
+
+  - id: saigon-captured
+    year: 1859
+    title: フランスのサイゴン占領
+    category: war
+    tags: [ベトナム, フランス]
+    summary: インドシナ植民地化の第一歩になった。
+
+  - id: vietnam-protectorate
+    year: 1883
+    title: ベトナムの保護国化
+    category: politics
+    tags: [ベトナム, フランス]
+    summary: 阮朝は名目だけ残り、清との宗属関係も清仏戦争で断たれた。
+
+  - id: philippine-revolution
+    year: 1896
+    title: フィリピン革命
+    category: society
+    tags: [フィリピン, 独立]
+    summary: アジア初の近代的な独立革命。米西戦争で今度は米国の統治下に入った。
+
+  - id: indochina-communist-party
+    year: 1930
+    title: インドシナ共産党の結成
+    category: politics
+    tags: [ベトナム, 独立運動]
+    summary: ホー・チ・ミンが独立と社会主義を結びつけ、以後の運動の軸になった。
+
+  - id: indonesia-independence
+    year: 1945
+    title: インドネシアとベトナムの独立宣言
+    category: politics
+    tags: [東南アジア, 独立]
+    summary: 日本の降伏直後に相次いで宣言され、旧宗主国との独立戦争に入った。
+
+  - id: dien-bien-phu
+    year: 1954
+    title: ディエンビエンフーの戦い
+    category: war
+    tags: [ベトナム, フランス]
+    summary: アジアの軍がヨーロッパの正規軍を正面から破り、植民地支配の終わりを告げた。
+
+  - id: bandung-conference
+    year: 1955
+    title: バンドン会議
+    category: politics
+    tags: [インドネシア, 第三世界]
+    summary: アジア・アフリカ29か国が集まり、米ソのどちらにもつかない立場を打ち出した。
+
   - id: asean
     year: 1967
     title: ASEAN（東南アジア諸国連合）結成
     category: politics
     tags: [現代, 地域統合]
     summary: 冷戦下で地域の安定と協力をめざす枠組みが作られた。
+
+  - id: singapore-independence
+    year: 1965
+    title: シンガポールの独立
+    category: economy
+    tags: [シンガポール]
+    summary: 資源のない小国が貿易と金融で先進国になる道を示した。
+
+  - id: fall-of-saigon
+    year: 1975
+    title: サイゴン陥落
+    category: war
+    tags: [ベトナム, 冷戦]
+    summary: 米国が初めて明確に敗れた戦争。難民の大量流出も始まった。
+
+  - id: doi-moi
+    year: 1986
+    title: ドイモイ（刷新）
+    category: economy
+    tags: [ベトナム, 改革]
+    summary: 社会主義の枠組みを残したまま市場経済を導入し、高成長に転じた。
+
+  - id: asian-crisis-origin
+    year: 1997
+    title: タイ発のアジア通貨危機
+    category: economy
+    tags: [タイ, 経済危機]
+    summary: バーツの暴落が周辺国に連鎖し、急成長のもろさを露わにした。
+    related: [asian-financial-crisis-kr]
+
+  - id: east-timor-independence
+    year: 2002
+    title: 東ティモールの独立
+    category: politics
+    tags: [東南アジア]
+    summary: 24年の占領と国連統治を経て、21世紀最初の独立国になった。
+
+  - id: indian-ocean-tsunami
+    year: 2004
+    title: スマトラ島沖地震と津波
+    category: disaster
+    tags: [インドネシア, 災害]
+    summary: 22万人以上が犠牲になり、インド洋に津波警報網が作られた。

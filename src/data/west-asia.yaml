@@ -131,14 +131,6 @@ periods:
       ギリシア語の哲学・医学・数学がアラビア語に翻訳され、インドの数字と組み合わされた。
       その蓄積が12世紀以降にラテン語へ訳し戻され、ヨーロッパの学問を立ち上げ直す。
 
-  - id: fatimid
-    title: ファーティマ朝
-    start: 909
-    end: 1171
-    category: religion
-    tags: [イスラム, シーア派]
-    summary: シーア派のカリフを名乗りカイロを築いた。イスラム世界は一つではなくなった。
-
   - id: seljuk
     title: セルジューク朝
     start: 1037
@@ -146,22 +138,6 @@ periods:
     category: politics
     tags: [トルコ系, イスラム]
     summary: トルコ系が西アジアの支配層になり、十字軍を招く直接の原因にもなった。
-
-  - id: ayyubid
-    title: アイユーブ朝
-    start: 1171
-    end: 1250
-    category: war
-    tags: [イスラム, 十字軍]
-    summary: サラディンが十字軍からエルサレムを奪回し、エジプトとシリアを束ねた。
-
-  - id: mamluk
-    title: マムルーク朝
-    start: 1250
-    end: 1517
-    category: politics
-    tags: [エジプト, 軍事]
-    summary: 奴隷出身の軍人が国を治めた260年。モンゴルの西進を食い止めた。
 
   - id: ilkhanate
     title: イルハン朝

@@ -1,6 +1,14 @@
 lane: africa
 
 periods:
+  - id: egypt-early-dynastic
+    title: エジプト初期王朝時代
+    start: -3100
+    end: -2686
+    category: politics
+    tags: [エジプト]
+    summary: 上下エジプトが統一され、王を頂点とする国家と象形文字が整った。
+
   - id: egypt-old-kingdom
     title: エジプト古王国
     start: -2686
@@ -25,6 +33,16 @@ periods:
     tags: [エジプト]
     summary: 対外遠征でシリアまで勢力を広げた帝国期。ツタンカーメンやラメセス2世の時代。
 
+  - id: bantu-expansion
+    title: バントゥー系の拡散
+    start: -1000
+    startCirca: true
+    end: 1000
+    endCirca: true
+    category: society
+    tags: [アフリカ, 移動]
+    summary: 農耕と製鉄を携えた人々が中部・南部アフリカに広がり、言語地図を作り替えた。
+
   - id: kush
     title: クシュ王国（ヌビア）
     start: -1070
@@ -32,6 +50,14 @@ periods:
     category: politics
     tags: [スーダン, アフリカ]
     summary: 一時はエジプトを支配した黒人王朝。のちメロエで製鉄と独自文字を発達させた。
+
+  - id: ptolemaic-egypt
+    title: プトレマイオス朝
+    start: -305
+    end: -30
+    category: culture
+    tags: [エジプト, ヘレニズム]
+    summary: ギリシア系の王朝がエジプトを治め、アレクサンドリアが学問の都になった。
 
   - id: aksum
     title: アクスム王国
@@ -43,6 +69,32 @@ periods:
     tags: [エチオピア, 交易]
     summary: 紅海交易で栄え、4世紀にキリスト教を受け入れた。
 
+  - id: ghana-empire
+    title: ガーナ王国
+    start: 300
+    startCirca: true
+    end: 1240
+    category: economy
+    tags: [西アフリカ, 金]
+    summary: サハラ縦断交易の金と塩を押さえた最初の西アフリカ帝国。
+
+  - id: fatimid
+    title: ファーティマ朝
+    start: 909
+    end: 1171
+    category: religion
+    tags: [エジプト, シーア派]
+    summary: シーア派のカリフを名乗りカイロを築いた。イスラム世界は一つではなくなった。
+
+  - id: kanem-bornu
+    title: カネム・ボルヌ
+    start: 700
+    startCirca: true
+    end: 1900
+    category: politics
+    tags: [西アフリカ, イスラム]
+    summary: チャド湖周辺で1000年以上続いた国家。サハラ交易とイスラムを結んだ。
+
   - id: great-zimbabwe
     title: 大ジンバブエ
     start: 1100
@@ -53,6 +105,22 @@ periods:
     tags: [アフリカ南部, 石造建築]
     summary: 金と象牙の交易で栄え、モルタルを使わない石積みの都市を残した。
 
+  - id: ayyubid
+    title: アイユーブ朝
+    start: 1171
+    end: 1250
+    category: war
+    tags: [エジプト, 十字軍]
+    summary: サラディンが十字軍と戦い、エジプトとシリアを一つに束ねた。
+
+  - id: benin-kingdom
+    title: ベニン王国
+    start: 1180
+    end: 1897
+    category: culture
+    tags: [西アフリカ, 青銅]
+    summary: 高度な青銅彫刻で知られる王国。イギリスの遠征で滅び、美術品は各地に散った。
+
   - id: mali-empire
     title: マリ帝国
     start: 1235
@@ -60,6 +128,30 @@ periods:
     category: economy
     tags: [西アフリカ, 金]
     summary: サハラ縦断交易の金と塩で栄え、トンブクトゥが学問の都となった。
+
+  - id: mamluk
+    title: マムルーク朝
+    start: 1250
+    end: 1517
+    category: politics
+    tags: [エジプト, 軍事]
+    summary: 奴隷出身の軍人が国を治めた260年。モンゴルの西進を食い止めた。
+
+  - id: solomonic-ethiopia
+    title: ソロモン朝エチオピア
+    start: 1270
+    end: 1974
+    category: religion
+    tags: [エチオピア, キリスト教]
+    summary: 700年続いたキリスト教王朝。20世紀まで独立を保った数少ないアフリカの国。
+
+  - id: kongo-kingdom
+    title: コンゴ王国
+    start: 1390
+    end: 1914
+    category: politics
+    tags: [中部アフリカ]
+    summary: ポルトガルと対等な外交を始めたが、奴隷貿易に巻き込まれて衰えた。
 
   - id: songhai
     title: ソンガイ帝国
@@ -69,7 +161,51 @@ periods:
     tags: [西アフリカ]
     summary: マリに代わり西アフリカ最大の版図を築いたイスラム国家。
 
+  - id: atlantic-slave-trade
+    title: 大西洋奴隷貿易
+    start: 1526
+    end: 1867
+    category: economy
+    tags: [アフリカ, 植民地]
+    summary: 1200万人以上が大西洋を渡らされた。アフリカの人口構造と社会を長期に傷つけた。
+    detail: |
+      アメリカ大陸の砂糖・綿花・タバコ農園の労働力として組織的に運ばれた。
+      銃と引き換えに人を売る構図が内陸の戦争を煽り、
+      奪われた世代の空白は経済にも国家の形成にも影響を残した。
+
+  - id: ashanti
+    title: アシャンティ王国
+    start: 1701
+    end: 1902
+    category: politics
+    tags: [西アフリカ, 金]
+    summary: 金と交易で栄え、イギリスと四度戦った西アフリカの強国。
+
+  - id: scramble-for-africa
+    title: アフリカ分割
+    start: 1881
+    end: 1914
+    category: politics
+    tags: [アフリカ, 帝国主義]
+    summary: 30年ほどでほぼ全土が欧州の植民地になり、現在の国境線が引かれた。
+
+  - id: apartheid
+    title: アパルトヘイト
+    start: 1948
+    end: 1994
+    category: society
+    tags: [南アフリカ, 人種隔離]
+    summary: 法で人種を分けた体制。国際的な制裁と国内の抵抗で46年後に終わった。
+
 events:
+  - id: egypt-unified
+    year: -3100
+    circa: true
+    title: 上下エジプトの統一
+    category: politics
+    tags: [エジプト]
+    summary: ナイル沿いに統一国家が生まれ、3000年続く王朝の伝統が始まった。
+
   - id: great-pyramid
     year: -2560
     circa: true
@@ -78,12 +214,64 @@ events:
     tags: [エジプト, 建築]
     summary: 高さ約147メートル。3800年間、人類が作った最も高い建造物だった。
 
+  - id: akhenaten
+    year: -1350
+    circa: true
+    title: アクエンアテンの宗教改革
+    category: religion
+    tags: [エジプト, 一神教]
+    summary: 太陽神アテンのみを崇めさせた試み。一代で廃され、記録も削られた。
+
+  - id: assyria-conquers-egypt
+    year: -671
+    title: アッシリアのエジプト征服
+    category: war
+    tags: [エジプト, アッシリア]
+    summary: 3000年の独立が破られ、以後エジプトは外来勢力の支配を繰り返す。
+
   - id: alexander-egypt
     year: -332
     title: アレクサンドロスのエジプト征服
     category: war
     tags: [エジプト, ヘレニズム]
     summary: アレクサンドリアが建設され、地中海世界の学問の中心になっていく。
+
+  - id: library-of-alexandria
+    year: -280
+    circa: true
+    title: アレクサンドリア図書館
+    category: science
+    tags: [エジプト, 学問]
+    summary: 世界中の書物を集めようとした施設。地球の大きさもここで計算された。
+
+  - id: cleopatra-death
+    year: -30
+    title: クレオパトラの死
+    category: politics
+    tags: [エジプト, ローマ]
+    summary: プトレマイオス朝が滅び、エジプトはローマの穀倉になった。
+
+  - id: aksum-christianity
+    year: 325
+    circa: true
+    title: アクスムのキリスト教受容
+    category: religion
+    tags: [エチオピア, キリスト教]
+    summary: ローマ帝国とほぼ同時期に国教化し、独自の教会が今日まで続いている。
+
+  - id: islam-conquers-egypt
+    year: 641
+    title: イスラム軍のエジプト征服
+    category: war
+    tags: [エジプト, イスラム]
+    summary: 北アフリカがイスラム世界に入り、言語も信仰も大きく変わっていく。
+
+  - id: cairo-founded
+    year: 969
+    title: カイロの建設
+    category: society
+    tags: [エジプト, 都市]
+    summary: ファーティマ朝の新都。アズハル学院はいまも続く世界最古級の大学の一つ。
 
   - id: mansa-musa-hajj
     year: 1324
@@ -92,12 +280,75 @@ events:
     tags: [西アフリカ, 金]
     summary: 惜しみなく配った金でカイロの金相場が下落したと伝わるほどの富を示した。
 
-  - id: atlantic-slave-trade
-    year: 1526
-    title: 大西洋奴隷貿易の本格化
+  - id: ibn-battuta-africa
+    year: 1352
+    title: イブン・バットゥータの西アフリカ訪問
     category: economy
-    tags: [アフリカ, 植民地]
-    summary: アメリカ大陸へ人が組織的に運ばれ、以後3世紀以上続く巨大な人的収奪となった。
+    tags: [交易, 旅行記]
+    summary: 30年の旅の記録が、サハラ以南の社会を外の世界に伝えた。
+
+  - id: ceuta-captured
+    year: 1415
+    title: ポルトガルのセウタ占領
+    category: war
+    tags: [ポルトガル, 大航海時代]
+    summary: ヨーロッパのアフリカ進出の出発点。金と奴隷を求めて海岸線を南下していく。
+
+  - id: cape-of-good-hope
+    year: 1488
+    title: 喜望峰への到達
+    category: economy
+    tags: [ポルトガル, 航海]
+    summary: アフリカ南端を回る航路が見つかり、10年後にインドへつながった。
+
+  - id: songhai-falls
+    year: 1591
+    title: ソンガイ帝国の滅亡
+    category: war
+    tags: [西アフリカ, モロッコ]
+    summary: 火器を持つモロッコ軍に敗れ、サハラ交易の中心が失われた。
+
+  - id: cape-colony
+    year: 1652
+    title: ケープ植民地の建設
+    category: politics
+    tags: [南アフリカ, オランダ]
+    summary: 補給地として始まった入植が、のちの人種隔離社会の起点になった。
+
+  - id: napoleon-egypt
+    year: 1798
+    title: ナポレオンのエジプト遠征
+    category: war
+    tags: [エジプト, フランス]
+    summary: 学者を同行させた遠征でロゼッタ・ストーンが見つかり、古代エジプト学が生まれた。
+
+  - id: liberia-founded
+    year: 1822
+    title: リベリアの建設
+    category: society
+    tags: [西アフリカ, 奴隷制]
+    summary: 解放奴隷の移住地として作られ、1847年にアフリカ初の共和国として独立した。
+
+  - id: algeria-invasion
+    year: 1830
+    title: フランスのアルジェリア侵攻
+    category: war
+    tags: [北アフリカ, フランス]
+    summary: 130年に及ぶ支配の始まり。入植者社会が生まれ、独立戦争は苛烈になった。
+
+  - id: suez-canal
+    year: 1869
+    title: スエズ運河の開通
+    category: economy
+    tags: [エジプト, 交通]
+    summary: ヨーロッパとアジアの距離が一気に縮み、エジプトは列強の争点になった。
+
+  - id: zulu-war
+    year: 1879
+    title: ズールー戦争
+    category: war
+    tags: [南アフリカ, イギリス]
+    summary: 緒戦でイギリス軍を破ったが、近代兵器の前に王国は解体された。
 
   - id: berlin-conference
     year: 1884
@@ -106,6 +357,48 @@ events:
     tags: [アフリカ, 帝国主義]
     summary: ヨーロッパ列強が地図の上で境界を引き、現在の国境線の多くが決まった。
 
+  - id: adwa
+    year: 1896
+    title: アドワの戦い
+    category: war
+    tags: [エチオピア, イタリア]
+    summary: アフリカの国がヨーロッパの侵略軍を正面から破った稀な勝利。独立を守った。
+
+  - id: boer-war
+    year: 1899
+    title: 南アフリカ戦争
+    category: war
+    tags: [南アフリカ, イギリス]
+    summary: 金とダイヤをめぐる戦争。強制収容所が用いられ、帝国主義の評判を傷つけた。
+
+  - id: italy-invades-ethiopia
+    year: 1935
+    title: イタリアのエチオピア侵攻
+    category: war
+    tags: [エチオピア, ファシズム]
+    summary: 国際連盟が止められなかったことが、その無力さを世界に示した。
+
+  - id: egypt-revolution-1952
+    year: 1952
+    title: エジプト革命
+    category: politics
+    tags: [エジプト, 独立]
+    summary: 王政が倒れナセルが台頭。アラブ民族主義の中心になった。
+
+  - id: suez-crisis
+    year: 1956
+    title: スエズ危機
+    category: politics
+    tags: [エジプト, 冷戦]
+    summary: 運河の国有化に英仏イスラエルが軍事介入したが米ソの圧力で撤退。帝国の時代の終わりを示した。
+
+  - id: ghana-independence
+    year: 1957
+    title: ガーナの独立
+    category: politics
+    tags: [西アフリカ, 独立]
+    summary: サハラ以南で最初の独立。各地の独立運動を勇気づけた。
+
   - id: year-of-africa
     year: 1960
     title: アフリカの年
@@ -113,9 +406,44 @@ events:
     tags: [アフリカ, 独立]
     summary: 1年で17か国が独立し、脱植民地化が一気に進んだ。
 
+  - id: oau-founded
+    year: 1963
+    title: アフリカ統一機構の結成
+    category: politics
+    tags: [アフリカ, 地域統合]
+    summary: 植民地時代の国境を認めたうえで連帯をめざす選択をした。
+
+  - id: biafra-war
+    year: 1967
+    title: ビアフラ戦争
+    category: war
+    tags: [ナイジェリア, 内戦]
+    summary: 人工的な国境が抱える矛盾が噴き出し、飢餓の映像が世界を動かした。
+
+  - id: ethiopian-famine
+    year: 1984
+    title: エチオピア飢饉
+    category: disaster
+    tags: [エチオピア, 飢饉]
+    summary: 干ばつと内戦が重なり100万人規模が犠牲に。国際的な支援運動の転機になった。
+
+  - id: rwandan-genocide
+    year: 1994
+    title: ルワンダ虐殺
+    category: society
+    tags: [アフリカ, 人権]
+    summary: 100日で80万人前後が殺され、国際社会の不作為が厳しく問われた。
+
   - id: end-of-apartheid
     year: 1994
     title: 南アフリカでアパルトヘイト撤廃
     category: society
     tags: [アフリカ, 人権]
     summary: 全人種参加の選挙でマンデラが大統領に選ばれ、人種隔離体制が終わった。
+
+  - id: south-sudan
+    year: 2011
+    title: 南スーダンの独立
+    category: politics
+    tags: [アフリカ, 現代]
+    summary: 半世紀の内戦を経て分離独立したが、まもなく内戦に陥った。
