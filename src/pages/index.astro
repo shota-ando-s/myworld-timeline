@@ -7,7 +7,7 @@ import FilterBar from '../components/FilterBar.astro';
 import Lane, { type LaneView } from '../components/Lane.astro';
 import TimeAxis from '../components/TimeAxis.astro';
 import { loadOrThrow } from '../lib/load-glob.ts';
-import { BAR_GAP, BAR_H, LANE_PAD_TOP, MIN_BAR_W, laneHeight, packEvents, packPeriods } from '../lib/layout.ts';
+import { BAR_GAP, BAR_H, LANE_PAD_TOP, laneHeight, packEvents, packPeriods } from '../lib/layout.ts';
 import { LANES, itemSpan } from '../lib/model.ts';
 import { timelineWidth, yearToX } from '../lib/scale.ts';
 
@@ -29,11 +29,12 @@ const laneViews: LaneView[] = LANES.map((lane) => {
     stripe: groupOrder.indexOf(lane.group) % 2,
     height: laneHeight(packedBars.rowCount, packedDots.rowCount),
     evTop: LANE_PAD_TOP + barsHeight + (barsHeight && packedDots.rowCount ? 6 : 0),
-    bars: periods.map((item, i) => {
-      const [from, to] = itemSpan(item);
-      const x = yearToX(from, ZOOM);
-      return { item, row: packedBars.rows[i]!, x, w: Math.max(yearToX(to, ZOOM) - x, MIN_BAR_W) };
-    }),
+    bars: periods.map((item, i) => ({
+      item,
+      row: packedBars.rows[i]!,
+      x: yearToX(itemSpan(item)[0], ZOOM),
+      w: packedBars.widths[i]!,
+    })),
     dots: events.map((item, i) => ({ item, row: packedDots.rows[i]!, x: yearToX(item.year, ZOOM) })),
   };
 });

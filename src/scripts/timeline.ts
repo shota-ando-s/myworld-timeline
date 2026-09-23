@@ -10,7 +10,6 @@ import {
   BAR_H,
   LABEL_COL_W,
   LANE_PAD_TOP,
-  MIN_BAR_W,
   laneHeight,
   packEvents,
   packPeriods,
@@ -158,10 +157,8 @@ function relayout() {
     periods.forEach((p, i) => {
       const el = track.querySelector<HTMLElement>(`.bar[data-id="${p.id}"]`);
       if (!el) return;
-      const [from, to] = itemSpan(p);
-      const x = yearToX(from, zoom);
-      el.style.setProperty('--bx', `${x}px`);
-      el.style.setProperty('--bw', `${Math.max(yearToX(to, zoom) - x, MIN_BAR_W)}px`);
+      el.style.setProperty('--bx', `${yearToX(itemSpan(p)[0], zoom)}px`);
+      el.style.setProperty('--bw', `${packedBars.widths[i]!}px`);
       el.style.setProperty('--row', String(packedBars.rows[i]!));
     });
 

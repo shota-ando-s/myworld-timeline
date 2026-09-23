@@ -208,6 +208,11 @@ a { color: #1c5cab; }
   white-space: nowrap;
   text-align: left;
   transition: background 120ms;
+  container-type: inline-size;
+}
+/* 名前が入りきらない細い帯は、欠けた文字を見せるより印だけにする */
+@container (max-width: 28px) {
+  .bar__label { display: none; }
 }
 .bar__label { position: sticky; left: calc(var(--label-w) + 6px); max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
 .bar:hover { background: var(--fam-tint-2); }

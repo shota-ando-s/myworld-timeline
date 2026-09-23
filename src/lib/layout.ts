@@ -13,6 +13,8 @@ export const EVENT_ROW_H = 19;
 export const LANE_PAD_TOP = 8;
 export const LANE_PAD_BOTTOM = 10;
 export const MIN_BAR_W = 26;
+/** 同じ段で隣り合う帯のあいだに残す最小のすき間 */
+export const BAR_MIN_GAP = 2;
 export const DOT_SIZE = 13;
 
 /** 日本語は全角、英数は半角として文字幅をざっくり見積もる（font-size 11px 想定） */
@@ -37,13 +39,50 @@ function packSpans(spans: [number, number][], gap: number): { rows: number[]; ro
   return { rows, rowCount: Math.max(rowEnds.length, 0) };
 }
 
+/**
+ * 期間バーの段組みと幅。
+ *
+ * 段は「年が重なっているか」だけで決める。終わりと始まりが同じ年（周→秦、秦→漢）は
+ * 重なりとみなさないので、続く王朝は1本の帯としてつながって見える。
+ * 段が増えるのは、本当に同時に存在していたとき（宋と遼と金、漢と新）だけ。
+ *
+ * 幅は px で返す。15年しか続かなかった秦のような短い王朝も見えるよう最小幅を与えるが、
+ * 同じ段の次の帯に食い込まない範囲までにとどめる。
+ */
 export function packPeriods(periods: Period[], zoom = 1) {
-  const spans = periods.map((p): [number, number] => {
-    const [from, to] = itemSpan(p);
-    const x1 = yearToX(from, zoom);
-    return [x1, Math.max(yearToX(to, zoom), x1 + MIN_BAR_W)];
+  const spans = periods.map((p) => itemSpan(p));
+  const order = periods.map((_, i) => i).sort((a, b) => spans[a]![0] - spans[b]![0]);
+
+  const rows = new Array<number>(periods.length).fill(0);
+  const rowEndYear: number[] = [];
+  const rowLastIndex: number[] = [];
+  /** 同じ段で次に来る帯の開始年（無ければ +∞） */
+  const nextStartYear = new Array<number>(periods.length).fill(Number.POSITIVE_INFINITY);
+
+  for (const i of order) {
+    const [from, to] = spans[i]!;
+    let row = rowEndYear.findIndex((end) => end <= from);
+    if (row === -1) {
+      rowEndYear.push(Number.NEGATIVE_INFINITY);
+      rowLastIndex.push(-1);
+      row = rowEndYear.length - 1;
+    }
+    const prev = rowLastIndex[row]!;
+    if (prev >= 0) nextStartYear[prev] = from;
+    rowEndYear[row] = to;
+    rowLastIndex[row] = i;
+    rows[i] = row;
+  }
+
+  const widths = periods.map((_, i) => {
+    const [from, to] = spans[i]!;
+    const x = yearToX(from, zoom);
+    const natural = yearToX(to, zoom) - x;
+    const room = Math.max(0, yearToX(nextStartYear[i]!, zoom) - x - BAR_MIN_GAP);
+    return Math.max(natural, Math.min(MIN_BAR_W, room));
   });
-  return packSpans(spans, 2);
+
+  return { rows, rowCount: rowEndYear.length, widths };
 }
 
 export function packEvents(events: TimelineEvent[], zoom = 1) {
