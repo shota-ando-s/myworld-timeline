@@ -24,7 +24,10 @@ import {
 } from '../lib/model.ts';
 import { ERAS, ticks, timelineWidth, xToYear, yearToX } from '../lib/scale.ts';
 
+/** ＋−ボタンと ＋− キーが飛ぶ段。ピンチではこの間の値も取る */
 const ZOOM_LEVELS = [0.5, 1, 2, 4];
+const MIN_ZOOM = ZOOM_LEVELS[0]!;
+const MAX_ZOOM = ZOOM_LEVELS[ZOOM_LEVELS.length - 1]!;
 const STORE_KEY = 'myworld-timeline:view';
 
 const $ = <T extends Element = HTMLElement>(sel: string) => document.querySelector(sel) as T | null;
@@ -54,6 +57,9 @@ function laneNeighbours(lane: LaneId): Item[] {
   const list = laneItems.get(lane)!;
   return view.leaders ? list : list.filter((i) => !isLeader(i));
 }
+
+/** ズームのたびに1000件以上を querySelector し直すと重いので、最初に引けるようにしておく */
+const elById = new Map<string, HTMLElement>();
 
 const tl = $('#tl')!;
 const inner = $('#tl-inner')!;
@@ -111,7 +117,7 @@ function restore() {
     const raw = localStorage.getItem(STORE_KEY);
     if (!raw) return;
     const saved = JSON.parse(raw) as Partial<View>;
-    if (ZOOM_LEVELS.includes(saved.zoom as number)) view.zoom = saved.zoom!;
+    if (typeof saved.zoom === 'number' && saved.zoom >= MIN_ZOOM && saved.zoom <= MAX_ZOOM) view.zoom = saved.zoom;
     if (Array.isArray(saved.off)) view.off = saved.off.filter((c) => categoryById.has(c));
     if (Array.isArray(saved.hiddenLanes)) view.hiddenLanes = saved.hiddenLanes.filter((l) => LANES.some((x) => x.id === l));
     if (typeof saved.leaders === 'boolean') view.leaders = saved.leaders;
@@ -165,7 +171,7 @@ function relayout() {
 
     const placeBars = (list: Period[], packed: ReturnType<typeof packPeriods>) => {
       list.forEach((p, i) => {
-        const el = track.querySelector<HTMLElement>(`.bar[data-id="${p.id}"]`);
+        const el = elById.get(p.id);
         if (!el) return;
         el.style.setProperty('--bx', `${yearToX(itemSpan(p)[0], zoom)}px`);
         el.style.setProperty('--bw', `${packed.widths[i]!}px`);
@@ -177,7 +183,7 @@ function relayout() {
     placeBars(leaders, packedLeaders);
 
     events.forEach((e, i) => {
-      const el = track.querySelector<HTMLElement>(`.ev[data-id="${e.id}"]`);
+      const el = elById.get(e.id);
       if (!el) return;
       el.style.setProperty('--ex', `${yearToX(e.year, zoom)}px`);
       el.style.setProperty('--row', String(packedDots.rows[i]!));
@@ -192,17 +198,117 @@ function relayout() {
   if (scanYear !== null) moveScan(scanYear, false);
 }
 
-function setZoom(next: number) {
-  const zoom = Math.min(...ZOOM_LEVELS.filter((z) => z >= next).concat(ZOOM_LEVELS[ZOOM_LEVELS.length - 1]!));
-  if (zoom === view.zoom) return;
-  // 中央線が指している年を保ったまま拡大縮小する
-  const keep = centerYear();
+/** ×1 / ×1.4 のように、細かいズームでも短く出す */
+function showZoom() {
+  $('#zoom-value')!.textContent = `×${Math.round(view.zoom * 10) / 10}`;
+}
+
+let saveTimer = 0;
+/** ピンチ中に毎フレーム localStorage を叩かないよう、保存だけ遅らせる */
+function saveSoon() {
+  clearTimeout(saveTimer);
+  saveTimer = window.setTimeout(save, 400);
+}
+
+/**
+ * 拡大縮小する。anchorX（画面上の横位置）が指している年をその場に留めるので、
+ * カーソルの下の年が動かない。省略すると中央線の年を保つ。
+ */
+function setZoom(next: number, anchorX?: number) {
+  const zoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, next));
+  if (Math.abs(zoom - view.zoom) < 0.001) return;
+  const rect = tl.getBoundingClientRect();
+  const at = (anchorX ?? rect.left + centerOffset()) - rect.left;
+  // x座標はズームに正比例する（scale.ts は最後に zoom を掛けているだけ）ので、
+  // いったん年に戻さず比で合わせられる。連続で拡大縮小しても丸めでずれない
+  const keep = (tl.scrollLeft + at - LABEL_COL_W) * (zoom / view.zoom);
   view.zoom = zoom;
   relayout();
-  scrollYearToCenter(keep, 'instant');
+  tl.scrollLeft = Math.max(0, keep + LABEL_COL_W - at);
   updateCenterYear();
-  $('#zoom-value')!.textContent = `×${zoom}`;
-  save();
+  showZoom();
+  saveSoon();
+}
+
+/** ＋−ボタンとキー: 次の段へ飛ぶ */
+function stepZoom(dir: 1 | -1) {
+  const next =
+    dir > 0
+      ? (ZOOM_LEVELS.find((z) => z > view.zoom + 0.001) ?? MAX_ZOOM)
+      : ([...ZOOM_LEVELS].reverse().find((z) => z < view.zoom - 0.001) ?? MIN_ZOOM);
+  setZoom(next);
+}
+
+/* ───────── 年表の上で直接ズームする ───────── */
+
+// ホイールやピンチは1フレームに何度も来るので、次の描画まで目標値をためる
+let zoomTarget = 0;
+let zoomAnchorX = 0;
+let zoomRaf = 0;
+function queueZoom(target: number, anchorX: number) {
+  zoomTarget = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, target));
+  zoomAnchorX = anchorX;
+  if (zoomRaf) return;
+  zoomRaf = requestAnimationFrame(() => {
+    zoomRaf = 0;
+    const target = zoomTarget;
+    zoomTarget = 0;
+    setZoom(target, zoomAnchorX);
+  });
+}
+
+/** ためている途中の目標値（無ければ現在のズーム） */
+function pendingZoom(): number {
+  return zoomTarget || view.zoom;
+}
+
+// ⌘/Ctrl＋ホイール、およびトラックパッドのピンチ（ブラウザは ctrl 付きホイールとして送る）
+tl.addEventListener(
+  'wheel',
+  (e) => {
+    if (!e.ctrlKey && !e.metaKey) return; // 修飾キーなしは今まで通りスクロール
+    e.preventDefault();
+    // deltaMode が行・ページ単位のこともあるので px に均す
+    const dy = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 400 : 1);
+    queueZoom(pendingZoom() * Math.exp(-dy * 0.0035), e.clientX);
+  },
+  { passive: false },
+);
+
+// タッチのピンチ（タブレット）。2本目が触れた時点の幅を基準に倍率を決める
+const touches = new Map<number, { x: number; y: number }>();
+let pinch: { dist: number; zoom: number } | null = null;
+const spread = () => {
+  const [a, b] = [...touches.values()];
+  return a && b ? { dist: Math.hypot(a.x - b.x, a.y - b.y), mid: (a.x + b.x) / 2 } : null;
+};
+
+tl.addEventListener('pointerdown', (e) => {
+  if (e.pointerType !== 'touch') return;
+  touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  const s = touches.size === 2 ? spread() : null;
+  if (s) {
+    pinch = { dist: s.dist, zoom: view.zoom };
+    tl.style.touchAction = 'none'; // 2本指のときだけブラウザのスクロールを止める
+  }
+});
+
+tl.addEventListener('pointermove', (e) => {
+  if (e.pointerType !== 'touch' || !touches.has(e.pointerId)) return;
+  touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+  const s = touches.size === 2 ? spread() : null;
+  if (!pinch || !s || !s.dist) return;
+  queueZoom(pinch.zoom * (s.dist / pinch.dist), s.mid);
+});
+
+for (const type of ['pointerup', 'pointercancel', 'pointerleave'] as const) {
+  tl.addEventListener(type, (e) => {
+    touches.delete(e.pointerId);
+    if (touches.size < 2) {
+      pinch = null;
+      tl.style.touchAction = '';
+    }
+  });
 }
 
 /* ───────── フィルタ ───────── */
@@ -441,8 +547,8 @@ $('#lanepick')!.addEventListener('change', (e) => {
   if (scanYear !== null) renderSnapshot(scanYear);
 });
 
-$('#zoom-in')!.addEventListener('click', () => setZoom(ZOOM_LEVELS[Math.min(ZOOM_LEVELS.indexOf(view.zoom) + 1, ZOOM_LEVELS.length - 1)]!));
-$('#zoom-out')!.addEventListener('click', () => setZoom(ZOOM_LEVELS[Math.max(ZOOM_LEVELS.indexOf(view.zoom) - 1, 0)]!));
+$('#zoom-in')!.addEventListener('click', () => stepZoom(1));
+$('#zoom-out')!.addEventListener('click', () => stepZoom(-1));
 
 const yearInput = $<HTMLInputElement>('#year-input')!;
 function goToYear() {
@@ -489,6 +595,14 @@ centerButton.addEventListener('click', () => moveScan(centerYear()));
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') return closePanel();
   if (e.target instanceof HTMLInputElement) return;
+  if (e.key === '+' || e.key === ';' || (e.key === '=' && !e.shiftKey)) {
+    e.preventDefault();
+    return stepZoom(1);
+  }
+  if (e.key === '-') {
+    e.preventDefault();
+    return stepZoom(-1);
+  }
   if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
   if (!selectedId) return;
   const item = byId.get(selectedId)!;
@@ -559,7 +673,8 @@ narrow.addEventListener('change', onBreakpoint);
 /* ───────── 起動 ───────── */
 
 restore();
-$('#zoom-value')!.textContent = `×${view.zoom}`;
+for (const el of lanesEl.querySelectorAll<HTMLElement>('.bar, .ev')) elById.set(el.dataset.id!, el);
+showZoom();
 document.documentElement.dataset.leaders = view.leaders ? 'on' : 'off';
 if (view.zoom !== 1 || !view.leaders) relayout();
 onBreakpoint();

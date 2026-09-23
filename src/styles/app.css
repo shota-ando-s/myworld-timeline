@@ -111,7 +111,8 @@ a { color: #1c5cab; }
 
 /* 中央線はスクロールしない。スクロール領域の外側に重ねる必要があるので一枚包む */
 .tl-wrap { position: relative; display: grid; min-width: 0; min-height: 0; }
-.tl { position: relative; overflow: auto; overscroll-behavior-x: contain; }
+/* touch-action でブラウザのピンチ拡大を切り、2本指の操作を年表のズームに回す */
+.tl { position: relative; overflow: auto; overscroll-behavior-x: contain; touch-action: pan-x pan-y; }
 
 /* いま画面のどのへんの年を見ているかの基準線（軸の下から下端まで） */
 .center-line {
