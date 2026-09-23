@@ -71,6 +71,13 @@ export const MAX_YEAR = new Date().getFullYear() + 1;
 
 export type Link = { label: string; url: string };
 
+/**
+ * パネルに出す1枚の画像。ウィキメディアのものをそのまま参照する。
+ * CC BY-SA などは表示義務があるので、credit（作者 / ライセンス）と
+ * page（ファイルページ）を必ず持たせる。
+ */
+export type Image = { url: string; credit: string; page: string };
+
 type Common = {
   id: string;
   title: string;
@@ -79,6 +86,7 @@ type Common = {
   tags: string[];
   summary: string;
   detail?: string;
+  image?: Image;
   links: Link[];
   related: string[];
 };

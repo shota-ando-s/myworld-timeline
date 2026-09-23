@@ -383,6 +383,14 @@ function renderItem(item: Item) {
     <h2 class="panel__title">${esc(item.title)}</h2>
     <div class="panel__date">${esc(formatItemDate(item))}</div>
     <p class="panel__summary">${esc(item.summary)}</p>
+    ${
+      item.image
+        ? `<figure class="panel__figure">
+             <img src="${esc(item.image.url)}" alt="" loading="lazy" decoding="async" />
+             <figcaption><a href="${esc(item.image.page)}" target="_blank" rel="noopener">${esc(item.image.credit)}</a></figcaption>
+           </figure>`
+        : ''
+    }
     ${item.detail ? `<p class="panel__detail">${esc(item.detail.trim())}</p>` : ''}
     ${
       item.links.length

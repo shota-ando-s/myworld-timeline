@@ -16,6 +16,12 @@ const linkSchema = z.strictObject({
   url: z.url('http(s) から始まる URL を書いてください'),
 });
 
+const imageSchema = z.strictObject({
+  url: z.url('http(s) から始まる URL を書いてください'),
+  credit: z.string().min(1, '作者とライセンスを「作者 / ライセンス」の形で書いてください'),
+  page: z.url('ファイルページの URL（出所の証拠）が要ります'),
+});
+
 /** 期間バーと点イベントで共通のフィールド */
 const baseFields = {
   id: slug,
@@ -25,6 +31,7 @@ const baseFields = {
   tags: z.array(z.string().min(1)).default([]),
   summary: z.string().min(1, 'summary は必須（パネル冒頭の一行要約）'),
   detail: z.string().optional(),
+  image: imageSchema.optional(),
   links: z.array(linkSchema).default([]),
   related: z.array(slug).default([]),
 };

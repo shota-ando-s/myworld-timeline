@@ -126,6 +126,27 @@ events:                # 点イベント（単年の出来事）
 - 1レーン20〜45人。人数より**時代が途切れないこと**を優先する。
   数百年にわたって誰も並ばない区間があれば、そこを埋めるほうが人数を増やすより効く。
 
+### detail と画像
+
+`detail` は「何が起きたか」を**800字前後**で書く。`summary` が「なぜ覚える価値があるか」の
+1文なので、役割が重ならない。Wikipedia は年代と事実の確認に使い、**本文は引用せず自分の
+言葉で書く**（事実に著作権は無いが、表現をなぞると翻案にあたりうる）。
+
+```sh
+node scripts/wiki-leads.mjs               # リンク先の冒頭文を取る（裏取りと下の検査に使う）
+node scripts/detail-todo.mjs <lane>       # まだ書いていない項目を材料つきで並べる
+node scripts/detail-apply.mjs <本文.json> [--replace|--append]
+node scripts/detail-reflow.mjs            # 1文＝1行にそろえる（改行が二重に折れるのを防ぐ）
+```
+
+`npm run validate` が `check-originality.mjs` を呼び、Wikipedia の冒頭文と
+20文字以上一致するか、8文字の並びの一致率が25%を超えたら警告する。出たら書き直す。
+
+画像は記事の代表画像を参照する（再配布はしない）。`node scripts/wiki-images.mjs <lane>`
+で URL・作者・ライセンス・ファイルページを取り、`image-apply.mjs` で差し込む。
+**CC BY-SA などは表示義務があるので、credit と page は必ず一緒に持たせる**。
+パネルでは説明の上に出し、下に作者とライセンスを小さく添える。
+
 ### 出典リンク
 
 全項目に ja.wikipedia の参考リンクが入っている（`links:` の1件目）。パネルでは説明の

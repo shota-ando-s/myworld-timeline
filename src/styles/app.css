@@ -331,6 +331,16 @@ a { color: #1c5cab; }
 .panel__title { font-family: var(--serif); font-size: 20px; margin: 2px 0 2px; line-height: 1.4; }
 .panel__date { font-size: 12px; color: var(--ink-2); margin-bottom: 12px; }
 .panel__summary { margin: 0 0 12px; }
+/* 画像はウィキメディアから直接読む。パネルを開くまで読み込まれない（loading=lazy） */
+.panel__figure { margin: 0 0 12px; }
+.panel__figure img {
+  display: block; width: 100%; height: auto;
+  border: 1px solid var(--rule); border-radius: 4px; background: var(--paper-alt);
+}
+/* 表示義務のあるライセンスがあるので、作者とライセンスは必ず出す */
+.panel__figure figcaption { font-size: 10.5px; color: var(--ink-3); margin-top: 4px; line-height: 1.4; }
+.panel__figure figcaption a { color: var(--ink-3); }
+
 .panel__detail { font-size: 13px; color: var(--ink-2); white-space: pre-wrap; margin: 0 0 14px; }
 /* 説明の末尾に置く出典。本文ではなく典拠なので小さく添える */
 .panel__source { font-size: 12px; color: var(--ink-3); margin: -6px 0 14px; }

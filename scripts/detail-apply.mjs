@@ -22,7 +22,9 @@ function collect(dir) {
   return out;
 }
 
-const texts = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
+const replace = process.argv.includes('--replace'); // 既にある detail を書き換える
+const append = process.argv.includes('--append'); // 既にある detail の後ろに書き足す
+const texts = JSON.parse(fs.readFileSync(process.argv.find((a) => a.endsWith('.json')), 'utf8'));
 let added = 0;
 let skipped = 0;
 const seen = new Set();
@@ -45,11 +47,28 @@ for (const file of collect(DATA)) {
     while (end < lines.length && !/^\S/.test(lines[end]) && !/^ {2}- id: /.test(lines[end])) end++;
     while (end > i && lines[end - 1].trim() === '') end--;
 
-    const block = lines.slice(i, end);
-    if (block.some((l) => /^ {4}detail:/.test(l))) { skipped++; continue; }
+    let block = lines.slice(i, end);
+    const has = block.findIndex((l) => /^ {4}detail:/.test(l));
+    if (has !== -1 && append) {
+      let last = has + 1;
+      while (last < block.length && /^ {6}\S/.test(block[last])) last++;
+      const body = String(text).trim().split('\n').map((l) => `      ${l.trim()}`);
+      lines.splice(i + last, 0, ...body);
+      added++;
+      continue;
+    }
+    if (has !== -1) {
+      if (!replace) { skipped++; continue; }
+      // 既存の detail（|ブロックの中身も）を取り除いてから入れ直す
+      let last = has + 1;
+      while (last < block.length && /^ {6}\S/.test(block[last])) last++;
+      lines.splice(i + has, last - has);
+      end -= last - has;
+      block = lines.slice(i, end);
+    }
 
-    // 並びは summary → detail → links → related
-    const after = block.findIndex((l) => /^ {4}(links|related):/.test(l));
+    // 並びは summary → detail → image → links → related
+    const after = block.findIndex((l) => /^ {4}(image|links|related):/.test(l));
     const at = i + (after === -1 ? block.length : after);
     const body = String(text).trim().split('\n').map((l) => `      ${l.trim()}`);
     lines.splice(at, 0, '    detail: |', ...body);
