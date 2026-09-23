@@ -9,6 +9,14 @@ periods:
     tags: [ロシア, ウクライナ]
     summary: 東スラヴ最初の国家。ビザンツからキリスト教と文字を受け取った。
 
+  - id: novgorod
+    title: ノヴゴロド共和国
+    start: 1136
+    end: 1478
+    category: economy
+    tags: [ロシア, 交易]
+    summary: 市民集会が公を選んだ商業都市。北方交易でハンザ同盟と結んだ。
+
   - id: mongol-yoke
     title: タタールのくびき
     start: 1240
@@ -16,6 +24,22 @@ periods:
     category: politics
     tags: [ロシア, モンゴル]
     summary: ルーシ諸公がキプチャク・ハン国に従属した240年。西欧との距離が開いた。
+
+  - id: grand-duchy-moscow
+    title: モスクワ大公国
+    start: 1283
+    end: 1547
+    category: politics
+    tags: [ロシア]
+    summary: 徴税の代行役から始まり、諸公国をまとめ上げてロシアの中核になった。
+
+  - id: polish-lithuanian
+    title: ポーランド・リトアニア
+    start: 1385
+    end: 1795
+    category: politics
+    tags: [ポーランド, 東欧]
+    summary: 一時は東欧最大の国家。貴族の自由が強すぎて統治が行き詰まり、分割で消えた。
 
   - id: tsardom-russia
     title: ロシア・ツァーリ国
@@ -25,6 +49,22 @@ periods:
     tags: [ロシア]
     summary: イヴァン4世がツァーリを称し、シベリアへ拡大していった。
 
+  - id: time-of-troubles
+    title: 動乱時代
+    start: 1598
+    end: 1613
+    category: war
+    tags: [ロシア, 混乱]
+    summary: 王朝断絶と飢饉と外国の介入が重なり、国家が崩壊寸前まで行った15年。
+
+  - id: great-northern-war
+    title: 大北方戦争
+    start: 1700
+    end: 1721
+    category: war
+    tags: [ロシア, スウェーデン]
+    summary: バルト海の覇権を奪い、ロシアがヨーロッパの大国として認められた戦争。
+
   - id: russian-empire
     title: ロシア帝国
     start: 1721
@@ -32,6 +72,14 @@ periods:
     category: politics
     tags: [ロシア]
     summary: ピョートル1世の西欧化以降、ヨーロッパの大国として振る舞った。
+
+  - id: russian-civil-war
+    title: ロシア内戦
+    start: 1917
+    end: 1922
+    category: war
+    tags: [ロシア, 革命]
+    summary: 赤軍と白軍の戦いに各国が干渉。飢餓と合わせて数百万人が亡くなった。
 
   - id: soviet-union
     title: ソヴィエト連邦
@@ -41,13 +89,52 @@ periods:
     tags: [ロシア, 社会主義]
     summary: 世界初の社会主義国家。冷戦期は米国と並ぶ超大国だった。
 
+  - id: stalin-era
+    title: スターリン体制
+    start: 1928
+    end: 1953
+    category: politics
+    tags: [ソ連, 独裁]
+    summary: 計画経済で重工業を築く一方、粛清と飢饉で膨大な犠牲を出した。
+
+  - id: eastern-bloc
+    title: 東側陣営
+    start: 1945
+    end: 1991
+    category: politics
+    tags: [冷戦, 東欧]
+    summary: 東欧諸国がソ連型の体制に組み込まれ、西側と断絶した46年。
+
+  - id: russian-federation
+    title: ロシア連邦
+    start: 1991
+    ongoing: true
+    category: politics
+    tags: [ロシア, 現代]
+    summary: ソ連の後継国家。市場化の混乱を経て資源輸出と強権の国になった。
+
 events:
+  - id: rurik
+    year: 862
+    circa: true
+    title: リューリクの来住
+    category: politics
+    tags: [ロシア, ヴァイキング]
+    summary: 北欧系の一族がスラヴの地に招かれたと年代記が伝える、ルーシの起点。
+
   - id: rus-christianization
     year: 988
     title: ウラディミル1世のキリスト教受容
     category: religion
     tags: [ロシア, 正教]
     summary: ビザンツ流の正教を国の宗教とし、東スラヴ文化の方向が決まった。
+
+  - id: moscow-first-mention
+    year: 1147
+    title: モスクワが記録に現れる
+    category: society
+    tags: [ロシア, 都市]
+    summary: 森の中の小さな拠点が、300年後には全ルーシの中心になる。
 
   - id: kiev-sack
     year: 1240
@@ -56,12 +143,54 @@ events:
     tags: [ロシア, モンゴル]
     summary: ルーシ諸公国が壊滅し、政治の中心が北東のモスクワへ移っていく。
 
+  - id: battle-on-ice
+    year: 1242
+    title: 氷上の戦い
+    category: war
+    tags: [ロシア, ドイツ騎士団]
+    summary: 西からのカトリック勢力を退け、ロシアは正教圏として歩むことになった。
+
+  - id: kulikovo
+    year: 1380
+    title: クリコヴォの戦い
+    category: war
+    tags: [ロシア, モンゴル]
+    summary: ルーシ連合が初めてモンゴル軍を破り、独立への自信を得た。
+
+  - id: third-rome
+    year: 1472
+    title: 「第三のローマ」の自覚
+    category: religion
+    tags: [ロシア, 正教]
+    summary: ビザンツ皇女と結婚したイヴァン3世が、正教世界の後継者を名乗った。
+
   - id: great-stand-ugra
     year: 1480
     title: ウグラ川の対峙
     category: politics
     tags: [ロシア]
     summary: モスクワ大公がハンへの貢納を拒み、事実上の独立を果たした。
+
+  - id: yermak-siberia
+    year: 1581
+    title: イェルマークのシベリア遠征
+    category: economy
+    tags: [ロシア, 毛皮]
+    summary: 毛皮を求める東進が始まり、60年ほどで太平洋岸に到達する。
+
+  - id: romanov-founded
+    year: 1613
+    title: ロマノフ朝の成立
+    category: politics
+    tags: [ロシア]
+    summary: 動乱を収めた新王朝が、1917年まで300年続く。
+
+  - id: pereyaslav
+    year: 1654
+    title: ウクライナのロシア帰属
+    category: politics
+    tags: [ロシア, ウクライナ]
+    summary: コサックがポーランドから離れてロシアに保護を求めた協定。解釈は今も争われる。
 
   - id: saint-petersburg
     year: 1703
@@ -70,12 +199,40 @@ events:
     tags: [ロシア, 西欧化]
     summary: ピョートル1世が「ヨーロッパへの窓」として新首都を造った。
 
+  - id: poltava
+    year: 1709
+    title: ポルタヴァの戦い
+    category: war
+    tags: [ロシア, スウェーデン]
+    summary: スウェーデンの北方支配が終わり、ロシアが取って代わった。
+
+  - id: partitions-of-poland
+    year: 1772
+    title: ポーランド分割
+    category: politics
+    tags: [ポーランド, 東欧]
+    summary: 3度の分割で国家が地図から消え、123年後まで戻らなかった。
+
   - id: napoleon-russia
     year: 1812
     title: ナポレオンのロシア遠征
     category: war
     tags: [ロシア, フランス]
     summary: 冬とロシアの焦土作戦に敗れ、ナポレオン没落の決定打となった。
+
+  - id: decembrist
+    year: 1825
+    title: デカブリストの乱
+    category: society
+    tags: [ロシア, 改革]
+    summary: 西欧を見た将校たちの蜂起。以後のロシア革命運動の原点とされる。
+
+  - id: crimean-war
+    year: 1853
+    title: クリミア戦争
+    category: war
+    tags: [ロシア, ヨーロッパ]
+    summary: 敗北で後進性が露わになり、農奴解放など大改革の引き金になった。
 
   - id: serf-emancipation
     year: 1861
@@ -84,12 +241,100 @@ events:
     tags: [ロシア, 改革]
     summary: 2000万人以上の農奴が法的に解放されたが、土地問題は残った。
 
+  - id: war-and-peace
+    year: 1869
+    title: トルストイ『戦争と平和』
+    category: culture
+    tags: [ロシア, 文学]
+    summary: 19世紀ロシア文学の頂点。歴史を動かすのは誰かという問いを小説で扱った。
+
+  - id: alexander2-assassinated
+    year: 1881
+    title: アレクサンドル2世の暗殺
+    category: politics
+    tags: [ロシア]
+    summary: 改革を進めた皇帝が革命家に殺され、以後は反動政治に傾いた。
+
+  - id: trans-siberian
+    year: 1891
+    title: シベリア鉄道の着工
+    category: economy
+    tags: [ロシア, 鉄道]
+    summary: 9000キロを結ぶ大動脈。極東進出を可能にし、日露戦争の背景にもなった。
+
+  - id: bloody-sunday
+    year: 1905
+    title: 血の日曜日事件と第一次ロシア革命
+    category: society
+    tags: [ロシア, 革命]
+    summary: 皇帝への請願行進への発砲が、体制への信頼を崩した。
+
   - id: russian-revolution
     year: 1917
     title: ロシア革命
     category: society
     tags: [ロシア, 革命]
     summary: 帝政が倒れ、世界で初めて社会主義を掲げる政権が生まれた。
+    detail: |
+      2月の革命で皇帝が退位し、10月にボリシェヴィキが権力を握った。
+      「労働者の国家」という実験は各国の政治に影響を与え続け、
+      資本主義側にも社会保障を急がせる圧力になった。
+
+  - id: holodomor
+    year: 1932
+    title: ホロドモール（ウクライナ飢饉）
+    category: disaster
+    tags: [ソ連, 飢饉]
+    summary: 強制的な穀物徴発で数百万人が餓死。ウクライナは今も虐殺と位置づけている。
+
+  - id: great-purge
+    year: 1937
+    title: 大粛清
+    category: society
+    tags: [ソ連, 独裁]
+    summary: 党幹部から軍人、一般市民まで大量に処刑・収容され、社会が恐怖で縛られた。
+
+  - id: operation-barbarossa
+    year: 1941
+    title: 独ソ戦の開始
+    category: war
+    tags: [ソ連, ドイツ]
+    summary: 第二次世界大戦最大の戦場となり、ソ連だけで2700万人が犠牲になった。
+
+  - id: stalingrad
+    year: 1942
+    title: スターリングラード攻防戦
+    category: war
+    tags: [ソ連, ドイツ]
+    summary: ドイツ軍の敗北で東部戦線の流れが変わり、大戦全体の転換点になった。
+
+  - id: sputnik
+    year: 1957
+    title: スプートニク1号
+    category: science
+    tags: [ソ連, 宇宙]
+    summary: 人類初の人工衛星。米国に衝撃を与え、宇宙開発競争と科学教育改革を招いた。
+
+  - id: gagarin
+    year: 1961
+    title: ガガーリンの有人宇宙飛行
+    category: science
+    tags: [ソ連, 宇宙]
+    summary: 人類が初めて地球を外から見た。「地球は青かった」の言葉が残る。
+
+  - id: prague-spring
+    year: 1968
+    title: プラハの春
+    category: society
+    tags: [チェコ, 冷戦]
+    summary: 「人間の顔をした社会主義」の試みがソ連軍に潰され、東側の限界が露わになった。
+
+  - id: chernobyl
+    year: 1986
+    title: チェルノブイリ原発事故
+    category: disaster
+    tags: [ソ連, 原発]
+    summary: 情報隠蔽への不信が体制への信頼を損ない、ソ連崩壊を早めたとも言われる。
 
   - id: fall-of-berlin-wall
     year: 1989
@@ -104,3 +349,17 @@ events:
     category: politics
     tags: [ロシア, 冷戦]
     summary: 15の共和国に分かれ、米ソ二極の時代が終わった。
+
+  - id: eu-eastern-enlargement
+    year: 2004
+    title: EUの東方拡大
+    category: politics
+    tags: [東欧, ヨーロッパ]
+    summary: 旧東側の8か国が加盟し、ヨーロッパの東西の境が引き直された。
+
+  - id: ukraine-invasion
+    year: 2022
+    title: ロシアのウクライナ侵攻
+    category: war
+    tags: [ロシア, ウクライナ]
+    summary: 冷戦後のヨーロッパの秩序が崩れ、各国が安全保障を根本から見直した。

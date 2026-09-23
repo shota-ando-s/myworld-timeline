@@ -10,6 +10,9 @@ periods:
     category: society
     tags: [インド, 都市]
     summary: モヘンジョダロなど計画都市の文明。文字は今も解読されていない。
+    detail: |
+      上下水道と規格化された焼きレンガを持ちながら、王の墓や巨大神殿が見つかっていない。
+      強大な王がいた形跡が薄い点で、同時代のメソポタミアやエジプトと性格が異なる。
 
   - id: vedic
     title: ヴェーダ時代
@@ -21,6 +24,15 @@ periods:
     tags: [インド, バラモン教]
     summary: アーリヤ人の進入とヴェーダの成立。カースト的な身分の原型ができた。
 
+  - id: mahajanapada
+    title: 十六大国の時代
+    start: -600
+    startCirca: true
+    end: -345
+    category: politics
+    tags: [インド]
+    summary: ガンジス流域に都市国家が並び立った時代。仏教とジャイナ教はここで生まれた。
+
   - id: maurya
     title: マウリヤ朝
     start: -322
@@ -28,6 +40,16 @@ periods:
     category: politics
     tags: [インド]
     summary: インド初の統一王朝。アショーカ王の治世に仏教が各地へ広がった。
+
+  - id: satavahana
+    title: サータヴァーハナ朝
+    start: -100
+    startCirca: true
+    end: 220
+    endCirca: true
+    category: economy
+    tags: [インド, 交易]
+    summary: デカン高原を拠点にローマとの海上交易で栄えた王朝。
 
   - id: kushan
     title: クシャーナ朝
@@ -47,6 +69,22 @@ periods:
     tags: [インド, ヒンドゥー教]
     summary: ヒンドゥー文化の古典期。ゼロを含む十進法の記数法が整えられた。
 
+  - id: harsha
+    title: ヴァルダナ朝
+    start: 606
+    end: 647
+    category: politics
+    tags: [インド]
+    summary: 北インドを一時的に統一。玄奘が訪れて記録を残した。
+
+  - id: chola
+    title: チョーラ朝
+    start: 850
+    end: 1279
+    category: economy
+    tags: [インド, 海上交易]
+    summary: 南インドから海を越えてスリランカや東南アジアにまで遠征した海洋王朝。
+
   - id: delhi-sultanate
     title: デリー・スルタン朝
     start: 1206
@@ -54,6 +92,14 @@ periods:
     category: politics
     tags: [インド, イスラム]
     summary: 北インドにイスラム政権が定着した約320年。
+
+  - id: vijayanagara
+    title: ヴィジャヤナガル王国
+    start: 1336
+    end: 1646
+    category: politics
+    tags: [インド, ヒンドゥー教]
+    summary: 南インドで300年続いたヒンドゥー王国。イスラム勢力の南下を長く食い止めた。
 
   - id: mughal
     title: ムガル帝国
@@ -63,6 +109,22 @@ periods:
     tags: [インド, イスラム]
     summary: ヒンドゥーとイスラムが混ざり合う文化を育てた大帝国。
 
+  - id: maratha
+    title: マラーター王国
+    start: 1674
+    end: 1818
+    category: war
+    tags: [インド]
+    summary: ムガルに抗したヒンドゥー勢力。一時は北インドまで支配を広げた。
+
+  - id: company-rule
+    title: 東インド会社の支配
+    start: 1757
+    end: 1858
+    category: economy
+    tags: [インド, イギリス]
+    summary: 一民間会社が軍と徴税権を持ち、インド亜大陸の大半を統治した100年。
+
   - id: british-raj
     title: イギリス領インド帝国
     start: 1858
@@ -70,6 +132,14 @@ periods:
     category: politics
     tags: [インド, 植民地]
     summary: 東インド会社に代わり英国政府が直接統治した90年。
+
+  - id: republic-of-india
+    title: インド共和国
+    start: 1950
+    ongoing: true
+    category: politics
+    tags: [インド, 現代]
+    summary: 多言語・多宗教のまま民主主義を続ける、人口世界最大の国家。
 
 events:
   - id: buddha-birth
@@ -80,6 +150,37 @@ events:
     tags: [仏教, インド]
     summary: 生没年には諸説ある。苦をどう終わらせるかという問いが東アジア全体に広がった。
 
+  - id: buddha-death
+    year: -483
+    circa: true
+    title: ブッダの死と教えの集成
+    category: religion
+    tags: [仏教]
+    summary: 弟子たちが記憶を持ち寄って教えをまとめ、経典の伝統が始まった。諸説あり。
+
+  - id: mahavira
+    year: -527
+    circa: true
+    title: ジャイナ教の成立
+    category: religion
+    tags: [インド, 不殺生]
+    summary: 徹底した不殺生を説く教え。のちのガンディーの思想にもつながる。
+
+  - id: upanishads
+    year: -600
+    circa: true
+    title: ウパニシャッド哲学
+    category: religion
+    tags: [インド, 思想]
+    summary: 宇宙と自己は本来一つだという思索。輪廻と解脱の枠組みがここで整う。
+
+  - id: alexander-indus
+    year: -326
+    title: アレクサンドロスのインダス到達
+    category: war
+    tags: [マケドニア, インド]
+    summary: 兵の疲弊で引き返したが、この遠征が統一王朝マウリヤの成立を促した。
+
   - id: ashoka
     year: -268
     circa: true
@@ -87,6 +188,66 @@ events:
     category: politics
     tags: [インド, 仏教]
     summary: 戦争の惨禍を悔いて仏教に帰依し、石柱に統治の理念を刻ませた。
+
+  - id: kalinga-war
+    year: -261
+    title: カリンガ戦争
+    category: war
+    tags: [インド, 仏教]
+    summary: 十数万の死者を出した勝利のあと、アショーカは武力による拡大をやめた。
+
+  - id: gandhara-art
+    year: 150
+    circa: true
+    title: ガンダーラ美術
+    category: culture
+    tags: [仏教, ギリシア]
+    summary: ギリシア彫刻の技法で仏の姿が作られ、仏像という表現が生まれた。
+
+  - id: mahabharata
+    year: -300
+    circa: true
+    title: 二大叙事詩の成立
+    category: culture
+    tags: [インド, 文学]
+    summary: 『マハーバーラタ』と『ラーマーヤナ』が、南アジア全域の物語の共通言語になった。
+
+  - id: indian-numerals
+    year: 500
+    circa: true
+    title: ゼロを含む記数法
+    category: science
+    tags: [数学, インド]
+    summary: 位取りとゼロの組み合わせがアラビア経由でヨーロッパに伝わり、計算を一変させた。
+
+  - id: nalanda
+    year: 427
+    circa: true
+    title: ナーランダー僧院の創設
+    category: science
+    tags: [仏教, 学問]
+    summary: 各地から学僧が集まった一大学問所。玄奘も学んだ。
+
+  - id: sind-conquest
+    year: 712
+    title: ウマイヤ朝のシンド征服
+    category: war
+    tags: [イスラム, インド]
+    summary: イスラム勢力が初めてインドに拠点を得た。
+
+  - id: ghazni-raids
+    year: 1001
+    title: ガズナ朝のインド侵入
+    category: war
+    tags: [イスラム, インド]
+    summary: 17回に及ぶ略奪遠征で北インドの富が流出し、政治地図が塗り替わった。
+
+  - id: tarain-battle
+    year: 1192
+    title: 第二次タラーインの戦い
+    category: war
+    tags: [イスラム, インド]
+    summary: 北インドにイスラム政権が定着する決定打になった。
 
   - id: vasco-da-gama
     year: 1498
@@ -102,12 +263,55 @@ events:
     tags: [インド, ムガル]
     summary: バーブルが火器を用いて勝利し、ムガル帝国が始まった。
 
+  - id: akbar-throne
+    year: 1556
+    title: アクバルの即位
+    category: politics
+    tags: [ムガル, 宗教共存]
+    summary: 非イスラム教徒への人頭税を廃止し、宗教を越えた統治を試みた。
+
+  - id: sikh-founding
+    year: 1499
+    circa: true
+    title: シク教の成立
+    category: religion
+    tags: [インド]
+    summary: ヒンドゥーとイスラムの両方を批判的に受け止め、唯一神と平等を説いた。
+
+  - id: east-india-company-founded
+    year: 1600
+    title: イギリス東インド会社の設立
+    category: economy
+    tags: [イギリス, 交易]
+    summary: 貿易会社として始まり、150年後には領土を支配する権力になった。
+
+  - id: taj-mahal
+    year: 1632
+    title: タージ・マハルの造営
+    category: culture
+    tags: [ムガル, 建築]
+    summary: ペルシアとインドの様式が融合した廟。帝国の富と技術の頂点を示す。
+
+  - id: aurangzeb
+    year: 1658
+    title: アウラングゼーブの即位
+    category: religion
+    tags: [ムガル]
+    summary: 厳格なイスラム政策で人頭税を復活させ、各地の反発が帝国を揺るがせた。
+
   - id: plassey
     year: 1757
     title: プラッシーの戦い
     category: war
     tags: [インド, イギリス]
     summary: 東インド会社がベンガルの実権を握り、インド植民地化の起点となった。
+
+  - id: bengal-famine-1770
+    year: 1770
+    title: ベンガル大飢饉
+    category: disaster
+    tags: [インド, 飢饉]
+    summary: 数百万人が餓死。会社の徴税優先が被害を拡大したと批判された。
 
   - id: indian-rebellion
     year: 1857
@@ -116,9 +320,75 @@ events:
     tags: [インド, 抵抗]
     summary: 傭兵の蜂起が広域の反乱に発展し、ムガル帝国と東インド会社が終わった。
 
+  - id: indian-national-congress
+    year: 1885
+    title: インド国民会議の結成
+    category: politics
+    tags: [インド, 独立運動]
+    summary: 当初は穏健な請願団体。やがて独立運動の中心組織になる。
+
+  - id: bengal-partition
+    year: 1905
+    title: ベンガル分割令
+    category: politics
+    tags: [インド, イギリス]
+    summary: 宗教で住民を分ける統治が、大規模な反英運動を呼び起こした。
+
+  - id: gandhi-returns
+    year: 1915
+    title: ガンディーの帰国
+    category: society
+    tags: [インド, 非暴力]
+    summary: 南アフリカで培った非暴力抵抗を持ち帰り、独立運動を大衆のものにした。
+
+  - id: amritsar-massacre
+    year: 1919
+    title: アムリットサル虐殺
+    category: society
+    tags: [インド, イギリス]
+    summary: 非武装の群衆への発砲が、イギリス統治への信頼を決定的に失わせた。
+
+  - id: salt-march
+    year: 1930
+    title: 塩の行進
+    category: society
+    tags: [インド, 非暴力]
+    summary: 塩の専売に抗う380キロの行進。非暴力不服従が世界に知られた。
+
   - id: india-independence
     year: 1947
     title: インド・パキスタン分離独立
     category: politics
     tags: [インド, 独立]
     summary: 非暴力の運動が実を結ぶ一方、宗教による分割で大規模な混乱が起きた。
+    detail: |
+      1000万人以上が国境を越えて移動し、数十万から百万規模の犠牲者が出たとされる。
+      カシミールの帰属問題はこのときに生まれ、今も解決していない。
+
+  - id: gandhi-assassinated
+    year: 1948
+    title: ガンディーの暗殺
+    category: society
+    tags: [インド]
+    summary: 宗教の融和を説き続けた人物が、同じヒンドゥー教徒に殺された。
+
+  - id: india-constitution
+    year: 1950
+    title: インド憲法の施行
+    category: society
+    tags: [インド, 民主主義]
+    summary: 不可触民差別を禁じ、普通選挙を導入。世界最大の民主主義が始まった。
+
+  - id: bangladesh-independence
+    year: 1971
+    title: バングラデシュの独立
+    category: politics
+    tags: [南アジア]
+    summary: 宗教だけでは国はまとまらないことを示し、パキスタンが東西に割れた。
+
+  - id: india-liberalization
+    year: 1991
+    title: インドの経済自由化
+    category: economy
+    tags: [インド, 経済]
+    summary: 統制経済を転換し、ITサービスを軸に高成長の時代に入った。

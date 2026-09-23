@@ -10,6 +10,14 @@ periods:
     tags: [朝鮮, 古代]
     summary: 半島北部にあったとされる最初の国家。前108年に漢に滅ぼされた。
 
+  - id: han-commanderies
+    title: 漢の四郡
+    start: -108
+    end: 313
+    category: politics
+    tags: [朝鮮, 中国]
+    summary: 楽浪郡を中心とする中国の直轄地。大陸の文物が半島に流れ込む窓口になった。
+
   - id: korea-three-kingdoms
     title: 三国時代（高句麗・百済・新羅）
     start: -57
@@ -18,6 +26,14 @@ periods:
     category: politics
     tags: [朝鮮]
     summary: 三つの王国が競い合い、中国・日本の双方と深く関わった。
+
+  - id: balhae
+    title: 渤海
+    start: 698
+    end: 926
+    category: politics
+    tags: [朝鮮, 満洲]
+    summary: 高句麗の後継を名乗り、唐や日本と使節を交わした「海東の盛国」。
 
   - id: unified-silla
     title: 統一新羅
@@ -35,13 +51,32 @@ periods:
     tags: [朝鮮]
     summary: Korea の語源となった王朝。高麗青磁と大蔵経の木版で知られる。
 
+  - id: goryeo-military-rule
+    title: 武臣政権
+    start: 1170
+    end: 1270
+    category: war
+    tags: [朝鮮, 武人]
+    summary: 武官が実権を握った100年。モンゴルへの長い抵抗もこの政権が指導した。
+
   - id: joseon
     title: 朝鮮王朝（李氏朝鮮）
     start: 1392
-    end: 1910
+    end: 1897
     category: politics
     tags: [朝鮮, 儒教]
     summary: 500年続いた儒教国家。ハングルの制定と両班による統治が特徴。
+    detail: |
+      朱子学を国の原理として徹底し、科挙で選ばれた両班が官職と土地を握った。
+      身分と儀礼の秩序が細かく定められ、その影響は現代の社会慣習にも残るとされる。
+
+  - id: korean-empire
+    title: 大韓帝国
+    start: 1897
+    end: 1910
+    category: politics
+    tags: [朝鮮, 近代化]
+    summary: 清との従属関係を断ち皇帝を称したが、日露の争いのなかで独立を保てなかった。
 
   - id: japanese-rule-korea
     title: 日本統治期
@@ -51,13 +86,74 @@ periods:
     tags: [朝鮮, 植民地]
     summary: 韓国併合から敗戦まで、朝鮮半島は日本の統治下に置かれた。
 
+  - id: korea-division
+    title: 南北分断
+    start: 1945
+    ongoing: true
+    category: politics
+    tags: [朝鮮, 冷戦]
+    summary: 38度線での分割占領から始まり、80年たっても解消していない。
+
+  - id: south-korea
+    title: 大韓民国
+    start: 1948
+    ongoing: true
+    category: politics
+    tags: [韓国]
+    summary: 独裁と経済成長を経て、1987年以降は民主主義を定着させた。
+
+  - id: north-korea
+    title: 朝鮮民主主義人民共和国
+    start: 1948
+    ongoing: true
+    category: politics
+    tags: [北朝鮮]
+    summary: 一族による支配が三代続き、核開発で国際社会と対峙している。
+
+  - id: park-era
+    title: 朴正煕体制
+    start: 1961
+    end: 1979
+    category: economy
+    tags: [韓国, 開発独裁]
+    summary: 強権のもとで輸出主導の工業化を進め、「漢江の奇跡」と呼ばれる成長を実現した。
+
 events:
+  - id: lelang-falls
+    year: 313
+    title: 高句麗が楽浪郡を滅ぼす
+    category: war
+    tags: [朝鮮, 中国]
+    summary: 400年続いた中国の直轄支配が終わり、半島は三国の争いの時代に入る。
+
   - id: buddhism-goguryeo
     year: 372
     title: 高句麗に仏教が伝わる
     category: religion
     tags: [朝鮮, 仏教]
     summary: 前秦から伝来し、のちに百済経由で日本へも伝わる流れの起点となった。
+
+  - id: pyongyang-capital
+    year: 427
+    title: 高句麗の平壌遷都
+    category: politics
+    tags: [朝鮮]
+    summary: 南進策に転じ、百済・新羅との三国の争いが本格化した。
+
+  - id: salsu-battle
+    year: 612
+    title: 薩水大捷（隋の遠征を撃退）
+    category: war
+    tags: [朝鮮, 隋]
+    summary: 100万と称された隋の大軍を退け、隋の滅亡を早めた。
+
+  - id: baekje-falls
+    year: 660
+    title: 百済の滅亡
+    category: war
+    tags: [朝鮮, 唐]
+    summary: 唐・新羅の連合軍に敗れ、復興を助けた日本も白村江で敗れた。
+    related: [hakusukinoe]
 
   - id: silla-unification
     year: 668
@@ -66,12 +162,62 @@ events:
     tags: [朝鮮]
     summary: 唐と連合して百済・高句麗を滅ぼし、その後は唐の勢力も追い出した。
 
+  - id: bulguksa
+    year: 751
+    circa: true
+    title: 仏国寺と石窟庵の造営
+    category: culture
+    tags: [朝鮮, 仏教, 建築]
+    summary: 統一新羅の仏教文化の到達点。石窟の仏像は東アジア彫刻の傑作とされる。
+
+  - id: goryeo-founded
+    year: 918
+    title: 高麗の建国
+    category: politics
+    tags: [朝鮮]
+    summary: 後三国の争いを収め、仏教を国の支えとする王朝が始まった。
+
+  - id: goryeo-exam
+    year: 958
+    title: 科挙の導入
+    category: society
+    tags: [朝鮮, 官僚制]
+    summary: 中国にならった試験制度が、以後1000年の支配層の形を決めた。
+
+  - id: khitan-invasion
+    year: 1010
+    title: 契丹の侵入
+    category: war
+    tags: [朝鮮, 遼]
+    summary: 三度の侵攻を退け、宋・遼と並ぶ独自の地位を保った。
+
+  - id: samguk-sagi
+    year: 1145
+    title: 『三国史記』の編纂
+    category: culture
+    tags: [朝鮮, 歴史]
+    summary: 現存する朝鮮最古の歴史書。三国時代の記録の土台になっている。
+
   - id: mongol-invasion-goryeo
     year: 1231
     title: モンゴルの高麗侵攻
     category: war
     tags: [朝鮮, モンゴル]
     summary: 30年に及ぶ抵抗の末に服属し、元の日本遠征にも動員された。
+
+  - id: tripitaka-koreana
+    year: 1251
+    title: 高麗版大蔵経の完成
+    category: religion
+    tags: [朝鮮, 仏教, 印刷]
+    summary: 8万枚を超える版木を16年かけて彫った。国を守る祈りの事業だった。
+
+  - id: jikji
+    year: 1377
+    title: 『直指』が金属活字で刷られる
+    category: science
+    tags: [朝鮮, 印刷]
+    summary: 現存する世界最古の金属活字本。グーテンベルクより70年以上早い。
 
   - id: yi-seonggye
     year: 1392
@@ -86,6 +232,9 @@ events:
     category: culture
     tags: [朝鮮, 文字]
     summary: 世宗が民衆にも書ける文字を作らせ、独自の表記体系が生まれた。
+    detail: |
+      発音のしくみを分析して字形に反映させた、世界でも珍しい計画的な文字。
+      当初は両班に軽んじられたが、20世紀に国民の文字として復権した。
 
   - id: imjin-war
     year: 1592
@@ -94,9 +243,132 @@ events:
     tags: [朝鮮, 日本]
     summary: 豊臣秀吉の侵攻に明の援軍と李舜臣の水軍が抗し、半島は荒廃した。
 
+  - id: qing-submission
+    year: 1637
+    title: 清への服属
+    category: war
+    tags: [朝鮮, 清]
+    summary: 明への義理と現実の力の間で引き裂かれ、以後は清に朝貢した。
+
+  - id: silhak
+    year: 1700
+    circa: true
+    title: 実学の広がり
+    category: religion
+    tags: [朝鮮, 思想]
+    summary: 観念的な朱子学を批判し、農業・商業・技術を重んじる学問が現れた。
+
+  - id: korea-catholicism
+    year: 1784
+    title: カトリックの受容
+    category: religion
+    tags: [朝鮮, キリスト教]
+    summary: 宣教師なしに書物から信仰が広まった珍しい例。のちに厳しい弾圧を受けた。
+
+  - id: ganghwa-treaty
+    year: 1876
+    title: 日朝修好条規
+    category: politics
+    tags: [朝鮮, 日本]
+    summary: 日本が結ばせた不平等条約。朝鮮をめぐる日清の対立が表面化した。
+
+  - id: donghak-rebellion
+    year: 1894
+    title: 甲午農民戦争（東学党の乱）
+    category: society
+    tags: [朝鮮, 反乱]
+    summary: 農民の蜂起が日清両軍の出兵を招き、日清戦争の引き金になった。
+    related: [first-sino-japanese-war]
+
+  - id: korea-annexation
+    year: 1910
+    title: 韓国併合
+    category: politics
+    tags: [朝鮮, 日本]
+    summary: 大韓帝国が消滅し、35年間の植民地統治が始まった。
+
+  - id: march-first-movement
+    year: 1919
+    title: 三・一独立運動
+    category: society
+    tags: [朝鮮, 独立]
+    summary: 全土に広がった非暴力の独立宣言。中国の五・四運動にも影響した。
+    related: [may-fourth]
+
+  - id: korea-liberation
+    year: 1945
+    title: 解放と南北の分割占領
+    category: politics
+    tags: [朝鮮, 冷戦]
+    summary: 独立の喜びのすぐあとに、38度線で米ソに分けられた。
+
+  - id: two-koreas
+    year: 1948
+    title: 南北に二つの政府が立つ
+    category: politics
+    tags: [朝鮮]
+    summary: 統一政府の望みが絶たれ、2年後の戦争に向かった。
+
   - id: korean-war
     year: 1950
     title: 朝鮮戦争
     category: war
     tags: [朝鮮, 冷戦]
     summary: 南北の戦争に米中が介入。1953年の休戦で分断が固定された。
+
+  - id: april-revolution
+    year: 1960
+    title: 四月革命
+    category: society
+    tags: [韓国, 民主化]
+    summary: 学生の抗議が大統領を辞任に追い込み、民主化運動の原点になった。
+
+  - id: korea-japan-treaty
+    year: 1965
+    title: 日韓基本条約
+    category: politics
+    tags: [韓国, 日本]
+    summary: 国交が結ばれ経済協力が始まったが、歴史認識の対立は残った。
+
+  - id: gwangju-uprising
+    year: 1980
+    title: 光州事件
+    category: society
+    tags: [韓国, 民主化]
+    summary: 軍による市民の弾圧。その記憶が1987年の民主化を後押しした。
+
+  - id: korea-democratization
+    year: 1987
+    title: 六月民主抗争と民主化宣言
+    category: society
+    tags: [韓国, 民主化]
+    summary: 大統領の直接選挙が実現し、開発独裁から民主体制へ移った。
+
+  - id: seoul-olympics
+    year: 1988
+    title: ソウルオリンピック
+    category: society
+    tags: [韓国]
+    summary: 経済成長と民主化を世界に示し、東側諸国との国交樹立も進んだ。
+
+  - id: asian-financial-crisis-kr
+    year: 1997
+    title: アジア通貨危機とIMF管理
+    category: economy
+    tags: [韓国, 経済危機]
+    summary: 財閥中心の経済が揺らぎ、構造改革と格差の拡大につながった。
+
+  - id: inter-korean-summit
+    year: 2000
+    title: 初の南北首脳会談
+    category: politics
+    tags: [朝鮮]
+    summary: 分断後初めて南北の指導者が会ったが、和解は定着しなかった。
+
+  - id: hallyu
+    year: 1997
+    circa: true
+    title: 韓流の広がり
+    category: culture
+    tags: [韓国, 大衆文化]
+    summary: ドラマと音楽がアジアから世界へ広がり、文化が有力な輸出品になった。
