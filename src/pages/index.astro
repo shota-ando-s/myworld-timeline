@@ -7,7 +7,7 @@ import FilterBar from '../components/FilterBar.astro';
 import Lane, { type LaneView } from '../components/Lane.astro';
 import TimeAxis from '../components/TimeAxis.astro';
 import { loadOrThrow } from '../lib/load-glob.ts';
-import { MIN_LEADER_W, laneBands, packEvents, packPeriods } from '../lib/layout.ts';
+import { LEADER_STYLE, laneBands, packEvents, packPeriods } from '../lib/layout.ts';
 import { LANES, itemSpan } from '../lib/model.ts';
 import { timelineWidth, yearToX } from '../lib/scale.ts';
 
@@ -21,7 +21,7 @@ const groupOrder = [...new Set(LANES.map((l) => l.group))];
 const laneViews: LaneView[] = LANES.map((lane) => {
   const { periods, leaders, events } = data.byLane.get(lane.id)!;
   const packedBars = packPeriods(periods, ZOOM);
-  const packedLeaders = packPeriods(leaders, ZOOM, MIN_LEADER_W);
+  const packedLeaders = packPeriods(leaders, ZOOM, LEADER_STYLE);
   const packedDots = packEvents(events, ZOOM);
   const bands = laneBands(packedBars.rowCount, packedLeaders.rowCount, packedDots.rowCount);
 
@@ -32,6 +32,7 @@ const laneViews: LaneView[] = LANES.map((lane) => {
       row: packed.rows[i]!,
       x: yearToX(itemSpan(item)[0], ZOOM),
       w: packed.widths[i]!,
+      label: packed.labels[i]!,
     }));
 
   return {

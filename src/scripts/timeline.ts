@@ -5,7 +5,7 @@
  * - ズーム（座標と段組みの計算し直し）
  * - 同時代スナップショット（縦のスキャンライン）
  */
-import { LABEL_COL_W, MIN_LEADER_W, laneBands, packEvents, packPeriods } from '../lib/layout.ts';
+import { LABEL_COL_W, LEADER_STYLE, laneBands, packEvents, packPeriods } from '../lib/layout.ts';
 import {
   CATEGORIES,
   LANES,
@@ -160,7 +160,7 @@ function relayout() {
     const leaders = view.leaders ? laneLeaders.get(lane.id)! : [];
     const events = laneEvents.get(lane.id)!;
     const packedBars = packPeriods(periods, zoom);
-    const packedLeaders = packPeriods(leaders, zoom, MIN_LEADER_W);
+    const packedLeaders = packPeriods(leaders, zoom, LEADER_STYLE);
     const packedDots = packEvents(events, zoom);
 
     const placeBars = (list: Period[], packed: ReturnType<typeof packPeriods>) => {
@@ -170,6 +170,7 @@ function relayout() {
         el.style.setProperty('--bx', `${yearToX(itemSpan(p)[0], zoom)}px`);
         el.style.setProperty('--bw', `${packed.widths[i]!}px`);
         el.style.setProperty('--row', String(packed.rows[i]!));
+        el.dataset.label = packed.labels[i]!;
       });
     };
     placeBars(periods, packedBars);

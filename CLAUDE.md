@@ -143,7 +143,7 @@ events:                # 点イベント（単年の出来事）
 | `src/lib/load-glob.ts` | Astro 側の読み込み。`import.meta.glob` でビルドに YAML を同梱する |
 | `src/lib/load-fs.ts` | `npm run validate` 用の読み込み（node の fs） |
 | `src/lib/scale.ts` | 年↔x座標の区分線形スケール、目盛り、時代帯 |
-| `src/lib/layout.ts` | レーン内の段組み（王朝・人物・出来事の3段に積む） |
+| `src/lib/layout.ts` | レーン内の段組み（王朝・人物・出来事の3段）と、帯の名前を中に入れるか外に出すかの判定 |
 | `src/pages/index.astro` | ビルド時に全項目の DOM を出力 |
 | `src/scripts/timeline.ts` | 選択・パネル・フィルタ・ズーム・スナップショット |
 | `src/styles/tokens.css` | 配色トークン |

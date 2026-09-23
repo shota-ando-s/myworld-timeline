@@ -211,13 +211,33 @@ a { color: #1c5cab; }
   white-space: nowrap;
   text-align: left;
   transition: background 120ms;
-  container-type: inline-size;
-}
-/* 名前が入りきらない細い帯は、欠けた文字を見せるより印だけにする */
-@container (max-width: 28px) {
-  .bar__label { display: none; }
 }
 .bar__label { position: sticky; left: calc(var(--label-w) + 6px); max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+
+/* 在位10年の君主のように帯が短いと名前が入らない。
+   同じ段の次の帯まで余白があればそこへ出し（out）、そこも詰まっていれば
+   普段は出さずに、触れたときだけ隣に重ねて見せる（none）。どちらにするかは
+   layout.ts の fitLabel が帯の幅と名前の長さから決める。 */
+.bar[data-label='out'] { overflow: visible; }
+.bar[data-label='out'] .bar__label {
+  position: absolute; left: 100%; top: 50%; transform: translateY(-50%);
+  margin-left: 5px; max-width: none; overflow: visible;
+  color: var(--ink-2);
+}
+.bar--leader[data-label='out'] .bar__label { color: var(--ink-3); }
+
+.bar[data-label='none'] .bar__label { display: none; }
+.bar[data-label='none']:hover,
+.bar[data-label='none'][data-selected] { overflow: visible; z-index: 3; }
+.bar[data-label='none']:hover .bar__label,
+.bar[data-label='none'][data-selected] .bar__label {
+  display: block;
+  position: absolute; left: 100%; top: 50%; transform: translateY(-50%);
+  margin-left: 5px; max-width: none; overflow: visible;
+  padding: 1px 6px; border-radius: 3px;
+  background: var(--ink); color: var(--paper);
+  box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+}
 .bar:hover { background: var(--fam-tint-2); }
 .bar[data-start-circa] { border-left-style: dashed; }
 .bar[data-end-circa] { border-right: 2px dashed var(--fam); }

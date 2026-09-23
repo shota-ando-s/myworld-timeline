@@ -24,6 +24,35 @@ export const MIN_LEADER_W = 14;
 export const BAR_MIN_GAP = 2;
 export const DOT_SIZE = 13;
 
+/**
+ * 帯の見た目のうち、名前が入るかどうかの判定に必要なぶん。
+ * pad は左右のパディングと枠線の合計（CSS の .bar / .bar--leader と合わせる）。
+ */
+export type BarStyle = { minWidth: number; font: number; pad: number };
+export const BAR_STYLE: BarStyle = { minWidth: MIN_BAR_W, font: 11.5, pad: 16 };
+export const LEADER_STYLE: BarStyle = { minWidth: MIN_LEADER_W, font: 10.5, pad: 13 };
+
+/** 帯の名前をどこに出すか: 中 / 右の余白 / 出さない（触れたときだけ） */
+export type LabelFit = 'in' | 'out' | 'none';
+
+/** 帯の外に名前を出すとき、帯との間に空けるすき間 */
+const OUT_LABEL_GAP = 6;
+
+/**
+ * 在位10年の君主のように帯が短いと名前が入らない。
+ * その場合は同じ段の次の帯までの余白に名前を出し、そこも詰まっていれば出さない。
+ *
+ * @param width 帯の幅(px) / @param room 帯の左端から同じ段の次の帯の左端までの距離(px)
+ */
+export function fitLabel(title: string, width: number, room: number, style: BarStyle): LabelFit {
+  const need = estimateTextWidth(title, style.font);
+  const inside = width - style.pad;
+  if (inside >= need) return 'in';
+  if (room - width - OUT_LABEL_GAP >= need) return 'out';
+  // 頭の2〜3文字でも見えるなら中に出す（残りは … になる）
+  return inside >= style.font * 2.5 ? 'in' : 'none';
+}
+
 /** 日本語は全角、英数は半角として文字幅をざっくり見積もる（font-size 11px 想定） */
 export function estimateTextWidth(text: string, fontSize = 11): number {
   let units = 0;
@@ -56,7 +85,7 @@ function packSpans(spans: [number, number][], gap: number): { rows: number[]; ro
  * 幅は px で返す。15年しか続かなかった秦のような短い王朝も見えるよう最小幅を与えるが、
  * 同じ段の次の帯に食い込まない範囲までにとどめる。
  */
-export function packPeriods(periods: Period[], zoom = 1, minWidth = MIN_BAR_W) {
+export function packPeriods(periods: Period[], zoom = 1, style: BarStyle = BAR_STYLE) {
   const spans = periods.map((p) => itemSpan(p));
   const order = periods.map((_, i) => i).sort((a, b) => spans[a]![0] - spans[b]![0]);
 
@@ -81,15 +110,22 @@ export function packPeriods(periods: Period[], zoom = 1, minWidth = MIN_BAR_W) {
     rows[i] = row;
   }
 
+  /** その帯の左端から、同じ段の次の帯の左端まで（無ければ年表の右端まで）の距離 */
+  const rooms = periods.map((_, i) => {
+    const x = yearToX(spans[i]![0], zoom);
+    return Math.max(0, yearToX(nextStartYear[i]!, zoom) - x - BAR_MIN_GAP);
+  });
+
   const widths = periods.map((_, i) => {
     const [from, to] = spans[i]!;
     const x = yearToX(from, zoom);
     const natural = yearToX(to, zoom) - x;
-    const room = Math.max(0, yearToX(nextStartYear[i]!, zoom) - x - BAR_MIN_GAP);
-    return Math.max(natural, Math.min(minWidth, room));
+    return Math.max(natural, Math.min(style.minWidth, rooms[i]!));
   });
 
-  return { rows, rowCount: rowEndYear.length, widths };
+  const labels = periods.map((p, i) => fitLabel(p.title, widths[i]!, rooms[i]!, style));
+
+  return { rows, rowCount: rowEndYear.length, widths, labels };
 }
 
 export function packEvents(events: TimelineEvent[], zoom = 1) {
