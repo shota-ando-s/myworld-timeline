@@ -367,6 +367,20 @@ function itemDot(item: Item) {
   return `<span class="ev__dot" data-shape="${cat.shape}" data-fam="${cat.family}" style="--fam:var(--fam-${cat.family})"></span>`;
 }
 
+/**
+ * detail は空行で段落に分ける。段落の中の改行は原稿を読みやすくするためのもので、
+ * 表示では continuous な文に戻す（英数字のあいだだけ空白を残す）。
+ */
+function renderDetail(detail: string): string {
+  return detail
+    .trim()
+    .split(/\n{2,}/)
+    .map((para) => para.replace(/([0-9A-Za-z])\n([0-9A-Za-z])/g, '$1 $2').replace(/\n/g, ''))
+    .filter(Boolean)
+    .map((para) => `<p class="panel__detail">${esc(para)}</p>`)
+    .join('');
+}
+
 function renderItem(item: Item) {
   const cat = categoryById.get(item.category)!;
   const lane = LANES.find((l) => l.id === item.lane)!;
@@ -391,7 +405,7 @@ function renderItem(item: Item) {
            </figure>`
         : ''
     }
-    ${item.detail ? `<p class="panel__detail">${esc(item.detail.trim())}</p>` : ''}
+    ${item.detail ? renderDetail(item.detail) : ''}
     ${
       item.links.length
         ? `<p class="panel__source">参考: ${item.links

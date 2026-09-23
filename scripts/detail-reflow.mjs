@@ -27,11 +27,23 @@ for (const file of collect(DATA)) {
     if (!/^ {4}detail: \|\s*$/.test(lines[i])) { out.push(lines[i]); continue; }
     const body = [];
     let j = i + 1;
-    while (j < lines.length && /^ {6}\S/.test(lines[j])) body.push(lines[j].trim()), j++;
+    // 空行は段落の切れ目なので残す（次に本文が続く場合だけ）
+    while (j < lines.length && (/^ {6}\S/.test(lines[j]) || (lines[j].trim() === '' && /^ {6}\S/.test(lines[j + 1] ?? '')))) {
+      body.push(lines[j].trim());
+      j++;
+    }
     // 日本語はそのまま、英数字で終わる行だけ空白を挟んでつなぐ
-    const joined = body.reduce((acc, l) => (acc && /[A-Za-z0-9]$/.test(acc) && /^[A-Za-z0-9]/.test(l) ? `${acc} ${l}` : acc + l), '');
-    const sentences = joined.split(/(?<=。)/).filter(Boolean);
-    out.push(lines[i], ...sentences.map((s) => `      ${s}`));
+    // 段落ごとに、1文＝1行へそろえる
+    const paras = body.join('\n').split(/\n{2,}/).filter((t) => t.trim());
+    const rebuilt = paras.flatMap((para, k) => {
+      const joined = para
+        .split('\n')
+        .reduce((acc, l) => (acc && /[A-Za-z0-9]$/.test(acc) && /^[A-Za-z0-9]/.test(l) ? `${acc} ${l}` : acc + l), '');
+      const sentences = joined.split(/(?<=。)/).filter(Boolean).map((t) => `      ${t}`);
+      return k === 0 ? sentences : ['', ...sentences];
+    });
+    out.push(lines[i], ...rebuilt);
+    const sentences = rebuilt;
     if (sentences.length !== body.length || sentences.some((t, k) => t !== body[k])) changed++;
     i = j - 1;
   }

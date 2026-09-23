@@ -51,7 +51,7 @@ for (const file of collect(DATA)) {
     const has = block.findIndex((l) => /^ {4}detail:/.test(l));
     if (has !== -1 && append) {
       let last = has + 1;
-      while (last < block.length && /^ {6}\S/.test(block[last])) last++;
+      while (last < block.length && (/^ {6}\S/.test(block[last]) || (block[last].trim() === '' && /^ {6}\S/.test(block[last + 1] ?? '')))) last++;
       const body = String(text).trim().split('\n').map((l) => `      ${l.trim()}`);
       lines.splice(i + last, 0, ...body);
       added++;
@@ -59,9 +59,10 @@ for (const file of collect(DATA)) {
     }
     if (has !== -1) {
       if (!replace) { skipped++; continue; }
-      // 既存の detail（|ブロックの中身も）を取り除いてから入れ直す
+      // 既存の detail（|ブロックの中身も）を取り除いてから入れ直す。
+      // 段落の切れ目の空行もブロックの一部なので、そこで止めないこと
       let last = has + 1;
-      while (last < block.length && /^ {6}\S/.test(block[last])) last++;
+      while (last < block.length && (/^ {6}\S/.test(block[last]) || (block[last].trim() === '' && /^ {6}\S/.test(block[last + 1] ?? '')))) last++;
       lines.splice(i + has, last - has);
       end -= last - has;
       block = lines.slice(i, end);
