@@ -27,3 +27,7 @@ for (const lane of LANES) {
   );
 }
 console.log('');
+
+// detail が Wikipedia の冒頭文をなぞっていないかも見ておく（キャッシュがあるときだけ）
+const { execFileSync } = await import('node:child_process');
+execFileSync(process.execPath, [new URL('check-originality.mjs', import.meta.url).pathname], { stdio: 'inherit' });

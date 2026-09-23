@@ -10,6 +10,11 @@ leaders:
     category: war
     tags: [匈奴]
     summary: 草原の諸部族を初めて一つの帝国にまとめ、漢を和親策に追い込んだ。
+    detail: |
+      父の頭曼を倒して単于となり、東胡と月氏を破ってモンゴル高原一帯を
+      束ねた。前200年に白登山で漢の高祖を包囲し、以後60年続く和親の
+      枠組みを認めさせた。左賢王・右賢王に領域を分ける統治の形は、
+      後の草原国家の手本になった。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/冒頓単于
@@ -21,6 +26,10 @@ leaders:
     category: politics
     tags: [匈奴, 漢]
     summary: 漢に臣従して和平を選び、草原と中華が共存する形を初めて作った。
+    detail: |
+      匈奴が5人の単于に分かれて争うなか、前51年に自ら漢へ赴いて臣礼を
+      取り、後ろ盾を得て対立する郅支単于を退けた。前33年には元帝から
+      王昭君を妻として与えられ、以後半世紀ほど漢との平和が続いた。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/呼韓邪単于
@@ -34,6 +43,11 @@ leaders:
     category: war
     tags: [鮮卑]
     summary: 匈奴が去った草原を鮮卑でまとめ、後漢を北から圧迫した。
+    detail: |
+      匈奴が衰えた後の草原で鮮卑の諸部を束ね、東は夫余、西は烏孫に
+      及ぶ範囲を勢力下に置いた。後漢は王号を贈って和親を持ちかけたが
+      拒み、辺境を繰り返し襲った。その死とともに連合はたちまち解け、
+      鮮卑は再び分立した。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/檀石槐
@@ -45,6 +59,11 @@ leaders:
     category: war
     tags: [フン, ゲルマン移動]
     summary: 東西ローマを同時に脅かし、ゲルマン諸族の移動を押し出して西ローマの終わりを早めた。
+    detail: |
+      兄との共同統治を経て単独の王となり、バルカンを繰り返し荒らして
+      東ローマから多額の貢納を取った。451年にガリアへ侵入して
+      カタラウヌムで敗れ、翌年イタリアに入ったが撤退。453年の急死で
+      帝国はたちまち解体した。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/アッティラ
@@ -56,6 +75,11 @@ leaders:
     category: politics
     tags: [突厥, 碑文]
     summary: 突厥碑文に「唐に近づくな」と自らの言葉を刻み、遊牧民の自意識を文字で残した。
+    detail: |
+      弟キュル・テギンと宰相トニュククに支えられて第二可汗国を
+      立て直し、唐とは和平と交易を選んだ。三人を記念する石碑には
+      テュルク文字で「唐の甘い言葉に近づくな」という趣旨の訓戒が刻まれ、
+      遊牧民自身の言葉による最古級の記録になった。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/毘伽可汗
@@ -69,6 +93,11 @@ leaders:
     category: religion
     tags: [カラハン朝, イスラム化]
     summary: テュルク系の君主として初めてイスラムに改宗し、中央アジアの宗教地図を変えた。
+    detail: |
+      カラハン朝の一族に生まれ、サーマーン朝の亡命者に触れて
+      イスラムに改宗し、非ムスリムの叔父を倒して権力を握った。
+      子の代に国全体が改宗し、テュルク系の王朝として初めて
+      イスラム世界の一員になった。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/カラハン朝
@@ -80,6 +109,11 @@ leaders:
     category: war
     tags: [モンゴル]
     summary: 部族の枠を解体して千戸制に組み替え、ユーラシアを貫く帝国の出発点を作った。
+    detail: |
+      1206年のクリルタイで全モンゴルの君主に推され、部族の枠を解いて
+      千戸・百戸に編成し直した。西夏と金を攻め、ホラズムを滅ぼして
+      中央アジアまで版図を広げた。文字を持たなかった集団にウイグル文字を
+      採り入れ、ヤサと呼ばれる法を定めた。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/チンギス・カン
@@ -91,6 +125,11 @@ leaders:
     category: war
     tags: [モンゴル, キプチャク・ハン国]
     summary: ロシアと東欧に遠征し、以後200年続くルーシ支配の基礎を作った。
+    detail: |
+      ジョチの子として西方遠征を率い、ルーシ諸公国を次々に落として
+      1240年にキエフを陥れた。ポーランド・ハンガリーまで進んだところで
+      オゴデイの死により引き返し、ヴォルガ下流にサライを置いて
+      自らのウルスを固めた。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/バトゥ
@@ -102,6 +141,11 @@ leaders:
     category: politics
     tags: [モンゴル, カラコルム]
     summary: 首都と駅伝制を整えて帝国を運営に乗せ、その急死が東欧遠征を止めた。
+    detail: |
+      カラコルムに都を築き、駅伝制を整えて広い版図の連絡を確保した。
+      金を滅ぼして華北を得、バトゥの西方遠征も送り出している。
+      1241年の急死により、東欧にいた軍は後継を決めるクリルタイのため
+      引き返した。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/オゴデイ
@@ -113,6 +157,10 @@ leaders:
     category: war
     tags: [モンゴル]
     summary: 西アジアと南宋への二正面作戦を進め、その死が帝国分裂の引き金になった。
+    detail: |
+      トルイ家から即位し、人口調査と徴税の整備で帝国を立て直した。
+      弟のフレグを西アジアへ、クビライを南宋へ差し向けたが、
+      自ら出た四川の陣中で没し、後継争いから帝国は分裂へ向かった。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/モンケ
@@ -124,6 +172,11 @@ leaders:
     category: war
     tags: [ティムール朝, サマルカンド]
     summary: 破壊と建設を同時に行い、サマルカンドを世界有数の都市に育てた。
+    detail: |
+      チャガタイ・ウルスの一武将から身を起こし、イラン・イラク・
+      北インドへ遠征を重ねた。抵抗した都市では大量の殺戮を行う一方、
+      連れ帰った職人にサマルカンドの大建築を造らせた。
+      明への遠征に出た途上で病没する。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/ティムール
@@ -135,6 +188,10 @@ leaders:
     category: war
     tags: [オイラト, 土木の変]
     summary: 明の皇帝を捕虜にし、遊牧勢力がなお中華を脅かせることを見せつけた。
+    detail: |
+      チンギス裔ではないオイラトの首長として、モンゴル高原の諸部を
+      束ねた。1449年の土木の変で明の正統帝を捕らえ、北京に迫っている。
+      自らハンを称したことが内部の反発を招き、まもなく殺された。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/エセン_(オイラト)
@@ -146,6 +203,11 @@ leaders:
     category: science
     tags: [ティムール朝, 天文学]
     summary: 自ら天文台を築いて星表を作った学者君主で、政争のなかで殺された。
+    detail: |
+      父シャー・ルフの死後にティムール朝の君主となったが、
+      学問に傾いた統治は武将たちの支持を得られなかった。
+      在位2年で息子に背かれ、メッカ巡礼へ向かう途上で殺される。
+      残した星表と天文台が彼の名を後世に伝えた。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/ウルグ・ベク
@@ -159,6 +221,10 @@ leaders:
     category: politics
     tags: [モンゴル]
     summary: 分裂していたモンゴルを一時まとめ直し、以後の部族編成の原型を作った。
+    detail: |
+      北元の分裂を収め、モンゴルを左翼・右翼の六つの万戸に編成し直した。
+      この区分けがその後の部族の並びの骨格になる。子孫が各万戸を
+      継いだため、以後のモンゴル貴族の多くが彼の血筋を名乗った。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/ダヤン・ハーン
@@ -170,6 +236,11 @@ leaders:
     category: war
     tags: [ウズベク, 中央アジア]
     summary: ティムール朝を倒して中央アジアを制し、今日の民族分布の枠を決めた。
+    detail: |
+      ジョチ裔のウズベク集団を率いてマー・ワラー・アンナフルへ南下し、
+      1500年にサマルカンド、次いでブハラを奪ってティムール朝を倒した。
+      追われたバーブルはインドへ向かい、ムガル帝国を開くことになる。
+      サファヴィー朝との戦いで戦死した。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/ムハンマド・シャイバーニー
@@ -181,6 +252,11 @@ leaders:
     category: religion
     tags: [モンゴル, チベット仏教]
     summary: 明と和議を結んで交易を開き、ダライ・ラマの称号を贈ってモンゴルを仏教化した。
+    detail: |
+      明の北辺を繰り返し攻めて一時は北京を囲んだが、1571年に和議を結び、
+      国境の馬市で交易を認めさせた。チベットの高僧ソナム・ギャツォに
+      「ダライ・ラマ」の称号を贈り、モンゴルにチベット仏教が
+      広く根づくきっかけを作った。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/アルタン・ハーン
@@ -192,6 +268,10 @@ leaders:
     category: war
     tags: [ジュンガル, 清]
     summary: 内陸アジア最後の遊牧帝国を率いて清と争い、康熙帝の親征に敗れた。
+    detail: |
+      チベットで学んだ僧の身から還俗して部族長となり、東トルキスタンを
+      押さえてハルハ・モンゴルへ攻め込んだ。康熙帝はみずから三度出征し、
+      1696年のジューン・モドで決定的に敗れたガルダンは翌年に没した。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/ガルダン
@@ -203,6 +283,11 @@ leaders:
     category: politics
     tags: [新疆, カシュガル]
     summary: 新疆に独立政権を立て、英露の駆け引きのただ中で清の支配を一時断ち切った。
+    detail: |
+      コーカンド・ハン国の軍人として、清に対する反乱のさなかの
+      カシュガルに入り、タリム盆地一帯を制圧した。オスマン帝国の
+      宗主権を認めてイギリス・ロシアからも承認を取りつけたが、
+      左宗棠の遠征軍の前に政権は崩れた。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/ヤクブ・ベク
@@ -214,6 +299,10 @@ leaders:
     category: politics
     tags: [カザフスタン]
     summary: ソ連解体から28年国を率い、資源収入と多方位外交で体制を保った。
+    detail: |
+      ソ連時代からカザフスタンの党第一書記を務め、独立後は初代大統領に。
+      核兵器を放棄し、石油収入で首都を新設して経済を伸ばした。
+      2019年に辞任したが影響力を保ち、2022年の暴動で像が倒された。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/ヌルスルタン・ナザルバエフ
@@ -225,6 +314,10 @@ leaders:
     category: politics
     tags: [ウズベキスタン]
     summary: 独立後の中央アジア最大の人口国を強権で統治し、地域の安定と抑圧を両立させた。
+    detail: |
+      独立後のウズベキスタンを25年統治し、イスラム勢力を厳しく抑えた。
+      2005年のアンディジャンでの武力鎮圧は国際的な批判を浴びている。
+      綿花の強制労働も長く問題とされた。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/イスラム・カリモフ
@@ -236,6 +329,10 @@ leaders:
     category: politics
     tags: [トルクメニスタン, 個人崇拝]
     summary: 自らを「トルクメン人の長」と称し、月の名まで変える個人崇拝を敷いた。
+    detail: |
+      「トルクメンバシ（トルクメン人の長）」を称し、自著『ルーフナーマ』を
+      学校と役所の必読書にした。月や曜日の名を自分や家族にちなんで
+      改めるなど個人崇拝を徹底し、天然ガスの収入で光熱費を無料にした。
     links:
       - label: Wikipedia
         url: https://ja.wikipedia.org/wiki/サパルムラト・ニヤゾフ

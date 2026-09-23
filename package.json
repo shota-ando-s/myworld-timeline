@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "validate": "node scripts/validate-data.ts",
     "icons": "node scripts/build-icons.mjs",
-    "check": "astro check"
+    "check": "astro check",
+    "originality": "node scripts/check-originality.mjs",
+    "leads": "node scripts/wiki-leads.mjs"
   },
   "dependencies": {
     "astro": "^7.3.3",
