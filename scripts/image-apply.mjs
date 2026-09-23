@@ -18,7 +18,7 @@ function collect(dir) {
   }
   return out;
 }
-const q = (v) => (/^[\s#&*!|>%@`-]|:\s|\s#/.test(v) ? `"${v.replace(/"/g, '\\"')}"` : v);
+const q = (v) => (/^[\s#&*!|>%@`\-\[\]{}?,'"]|:\s|\s#/.test(v) ? `"${v.replace(/"/g, '\\"')}"` : v);
 
 const images = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 let added = 0, skipped = 0;

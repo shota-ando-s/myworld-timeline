@@ -87,7 +87,7 @@ for (let i = 0; i < files.length; i += 20) {
     if (!info) continue;
     const em = info.extmetadata ?? {};
     meta.set(p.title.slice(p.title.indexOf(':') + 1).replace(/_/g, ' '), {
-      artist: /不明|[Uu]nknown/.test(strip(em.Artist?.value)) ? '作者不明' : strip(em.Artist?.value) || '作者不明',
+      artist: /不明|[Uu]nknown|^\[\d+\]$/.test(strip(em.Artist?.value)) ? '作者不明' : strip(em.Artist?.value) || '作者不明',
       license: strip(em.LicenseShortName?.value) || 'ライセンス不明',
       licenseUrl: strip(em.LicenseUrl?.value) || '',
       page: info.descriptionurl ?? '',
