@@ -28,6 +28,19 @@ import { ERAS, ticks, timelineWidth, xToYear, yearToX } from '../lib/scale.ts';
 const ZOOM_LEVELS = [0.5, 1, 2, 4];
 const MIN_ZOOM = ZOOM_LEVELS[0]!;
 const MAX_ZOOM = ZOOM_LEVELS[ZOOM_LEVELS.length - 1]!;
+
+/**
+ * ズームの効き。入力ごとに届く値の粒が違うので、3つに分けて持つ。
+ * 数字を大きくするほど、少ない操作で拡大縮小が進む。
+ */
+/** トラックパッドのピンチ（ホイール1pxあたりの指数）。ひと掻きで2〜5倍動く */
+const PINCH_GAIN = 0.012;
+/** マウスのホイール1ノッチぶんの倍率。1ノッチは値が大きいので決め打ちにする */
+const WHEEL_STEP = 1.5;
+/** ホイール1回の値がこれ以上なら、トラックパッドではなくマウスとみなす */
+const WHEEL_NOTCH = 40;
+/** タッチのピンチ。指の広がりの何乗か（1 なら指のとおり） */
+const PINCH_POWER = 1.4;
 const STORE_KEY = 'myworld-timeline:view';
 
 const $ = <T extends Element = HTMLElement>(sel: string) => document.querySelector(sel) as T | null;
@@ -270,7 +283,9 @@ tl.addEventListener(
     e.preventDefault();
     // deltaMode が行・ページ単位のこともあるので px に均す
     const dy = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 400 : 1);
-    queueZoom(pendingZoom() * Math.exp(-dy * 0.0035), e.clientX);
+    // マウスは1ノッチで大きな値が1回だけ、トラックパッドは小さな値が連続で来る
+    const factor = Math.abs(dy) >= WHEEL_NOTCH ? (dy < 0 ? WHEEL_STEP : 1 / WHEEL_STEP) : Math.exp(-dy * PINCH_GAIN);
+    queueZoom(pendingZoom() * factor, e.clientX);
   },
   { passive: false },
 );
@@ -298,7 +313,7 @@ tl.addEventListener('pointermove', (e) => {
   touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
   const s = touches.size === 2 ? spread() : null;
   if (!pinch || !s || !s.dist) return;
-  queueZoom(pinch.zoom * (s.dist / pinch.dist), s.mid);
+  queueZoom(pinch.zoom * Math.pow(s.dist / pinch.dist, PINCH_POWER), s.mid);
 });
 
 for (const type of ['pointerup', 'pointercancel', 'pointerleave'] as const) {
