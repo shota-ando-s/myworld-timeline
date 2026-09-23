@@ -17,5 +17,8 @@ npm run validate   # データの検証（YAML を触ったら必ず）
 npm run build
 ```
 
+アイコンは [Font Awesome Free](https://fontawesome.com/license/free)（CC BY 4.0）。
+`npm run icons` で `src/styles/icons.css` を生成している。
+
 データは `src/data/*.yaml`（1ファイル＝1地域レーン）。
 書き方と決まりごとは [CLAUDE.md](CLAUDE.md) にまとめてある。

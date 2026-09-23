@@ -10,6 +10,7 @@
 | 開発サーバ | `npm run dev` （http://localhost:4321/myworld-timeline） |
 | **データ検証** | `npm run validate` |
 | 型チェック | `npm run check` |
+| アイコンCSSの再生成 | `npm run icons` |
 | 本番ビルド | `npm run build` |
 | ビルド結果の確認 | `npm run preview` |
 
@@ -96,7 +97,13 @@ events:                # 点イベント（単年の出来事）
 | `culture` | 文学・美術・建築・文字 |
 
 色は4系統（`politics`/`society`＝青、`war`/`disaster`＝橙、`science`/`economy`＝藍緑、`religion`/`culture`＝紫）で、
-系統の中の区別は点の形が担う。**カテゴリを増やすときは `src/lib/model.ts` の `CATEGORIES` に形と系統も足すこと。**
+系統の中の区別は Font Awesome のアイコンが担う。
+
+カテゴリやアイコンを変えるときは、
+`src/lib/model.ts` の `CATEGORIES`（`shape` に Font Awesome Solid のアイコン名）と
+`scripts/build-icons.mjs` の `ICONS` を両方直し、`npm run icons` で
+`src/styles/icons.css`（mask-image の data URI）を作り直す。
+項目ごとに SVG を置くと1000件規模でHTMLが膨らむので、CSS のマスクで描いている。
 
 ### 量の目安
 
@@ -117,6 +124,7 @@ events:                # 点イベント（単年の出来事）
 | `src/pages/index.astro` | ビルド時に全項目の DOM を出力 |
 | `src/scripts/timeline.ts` | 選択・パネル・フィルタ・ズーム・スナップショット |
 | `src/styles/tokens.css` | 配色トークン |
+| `src/styles/icons.css` | カテゴリのアイコン（**生成物。`npm run icons` で作る**） |
 
 レーンを増減するときは `src/lib/model.ts` の `LANES` だけを直せばよい（データファイル名も合わせる）。
 

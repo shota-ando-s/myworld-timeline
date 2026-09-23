@@ -24,8 +24,11 @@ export const LANE_IDS = LANES.map((l) => l.id) as [LaneId, ...LaneId[]];
 
 /**
  * カテゴリは4つの系統に束ねてある。
- * 色は系統ごと（全ペアでCVD検証済みの4色）、系統内の区別は形が担う。
+ * 色は系統ごと（全ペアでCVD検証済みの4色）、系統内の区別はアイコンが担う。
  * 8色すべてを別の色にすると、色覚特性によらず見分けられない組み合わせが出るため。
+ *
+ * shape は Font Awesome Free（Solid）のアイコン名。
+ * 変更したら scripts/build-icons.mjs の ICONS も直して `npm run icons` を実行する。
  */
 export const FAMILIES = [
   { id: 'state', label: '国家・統治', color: '#2a78d6' },
@@ -37,14 +40,14 @@ export const FAMILIES = [
 export type FamilyId = (typeof FAMILIES)[number]['id'];
 
 export const CATEGORIES = [
-  { id: 'politics', label: '政治・王朝', family: 'state', shape: 'circle' },
-  { id: 'society', label: '社会・制度', family: 'state', shape: 'pill' },
-  { id: 'war', label: '戦争・征服', family: 'conflict', shape: 'diamond' },
-  { id: 'disaster', label: '災害・疫病', family: 'conflict', shape: 'triangle-down' },
-  { id: 'science', label: '科学・技術', family: 'material', shape: 'plus' },
-  { id: 'economy', label: '経済・交易', family: 'material', shape: 'ring' },
-  { id: 'religion', label: '宗教・思想', family: 'mind', shape: 'triangle' },
-  { id: 'culture', label: '文化・芸術', family: 'mind', shape: 'square' },
+  { id: 'politics', label: '政治・王朝', family: 'state', shape: 'crown' },
+  { id: 'society', label: '社会・制度', family: 'state', shape: 'scale-balanced' },
+  { id: 'war', label: '戦争・征服', family: 'conflict', shape: 'shield-halved' },
+  { id: 'disaster', label: '災害・疫病', family: 'conflict', shape: 'triangle-exclamation' },
+  { id: 'science', label: '科学・技術', family: 'material', shape: 'lightbulb' },
+  { id: 'economy', label: '経済・交易', family: 'material', shape: 'coins' },
+  { id: 'religion', label: '宗教・思想', family: 'mind', shape: 'place-of-worship' },
+  { id: 'culture', label: '文化・芸術', family: 'mind', shape: 'palette' },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];

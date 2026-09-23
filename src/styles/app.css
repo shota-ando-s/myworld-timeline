@@ -73,6 +73,7 @@ a { color: #1c5cab; }
 }
 .chip[aria-pressed='true'] { background: var(--fam-tint); border-color: var(--fam); }
 .chip[aria-pressed='false'] { opacity: 0.5; }
+.chip .ev__dot { width: 14px; height: 14px; flex-basis: 14px; }
 .chip:hover { background: var(--fam-tint-2); }
 
 .controls { display: flex; align-items: center; gap: 10px; margin-left: auto; }
@@ -196,22 +197,11 @@ a { color: #1c5cab; }
 .ev__dot {
   width: var(--dot); height: var(--dot); flex: 0 0 var(--dot);
   background: var(--fam);
-  box-shadow: 0 0 0 2px var(--paper);
+  /* 形は icons.css の mask-image（Font Awesome）が与える */
 }
-.lane[data-stripe='1'] .ev__dot { box-shadow: 0 0 0 2px var(--paper-alt); }
 .ev__label { font-size: 11px; line-height: 1; color: var(--ink-2); }
 .ev:hover .ev__label { color: var(--ink); text-decoration: underline; }
 .ev[data-circa] .ev__label::after { content: '頃'; color: var(--ink-3); font-size: 10px; }
-
-[data-shape='circle'] { border-radius: 50%; }
-[data-shape='square'] { border-radius: 1px; }
-[data-shape='diamond'] { clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }
-[data-shape='triangle'] { clip-path: polygon(50% 4%, 100% 100%, 0 100%); }
-[data-shape='triangle-down'] { clip-path: polygon(0 0, 100% 0, 50% 96%); }
-[data-shape='plus'] { clip-path: polygon(38% 0, 62% 0, 62% 38%, 100% 38%, 100% 62%, 62% 62%, 62% 100%, 38% 100%, 38% 62%, 0 62%, 0 38%, 38% 38%); }
-[data-shape='pill'] { border-radius: 999px; clip-path: inset(22% 0 22% 0 round 999px); }
-[data-shape='ring'] { border-radius: 50%; background: var(--paper); box-shadow: inset 0 0 0 3px var(--fam), 0 0 0 2px var(--paper); }
-.lane[data-stripe='1'] [data-shape='ring'] { background: var(--paper-alt); box-shadow: inset 0 0 0 3px var(--fam), 0 0 0 2px var(--paper-alt); }
 
 /* フィルタで外れたもの: 消さずに減光して位置感覚を保つ */
 .bar[data-off], .ev[data-off] { opacity: 0.12; pointer-events: none; }
@@ -254,6 +244,7 @@ a { color: #1c5cab; }
 .panel:not([data-empty]) .panel__hint { display: none; }
 .panel__hint { color: var(--ink-3); font-size: 12.5px; }
 .panel__hint ul { padding-left: 1.1em; margin: 8px 0 0; }
+.panel__credit { font-size: 11px; color: var(--ink-3); margin-top: 28px; }
 
 .panel__close {
   float: right; border: 0; background: transparent; color: var(--ink-3);

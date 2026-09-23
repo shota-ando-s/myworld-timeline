@@ -13,7 +13,7 @@ export const EVENT_ROW_H = 19;
 export const LANE_PAD_TOP = 8;
 export const LANE_PAD_BOTTOM = 10;
 export const MIN_BAR_W = 26;
-export const DOT_SIZE = 11;
+export const DOT_SIZE = 13;
 
 /** 日本語は全角、英数は半角として文字幅をざっくり見積もる（font-size 11px 想定） */
 export function estimateTextWidth(text: string, fontSize = 11): number {
