@@ -19,6 +19,9 @@ periods:
     category: politics
     tags: [遊牧, モンゴル高原]
     summary: 漢と対峙した最初の遊牧帝国。草原の国家のひな型になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/匈奴
 
   - id: silk-road
     title: シルクロード交易
@@ -48,6 +51,9 @@ periods:
     category: politics
     tags: [遊牧, トルコ系]
     summary: モンゴル高原から中央アジアまで支配し、独自の文字を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/突厥
 
   - id: khazar
     title: ハザール
@@ -75,6 +81,9 @@ periods:
     detail: |
       駅伝制で情報と人が速く動き、商人と技術者が保護された。
       一方で抵抗した都市には徹底した破壊を加え、灌漑を失った地域は回復しなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モンゴル帝国
 
   - id: chagatai
     title: チャガタイ・ハン国
@@ -99,6 +108,9 @@ periods:
     category: politics
     tags: [中央アジア]
     summary: サマルカンドを都にモンゴルの再興を掲げ、学芸を保護した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ティムール朝
 
   - id: dzungar-khanate
     title: ジュンガル
@@ -161,6 +173,9 @@ events:
     category: war
     tags: [イスラム, 唐, 技術伝播]
     summary: 唐がアッバース朝に敗れ、この時に製紙法が西へ伝わったとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/タラス河畔の戦い
 
   - id: uyghur-collapse
     year: 840
@@ -204,6 +219,9 @@ events:
     category: war
     tags: [モンゴル, ヨーロッパ]
     summary: モンゴル軍がポーランド・ドイツ連合軍を破り、西欧に衝撃を与えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ワールシュタットの戦い
 
   - id: pax-mongolica
     year: 1260
@@ -234,6 +252,9 @@ events:
     category: politics
     tags: [中央アジア]
     summary: 破壊と建設を同時に行い、サマルカンドを世界有数の都市に育てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ティムール
 
   - id: ankara-battle
     year: 1402
@@ -241,6 +262,9 @@ events:
     category: war
     tags: [ティムール, オスマン]
     summary: ティムールがオスマン皇帝を捕らえ、オスマンは一時崩壊状態になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アンカラの戦い
 
   - id: ulugh-beg
     year: 1420
@@ -255,6 +279,9 @@ events:
     category: politics
     tags: [中央アジア, 明]
     summary: 明への遠征の途上で没し、中央アジアの統一は続かなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ティムール
 
   - id: uzbek-shaybanid
     year: 1500
@@ -299,6 +326,9 @@ events:
     category: politics
     tags: [中央アジア, 外交]
     summary: 中央アジアでの争いに区切りをつけ、両国はドイツに向き合うことになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/英露協商
 
   - id: central-asia-republics
     year: 1924
@@ -314,6 +344,9 @@ events:
     category: disaster
     tags: [中央アジア, 環境]
     summary: 綿花のための灌漑で湖の大半が消え、20世紀最大級の環境破壊とされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アラル海
 
   - id: central-asia-independence
     year: 1991

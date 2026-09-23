@@ -21,6 +21,9 @@ leaders:
     category: society
     tags: [シュメール, 法]
     summary: 現存最古級の法典を発布し、シュメール文明の最後の輝きを作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウル・ナンム
 
   - id: hammurabi
     title: ハンムラビ王
@@ -57,6 +60,9 @@ leaders:
     category: war
     tags: [アッシリア, 強制移住]
     summary: 常備軍と住民の強制移住で、アッシリアを最初の「世界帝国」に変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ティグラト・ピレセル3世
 
   - id: ashurbanipal
     title: アッシュールバニパル
@@ -73,6 +79,9 @@ leaders:
     category: war
     tags: [新バビロニア, ユダヤ]
     summary: ユダ王国を滅ぼしてバビロン捕囚を行い、一神教の形成に大きな影を落とした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ネブカドネザル2世
 
   - id: cyrus-the-great
     title: キュロス2世
@@ -81,6 +90,9 @@ leaders:
     category: politics
     tags: [アケメネス朝, 寛容]
     summary: 征服地の宗教と慣習を認める統治で、多民族を束ねる帝国の手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/キュロス2世
 
   - id: darius-i
     title: ダレイオス1世
@@ -89,6 +101,9 @@ leaders:
     category: society
     tags: [アケメネス朝, 街道]
     summary: 州制と「王の道」で広大な帝国を運営し、統治の技術を後世に残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ダレイオス1世
 
   - id: xerxes-i
     title: クセルクセス1世
@@ -97,6 +112,9 @@ leaders:
     category: war
     tags: [アケメネス朝, ペルシア戦争]
     summary: ギリシア遠征に失敗し、東地中海の主導権がギリシア側に傾く転機になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クセルクセス1世
 
   - id: seleucus-i
     title: セレウコス1世
@@ -105,6 +123,9 @@ leaders:
     category: politics
     tags: [セレウコス朝, ヘレニズム]
     summary: アレクサンドロスの後継者として西アジアを継ぎ、ギリシア風の都市を各地に置いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/セレウコス1世
 
   - id: mithridates-i
     title: ミトラダテス1世
@@ -113,6 +134,9 @@ leaders:
     category: war
     tags: [パルティア]
     summary: メソポタミアを奪ってパルティアをイランの主役にし、ローマの東の壁になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ミトラダテス1世
 
   - id: ardashir-i
     title: アルダシール1世
@@ -121,6 +145,9 @@ leaders:
     category: politics
     tags: [ササン朝, ゾロアスター教]
     summary: パルティアを倒してササン朝を開き、ゾロアスター教を国教として帝国を再建した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アルダシール1世
 
   - id: shapur-i
     title: シャープール1世
@@ -129,6 +156,9 @@ leaders:
     category: war
     tags: [ササン朝, ローマ]
     summary: ローマ皇帝を捕虜にし、ペルシアがローマと並ぶ大国であることを示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シャープール1世
 
   - id: khosrow-i
     title: ホスロー1世
@@ -137,6 +167,9 @@ leaders:
     category: politics
     tags: [ササン朝]
     summary: 税制と軍制の改革でササン朝の最盛期を作り、学問の保護でも知られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホスロー1世
 
   - id: muhammad
     title: ムハンマド
@@ -145,6 +178,9 @@ leaders:
     category: religion
     tags: [イスラム, 預言者]
     summary: 啓示を受けて説いた信仰が、そのまま国家と法をもつ共同体になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムハンマド・イブン＝アブドゥッラーフ
 
   - id: umar-ibn-al-khattab
     title: ウマル1世
@@ -169,6 +205,9 @@ leaders:
     category: politics
     tags: [ウマイヤ朝]
     summary: カリフを世襲の王朝に変え、イスラム国家を帝国の形に組み替えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムアーウィヤ
 
   - id: abd-al-malik
     title: アブドゥルマリク
@@ -177,6 +216,9 @@ leaders:
     category: society
     tags: [ウマイヤ朝, アラビア語]
     summary: 行政の言語をアラビア語に統一し、独自の貨幣を作って帝国の一体感を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アブドゥルマリク
 
   - id: harun-al-rashid
     title: ハールーン・アッラシード
@@ -193,6 +235,9 @@ leaders:
     category: science
     tags: [アッバース朝, 翻訳]
     summary: 「知恵の館」でギリシアの学術をアラビア語に訳させ、科学の中心を西アジアに移した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マアムーン
 
   - id: tughril-beg
     title: トゥグリル・ベク
@@ -217,6 +262,9 @@ leaders:
     category: war
     tags: [マムルーク朝, モンゴル]
     summary: モンゴル軍を破って西進を止め、マムルーク朝をイスラム世界の守り手にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バイバルス
 
   - id: osman-i
     title: オスマン1世
@@ -226,6 +274,9 @@ leaders:
     category: politics
     tags: [オスマン朝]
     summary: 小さな辺境の君侯から始まり、600年続く帝国の名の由来になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オスマン1世
 
   - id: bayezid-i
     title: バヤズィト1世
@@ -234,6 +285,9 @@ leaders:
     category: war
     tags: [オスマン帝国, ティムール]
     summary: 十字軍を破って「雷帝」と呼ばれたが、ティムールに敗れて帝国を一時崩壊させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バヤズィト1世
 
   - id: mehmed-ii
     title: メフメト2世
@@ -242,6 +296,9 @@ leaders:
     category: war
     tags: [オスマン帝国, コンスタンティノープル]
     summary: コンスタンティノープルを落として中世を終わらせ、帝国を東西にまたがらせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/メフメト2世
 
   - id: ismail-i
     title: イスマーイール1世
@@ -250,6 +307,9 @@ leaders:
     category: religion
     tags: [サファヴィー朝, シーア派]
     summary: シーア派を国教と定め、今日までのイラン独自の宗教的な立ち位置を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イスマーイール1世
 
   - id: selim-i
     title: セリム1世
@@ -258,6 +318,9 @@ leaders:
     category: war
     tags: [オスマン帝国, カリフ]
     summary: エジプトを征服して聖地の守護者となり、スルタンにカリフの権威を重ねた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/セリム1世
 
   - id: suleiman-the-magnificent
     title: スレイマン1世
@@ -266,6 +329,9 @@ leaders:
     category: politics
     tags: [オスマン帝国, 最盛期]
     summary: 法整備と遠征で帝国を最大に広げ、ウィーンまで迫ってヨーロッパを震え上がらせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スレイマン1世
 
   - id: abbas-i
     title: アッバース1世
@@ -274,6 +340,9 @@ leaders:
     category: politics
     tags: [サファヴィー朝, イスファハーン]
     summary: 「世界の半分」と讃えられた新都を築き、ヨーロッパとの通商で国を富ませた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アッバース1世
 
   - id: ahmed-iii
     title: アフメト3世
@@ -282,6 +351,9 @@ leaders:
     category: culture
     tags: [オスマン帝国, チューリップ時代]
     summary: 西欧の様式を取り入れた華やかな宮廷文化「チューリップ時代」を現出させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アフメト3世
 
   - id: nader-shah
     title: ナーディル・シャー
@@ -290,6 +362,9 @@ leaders:
     category: war
     tags: [イラン, 遠征]
     summary: 崩壊したイランを軍事力で立て直し、デリーまで攻め込んで孔雀の玉座を奪った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナーディル・シャー
 
   - id: mahmud-ii
     title: マフムト2世
@@ -298,6 +373,9 @@ leaders:
     category: society
     tags: [オスマン帝国, 近代化]
     summary: 旧来の常備軍を解体し、西欧式の軍と官僚制への改革に踏み切った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マフムト2世
 
   - id: abdulhamid-ii
     title: アブデュルハミト2世
@@ -306,6 +384,9 @@ leaders:
     category: politics
     tags: [オスマン帝国, 専制]
     summary: 憲法を停止して専制を敷く一方、鉄道と電信で帝国をつなぎ直した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アブデュルハミト2世
 
   - id: ataturk
     title: ムスタファ・ケマル
@@ -314,6 +395,9 @@ leaders:
     category: society
     tags: [トルコ, 世俗化]
     summary: カリフ制を廃して政教分離と文字改革を断行し、共和国トルコを作り替えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムスタファ・ケマル・アタテュルク
 
   - id: reza-shah
     title: レザー・シャー
@@ -330,6 +414,9 @@ leaders:
     category: politics
     tags: [サウジアラビア, 石油]
     summary: 半島を統一してサウジアラビアを建て、直後の油田発見が世界の力学を変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アブドゥルアズィーズ・イブン・サウード
 
   - id: mossadegh
     title: モサデグ
@@ -346,6 +433,9 @@ leaders:
     category: religion
     tags: [イラン, イスラム革命]
     summary: 法学者が国家を統べる体制を作り、政治的イスラムの力を世界に見せつけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルーホッラー・ホメイニー
 
   - id: saddam-hussein
     title: サダム・フセイン

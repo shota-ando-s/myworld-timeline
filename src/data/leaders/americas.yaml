@@ -17,6 +17,9 @@ leaders:
     category: politics
     tags: [アステカ, 三国同盟]
     summary: 三都市の同盟を組んでアステカを支配者側に変え、歴史書を焼いて神話を書き直させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イツコアトル
 
   - id: pachacuti
     title: パチャクティ
@@ -33,6 +36,9 @@ leaders:
     category: politics
     tags: [アステカ]
     summary: 最盛期のアステカを率いながら、スペイン人の到来で帝国を失った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モクテスマ2世
 
   - id: cortes
     title: コルテス
@@ -57,6 +63,9 @@ leaders:
     category: politics
     tags: [インカ]
     summary: 内戦に勝った直後に捕らえられ、身代金の金を払ってなお処刑された最後の皇帝。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アタワルパ
 
   - id: tupac-amaru-ii
     title: トゥパク・アマル2世
@@ -113,6 +122,9 @@ leaders:
     category: politics
     tags: [メキシコ, 改革]
     summary: 先住民出身の大統領としてフランスの介入を退け、教会の特権を削った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベニート・フアレス
 
   - id: lincoln
     title: リンカン
@@ -225,6 +237,9 @@ leaders:
     category: politics
     tags: [チリ, 軍政]
     summary: クーデタで社会主義政権を倒し、弾圧と市場改革を同時に進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アウグスト・ピノチェト
 
   - id: reagan
     title: レーガン
@@ -281,6 +296,9 @@ leaders:
     category: politics
     tags: [アメリカ]
     summary: 同盟の立て直しと大型の産業政策を進め、ウクライナ支援を主導した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バイデン
 
   - id: trump-second
     title: トランプ（第2期）

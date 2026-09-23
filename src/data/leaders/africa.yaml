@@ -19,6 +19,9 @@ leaders:
     category: politics
     tags: [エジプト, 中王国]
     summary: 州の長官の力を削いで中央集権を固め、ヌビアへ国境を押し上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/センウセレト3世
 
   - id: ahmose-i
     title: アハメス1世
@@ -35,6 +38,9 @@ leaders:
     category: politics
     tags: [エジプト, 女性ファラオ]
     summary: 女性でありながらファラオを名乗り、戦争よりも交易遠征で富を築いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハトシェプスト
 
   - id: thutmose-iii
     title: トトメス3世
@@ -43,6 +49,9 @@ leaders:
     category: war
     tags: [エジプト, 新王国]
     summary: 十数回の遠征でシリアまで支配を広げ、エジプトの版図を最大にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トトメス3世
 
   - id: akhenaten-reign
     title: アクエンアテン
@@ -53,6 +62,9 @@ leaders:
     category: religion
     tags: [エジプト, アテン信仰]
     summary: 唯一神アテンの信仰へ強引に切り替え、美術様式まで変えた異例の王。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクエンアテン
 
   - id: tutankhamun
     title: ツタンカーメン
@@ -105,6 +117,9 @@ leaders:
     category: economy
     tags: [エジプト, 航海]
     summary: 紅海と地中海を結ぶ運河を試み、フェニキア人にアフリカ周航を命じたと伝わる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ネコ2世
 
   - id: ptolemy-i
     title: プトレマイオス1世
@@ -113,6 +128,9 @@ leaders:
     category: culture
     tags: [エジプト, アレクサンドリア]
     summary: アレクサンドロスの部将からエジプト王となり、図書館と学術の都を築いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/プトレマイオス1世
 
   - id: cleopatra
     title: クレオパトラ7世
@@ -121,6 +139,9 @@ leaders:
     category: politics
     tags: [エジプト, ローマ]
     summary: ローマの実力者と結んで独立を保とうとした、プトレマイオス朝最後の君主。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クレオパトラ7世
 
   - id: ezana
     title: エザナ王
@@ -149,6 +170,9 @@ leaders:
     category: religion
     tags: [ファーティマ朝, カイロ]
     summary: シーア派の王朝をエジプトに移し、新都カイロを築いてスンナ派のバグダードに対抗した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムイッズ
 
   - id: sundiata
     title: スンジャタ
@@ -159,6 +183,9 @@ leaders:
     category: politics
     tags: [マリ帝国, 叙事詩]
     summary: マリ帝国を建て、その生涯が西アフリカの口承叙事詩として語り継がれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スンジャタ・ケイタ
 
   - id: mansa-musa
     title: マンサ・ムーサ
@@ -167,6 +194,9 @@ leaders:
     category: economy
     tags: [マリ帝国, 金]
     summary: メッカ巡礼で配った金が相場を動かしたと伝わる、西アフリカの富の象徴。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マンサ・ムーサ
 
   - id: sonni-ali
     title: ソンニ・アリ
@@ -183,6 +213,9 @@ leaders:
     category: culture
     tags: [マムルーク朝, 建築]
     summary: 交易の富で壮麗な建築を残し、マムルーク朝最後の安定期を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アシュラフ・カーイトバーイ
 
   - id: askia-muhammad
     title: アスキア・ムハンマド
@@ -191,6 +224,9 @@ leaders:
     category: politics
     tags: [ソンガイ帝国, トンブクトゥ]
     summary: ソンガイを最盛期に導き、トンブクトゥをイスラム学問の中心に育てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アスキア・ムハンマド1世
 
   - id: idris-alauma
     title: イドリース・アローマ
@@ -231,6 +267,9 @@ leaders:
     category: politics
     tags: [エジプト, 近代化]
     summary: オスマンから事実上独立し、軍と綿花産業の近代化を急いだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムハンマド・アリー
 
   - id: shaka
     title: シャカ・ズールー
@@ -239,6 +278,9 @@ leaders:
     category: war
     tags: [ズールー, 軍制]
     summary: 戦術と軍制の革新で小部族を王国に変え、南部アフリカの民族分布を動かした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シャカ・ズールー
 
   - id: menelik-ii
     title: メネリク2世
@@ -247,6 +289,9 @@ leaders:
     category: war
     tags: [エチオピア, アドワ]
     summary: アドワでイタリア軍を破り、アフリカで唯一独立を守り抜いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/メネリク2世
 
   - id: haile-selassie
     title: ハイレ・セラシエ
@@ -255,6 +300,9 @@ leaders:
     category: politics
     tags: [エチオピア]
     summary: 亡命と復位を経て近代化を進めたが、飢饉と軍のクーデタで王政ごと倒れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハイレ・セラシエ1世
 
   - id: nasser
     title: ナセル
@@ -295,6 +343,9 @@ leaders:
     category: politics
     tags: [コンゴ, 独裁]
     summary: 冷戦下で西側の支援を受けつつ国富を私物化した、資源国の独裁の典型。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モブツ・セセ・セコ
 
   - id: gaddafi
     title: カダフィ
@@ -327,6 +378,9 @@ leaders:
     category: society
     tags: [ブルキナファソ, 自立]
     summary: 援助に頼らない自立と質素を掲げ、4年の改革のあと暗殺された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トーマス・サンカラ
 
   - id: mandela
     title: マンデラ

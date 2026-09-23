@@ -9,6 +9,9 @@ leaders:
     category: politics
     tags: [アテネ, 民主政]
     summary: 民会中心の民主政を完成させ、パルテノン建設でアテネを「ギリシアの学校」にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ペリクレス
 
   - id: alexander-the-great
     title: アレクサンドロス大王
@@ -33,6 +36,9 @@ leaders:
     category: politics
     tags: [ローマ, 共和政の終わり]
     summary: ガリア征服と内戦の勝利で共和政を実質的に終わらせ、暗殺されて帝政への道を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガイウス・ユリウス・カエサル
 
   - id: augustus
     title: アウグストゥス
@@ -41,6 +47,9 @@ leaders:
     category: politics
     tags: [ローマ, 帝政]
     summary: 共和政の看板を残したまま一人が実権を握る仕組みを作り、200年の平和を始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アウグストゥス
 
   - id: nero
     title: ネロ
@@ -49,6 +58,9 @@ leaders:
     category: politics
     tags: [ローマ, 迫害]
     summary: ローマ大火の責任をキリスト教徒に負わせ、暴君像の原型として語り継がれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ネロ
 
   - id: trajan
     title: トラヤヌス
@@ -57,6 +69,9 @@ leaders:
     category: war
     tags: [ローマ, 最大版図]
     summary: ダキアとメソポタミアを加えてローマ帝国の版図を最大にした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トラヤヌス
 
   - id: hadrian
     title: ハドリアヌス
@@ -65,6 +80,9 @@ leaders:
     category: politics
     tags: [ローマ, 国境]
     summary: 拡大をやめて国境を固める方針に転じ、ブリタニアに長城を築いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハドリアヌス
 
   - id: marcus-aurelius
     title: マルクス・アウレリウス
@@ -73,6 +91,9 @@ leaders:
     category: religion
     tags: [ローマ, 哲学]
     summary: 『自省録』を戦陣で書いた哲人皇帝で、その死が五賢帝時代の終わりになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マルクス・アウレリウス・アントニヌス
 
   - id: diocletian
     title: ディオクレティアヌス
@@ -81,6 +102,9 @@ leaders:
     category: politics
     tags: [ローマ, 分割統治]
     summary: 帝国を四分して統治する仕組みを作り、混乱を収めると同時に東西分裂の下地も作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ディオクレティアヌス
 
   - id: constantine-the-great
     title: コンスタンティヌス1世
@@ -89,6 +113,9 @@ leaders:
     category: religion
     tags: [ローマ, キリスト教]
     summary: キリスト教を公認し新都を東に築いて、帝国の宗教と重心を同時に移した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コンスタンティヌス1世
 
   - id: theodosius-i
     title: テオドシウス1世
@@ -97,6 +124,9 @@ leaders:
     category: religion
     tags: [ローマ, 国教]
     summary: キリスト教を国教とし、死に際して帝国を東西に分けた最後の統一皇帝。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/テオドシウス1世
 
   - id: justinian-i
     title: ユスティニアヌス1世
@@ -105,6 +135,9 @@ leaders:
     category: society
     tags: [ビザンツ, 法典]
     summary: ローマ法を集大成し地中海の再統一を試みた、東ローマ帝国の絶頂。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユスティニアヌス1世
 
   - id: pope-gregory-i
     title: 教皇グレゴリウス1世
@@ -113,6 +146,9 @@ leaders:
     category: religion
     tags: [教皇, 布教]
     summary: ゲルマン人への布教を組織し、ローマ司教を西欧の精神的な中心に押し上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/グレゴリウス1世_(ローマ教皇)
 
   - id: heraclius
     title: ヘラクレイオス
@@ -121,6 +157,9 @@ leaders:
     category: war
     tags: [ビザンツ, ペルシア]
     summary: ペルシアに辛勝した直後にイスラム勢力の進出を受け、帝国をギリシア化して守りに入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヘラクレイオス
 
   - id: leo-iii-isaurian
     title: レオン3世
@@ -137,6 +176,9 @@ leaders:
     category: war
     tags: [ビザンツ]
     summary: ブルガリアを屈服させて中世ビザンツ帝国を最大に広げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バシレイオス2世
 
   - id: pope-gregory-vii
     title: 教皇グレゴリウス7世
@@ -145,6 +187,9 @@ leaders:
     category: religion
     tags: [教皇, 叙任権闘争]
     summary: 聖職者の任命権を皇帝から取り戻そうとし、カノッサで教皇権の頂点を見せた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/グレゴリウス7世_(ローマ教皇)
 
   - id: alexios-i
     title: アレクシオス1世
@@ -153,6 +198,9 @@ leaders:
     category: politics
     tags: [ビザンツ, 十字軍]
     summary: 西欧に援軍を求めたことが十字軍を呼び、結果的に帝国を危うくした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アレクシオス1世
 
   - id: pope-urban-ii
     title: 教皇ウルバヌス2世
@@ -161,6 +209,9 @@ leaders:
     category: religion
     tags: [教皇, 十字軍]
     summary: クレルモンの説教で十字軍を呼びかけ、西欧の武力を東へ向けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウルバヌス2世_(ローマ教皇)
 
   - id: pope-innocent-iii
     title: 教皇インノケンティウス3世
@@ -169,6 +220,9 @@ leaders:
     category: religion
     tags: [教皇]
     summary: 各国の王を破門で従わせ、「教皇は太陽、皇帝は月」と言われる権勢の頂点に立った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インノケンティウス3世_(ローマ教皇)
 
   - id: frederick-ii-sicily
     title: フリードリヒ2世（シチリア）
@@ -185,6 +239,9 @@ leaders:
     category: religion
     tags: [教皇, アナーニ事件]
     summary: フランス王に捕らえられ、教皇権が王権に屈する時代の始まりを印した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ボニファティウス8世_(ローマ教皇)
 
   - id: pope-clement-v
     title: 教皇クレメンス5世
@@ -193,6 +250,9 @@ leaders:
     category: religion
     tags: [教皇, アヴィニョン]
     summary: 教皇庁をアヴィニョンへ移し、フランス王の影響下に入る70年の始まりになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クレメンス5世_(ローマ教皇)
 
   - id: cosimo-de-medici
     title: コジモ・デ・メディチ
@@ -201,6 +261,9 @@ leaders:
     category: economy
     tags: [フィレンツェ, ルネサンス]
     summary: 公職に就かないまま銀行の力で市政を動かし、芸術への出資で都市の性格を変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コジモ・デ・メディチ
 
   - id: constantine-xi
     title: コンスタンティノス11世
@@ -209,6 +272,9 @@ leaders:
     category: war
     tags: [ビザンツ, 滅亡]
     summary: 城壁の上で戦死した最後のビザンツ皇帝で、1000年の帝国がここで終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コンスタンティノス11世パレオロゴス
 
   - id: lorenzo-de-medici
     title: ロレンツォ・デ・メディチ
@@ -217,6 +283,9 @@ leaders:
     category: culture
     tags: [フィレンツェ, ルネサンス]
     summary: 芸術家を手元に集めて庇護し、イタリア諸国の均衡を保つ調停役も務めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロレンツォ・デ・メディチ
 
   - id: pope-julius-ii
     title: 教皇ユリウス2世
@@ -225,6 +294,9 @@ leaders:
     category: culture
     tags: [教皇, ルネサンス]
     summary: みずから軍を率いる一方、サン・ピエトロ大聖堂とシスティーナ礼拝堂を起こさせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユリウス2世_(ローマ教皇)
 
   - id: pope-leo-x
     title: 教皇レオ10世
@@ -233,6 +305,9 @@ leaders:
     category: religion
     tags: [教皇, 宗教改革]
     summary: 大聖堂の造営費を贖宥状でまかなおうとして、ルターの抗議を招いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/レオ10世_(ローマ教皇)
 
   - id: pope-paul-iii
     title: 教皇パウルス3世
@@ -241,6 +316,9 @@ leaders:
     category: religion
     tags: [教皇, 対抗宗教改革]
     summary: トリエント公会議の招集とイエズス会の公認で、カトリック側の立て直しを始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パウルス3世_(ローマ教皇)
 
   - id: cosimo-i
     title: コジモ1世
@@ -249,6 +327,9 @@ leaders:
     category: politics
     tags: [フィレンツェ, トスカーナ]
     summary: 分裂した都市国家をトスカーナ大公国にまとめ、共和政の伝統を終わらせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コジモ1世
 
   - id: pope-urban-viii
     title: 教皇ウルバヌス8世
@@ -257,6 +338,9 @@ leaders:
     category: religion
     tags: [教皇, バロック]
     summary: バロックのローマを作らせる一方、ガリレオを異端審問にかけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウルバヌス8世_(ローマ教皇)
 
   - id: pope-benedict-xiv
     title: 教皇ベネディクトゥス14世
@@ -265,6 +349,9 @@ leaders:
     category: religion
     tags: [教皇, 啓蒙]
     summary: 啓蒙の知識人と文通し、対決ではなく対話で時代に向き合った教皇。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベネディクトゥス14世_(ローマ教皇)
 
   - id: pope-pius-ix
     title: 教皇ピウス9世
@@ -273,6 +360,9 @@ leaders:
     category: religion
     tags: [教皇, 教皇領]
     summary: イタリア統一で教皇領を失い、代わりに教皇不可謬の教義で霊的権威を固めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ピウス9世_(ローマ教皇)
 
   - id: cavour
     title: カヴール
@@ -297,6 +387,9 @@ leaders:
     category: politics
     tags: [イタリア, 統一]
     summary: 分裂していた半島を一つの王国にまとめた初代イタリア国王。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴィットーリオ・エマヌエーレ2世
 
   - id: mussolini
     title: ムッソリーニ
@@ -313,6 +406,9 @@ leaders:
     category: religion
     tags: [教皇, 第二次世界大戦]
     summary: 戦時下でナチスの迫害に公然と抗議しなかったことが、今も議論され続けている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ピウス12世_(ローマ教皇)
 
   - id: pope-john-xxiii
     title: 教皇ヨハネ23世
@@ -321,6 +417,9 @@ leaders:
     category: religion
     tags: [教皇, 第2バチカン公会議]
     summary: 公会議を招集して典礼と他宗派への姿勢を改め、教会を現代社会に開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヨハネ23世_(ローマ教皇)
 
   - id: pope-john-paul-ii
     title: 教皇ヨハネ・パウロ2世
@@ -329,6 +428,9 @@ leaders:
     category: religion
     tags: [教皇, 東欧]
     summary: ポーランド出身の教皇として東欧の民主化を後押しし、世界を歩き回る教皇像を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヨハネ・パウロ2世_(ローマ教皇)
 
   - id: pope-francis
     title: 教皇フランシスコ
@@ -337,6 +439,9 @@ leaders:
     category: religion
     tags: [教皇, 南米]
     summary: 南米出身の初の教皇として、貧困と環境を正面から語り教会の姿勢を変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランシスコ_(ローマ教皇)
 
   - id: pope-leo-xiv
     title: 教皇レオ14世
@@ -345,3 +450,6 @@ leaders:
     category: religion
     tags: [教皇]
     summary: 米国出身として初めて選ばれた教皇。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/レオ14世_(ローマ教皇)

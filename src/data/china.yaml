@@ -14,6 +14,9 @@ periods:
       『史記』は禹に始まる王朝として記すが、同時代の文字資料がなく、
       考古学的には河南省の二里頭文化との対応が論じられている段階。
       年代も推定値で、諸説がある。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/夏_(三代)
 
   - id: shang
     title: 殷（商）
@@ -26,6 +29,9 @@ periods:
     detail: |
       占いの記録を亀甲や獣骨に刻んだ甲骨文字は、現在の漢字の直接の祖先にあたる。
       王は祭祀を通じて神と交わる存在であり、政治と宗教が分かれていなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/殷
 
   - id: zhou
     title: 周
@@ -34,6 +40,9 @@ periods:
     category: politics
     tags: [中国, 王朝]
     summary: 封建制と天命思想を打ち立てた長命な王朝。後半は諸侯が自立していく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/周
 
   - id: spring-autumn-warring
     title: 春秋戦国時代
@@ -42,6 +51,9 @@ periods:
     category: war
     tags: [中国, 分裂]
     summary: 諸侯が覇を競った分裂期。同時に諸子百家が生まれた思想の黄金期でもある。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/春秋戦国時代
 
   - id: qin
     title: 秦
@@ -64,6 +76,9 @@ periods:
     detail: |
       「漢字」「漢民族」という呼び方はこの王朝に由来する。
       前半（前漢）は長安、後半（後漢）は洛陽を都とし、間に王莽の新をはさむ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/漢
 
   - id: xin
     title: 新
@@ -72,6 +87,9 @@ periods:
     category: politics
     tags: [中国, 簒奪]
     summary: 王莽が漢を奪って立てた短命の王朝。復古的な改革が混乱を招き15年で倒れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/新
 
   - id: three-kingdoms
     title: 三国時代
@@ -88,6 +106,9 @@ periods:
     category: politics
     tags: [中国, 王朝]
     summary: 一時は中国を統一したが北方民族に華北を奪われ、江南へ逃れて命脈を保った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/晋_(王朝)
 
   - id: sixteen-kingdoms
     title: 五胡十六国
@@ -96,6 +117,9 @@ periods:
     category: war
     tags: [中国, 分裂, 遊牧]
     summary: 北方の諸民族が華北に次々と国を建てた130年余り。漢人の南遷が進んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/五胡十六国時代
 
   - id: northern-southern-dynasties
     title: 南北朝
@@ -104,6 +128,9 @@ periods:
     category: politics
     tags: [中国, 分裂]
     summary: 北の遊牧系王朝と南の漢人王朝が並立。仏教が社会の隅々まで広がった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/南北朝時代_(中国)
 
   - id: sui
     title: 隋
@@ -112,6 +139,9 @@ periods:
     category: politics
     tags: [中国, 王朝]
     summary: 南北を再統一し、大運河と科挙という後世の土台を作って短命に終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/隋
 
   - id: tang
     title: 唐
@@ -134,6 +164,9 @@ periods:
     category: war
     tags: [中国, 分裂]
     summary: 唐の滅亡から宋の統一までの半世紀。武人が次々と政権を奪い合った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/五代十国時代
 
   - id: liao
     title: 遼（契丹）
@@ -142,6 +175,9 @@ periods:
     category: politics
     tags: [中国, 征服王朝, 遊牧]
     summary: 契丹が華北の一部を含めて支配した王朝。宋から毎年の贈り物を受け取った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/遼
 
   - id: song
     title: 宋
@@ -153,6 +189,9 @@ periods:
     detail: |
       火薬・羅針盤・印刷術が実用化され、紙幣が流通し、開封や杭州には
       100万人規模の都市生活が生まれた。科挙で選ばれた官僚が政治を担う体制が固まる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/宋_(王朝)
 
   - id: western-xia
     title: 西夏
@@ -161,6 +200,9 @@ periods:
     category: politics
     tags: [中国, 西域]
     summary: タングートが河西回廊に建てた国。独自の文字を作り、交易路を押さえた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/西夏
 
   - id: jurchen-jin
     title: 金
@@ -169,6 +211,9 @@ periods:
     category: politics
     tags: [中国, 征服王朝]
     summary: 女真が遼と北宋を倒して華北を支配。モンゴルに滅ぼされた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/金_(王朝)
 
   - id: yuan
     title: 元
@@ -177,6 +222,9 @@ periods:
     category: politics
     tags: [中国, モンゴル, 征服王朝]
     summary: モンゴルが立てた王朝。ユーラシア規模の人と物の往来が中国を通った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/元_(王朝)
 
   - id: ming
     title: 明
@@ -185,6 +233,9 @@ periods:
     category: politics
     tags: [中国, 王朝]
     summary: 漢人王朝の復活。海禁と朝貢体制のもとで東アジアの秩序を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/明
 
   - id: qing
     title: 清
@@ -196,6 +247,9 @@ periods:
     detail: |
       康熙・雍正・乾隆の約130年は人口が3倍近くに増えた繁栄期。
       その後、財政難と人口圧力に加えてアヘン戦争以降の外圧が重なり、統治が崩れていく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/清
 
   - id: taiping
     title: 太平天国
@@ -204,6 +258,9 @@ periods:
     category: war
     tags: [中国, 内乱, 宗教]
     summary: キリスト教の影響を受けた宗教反乱が南京を14年間支配。死者は数千万に達した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/太平天国の乱
 
   - id: self-strengthening
     title: 洋務運動
@@ -220,6 +277,9 @@ periods:
     category: politics
     tags: [中国, 共和制]
     summary: アジア初の共和国。しかし実権は軍閥・国民党・共産党の間で揺れ続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/中華民国
 
   - id: warlord-era
     title: 軍閥割拠
@@ -228,6 +288,9 @@ periods:
     category: war
     tags: [中国, 内戦]
     summary: 袁世凱の死後、各地の軍事勢力が割拠した時期。北伐でひとまず収束した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/北京政府
 
   - id: second-sino-japanese-war
     title: 日中戦争
@@ -236,6 +299,9 @@ periods:
     category: war
     tags: [中国, 日本]
     summary: 8年に及ぶ全面戦争。共産党が農村で力を伸ばし、戦後の内戦の帰趨を決めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日中戦争
 
   - id: prc
     title: 中華人民共和国
@@ -252,6 +318,9 @@ periods:
     category: economy
     tags: [中国, 現代]
     summary: 急激な工業化・集団化が大飢饉を招き、数千万人が犠牲になったとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大躍進政策
 
   - id: cultural-revolution
     title: 文化大革命
@@ -304,6 +373,9 @@ events:
     detail: |
       郡県制によって地方を直接支配し、文字・度量衡・車軌を統一した。
       統一の枠組みはその後2000年にわたり中国の標準であり続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/始皇帝
     related: [qin, shang-yang-reform]
 
   - id: burning-of-books
@@ -326,6 +398,9 @@ events:
     category: war
     tags: [中国]
     summary: 劉邦が項羽を破り、漢の400年が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/垓下の戦い
 
   - id: emperor-wu
     year: -141
@@ -361,6 +436,9 @@ events:
     category: war
     tags: [中国, 宗教, 反乱]
     summary: 宗教結社による大反乱。鎮圧に動いた群雄が割拠し、後漢は有名無実になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/黄巾の乱
 
   - id: han-end
     year: 220
@@ -368,6 +446,9 @@ events:
     category: politics
     tags: [中国, 王朝交代]
     summary: 400年の漢が終わり、統一が回復するまで約60年を要した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/魏_(三国)
 
   - id: jin-unifies
     year: 280
@@ -424,6 +505,9 @@ events:
     category: politics
     tags: [中国, 唐]
     summary: 兄弟を倒して即位した太宗のもとで、唐は「貞観の治」と呼ばれる安定期に入る。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/玄武門の変
 
   - id: xuanzang
     year: 629
@@ -455,6 +539,9 @@ events:
     category: politics
     tags: [中国, 王朝交代]
     summary: 節度使が帝位を奪い、五代十国の分裂期に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/唐
 
   - id: song-founded
     year: 960
@@ -462,6 +549,9 @@ events:
     category: politics
     tags: [中国, 王朝]
     summary: 武人の力を抑えて文官が政治を担う体制へ切り替え、以後の中国の型になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/趙匡胤
 
   - id: chanyuan-treaty
     year: 1004
@@ -469,6 +559,9 @@ events:
     category: politics
     tags: [中国, 外交]
     summary: 宋が遼に毎年の贈り物を送る形で和平を買い、120年の平和が続いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/澶淵の盟
     related: [liao, song]
 
   - id: wang-anshi-reform
@@ -484,6 +577,9 @@ events:
     category: war
     tags: [中国, 金]
     summary: 金が開封を落として皇帝を連れ去り、宋は江南へ逃れて南宋となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/靖康の変
 
   - id: jin-falls
     year: 1234
@@ -498,6 +594,9 @@ events:
     category: war
     tags: [中国, モンゴル]
     summary: 南宋が滅び、中国全土が初めて異民族の支配下に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/崖山の戦い
 
   - id: ming-founded
     year: 1368
@@ -505,6 +604,9 @@ events:
     category: politics
     tags: [中国, 王朝]
     summary: 貧農から皇帝になった人物が、元を北へ追って漢人の王朝を回復した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/朱元璋
 
   - id: zheng-he
     year: 1405
@@ -532,6 +634,9 @@ events:
     category: war
     tags: [中国, モンゴル]
     summary: 皇帝がモンゴルの捕虜になる大敗。明は守勢に転じ、長城の増築を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/土木の変
 
   - id: macao-portugal
     year: 1557
@@ -575,6 +680,9 @@ events:
     category: politics
     tags: [中国, ロシア, 外交]
     summary: ロシアと対等な形で結んだ最初の国境条約。朝貢とは別の外交の型を経験した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ネルチンスク条約
 
   - id: macartney
     year: 1793
@@ -599,6 +707,9 @@ events:
     category: politics
     tags: [中国, 不平等条約]
     summary: 五港の開港と香港割譲。以後1世紀続く不平等条約体制の出発点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/南京条約
 
   - id: arrow-war
     year: 1856
@@ -606,6 +717,9 @@ events:
     category: war
     tags: [中国, 列強]
     summary: 英仏軍が北京まで攻め込み、清は内陸と外交にまで干渉を受けるようになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アロー戦争
 
   - id: treaty-of-beijing
     year: 1860
@@ -613,6 +727,9 @@ events:
     category: politics
     tags: [中国, 不平等条約]
     summary: 公使の北京常駐が認められ、清の対外関係が朝貢から条約へ切り替わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/北京条約
 
   - id: first-sino-japanese-war
     year: 1894
@@ -620,6 +737,9 @@ events:
     category: war
     tags: [中国, 日本]
     summary: 洋務運動の成果を信じていた清が日本に敗れ、東アジアの序列が逆転した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日清戦争
 
   - id: hundred-days-reform
     year: 1898
@@ -627,6 +747,9 @@ events:
     category: society
     tags: [中国, 改革]
     summary: 立憲制をめざした改革が100日で潰され、清の自己改革の道が細った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/戊戌の変法
 
   - id: boxer-rebellion
     year: 1900
@@ -641,6 +764,9 @@ events:
     category: society
     tags: [中国, 教育]
     summary: 1300年続いた登用制度が終わり、知識人は新しい学校と革命に向かった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/科挙
     related: [imperial-exam-start]
 
   - id: xinhai-revolution
@@ -674,6 +800,9 @@ events:
     category: war
     tags: [中国, 内戦]
     summary: 1万キロを超える撤退のなかで毛沢東が指導権を握り、共産党の神話になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/長征
 
   - id: marco-polo-bridge
     year: 1937
@@ -681,6 +810,9 @@ events:
     category: war
     tags: [中国, 日本]
     summary: 小さな衝突から全面戦争に発展し、8年の日中戦争が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/盧溝橋事件
     related: [second-sino-japanese-war]
 
   - id: prc-founded
@@ -710,6 +842,9 @@ events:
     category: economy
     tags: [中国, 現代]
     summary: 鄧小平のもとで市場経済を導入し、世界の工場へと変わっていった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/改革開放
 
   - id: tiananmen
     year: 1989
@@ -717,6 +852,9 @@ events:
     category: society
     tags: [中国, 現代]
     summary: 民主化を求める運動が武力で鎮圧され、経済の自由化と政治の統制が並ぶ路線が固まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/六四天安門事件
 
   - id: wto-accession
     year: 2001

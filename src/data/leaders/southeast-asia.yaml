@@ -25,6 +25,9 @@ leaders:
     category: culture
     tags: [クメール, アンコール・ワット]
     summary: アンコール・ワットを造営し、ヒンドゥーの宇宙観を石の都に実現した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スーリヤヴァルマン2世
 
   - id: jayavarman-vii
     title: ジャヤーヴァルマン7世
@@ -33,6 +36,9 @@ leaders:
     category: politics
     tags: [クメール, 仏教]
     summary: チャンパを退けて領土を最大にし、病院と道路を整えた仏教王。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジャヤーヴァルマン7世
 
   - id: ramkhamhaeng
     title: ラームカムヘーン
@@ -49,6 +55,9 @@ leaders:
     category: politics
     tags: [マジャパヒト, ジャワ]
     summary: 群島の統一を誓って遠征を重ね、のちのインドネシアが理想として振り返る版図を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガジャ・マダ
 
   - id: le-loi
     title: 黎利
@@ -57,6 +66,9 @@ leaders:
     category: war
     tags: [ベトナム, 黎朝]
     summary: 明の支配を10年の抗戦で退け、ベトナムの独立を取り戻した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/黎利
 
   - id: le-thanh-tong
     title: 黎聖宗
@@ -65,6 +77,9 @@ leaders:
     category: society
     tags: [ベトナム, 法典]
     summary: 中国式の官僚制と法典を整え、南進でベトナムの形を広げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/黎聖宗
 
   - id: bayinnaung
     title: バインナウン
@@ -73,6 +88,9 @@ leaders:
     category: war
     tags: [ビルマ, タウングー朝]
     summary: 大陸部の広い範囲を征服し、東南アジア史上まれな軍事帝国を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バインナウン
 
   - id: naresuan
     title: ナレースワン
@@ -81,6 +99,9 @@ leaders:
     category: war
     tags: [アユタヤ, タイ]
     summary: ビルマの支配を脱してアユタヤの独立を回復し、タイの英雄となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナレースワン
 
   - id: sultan-agung
     title: スルタン・アグン
@@ -89,6 +110,9 @@ leaders:
     category: war
     tags: [マタラム, ジャワ]
     summary: ジャワの大半を統一してオランダのバタヴィアを攻め、抵抗の記憶として残った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スルタン・アグン
 
   - id: alaungpaya
     title: アラウンパヤー
@@ -97,6 +121,9 @@ leaders:
     category: war
     tags: [ビルマ, コンバウン朝]
     summary: 分裂したビルマを再統一し、イギリスと衝突するまで続く王朝を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アラウンパヤー
 
   - id: taksin
     title: タークシン
@@ -105,6 +132,9 @@ leaders:
     category: war
     tags: [タイ, トンブリー]
     summary: アユタヤ陥落の直後に国を建て直し、タイの国家としての連続性を保った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/タークシン
 
   - id: rama-i
     title: ラーマ1世
@@ -121,6 +151,9 @@ leaders:
     category: politics
     tags: [ベトナム, 阮朝]
     summary: 南北のベトナムを一つにまとめ、現在の国土に近い版図を初めて実現した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/嘉隆帝
 
   - id: mongkut
     title: ラーマ4世（モンクット）
@@ -129,6 +162,9 @@ leaders:
     category: politics
     tags: [タイ, 開国]
     summary: 西洋の学問を学んだ王として不平等条約を受け入れつつ、独立を保つ道を選んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラーマ4世
 
   - id: chulalongkorn
     title: ラーマ5世（チュラロンコン）
@@ -137,6 +173,9 @@ leaders:
     category: society
     tags: [タイ, 近代化]
     summary: 奴隷制の廃止と行政改革を進め、タイを東南アジア唯一の独立国として残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラーマ5世
 
   - id: aung-san
     title: アウンサン
@@ -145,6 +184,9 @@ leaders:
     category: politics
     tags: [ビルマ, 独立]
     summary: 独立をまとめる直前に暗殺され、ビルマ建国の父として神話化された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アウンサン
 
   - id: sukarno
     title: スカルノ
@@ -161,6 +203,9 @@ leaders:
     category: politics
     tags: [ベトナム, 独立]
     summary: 対仏・対米の二つの戦争を通じてベトナム統一の旗を立て続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホー・チ・ミン
 
   - id: sihanouk
     title: シハヌーク
@@ -193,6 +238,9 @@ leaders:
     category: politics
     tags: [インドネシア, 開発独裁]
     summary: 大量殺害を伴う政変で権力を握り、32年の開発独裁を通貨危機で終えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スハルト
 
   - id: pol-pot
     title: ポル・ポト
@@ -209,6 +257,9 @@ leaders:
     category: economy
     tags: [マレーシア, ルックイースト]
     summary: 日本や韓国に学ぶ工業化を掲げ、マレーシアを中所得国に押し上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マハティール・ビン・モハマド
 
   - id: aung-san-suu-kyi
     title: アウンサンスーチー
@@ -217,3 +268,6 @@ leaders:
     category: politics
     tags: [ミャンマー, 民主化]
     summary: 長い軟禁を経て民政を率いたが、国軍のクーデタで再び拘束された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アウンサンスーチー

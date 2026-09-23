@@ -9,6 +9,9 @@ periods:
     category: politics
     tags: [朝鮮, 古代]
     summary: 半島北部にあったとされる最初の国家。前108年に漢に滅ぼされた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/古朝鮮
 
   - id: han-commanderies
     title: 漢の四郡
@@ -42,6 +45,9 @@ periods:
     category: politics
     tags: [朝鮮]
     summary: 唐と結んで半島を統一。仏教文化が栄えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/新羅
 
   - id: goryeo
     title: 高麗
@@ -50,6 +56,9 @@ periods:
     category: politics
     tags: [朝鮮]
     summary: Korea の語源となった王朝。高麗青磁と大蔵経の木版で知られる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高麗
 
   - id: goryeo-military-rule
     title: 武臣政権
@@ -58,6 +67,9 @@ periods:
     category: war
     tags: [朝鮮, 武人]
     summary: 武官が実権を握った100年。モンゴルへの長い抵抗もこの政権が指導した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/武臣政権
 
   - id: joseon
     title: 朝鮮王朝（李氏朝鮮）
@@ -77,6 +89,9 @@ periods:
     category: politics
     tags: [朝鮮, 近代化]
     summary: 清との従属関係を断ち皇帝を称したが、日露の争いのなかで独立を保てなかった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大韓帝国
 
   - id: japanese-rule-korea
     title: 日本統治期
@@ -145,6 +160,9 @@ events:
     category: war
     tags: [朝鮮, 唐]
     summary: 唐・新羅の連合軍に敗れ、復興を助けた日本も白村江で敗れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/百済
     related: [hakusukinoe]
 
   - id: silla-unification
@@ -153,6 +171,9 @@ events:
     category: politics
     tags: [朝鮮]
     summary: 唐と連合して百済・高句麗を滅ぼし、その後は唐の勢力も追い出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/新羅
 
   - id: bulguksa
     year: 751
@@ -168,6 +189,9 @@ events:
     category: politics
     tags: [朝鮮]
     summary: 後三国の争いを収め、仏教を国の支えとする王朝が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/高麗
 
   - id: goryeo-exam
     year: 958
@@ -189,6 +213,9 @@ events:
     category: culture
     tags: [朝鮮, 歴史]
     summary: 現存する朝鮮最古の歴史書。三国時代の記録の土台になっている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/三国史記
 
   - id: mongol-invasion-goryeo
     year: 1231
@@ -196,6 +223,9 @@ events:
     category: war
     tags: [朝鮮, モンゴル]
     summary: 30年に及ぶ抵抗の末に服属し、元の日本遠征にも動員された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モンゴルの高麗侵攻
 
   - id: tripitaka-koreana
     year: 1251
@@ -217,6 +247,9 @@ events:
     category: politics
     tags: [朝鮮]
     summary: 高麗の武将が王朝を交代させ、儒教を国の背骨に据えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/李成桂
 
   - id: hangul
     year: 1446
@@ -263,6 +296,9 @@ events:
     category: politics
     tags: [朝鮮, 日本]
     summary: 日本が結ばせた不平等条約。朝鮮をめぐる日清の対立が表面化した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/日朝修好条規
 
   - id: donghak-rebellion
     year: 1894
@@ -270,6 +306,9 @@ events:
     category: society
     tags: [朝鮮, 反乱]
     summary: 農民の蜂起が日清両軍の出兵を招き、日清戦争の引き金になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/甲午農民戦争
     related: [first-sino-japanese-war]
 
   - id: korea-annexation
@@ -278,6 +317,9 @@ events:
     category: politics
     tags: [朝鮮, 日本]
     summary: 大韓帝国が消滅し、35年間の植民地統治が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/韓国併合
 
   - id: march-first-movement
     year: 1919
@@ -307,6 +349,9 @@ events:
     category: war
     tags: [朝鮮, 冷戦]
     summary: 南北の戦争に米中が介入。1953年の休戦で分断が固定された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/朝鮮戦争
 
   - id: april-revolution
     year: 1960
@@ -328,6 +373,9 @@ events:
     category: society
     tags: [韓国, 民主化]
     summary: 軍による市民の弾圧。その記憶が1987年の民主化を後押しした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/光州事件
 
   - id: korea-democratization
     year: 1987
@@ -335,6 +383,9 @@ events:
     category: society
     tags: [韓国, 民主化]
     summary: 大統領の直接選挙が実現し、開発独裁から民主体制へ移った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/6月民主抗争
 
   - id: seoul-olympics
     year: 1988
@@ -342,6 +393,9 @@ events:
     category: society
     tags: [韓国]
     summary: 経済成長と民主化を世界に示し、東側諸国との国交樹立も進んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/1988年ソウルオリンピック
 
   - id: asian-financial-crisis-kr
     year: 1997
@@ -349,6 +403,9 @@ events:
     category: economy
     tags: [韓国, 経済危機]
     summary: 財閥中心の経済が揺らぎ、構造改革と格差の拡大につながった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アジア通貨危機
 
   - id: inter-korean-summit
     year: 2000

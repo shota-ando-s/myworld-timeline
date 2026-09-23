@@ -10,6 +10,9 @@ periods:
     category: culture
     tags: [メソアメリカ]
     summary: 巨石人頭像で知られる、メソアメリカ最初の高度な文化。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オルメカ
 
   - id: chavin
     title: チャビン文化
@@ -30,6 +33,9 @@ periods:
     category: culture
     tags: [アンデス, 地上絵]
     summary: 乾燥した大地に巨大な地上絵を残した。用途は今も議論が続く。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナスカ文化
 
   - id: teotihuacan
     title: テオティワカン
@@ -50,6 +56,9 @@ periods:
     category: culture
     tags: [アンデス, 土器]
     summary: 精巧な人物土器と金細工を残した北ペルーの社会。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モチェ文化
 
   - id: maya-classic
     title: マヤ文明古典期
@@ -61,6 +70,9 @@ periods:
     detail: |
       ゼロを含む記数法と、数百年先まで計算できる暦を持っていた。
       統一帝国ではなく、競い合う都市国家の集まりだった点がギリシアに似る。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マヤ文明
 
   - id: tiwanaku
     title: ティワナク
@@ -81,6 +93,9 @@ periods:
     category: society
     tags: [北アメリカ, 都市]
     summary: 巨大な土のピラミッドを築いた北米の農耕社会。カホキアは1万人規模だった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ミシシッピ文化
 
   - id: toltec
     title: トルテカ
@@ -98,6 +113,9 @@ periods:
     category: politics
     tags: [メソアメリカ]
     summary: 湖上の都テノチティトランを中心に、貢納で周辺を支配した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アステカ
 
   - id: inca
     title: インカ帝国
@@ -106,6 +124,9 @@ periods:
     category: politics
     tags: [アンデス]
     summary: 文字を持たずに、道路網とキープ（結縄）で巨大な山岳帝国を運営した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インカ帝国
 
   - id: spanish-america
     title: スペイン領アメリカ
@@ -130,6 +151,9 @@ periods:
     category: politics
     tags: [北アメリカ, イギリス]
     summary: 自治の経験を積んだ植民地が、課税をめぐる対立から独立へ向かった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/13植民地
 
   - id: united-states
     title: アメリカ合衆国
@@ -154,6 +178,9 @@ periods:
     category: society
     tags: [アメリカ, 人権]
     summary: 法的な人種隔離を撤廃させ、世界の人権運動の手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アフリカ系アメリカ人公民権運動
 
 events:
   - id: maya-collapse
@@ -189,6 +216,9 @@ events:
       ジャガイモやトウモロコシがユーラシアへ渡って人口を押し上げた一方、
       天然痘などの病気がアメリカ大陸の人口を激減させた。
       世界史がひとつながりになった転換点として扱われる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コロンブス
 
   - id: tordesillas
     year: 1494
@@ -196,6 +226,9 @@ events:
     category: politics
     tags: [スペイン, ポルトガル]
     summary: 地球を2国で分ける線を引いた。ブラジルがポルトガル語圏になった理由でもある。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トルデシリャス条約
 
   - id: brazil-landfall
     year: 1500
@@ -253,6 +286,9 @@ events:
     category: religion
     tags: [北アメリカ, 移民]
     summary: 信仰の自由を求めた入植者の自治の誓約が、建国神話の一部になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/メイフラワー号
 
   - id: pueblo-revolt
     year: 1680
@@ -260,6 +296,9 @@ events:
     category: society
     tags: [先住民, スペイン]
     summary: 先住民がスペイン人を12年間追い出した、北米で最も成功した抵抗の一つ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/プエブロの反乱
 
   - id: us-independence
     year: 1776
@@ -267,6 +306,9 @@ events:
     category: politics
     tags: [アメリカ, 革命]
     summary: 人は平等に造られたと宣言し、以後の革命と憲法に影響を与えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アメリカ独立宣言
 
   - id: us-constitution
     year: 1787
@@ -274,6 +316,9 @@ events:
     category: society
     tags: [アメリカ, 立憲]
     summary: 三権分立と連邦制を定めた成文憲法。各国の憲法の手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アメリカ合衆国憲法
 
   - id: haitian-revolution
     year: 1791
@@ -281,6 +326,9 @@ events:
     category: society
     tags: [カリブ, 奴隷制]
     summary: 奴隷が自力で独立を勝ち取った史上唯一の例。各国に衝撃を与えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ハイチ革命
 
   - id: louisiana-purchase
     year: 1803
@@ -288,6 +336,9 @@ events:
     category: politics
     tags: [アメリカ, 領土]
     summary: 国土が一夜で倍になり、西部への拡大が国の性格を決めていく。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルイジアナ買収
 
   - id: mexico-independence
     year: 1810
@@ -316,6 +367,9 @@ events:
     category: economy
     tags: [アメリカ, 移民]
     summary: 世界中から30万人が押し寄せ、太平洋岸の開発と中国系移民の流入が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カリフォルニア・ゴールドラッシュ
 
   - id: us-civil-war
     year: 1861
@@ -323,6 +377,9 @@ events:
     category: war
     tags: [アメリカ, 奴隷制]
     summary: 4年の内戦の末に奴隷制が廃止され、連邦の統一が守られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/南北戦争
 
   - id: emancipation-proclamation
     year: 1863
@@ -351,6 +408,9 @@ events:
     category: war
     tags: [アメリカ, 帝国主義]
     summary: フィリピンとプエルトリコを得て、アメリカが海外帝国に踏み出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/米西戦争
 
   - id: wright-brothers
     year: 1903
@@ -372,6 +432,9 @@ events:
     category: economy
     tags: [中米, 交通]
     summary: 太平洋と大西洋が直結し、アメリカの世界戦略の要になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/パナマ運河
 
   - id: great-depression
     year: 1929
@@ -379,6 +442,9 @@ events:
     category: economy
     tags: [アメリカ, 経済危機]
     summary: ニューヨーク株式市場の暴落が世界中に波及し、各国の政治を変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/世界恐慌
 
   - id: new-deal
     year: 1933
@@ -393,6 +459,9 @@ events:
     category: science
     tags: [アメリカ, 核]
     summary: 3週間後に広島・長崎で使用され、戦争と国際政治の前提が変わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/トリニティ実験
     related: [japan-surrender]
 
   - id: bretton-woods
@@ -415,6 +484,9 @@ events:
     category: war
     tags: [冷戦, 核]
     summary: 核戦争に最も近づいた13日間。以後、米ソは危機管理の仕組みを整えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/キューバ危機
 
   - id: march-on-washington
     year: 1963
@@ -422,6 +494,9 @@ events:
     category: society
     tags: [アメリカ, 人権]
     summary: キング牧師の「私には夢がある」の演説が、公民権法の成立を後押しした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ワシントン大行進
 
   - id: apollo-11
     year: 1969
@@ -429,6 +504,9 @@ events:
     category: science
     tags: [宇宙, 冷戦]
     summary: 米ソの競争のなかで、人類が初めて地球以外の天体に立った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アポロ11号
 
   - id: chile-coup
     year: 1973
@@ -457,3 +535,6 @@ events:
     category: economy
     tags: [アメリカ, 経済危機]
     summary: 住宅バブルの崩壊が世界に波及し、金融規制と格差の議論を呼んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/世界金融危機_(2007年-2010年)

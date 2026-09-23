@@ -20,6 +20,9 @@ leaders:
     category: religion
     tags: [マウリヤ朝, 仏教]
     summary: 征服の惨禍を悔いて仏教を保護し、石柱に刻んだ統治の理念をアジア中に広めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アショーカ
 
   - id: pushyamitra-shunga
     title: プシュヤミトラ
@@ -46,6 +49,9 @@ leaders:
     category: culture
     tags: [グプタ朝, 古典文化]
     summary: サンスクリット文学と数学が花開いた、インド古典文化の黄金期の王。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チャンドラグプタ2世
 
   - id: harsha-reign
     title: ハルシャ王
@@ -72,6 +78,9 @@ leaders:
     category: war
     tags: [チョーラ朝, 海上帝国]
     summary: 海軍でスリランカと東南アジアに遠征し、インド洋交易圏に南インドを刻んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ラージャラージャ1世
 
   - id: mahmud-of-ghazni
     title: マフムード
@@ -120,6 +129,9 @@ leaders:
     category: politics
     tags: [デリー・スルタン朝]
     summary: 遷都と銅貨の発行という壮大な実験に失敗し、スルタン朝の衰えを早めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムハンマド・ビン・トゥグルク
 
   - id: firuz-shah-tughluq
     title: フィールーズ・シャー
@@ -144,6 +156,9 @@ leaders:
     category: war
     tags: [ムガル帝国]
     summary: 中央アジアから来て火器でデリーを制し、ムガル帝国を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/バーブル
 
   - id: akbar-reign
     title: アクバル
@@ -152,6 +167,9 @@ leaders:
     category: politics
     tags: [ムガル帝国, 宗教共存]
     summary: 非イスラム教徒への人頭税を廃して諸宗教を取り込み、帝国を根づかせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクバル
 
   - id: jahangir
     title: ジャハーンギール
@@ -160,6 +178,9 @@ leaders:
     category: culture
     tags: [ムガル帝国, 細密画]
     summary: 細密画と庭園を愛し、イギリス使節を迎えて交易の扉を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジャハーンギール
 
   - id: shah-jahan
     title: シャー・ジャハーン
@@ -168,6 +189,9 @@ leaders:
     category: culture
     tags: [ムガル帝国, タージ・マハル]
     summary: タージ・マハルをはじめ壮麗な建築を残し、帝国の富を石に変えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シャー・ジャハーン
 
   - id: aurangzeb-reign
     title: アウラングゼーブ
@@ -176,6 +200,9 @@ leaders:
     category: politics
     tags: [ムガル帝国]
     summary: 版図を最大にしたが、宗教政策の転換と長い戦争が帝国の解体を早めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アウラングゼーブ
 
   - id: shivaji
     title: シヴァージー
@@ -184,6 +211,9 @@ leaders:
     category: war
     tags: [マラーター, ヒンドゥー]
     summary: 機動戦でムガルに抗い、後のマラーター勢力とインド民族意識の原点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シヴァージー
 
   - id: tipu-sultan
     title: ティプー・スルタン
@@ -200,6 +230,9 @@ leaders:
     category: politics
     tags: [シク王国, パンジャーブ]
     summary: パンジャーブにシク教徒の王国を築き、イギリスの北上を一代のあいだ止めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ランジート・シング
 
   - id: gandhi
     title: ガンディー
@@ -216,6 +249,9 @@ leaders:
     category: politics
     tags: [パキスタン, 分離独立]
     summary: ムスリムの別国家を主張してパキスタンを建国し、分離独立の当事者になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムハンマド・アリー・ジンナー
 
   - id: nehru
     title: ネルー
@@ -224,6 +260,9 @@ leaders:
     category: politics
     tags: [インド, 非同盟]
     summary: 初代首相として計画経済と非同盟を掲げ、独立国インドの性格を決めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジャワハルラール・ネルー
 
   - id: ambedkar
     title: アンベードカル
@@ -240,6 +279,9 @@ leaders:
     category: politics
     tags: [インド]
     summary: 緑の革命と核実験を進める一方、非常事態宣言で民主主義を一時停止した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インディラ・ガンディー
 
   - id: zia-ul-haq
     title: ジア・ウル・ハク

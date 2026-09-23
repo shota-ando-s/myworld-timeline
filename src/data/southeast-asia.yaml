@@ -62,6 +62,9 @@ periods:
     category: war
     tags: [ベトナム, モンゴル]
     summary: モンゴルの三度の侵攻を退け、ベトナムの独立意識を決定づけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/陳朝
 
   - id: sukhothai
     title: スコータイ朝
@@ -78,6 +81,9 @@ periods:
     category: politics
     tags: [インドネシア, ジャワ]
     summary: ジャワを中心に群島世界へ影響を広げた、ヒンドゥー系最後の大国。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マジャパヒト王国
 
   - id: ayutthaya
     title: アユタヤ朝
@@ -94,6 +100,9 @@ periods:
     category: economy
     tags: [マレーシア, イスラム]
     summary: 海峡を押さえた港市国家。ここを起点にイスラムが群島へ広がった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マラッカ王国
 
   - id: le-dynasty
     title: 黎朝
@@ -102,6 +111,9 @@ periods:
     category: politics
     tags: [ベトナム]
     summary: 明の支配を退けて成立。南進を進め、現在のベトナムの形に近づけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/黎朝
 
   - id: spanish-philippines
     title: スペイン領フィリピン
@@ -134,6 +146,9 @@ periods:
     category: politics
     tags: [ベトナム]
     summary: ベトナム最後の王朝。半ばからフランスの保護下に置かれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/阮朝
 
   - id: dutch-east-indies
     title: オランダ領東インド
@@ -150,6 +165,9 @@ periods:
     category: politics
     tags: [ベトナム, 植民地]
     summary: ベトナム・カンボジア・ラオスがフランスの統治下に置かれた時期。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランス領インドシナ
 
   - id: japanese-occupation-sea
     title: 日本軍の占領
@@ -166,6 +184,9 @@ periods:
     category: war
     tags: [ベトナム, 冷戦]
     summary: 南北の内戦に米国が大規模介入し、冷戦期最大級の戦争になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベトナム戦争
 
   - id: khmer-rouge
     title: クメール・ルージュの支配
@@ -213,6 +234,9 @@ events:
     category: war
     tags: [ベトナム, モンゴル]
     summary: 川底に杭を仕込む戦術で元の艦隊を破り、三度目の侵攻を退けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/白藤江の戦い
 
   - id: islam-spreads-sea
     year: 1400
@@ -250,6 +274,9 @@ events:
     category: economy
     tags: [オランダ, 会社]
     summary: 株式と軍事力を備えた巨大商社が、群島世界の支配へ乗り出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/オランダ東インド会社
 
   - id: ayutthaya-falls
     year: 1767
@@ -264,6 +291,9 @@ events:
     category: war
     tags: [ミャンマー, イギリス]
     summary: 三度の戦争でビルマは滅び、インド帝国の一部に組み込まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第一次英緬戦争
 
   - id: cultivation-system
     year: 1830
@@ -292,6 +322,9 @@ events:
     category: society
     tags: [フィリピン, 独立]
     summary: アジア初の近代的な独立革命。米西戦争で今度は米国の統治下に入った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フィリピン革命
 
   - id: indochina-communist-party
     year: 1930
@@ -313,6 +346,9 @@ events:
     category: war
     tags: [ベトナム, フランス]
     summary: アジアの軍がヨーロッパの正規軍を正面から破り、植民地支配の終わりを告げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ディエンビエンフーの戦い
 
   - id: bandung-conference
     year: 1955
@@ -341,6 +377,9 @@ events:
     category: war
     tags: [ベトナム, 冷戦]
     summary: 米国が初めて明確に敗れた戦争。難民の大量流出も始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サイゴン陥落
 
   - id: doi-moi
     year: 1986
@@ -348,6 +387,9 @@ events:
     category: economy
     tags: [ベトナム, 改革]
     summary: 社会主義の枠組みを残したまま市場経済を導入し、高成長に転じた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ドイモイ
 
   - id: asian-crisis-origin
     year: 1997
@@ -355,6 +397,9 @@ events:
     category: economy
     tags: [タイ, 経済危機]
     summary: バーツの暴落が周辺国に連鎖し、急成長のもろさを露わにした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アジア通貨危機
     related: [asian-financial-crisis-kr]
 
   - id: east-timor-independence
@@ -363,6 +408,9 @@ events:
     category: politics
     tags: [東南アジア]
     summary: 24年の占領と国連統治を経て、21世紀最初の独立国になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/東ティモールの独立
 
   - id: indian-ocean-tsunami
     year: 2004
@@ -370,3 +418,6 @@ events:
     category: disaster
     tags: [インドネシア, 災害]
     summary: 22万人以上が犠牲になり、インド洋に津波警報網が作られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スマトラ島沖地震_(2004年)

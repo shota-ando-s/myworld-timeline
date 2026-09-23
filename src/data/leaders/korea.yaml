@@ -16,6 +16,9 @@ leaders:
     category: politics
     tags: [高句麗]
     summary: 平壌へ遷都して南下を進め、79年の在位で高句麗の最盛期を保った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/長寿王
 
   - id: king-seong-baekje
     title: 聖王（百済）
@@ -24,6 +27,9 @@ leaders:
     category: religion
     tags: [百済, 仏教]
     summary: 仏教を倭に伝えた王として知られ、南朝との交流で百済文化を高めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/聖王_(百済)
 
   - id: jinheung
     title: 真興王
@@ -32,6 +38,9 @@ leaders:
     category: war
     tags: [新羅]
     summary: 漢江流域を奪って新羅を半島の主役に押し上げ、花郎の制度を整えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/真興王
 
   - id: munmu
     title: 文武王
@@ -40,6 +49,9 @@ leaders:
     category: politics
     tags: [新羅, 統一]
     summary: 唐軍を半島から退け、朝鮮半島で初めての統一国家を完成させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/文武王
 
   - id: dae-joyeong
     title: 大祚栄
@@ -72,6 +84,9 @@ leaders:
     category: war
     tags: [高麗, 武臣政権]
     summary: 王を立て退けする武臣政権の実権を握り、崔氏4代60年の支配を始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/崔忠献
 
   - id: chungnyeol
     title: 忠烈王
@@ -80,6 +95,9 @@ leaders:
     category: politics
     tags: [高麗, 元]
     summary: 元の皇女を妃に迎え、高麗が元の姻戚として生き延びる形を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/忠烈王
 
   - id: gongmin
     title: 恭愍王
@@ -88,6 +106,9 @@ leaders:
     category: politics
     tags: [高麗, 自立]
     summary: 元の衰えに乗じて自立と改革を進めたが、反発のなかで殺された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/恭愍王
 
   - id: yi-seonggye-reign
     title: 太祖 李成桂
@@ -96,6 +117,9 @@ leaders:
     category: politics
     tags: [朝鮮王朝]
     summary: 高麗を倒して朝鮮王朝を開き、明への事大と儒教国家という方向を定めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/李成桂
 
   - id: sejong-the-great
     title: 世宗
@@ -120,6 +144,9 @@ leaders:
     category: politics
     tags: [朝鮮王朝, 壬辰倭乱]
     summary: 党争の激化と日本の侵攻が重なり、国土が荒廃した治世。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/宣祖
 
   - id: yi-sun-sin
     title: 李舜臣
@@ -128,6 +155,9 @@ leaders:
     category: war
     tags: [朝鮮王朝, 水軍]
     summary: 制海権を握って日本軍の補給を断ち、半島の防衛を支えた名将。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/李舜臣
 
   - id: gwanghaegun
     title: 光海君
@@ -136,6 +166,9 @@ leaders:
     category: politics
     tags: [朝鮮王朝, 外交]
     summary: 明と後金のあいだで均衡を取る現実外交を試みたが、反正で追放された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/光海君
 
   - id: yeongjo
     title: 英祖
@@ -152,6 +185,9 @@ leaders:
     category: culture
     tags: [朝鮮王朝, 実学]
     summary: 実学者を登用し、朝鮮後期の学問と文化の盛りを作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/正祖
 
   - id: heungseon-daewongun
     title: 興宣大院君
@@ -160,6 +196,9 @@ leaders:
     category: politics
     tags: [朝鮮王朝, 鎖国]
     summary: 王権の立て直しと鎖国を進め、開国をめぐる国内対立の軸になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/興宣大院君
 
   - id: gojong
     title: 高宗
@@ -176,6 +215,9 @@ leaders:
     category: politics
     tags: [韓国]
     summary: 初代大統領として反共を掲げたが、不正選挙が四月革命を招いて亡命した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/李承晩
 
   - id: kim-il-sung
     title: 金日成
@@ -184,6 +226,9 @@ leaders:
     category: politics
     tags: [北朝鮮, 主体思想]
     summary: 主体思想を掲げ、個人崇拝と世襲を組み込んだ体制を築いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/金日成
 
   - id: park-chung-hee
     title: 朴正煕
@@ -192,6 +237,9 @@ leaders:
     category: economy
     tags: [韓国, 開発独裁]
     summary: 強権のもとで輸出主導の工業化を進め、「漢江の奇跡」と呼ばれる成長を実現した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/朴正煕
 
   - id: chun-doo-hwan
     title: 全斗煥
@@ -200,6 +248,9 @@ leaders:
     category: politics
     tags: [韓国, 軍政]
     summary: 光州の弾圧の上に成立した軍出身政権で、民主化運動に押されて退いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/全斗煥
 
   - id: roh-tae-woo
     title: 盧泰愚
@@ -208,6 +259,9 @@ leaders:
     category: politics
     tags: [韓国, 北方外交]
     summary: 直接選挙で選ばれ、ソ連・中国との国交を開く北方外交を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/盧泰愚
 
   - id: kim-young-sam
     title: 金泳三
@@ -216,6 +270,9 @@ leaders:
     category: politics
     tags: [韓国, 民主化]
     summary: 32年ぶりの文民大統領として、軍の政治介入を断ち切った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/金泳三
 
   - id: kim-jong-il
     title: 金正日
@@ -224,6 +281,9 @@ leaders:
     category: politics
     tags: [北朝鮮]
     summary: 先軍政治と核開発を進め、大飢饉のなかで体制を保った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/金正日
 
   - id: kim-dae-jung
     title: 金大中
@@ -232,6 +292,9 @@ leaders:
     category: politics
     tags: [韓国, 太陽政策]
     summary: 通貨危機からの立て直しと同時に、初の南北首脳会談を実現した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/金大中
 
   - id: roh-moo-hyun
     title: 盧武鉉
@@ -240,6 +303,9 @@ leaders:
     category: politics
     tags: [韓国]
     summary: 地方分権と対米自主を掲げ、既存のエリート層と対立し続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/盧武鉉
 
   - id: kim-jong-un
     title: 金正恩
@@ -248,6 +314,9 @@ leaders:
     category: politics
     tags: [北朝鮮, 核開発]
     summary: 核・ミサイル開発を加速させる一方、米韓首脳との会談にも臨んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/金正恩
 
   - id: park-geun-hye
     title: 朴槿恵
@@ -256,6 +325,9 @@ leaders:
     category: politics
     tags: [韓国]
     summary: 初の女性大統領だったが、国政介入事件で弾劾・罷免された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/朴槿恵
 
   - id: moon-jae-in
     title: 文在寅
@@ -264,6 +336,9 @@ leaders:
     category: politics
     tags: [韓国, 南北対話]
     summary: 南北・米朝の首脳会談を仲介し、対話による非核化を模索した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/文在寅
 
   - id: yoon-suk-yeol
     title: 尹錫悦
@@ -272,6 +347,9 @@ leaders:
     category: politics
     tags: [韓国]
     summary: 非常戒厳の宣布が国会に覆され、弾劾されて罷免された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/尹錫悦
 
   - id: lee-jae-myung
     title: 李在明

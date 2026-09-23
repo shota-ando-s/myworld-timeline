@@ -6,3 +6,4 @@ dist/
 .env
 .env.production
 .sf/
+scripts/.cache/

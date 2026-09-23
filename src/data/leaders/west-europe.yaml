@@ -17,6 +17,9 @@ leaders:
     category: politics
     tags: [フランク, 帝国]
     summary: 西ヨーロッパの大半を一つにまとめ、ラテン教会・古典・ゲルマンが混じる文明の核を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カール大帝
 
   - id: otto-the-great
     title: オットー1世
@@ -33,6 +36,9 @@ leaders:
     category: politics
     tags: [フランス, カペー朝]
     summary: 弱小の王として選ばれながら、800年続くフランス王家の祖になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユーグ・カペー
 
   - id: william-the-conqueror
     title: ウィリアム1世
@@ -41,6 +47,9 @@ leaders:
     category: politics
     tags: [イングランド, ノルマン]
     summary: イングランドを征服して大陸の制度と言語を持ち込み、英仏の長い因縁を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウィリアム1世
 
   - id: frederick-barbarossa
     title: フリードリヒ1世
@@ -65,6 +74,9 @@ leaders:
     category: society
     tags: [イングランド, マグナ・カルタ]
     summary: 敗戦と重税で貴族に迫られマグナ・カルタを認め、王も法に従う先例を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョン王
 
   - id: louis-ix
     title: ルイ9世
@@ -73,6 +85,9 @@ leaders:
     category: religion
     tags: [フランス, 十字軍]
     summary: 十字軍と公正な裁判で「聖王」と呼ばれ、王権に宗教的な後光をまとわせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルイ9世_(フランス王)
 
   - id: edward-iii
     title: エドワード3世
@@ -81,6 +96,9 @@ leaders:
     category: war
     tags: [イングランド, 百年戦争]
     summary: フランス王位を主張して百年戦争を始め、長弓隊で騎士の時代を揺るがした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エドワード3世_(イングランド王)
 
   - id: joan-of-arc-campaigns
     title: ジャンヌ・ダルク
@@ -89,6 +107,9 @@ leaders:
     category: war
     tags: [フランス, 百年戦争]
     summary: 農村の少女が戦局を変え、フランスという「国」の意識を人々に持たせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジャンヌ・ダルク
 
   - id: louis-xi
     title: ルイ11世
@@ -97,6 +118,9 @@ leaders:
     category: politics
     tags: [フランス]
     summary: 戦わずに敵を切り崩す外交で大諸侯を抑え、中央集権の土台を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルイ11世_(フランス王)
 
   - id: isabella-i
     title: イサベル1世
@@ -105,6 +129,9 @@ leaders:
     category: politics
     tags: [スペイン, レコンキスタ]
     summary: アラゴンとの結婚でスペインを統合し、グラナダ征服とコロンブス支援を同じ年に行った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イサベル1世_(カスティーリャ女王)
 
   - id: henry-viii
     title: ヘンリ8世
@@ -137,6 +164,9 @@ leaders:
     category: politics
     tags: [イングランド]
     summary: 宗教対立を折衷で収め、海上進出と文芸の開花でイングランドの自信を育てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エリザベス1世_(イングランド女王)
 
   - id: louis-xiv
     title: ルイ14世
@@ -145,6 +175,9 @@ leaders:
     category: politics
     tags: [フランス, 絶対王政]
     summary: ヴェルサイユに貴族を集めて絶対王政の完成形を見せ、各国の宮廷の手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルイ14世_(フランス王)
 
   - id: oliver-cromwell
     title: クロムウェル
@@ -169,6 +202,9 @@ leaders:
     category: politics
     tags: [オーストリア, ハプスブルク]
     summary: 女性の継承に反対する諸国と戦いながら、税と軍の改革で帝国を立て直した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マリア・テレジア
 
   - id: george-iii
     title: ジョージ3世
@@ -177,6 +213,9 @@ leaders:
     category: politics
     tags: [イギリス]
     summary: アメリカ13植民地を失い、ナポレオン戦争を戦い抜いた60年の在位。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ジョージ3世_(イギリス王)
 
   - id: robespierre
     title: ロベスピエール
@@ -185,6 +224,9 @@ leaders:
     category: politics
     tags: [フランス革命, 恐怖政治]
     summary: 徳による共和国を掲げて恐怖政治に行き着き、革命が食い尽くす姿を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マクシミリアン・ロベスピエール
 
   - id: napoleon-bonaparte
     title: ナポレオン・ボナパルト
@@ -193,6 +235,9 @@ leaders:
     category: war
     tags: [フランス, 帝政]
     summary: 革命の成果を法典として各地に残し、同時に国民軍という新しい戦争の形を広めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナポレオン・ボナパルト
 
   - id: metternich
     title: メッテルニヒ
@@ -209,6 +254,9 @@ leaders:
     category: politics
     tags: [イギリス, 帝国]
     summary: 君臨すれども統治せずの形を定着させ、その名が大英帝国の絶頂期の代名詞になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴィクトリア_(イギリス女王)
 
   - id: bismarck
     title: ビスマルク
@@ -233,6 +281,9 @@ leaders:
     category: politics
     tags: [ドイツ, ナチス]
     summary: 合法的に権力を得てから民主主義を壊し、戦争とホロコーストを引き起こした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アドルフ・ヒトラー
 
   - id: churchill
     title: チャーチル
@@ -257,6 +308,9 @@ leaders:
     category: politics
     tags: [西ドイツ, 西側統合]
     summary: 西ドイツを西側とヨーロッパ統合に組み込み、戦後の再出発の形を決めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コンラート・アデナウアー
 
   - id: de-gaulle
     title: ド・ゴール
@@ -265,6 +319,9 @@ leaders:
     category: politics
     tags: [フランス, 第五共和政]
     summary: 強い大統領制を作り、米ソのどちらにも寄りかからない独自路線を取った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/シャルル・ド・ゴール
 
   - id: willy-brandt
     title: ブラント
@@ -289,6 +346,9 @@ leaders:
     category: politics
     tags: [フランス, EU]
     summary: 左派として初の大統領となり、ドイツと組んで通貨統合への道を敷いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランソワ・ミッテラン
 
   - id: helmut-kohl
     title: コール

@@ -13,6 +13,9 @@ periods:
     detail: |
       上下水道と規格化された焼きレンガを持ちながら、王の墓や巨大神殿が見つかっていない。
       強大な王がいた形跡が薄い点で、同時代のメソポタミアやエジプトと性格が異なる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インダス文明
 
   - id: vedic
     title: ヴェーダ時代
@@ -23,6 +26,9 @@ periods:
     category: religion
     tags: [インド, バラモン教]
     summary: アーリヤ人の進入とヴェーダの成立。カースト的な身分の原型ができた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴェーダ
 
   - id: mahajanapada
     title: 十六大国の時代
@@ -40,6 +46,9 @@ periods:
     category: politics
     tags: [インド]
     summary: インド初の統一王朝。アショーカ王の治世に仏教が各地へ広がった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マウリヤ朝
 
   - id: satavahana
     title: サータヴァーハナ朝
@@ -68,6 +77,9 @@ periods:
     category: culture
     tags: [インド, ヒンドゥー教]
     summary: ヒンドゥー文化の古典期。ゼロを含む十進法の記数法が整えられた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/グプタ朝
 
   - id: harsha
     title: ヴァルダナ朝
@@ -84,6 +96,9 @@ periods:
     category: economy
     tags: [インド, 海上交易]
     summary: 南インドから海を越えてスリランカや東南アジアにまで遠征した海洋王朝。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/チョーラ朝
 
   - id: delhi-sultanate
     title: デリー・スルタン朝
@@ -100,6 +115,9 @@ periods:
     category: politics
     tags: [インド, ヒンドゥー教]
     summary: 南インドで300年続いたヒンドゥー王国。イスラム勢力の南下を長く食い止めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴィジャヤナガル王国
 
   - id: mughal
     title: ムガル帝国
@@ -108,6 +126,9 @@ periods:
     category: politics
     tags: [インド, イスラム]
     summary: ヒンドゥーとイスラムが混ざり合う文化を育てた大帝国。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ムガル帝国
 
   - id: maratha
     title: マラーター王国
@@ -116,6 +137,9 @@ periods:
     category: war
     tags: [インド]
     summary: ムガルに抗したヒンドゥー勢力。一時は北インドまで支配を広げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マラーター王国
 
   - id: company-rule
     title: 東インド会社の支配
@@ -132,6 +156,9 @@ periods:
     category: politics
     tags: [インド, 植民地]
     summary: 東インド会社に代わり英国政府が直接統治した90年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イギリス領インド帝国
 
   - id: republic-of-india
     title: インド共和国
@@ -188,6 +215,9 @@ events:
     category: politics
     tags: [インド, 仏教]
     summary: 戦争の惨禍を悔いて仏教に帰依し、石柱に統治の理念を刻ませた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アショーカ
 
   - id: kalinga-war
     year: -261
@@ -262,6 +292,9 @@ events:
     category: war
     tags: [インド, ムガル]
     summary: バーブルが火器を用いて勝利し、ムガル帝国が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第一次パーニーパットの戦い
 
   - id: akbar-throne
     year: 1556
@@ -269,6 +302,9 @@ events:
     category: politics
     tags: [ムガル, 宗教共存]
     summary: 非イスラム教徒への人頭税を廃止し、宗教を越えた統治を試みた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アクバル
 
   - id: sikh-founding
     year: 1499
@@ -291,6 +327,9 @@ events:
     category: culture
     tags: [ムガル, 建築]
     summary: ペルシアとインドの様式が融合した廟。帝国の富と技術の頂点を示す。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/タージ・マハル
 
   - id: aurangzeb
     year: 1658
@@ -298,6 +337,9 @@ events:
     category: religion
     tags: [ムガル]
     summary: 厳格なイスラム政策で人頭税を復活させ、各地の反発が帝国を揺るがせた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アウラングゼーブ
 
   - id: plassey
     year: 1757
@@ -305,6 +347,9 @@ events:
     category: war
     tags: [インド, イギリス]
     summary: 東インド会社がベンガルの実権を握り、インド植民地化の起点となった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/プラッシーの戦い
 
   - id: bengal-famine-1770
     year: 1770
@@ -319,6 +364,9 @@ events:
     category: society
     tags: [インド, 抵抗]
     summary: 傭兵の蜂起が広域の反乱に発展し、ムガル帝国と東インド会社が終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インド大反乱
 
   - id: indian-national-congress
     year: 1885
@@ -333,6 +381,9 @@ events:
     category: politics
     tags: [インド, イギリス]
     summary: 宗教で住民を分ける統治が、大規模な反英運動を呼び起こした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベンガル分割令
 
   - id: gandhi-returns
     year: 1915
@@ -354,6 +405,9 @@ events:
     category: society
     tags: [インド, 非暴力]
     summary: 塩の専売に抗う380キロの行進。非暴力不服従が世界に知られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/塩の行進
 
   - id: india-independence
     year: 1947
@@ -364,6 +418,9 @@ events:
     detail: |
       1000万人以上が国境を越えて移動し、数十万から百万規模の犠牲者が出たとされる。
       カシミールの帰属問題はこのときに生まれ、今も解決していない。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インド・パキスタン分離独立
 
   - id: gandhi-assassinated
     year: 1948
@@ -378,6 +435,9 @@ events:
     category: society
     tags: [インド, 民主主義]
     summary: 不可触民差別を禁じ、普通選挙を導入。世界最大の民主主義が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/インド憲法
 
   - id: bangladesh-independence
     year: 1971

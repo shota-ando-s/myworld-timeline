@@ -12,6 +12,9 @@ leaders:
     category: politics
     tags: [日本, 邪馬台国]
     summary: 倭の諸国が共立した女王で、中国の史書に名の残る列島最初の統治者。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/卑弥呼
 
   - id: emperor-yuryaku
     title: 雄略天皇
@@ -22,6 +25,9 @@ leaders:
     category: politics
     tags: [日本, 大和政権]
     summary: 「倭王武」として中国に上表し、大和政権が列島の広い範囲に及んだことを示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/雄略天皇
 
   - id: shotoku-taishi
     title: 聖徳太子
@@ -38,6 +44,9 @@ leaders:
     category: politics
     tags: [日本, 律令]
     summary: 壬申の乱に勝って豪族を抑え、「天皇」の称号と律令国家の骨格を定めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/天武天皇
 
   - id: emperor-shomu
     title: 聖武天皇
@@ -46,6 +55,9 @@ leaders:
     category: religion
     tags: [日本, 奈良, 仏教]
     summary: 大仏と国分寺に国家の安泰を託し、仏教を統治の道具として全国に配置した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/聖武天皇
 
   - id: emperor-kanmu
     title: 桓武天皇
@@ -54,6 +66,9 @@ leaders:
     category: politics
     tags: [日本, 平安]
     summary: 平安京への遷都と蝦夷征討で、寺社の影響を断って律令国家を立て直そうとした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/桓武天皇
 
   - id: fujiwara-michinaga
     title: 藤原道長
@@ -94,6 +109,9 @@ leaders:
     category: society
     tags: [日本, 鎌倉, 法]
     summary: 御成敗式目を定め、武士の慣習を成文法として全国に通用させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/北条泰時
 
   - id: hojo-tokimune
     title: 北条時宗
@@ -102,6 +120,9 @@ leaders:
     category: war
     tags: [日本, 鎌倉, 元寇]
     summary: 二度の元寇を退けたが、恩賞を払えず御家人の不満を残した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/北条時宗
 
   - id: emperor-godaigo
     title: 後醍醐天皇
@@ -110,6 +131,9 @@ leaders:
     category: politics
     tags: [日本, 建武の新政]
     summary: 天皇みずからの親政を復活させようとして失敗し、南北朝の分裂を招いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/後醍醐天皇
 
   - id: ashikaga-takauji
     title: 足利尊氏
@@ -118,6 +142,9 @@ leaders:
     category: politics
     tags: [日本, 室町]
     summary: 幕府を京都に置き、朝廷と隣り合わせで武家が政治を担う形を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/足利尊氏
 
   - id: ashikaga-yoshimitsu
     title: 足利義満
@@ -134,6 +161,9 @@ leaders:
     category: culture
     tags: [日本, 室町, 東山文化]
     summary: 政務を離れて東山文化を育てる一方、後継争いが応仁の乱の引き金になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/足利義政
 
   - id: oda-nobunaga
     title: 織田信長
@@ -142,6 +172,9 @@ leaders:
     category: politics
     tags: [日本, 戦国, 天下統一]
     summary: 寺社や座の特権を実力で壊し、身分や伝統によらない支配の道を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/織田信長
 
   - id: toyotomi-hideyoshi
     title: 豊臣秀吉
@@ -166,6 +199,9 @@ leaders:
     category: politics
     tags: [日本, 江戸]
     summary: 参勤交代と貿易の制限で、幕府の支配を仕組みとして固定した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/徳川家光
 
   - id: tokugawa-tsunayoshi
     title: 徳川綱吉
@@ -174,6 +210,9 @@ leaders:
     category: society
     tags: [日本, 江戸, 文治]
     summary: 生類憐みの令に象徴される文治政治で、武力から儀礼と学問へ重心を移した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/徳川綱吉
 
   - id: tokugawa-yoshimune
     title: 徳川吉宗
@@ -182,6 +221,9 @@ leaders:
     category: politics
     tags: [日本, 江戸, 享保の改革]
     summary: 倹約と新田開発で財政を立て直し、漢訳洋書の輸入を認めて実学に道を開いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/徳川吉宗
 
   - id: tanuma-okitsugu
     title: 田沼意次
@@ -198,6 +240,9 @@ leaders:
     category: politics
     tags: [日本, 江戸, 寛政の改革]
     summary: 緊縮と統制に引き戻す改革で、田沼期の商業重視を否定した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/松平定信
 
   - id: tokugawa-yoshinobu
     title: 徳川慶喜
@@ -206,6 +251,9 @@ leaders:
     category: politics
     tags: [日本, 江戸, 大政奉還]
     summary: 自ら政権を朝廷に返し、内戦を最小限にとどめて幕府を畳んだ最後の将軍。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/徳川慶喜
 
   - id: emperor-meiji
     title: 明治天皇
@@ -214,6 +262,9 @@ leaders:
     category: politics
     tags: [日本, 明治]
     summary: 近代国家の統合の中心に置かれ、天皇が政治の正統性を担う仕組みが作られた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/明治天皇
 
   - id: ito-hirobumi
     title: 伊藤博文
@@ -222,6 +273,9 @@ leaders:
     category: politics
     tags: [日本, 明治, 憲法]
     summary: 初代首相として憲法と議会を設計し、近代日本の政治の枠組みを定めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/伊藤博文
 
   - id: emperor-taisho
     title: 大正天皇
@@ -230,6 +284,9 @@ leaders:
     category: politics
     tags: [日本, 大正]
     summary: 病により政務から退き、結果として政党内閣と大正デモクラシーの余地が広がった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大正天皇
 
   - id: hara-takashi
     title: 原敬
@@ -238,6 +295,9 @@ leaders:
     category: politics
     tags: [日本, 政党政治]
     summary: 爵位を持たない初の首相として、本格的な政党内閣を実現した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/原敬
 
   - id: emperor-showa
     title: 昭和天皇
@@ -246,6 +306,9 @@ leaders:
     category: politics
     tags: [日本, 昭和]
     summary: 戦争と敗戦、そして象徴天皇への転換を一身で経験した62年の在位。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/昭和天皇
 
   - id: tojo-hideki
     title: 東条英機
@@ -262,6 +325,9 @@ leaders:
     category: politics
     tags: [日本, 戦後]
     summary: 軽武装と経済優先という戦後日本の針路を定め、講和と日米安保を結んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/吉田茂
 
   - id: ikeda-hayato
     title: 池田勇人
@@ -294,6 +360,9 @@ leaders:
     category: economy
     tags: [日本, 民営化]
     summary: 国鉄・電電公社の民営化を進め、日米関係を首脳の個人的な関係で前に出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/中曽根康弘
 
   - id: emperor-akihito
     title: 明仁天皇
@@ -302,6 +371,9 @@ leaders:
     category: politics
     tags: [日本, 平成]
     summary: 被災地訪問と慰霊の旅を重ねて象徴天皇の務めを自ら形にし、生前退位を実現した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/明仁
 
   - id: koizumi-junichiro
     title: 小泉純一郎
@@ -318,6 +390,9 @@ leaders:
     category: politics
     tags: [日本, 平成, 令和]
     summary: 憲政史上最長の在任で、金融緩和と安全保障法制を進めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/安倍晋三
 
   - id: emperor-naruhito
     title: 徳仁天皇
@@ -326,3 +401,6 @@ leaders:
     category: politics
     tags: [日本, 令和]
     summary: 近代では例のない生前退位を受けて即位した、令和の天皇。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/徳仁

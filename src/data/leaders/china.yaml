@@ -10,6 +10,9 @@ leaders:
     category: politics
     tags: [中国, 秦, 皇帝]
     summary: 「皇帝」という称号と中央集権の型を作り、以後2000年の統治の手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/始皇帝
 
   - id: liu-bang
     title: 高祖 劉邦
@@ -18,6 +21,9 @@ leaders:
     category: politics
     tags: [中国, 漢]
     summary: 庶民から皇帝になった最初の人物で、実力で天下を取る道があることを示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/劉邦
 
   - id: emperor-wen-han
     title: 文帝（前漢）
@@ -42,6 +48,9 @@ leaders:
     category: politics
     tags: [中国, 新]
     summary: 古代の理想を丸写しにした復古改革が現実と噛み合わず、15年で王朝ごと倒れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/王莽
 
   - id: guangwu
     title: 光武帝
@@ -50,6 +59,9 @@ leaders:
     category: politics
     tags: [中国, 後漢]
     summary: 一度滅んだ漢を建て直し、王朝が「再興」しうることを歴史に刻んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/光武帝
 
   - id: cao-cao
     title: 曹操
@@ -58,6 +70,9 @@ leaders:
     category: war
     tags: [中国, 三国]
     summary: 皇帝を擁して号令する形を取り、実力者が帝位を経ずに国を動かす手本になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/曹操
 
   - id: zhuge-liang
     title: 諸葛亮
@@ -66,6 +81,9 @@ leaders:
     category: war
     tags: [中国, 三国, 蜀]
     summary: 小国の蜀を統治と外交で支え続け、忠臣の理想像として後世に語り継がれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/諸葛亮
 
   - id: sima-yan
     title: 武帝 司馬炎
@@ -82,6 +100,9 @@ leaders:
     category: politics
     tags: [中国, 北魏, 漢化]
     summary: 遊牧民の王朝が自ら中国式に衣食・姓・言葉を改め、南北融合の下地を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/孝文帝
 
   - id: emperor-wen-sui
     title: 文帝 楊堅
@@ -90,6 +111,9 @@ leaders:
     category: politics
     tags: [中国, 隋]
     summary: 300年の分裂を終わらせ、科挙と均田制など唐へ引き継がれる制度を整えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/楊堅
 
   - id: emperor-yang-sui
     title: 煬帝
@@ -98,6 +122,9 @@ leaders:
     category: politics
     tags: [中国, 隋]
     summary: 大運河と高句麗遠征を急ぎすぎて民を疲れさせ、短命王朝の代名詞になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/煬帝
 
   - id: tang-taizong
     title: 太宗 李世民
@@ -106,6 +133,9 @@ leaders:
     category: politics
     tags: [中国, 唐]
     summary: 臣下の諫言を容れた「貞観の治」が、東アジア中で理想の君主像として読まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/太宗_(唐)
 
   - id: wu-zetian
     title: 則天武后
@@ -122,6 +152,9 @@ leaders:
     category: politics
     tags: [中国, 唐]
     summary: 唐の絶頂と安史の乱による転落を1代で味わい、盛衰の教材になった治世。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/玄宗
 
   - id: abaoji
     title: 耶律阿保機
@@ -138,6 +171,9 @@ leaders:
     category: politics
     tags: [中国, 宋, 文治]
     summary: 武将の兵権を平和裏に取り上げ、文官が軍を統べる文治主義を定着させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/趙匡胤
 
   - id: song-shenzong
     title: 神宗
@@ -162,6 +198,9 @@ leaders:
     category: war
     tags: [女真, 金]
     summary: 遼の支配を脱して金を建て、わずか十数年で華北を奪う勢いの出発点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/阿骨打
 
   - id: yue-fei
     title: 岳飛
@@ -178,6 +217,9 @@ leaders:
     category: politics
     tags: [中国, モンゴル, 元]
     summary: 国号を元と定めて中国式の統治を敷き、遊牧帝国と中華王朝をひとつに重ねた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クビライ
 
   - id: hongwu
     title: 洪武帝 朱元璋
@@ -186,6 +228,9 @@ leaders:
     category: politics
     tags: [中国, 明]
     summary: 貧農から皇帝になり、宰相を廃して皇帝ひとりに権力を集める形を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/朱元璋
 
   - id: yongle
     title: 永楽帝
@@ -194,6 +239,9 @@ leaders:
     category: politics
     tags: [中国, 明]
     summary: 北京遷都と鄭和の大航海で、明の威信を内陸と海の双方に広げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/永楽帝
 
   - id: emperor-yingzong-ming
     title: 英宗（正統帝）
@@ -202,6 +250,9 @@ leaders:
     category: war
     tags: [中国, 明, 土木の変]
     summary: 親征でモンゴルの捕虜となり、明が守勢に転じる分かれ目になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/英宗_(明)
 
   - id: jiajing
     title: 嘉靖帝
@@ -234,6 +285,9 @@ leaders:
     category: politics
     tags: [中国, 満洲, 清]
     summary: 国号を清と改め、モンゴル・漢人も取り込む多民族帝国の形を先に用意した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホンタイジ
 
   - id: kangxi
     title: 康熙帝
@@ -266,6 +320,9 @@ leaders:
     category: politics
     tags: [中国, 清, 摂政]
     summary: 半世紀近く垂簾聴政で実権を握り、改革と保守のあいだで清の最後を左右した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/西太后
 
   - id: sun-yat-sen
     title: 孫文
@@ -274,6 +331,9 @@ leaders:
     category: politics
     tags: [中国, 革命, 三民主義]
     summary: 三民主義を掲げて共和国を構想し、国民党・共産党の双方から「国父」とされた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/孫文
 
   - id: yuan-shikai
     title: 袁世凱
@@ -282,6 +342,9 @@ leaders:
     category: politics
     tags: [中国, 中華民国]
     summary: 清の軍を握ったまま大総統となり、帝政復活に失敗して軍閥割拠を招いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/袁世凱
 
   - id: chiang-kai-shek
     title: 蒋介石
@@ -298,6 +361,9 @@ leaders:
     category: politics
     tags: [中国, 共産党]
     summary: 農村から革命を組み立てて中華人民共和国を建てたが、大躍進と文革で甚大な犠牲も出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/毛沢東
 
   - id: deng-xiaoping
     title: 鄧小平
@@ -307,6 +373,9 @@ leaders:
     category: politics
     tags: [中国, 改革開放]
     summary: 市場経済を「社会主義」の枠内に持ち込み、今日の中国の経済路線を決めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/鄧小平
 
   - id: jiang-zemin
     title: 江沢民

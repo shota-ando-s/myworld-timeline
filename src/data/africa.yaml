@@ -8,6 +8,9 @@ periods:
     category: politics
     tags: [エジプト]
     summary: 上下エジプトが統一され、王を頂点とする国家と象形文字が整った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト初期王朝時代
 
   - id: egypt-old-kingdom
     title: エジプト古王国
@@ -16,6 +19,9 @@ periods:
     category: politics
     tags: [エジプト, ピラミッド]
     summary: ピラミッド建設の時代。強大な王権と官僚制がナイルの恵みを組織した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト古王国
 
   - id: egypt-middle-kingdom
     title: エジプト中王国
@@ -58,6 +64,9 @@ periods:
     category: culture
     tags: [エジプト, ヘレニズム]
     summary: ギリシア系の王朝がエジプトを治め、アレクサンドリアが学問の都になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/プトレマイオス朝
 
   - id: aksum
     title: アクスム王国
@@ -85,6 +94,9 @@ periods:
     category: religion
     tags: [エジプト, シーア派]
     summary: シーア派のカリフを名乗りカイロを築いた。イスラム世界は一つではなくなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ファーティマ朝
 
   - id: kanem-bornu
     title: カネム・ボルヌ
@@ -94,6 +106,9 @@ periods:
     category: politics
     tags: [西アフリカ, イスラム]
     summary: チャド湖周辺で1000年以上続いた国家。サハラ交易とイスラムを結んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カネム・ボルヌ帝国
 
   - id: great-zimbabwe
     title: 大ジンバブエ
@@ -112,6 +127,9 @@ periods:
     category: war
     tags: [エジプト, 十字軍]
     summary: サラディンが十字軍と戦い、エジプトとシリアを一つに束ねた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アイユーブ朝
 
   - id: benin-kingdom
     title: ベニン王国
@@ -120,6 +138,9 @@ periods:
     category: culture
     tags: [西アフリカ, 青銅]
     summary: 高度な青銅彫刻で知られる王国。イギリスの遠征で滅び、美術品は各地に散った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベニン王国
 
   - id: mali-empire
     title: マリ帝国
@@ -136,6 +157,9 @@ periods:
     category: politics
     tags: [エジプト, 軍事]
     summary: 奴隷出身の軍人が国を治めた260年。モンゴルの西進を食い止めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マムルーク朝
 
   - id: solomonic-ethiopia
     title: ソロモン朝エチオピア
@@ -152,6 +176,9 @@ periods:
     category: politics
     tags: [中部アフリカ]
     summary: ポルトガルと対等な外交を始めたが、奴隷貿易に巻き込まれて衰えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/コンゴ王国
 
   - id: songhai
     title: ソンガイ帝国
@@ -160,6 +187,9 @@ periods:
     category: politics
     tags: [西アフリカ]
     summary: マリに代わり西アフリカ最大の版図を築いたイスラム国家。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ソンガイ帝国
 
   - id: atlantic-slave-trade
     title: 大西洋奴隷貿易
@@ -180,6 +210,9 @@ periods:
     category: politics
     tags: [西アフリカ, 金]
     summary: 金と交易で栄え、イギリスと四度戦った西アフリカの強国。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アシャンティ王国
 
   - id: scramble-for-africa
     title: アフリカ分割
@@ -196,6 +229,9 @@ periods:
     category: society
     tags: [南アフリカ, 人種隔離]
     summary: 法で人種を分けた体制。国際的な制裁と国内の抵抗で46年後に終わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アパルトヘイト
 
 events:
   - id: egypt-unified
@@ -279,6 +315,9 @@ events:
     category: economy
     tags: [西アフリカ, 金]
     summary: 惜しみなく配った金でカイロの金相場が下落したと伝わるほどの富を示した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/マンサ・ムーサ
 
   - id: ibn-battuta-africa
     year: 1352
@@ -349,6 +388,9 @@ events:
     category: war
     tags: [南アフリカ, イギリス]
     summary: 緒戦でイギリス軍を破ったが、近代兵器の前に王国は解体された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ズールー戦争
 
   - id: berlin-conference
     year: 1884
@@ -356,6 +398,9 @@ events:
     category: politics
     tags: [アフリカ, 帝国主義]
     summary: ヨーロッパ列強が地図の上で境界を引き、現在の国境線の多くが決まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベルリン会議_(アフリカ分割)
 
   - id: adwa
     year: 1896
@@ -363,6 +408,9 @@ events:
     category: war
     tags: [エチオピア, イタリア]
     summary: アフリカの国がヨーロッパの侵略軍を正面から破った稀な勝利。独立を守った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アドワの戦い
 
   - id: boer-war
     year: 1899
@@ -384,6 +432,9 @@ events:
     category: politics
     tags: [エジプト, 独立]
     summary: 王政が倒れナセルが台頭。アラブ民族主義の中心になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エジプト革命
 
   - id: suez-crisis
     year: 1956
@@ -405,6 +456,9 @@ events:
     category: politics
     tags: [アフリカ, 独立]
     summary: 1年で17か国が独立し、脱植民地化が一気に進んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アフリカの年
 
   - id: oau-founded
     year: 1963
@@ -419,6 +473,9 @@ events:
     category: war
     tags: [ナイジェリア, 内戦]
     summary: 人工的な国境が抱える矛盾が噴き出し、飢餓の映像が世界を動かした。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ビアフラ戦争
 
   - id: ethiopian-famine
     year: 1984
@@ -433,6 +490,9 @@ events:
     category: society
     tags: [アフリカ, 人権]
     summary: 100日で80万人前後が殺され、国際社会の不作為が厳しく問われた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ルワンダ虐殺
 
   - id: end-of-apartheid
     year: 1994
@@ -447,3 +507,6 @@ events:
     category: politics
     tags: [アフリカ, 現代]
     summary: 半世紀の内戦を経て分離独立したが、まもなく内戦に陥った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/南スーダン

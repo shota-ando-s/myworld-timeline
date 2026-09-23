@@ -8,6 +8,9 @@ periods:
     category: politics
     tags: [ヨーロッパ, ゲルマン]
     summary: 西ヨーロッパを統合した最初のゲルマン国家。分裂して独仏伊の原型になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランク王国
 
   - id: carolingian-renaissance
     title: カロリング・ルネサンス
@@ -42,6 +45,9 @@ periods:
     category: politics
     tags: [フランス]
     summary: パリ周辺の小領主から始まり、340年かけて王権を全土に広げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カペー朝
 
   - id: hundred-years-war
     title: 百年戦争
@@ -50,6 +56,9 @@ periods:
     category: war
     tags: [イギリス, フランス]
     summary: 英仏の王位と領土をめぐる断続的な戦争。両国の国民意識を育てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/百年戦争
 
   - id: age-of-discovery
     title: 大航海時代
@@ -75,6 +84,9 @@ periods:
     category: war
     tags: [ドイツ, 宗教]
     summary: ドイツを荒廃させた最後の大宗教戦争。主権国家体制はこの戦後に生まれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/三十年戦争
 
   - id: enlightenment
     title: 啓蒙思想
@@ -96,6 +108,9 @@ periods:
     detail: |
       生産量だけでなく、時間の使い方・住む場所・働き方まで変わった。
       都市に人口が集中し、労働問題と社会主義という新しい問いが生まれる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/産業革命
 
   - id: napoleonic-wars
     title: ナポレオン戦争
@@ -104,6 +119,9 @@ periods:
     category: war
     tags: [フランス, ヨーロッパ]
     summary: 革命の理念と支配が武力で各地に運ばれ、国民国家の意識を各国に植えつけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナポレオン戦争
 
   - id: british-empire-peak
     title: 大英帝国の最盛期
@@ -120,6 +138,9 @@ periods:
     category: war
     tags: [世界大戦]
     summary: 総力戦となり、ヨーロッパの帝国と旧秩序が崩れ落ちた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第一次世界大戦
 
   - id: nazi-germany
     title: ナチス・ドイツ
@@ -128,6 +149,9 @@ periods:
     category: politics
     tags: [ドイツ, 全体主義]
     summary: 合法的に成立した独裁が戦争とホロコーストに至り、12年で崩壊した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナチス・ドイツ
 
   - id: ww2
     title: 第二次世界大戦
@@ -136,6 +160,9 @@ periods:
     category: war
     tags: [世界大戦]
     summary: 史上最大の戦争。戦後は米ソ二極と脱植民地化の時代になる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/第二次世界大戦
 
   - id: cold-war
     title: 冷戦
@@ -152,6 +179,9 @@ events:
     category: politics
     tags: [フランク, 教皇]
     summary: ローマ教皇が皇帝の冠を授け、西ヨーロッパが独自の「帝国」を持った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カール大帝
 
   - id: treaty-of-verdun
     year: 843
@@ -159,6 +189,9 @@ events:
     category: politics
     tags: [フランク]
     summary: フランク王国が三分割され、のちのフランス・ドイツ・イタリアの輪郭ができた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴェルダン条約
 
   - id: viking-raids
     year: 793
@@ -180,6 +213,9 @@ events:
     category: religion
     tags: [十字軍, 教皇]
     summary: 聖地回復の呼びかけから、約200年続く東方への軍事遠征が始まった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クレルモン教会会議
     related: [crusades]
 
   - id: canossa
@@ -188,6 +224,9 @@ events:
     category: religion
     tags: [教皇, 皇帝]
     summary: 皇帝が教皇に謝罪した事件。聖職者の任命権をめぐる争いの象徴になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/カノッサの屈辱
 
   - id: university-bologna
     year: 1088
@@ -235,6 +274,9 @@ events:
     category: war
     tags: [スペイン, イスラム]
     summary: グラナダ陥落でイベリア半島のイスラム政権が終わり、同じ年に大西洋へ乗り出した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/レコンキスタ
 
   - id: ninety-five-theses
     year: 1517
@@ -257,6 +299,9 @@ events:
     category: religion
     tags: [フランス, 宗教戦争]
     summary: カトリックによるプロテスタント殺害事件。宗教対立の残酷さを象徴する。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サン・バルテルミの虐殺
 
   - id: spanish-armada
     year: 1588
@@ -264,6 +309,9 @@ events:
     category: war
     tags: [イギリス, スペイン]
     summary: スペイン無敵艦隊の敗北。制海権が南から北西ヨーロッパへ移り始めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アルマダの海戦
 
   - id: edict-of-nantes
     year: 1598
@@ -271,6 +319,9 @@ events:
     category: religion
     tags: [フランス, 寛容]
     summary: 信仰の自由を認めてフランスの宗教戦争を終わらせた（1685年に廃止）。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ナントの勅令
 
   - id: galileo-trial
     year: 1633
@@ -299,6 +350,9 @@ events:
     category: politics
     tags: [イギリス, 立憲]
     summary: 流血なく王を替え、議会が王権に優越する仕組みを確立した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/名誉革命
 
   - id: newton-principia
     year: 1687
@@ -313,6 +367,9 @@ events:
     category: religion
     tags: [フランス, 啓蒙]
     summary: 知識を体系化して公開する試み。啓蒙思想を広く伝える器になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/百科全書
 
   - id: watt-steam-engine
     year: 1769
@@ -330,6 +387,9 @@ events:
     detail: |
       国王の処刑、恐怖政治、ナポレオンの独裁と、理想は何度も裏切られた。
       それでも「人は生まれながらに権利を持つ」という前提は各国に残り続けた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/フランス革命
 
   - id: napoleon-emperor
     year: 1804
@@ -344,6 +404,9 @@ events:
     category: politics
     tags: [ヨーロッパ, 国際関係]
     summary: ナポレオンが退場し、革命前への復帰をめざす保守的な国際秩序が敷かれた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ワーテルローの戦い
 
   - id: stephenson-railway
     year: 1825
@@ -358,6 +421,9 @@ events:
     category: society
     tags: [ヨーロッパ, 革命]
     summary: 各地で自由と統一を求める蜂起が連鎖し、労働者が政治の主体として現れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/1848年革命
 
   - id: great-exhibition
     year: 1851
@@ -365,6 +431,9 @@ events:
     category: economy
     tags: [イギリス, 産業]
     summary: 工業化の成果を世界に見せる場。以後の万博と国際競争の型を作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロンドン万国博覧会
 
   - id: darwin-origin
     year: 1859
@@ -372,6 +441,9 @@ events:
     category: science
     tags: [生物学]
     summary: 種は変化するという説明が、人間の位置づけそのものを揺さぶった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/種の起源
 
   - id: italian-unification
     year: 1861
@@ -379,6 +451,9 @@ events:
     category: politics
     tags: [イタリア, 国民国家]
     summary: 1000年以上分裂していた半島が一つの国になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イタリア王国
 
   - id: german-unification
     year: 1871
@@ -386,6 +461,9 @@ events:
     category: politics
     tags: [ドイツ, 国民国家]
     summary: ビスマルクの主導で統一され、ヨーロッパの勢力均衡が一変した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ドイツ帝国
 
   - id: berlin-conference-eu
     year: 1884
@@ -393,6 +471,9 @@ events:
     category: politics
     tags: [帝国主義]
     summary: 列強が現地の意思と無関係に境界を決め、20世紀の紛争の種をまいた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベルリン会議_(アフリカ分割)
     related: [berlin-conference]
 
   - id: sarajevo
@@ -401,6 +482,9 @@ events:
     category: war
     tags: [第一次世界大戦]
     summary: 一発の銃弾が同盟網を連鎖させ、1か月で大戦に発展した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サラエボ事件
     related: [ww1]
 
   - id: spanish-flu
@@ -416,6 +500,9 @@ events:
     category: politics
     tags: [第一次世界大戦, 戦後処理]
     summary: ドイツへの過酷な賠償が不満を残し、次の戦争の火種になったとされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヴェルサイユ条約
 
   - id: great-depression-eu
     year: 1929
@@ -423,6 +510,9 @@ events:
     category: economy
     tags: [経済危機]
     summary: 失業と困窮が各国の民主政治を揺さぶり、極端な政治勢力を押し上げた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/世界恐慌
     related: [great-depression]
 
   - id: munich-agreement
@@ -431,6 +521,9 @@ events:
     category: politics
     tags: [ドイツ, 外交]
     summary: 譲歩で戦争を避けようとして失敗した例として、以後の外交で繰り返し参照される。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ミュンヘン会談
 
   - id: holocaust
     year: 1941
@@ -445,6 +538,9 @@ events:
     category: war
     tags: [第二次世界大戦]
     summary: 西部戦線が開かれ、11か月後のドイツ降伏につながった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ノルマンディー上陸作戦
 
   - id: marshall-plan
     year: 1948
@@ -459,6 +555,9 @@ events:
     category: politics
     tags: [冷戦, ドイツ]
     summary: 分断が目に見える形になり、以後28年間ドイツ人を隔てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベルリンの壁
 
   - id: eu-founded
     year: 1993

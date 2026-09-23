@@ -10,6 +10,9 @@ leaders:
     category: war
     tags: [匈奴]
     summary: 草原の諸部族を初めて一つの帝国にまとめ、漢を和親策に追い込んだ。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/冒頓単于
 
   - id: huhanye
     title: 呼韓邪単于
@@ -18,6 +21,9 @@ leaders:
     category: politics
     tags: [匈奴, 漢]
     summary: 漢に臣従して和平を選び、草原と中華が共存する形を初めて作った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/呼韓邪単于
 
   - id: tanshihuai
     title: 檀石槐
@@ -28,6 +34,9 @@ leaders:
     category: war
     tags: [鮮卑]
     summary: 匈奴が去った草原を鮮卑でまとめ、後漢を北から圧迫した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/檀石槐
 
   - id: attila-reign
     title: アッティラ
@@ -36,6 +45,9 @@ leaders:
     category: war
     tags: [フン, ゲルマン移動]
     summary: 東西ローマを同時に脅かし、ゲルマン諸族の移動を押し出して西ローマの終わりを早めた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アッティラ
 
   - id: bilge-qaghan
     title: ビルゲ・カガン
@@ -86,6 +98,9 @@ leaders:
     category: war
     tags: [モンゴル]
     summary: 西アジアと南宋への二正面作戦を進め、その死が帝国分裂の引き金になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/モンケ
 
   - id: timur-reign
     title: ティムール
@@ -94,6 +109,9 @@ leaders:
     category: war
     tags: [ティムール朝, サマルカンド]
     summary: 破壊と建設を同時に行い、サマルカンドを世界有数の都市に育てた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ティムール
 
   - id: esen-taishi
     title: エセン・ハン
@@ -102,6 +120,9 @@ leaders:
     category: war
     tags: [オイラト, 土木の変]
     summary: 明の皇帝を捕虜にし、遊牧勢力がなお中華を脅かせることを見せつけた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/エセン_(オイラト)
 
   - id: ulugh-beg-reign
     title: ウルグ・ベク
@@ -110,6 +131,9 @@ leaders:
     category: science
     tags: [ティムール朝, 天文学]
     summary: 自ら天文台を築いて星表を作った学者君主で、政争のなかで殺された。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ウルグ・ベク
 
   - id: dayan-khan
     title: ダヤン・ハン
@@ -144,6 +168,9 @@ leaders:
     category: war
     tags: [ジュンガル, 清]
     summary: 内陸アジア最後の遊牧帝国を率いて清と争い、康熙帝の親征に敗れた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ガルダン
 
   - id: yaqub-beg
     title: ヤクブ・ベク
@@ -152,6 +179,9 @@ leaders:
     category: politics
     tags: [新疆, カシュガル]
     summary: 新疆に独立政権を立て、英露の駆け引きのただ中で清の支配を一時断ち切った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ヤクブ・ベク
 
   - id: nazarbayev
     title: ナザルバエフ
@@ -168,6 +198,9 @@ leaders:
     category: politics
     tags: [ウズベキスタン]
     summary: 独立後の中央アジア最大の人口国を強権で統治し、地域の安定と抑圧を両立させた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/イスラム・カリモフ
 
   - id: niyazov
     title: ニヤゾフ
@@ -176,3 +209,6 @@ leaders:
     category: politics
     tags: [トルクメニスタン, 個人崇拝]
     summary: 自らを「トルクメン人の長」と称し、月の名まで変える個人崇拝を敷いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/サパルムラト・ニヤゾフ

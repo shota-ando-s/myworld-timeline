@@ -8,6 +8,9 @@ periods:
     category: politics
     tags: [ロシア, ウクライナ]
     summary: 東スラヴ最初の国家。ビザンツからキリスト教と文字を受け取った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/キエフ・ルーシ
 
   - id: novgorod
     title: ノヴゴロド共和国
@@ -40,6 +43,9 @@ periods:
     category: politics
     tags: [ポーランド, 東欧]
     summary: 一時は東欧最大の国家。貴族の自由が強すぎて統治が行き詰まり、分割で消えた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ポーランド・リトアニア共和国
 
   - id: tsardom-russia
     title: ロシア・ツァーリ国
@@ -48,6 +54,9 @@ periods:
     category: politics
     tags: [ロシア]
     summary: イヴァン4世がツァーリを称し、シベリアへ拡大していった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロシア・ツァーリ国
 
   - id: time-of-troubles
     title: 動乱時代
@@ -56,6 +65,9 @@ periods:
     category: war
     tags: [ロシア, 混乱]
     summary: 王朝断絶と飢饉と外国の介入が重なり、国家が崩壊寸前まで行った15年。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/動乱時代
 
   - id: great-northern-war
     title: 大北方戦争
@@ -64,6 +76,9 @@ periods:
     category: war
     tags: [ロシア, スウェーデン]
     summary: バルト海の覇権を奪い、ロシアがヨーロッパの大国として認められた戦争。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/大北方戦争
 
   - id: russian-empire
     title: ロシア帝国
@@ -72,6 +87,9 @@ periods:
     category: politics
     tags: [ロシア]
     summary: ピョートル1世の西欧化以降、ヨーロッパの大国として振る舞った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロシア帝国
 
   - id: russian-civil-war
     title: ロシア内戦
@@ -80,6 +98,9 @@ periods:
     category: war
     tags: [ロシア, 革命]
     summary: 赤軍と白軍の戦いに各国が干渉。飢餓と合わせて数百万人が亡くなった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロシア内戦
 
   - id: soviet-union
     title: ソヴィエト連邦
@@ -148,6 +169,9 @@ events:
     category: war
     tags: [ロシア, モンゴル]
     summary: ルーシ連合が初めてモンゴル軍を破り、独立への自信を得た。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クリコヴォの戦い
 
   - id: third-rome
     year: 1472
@@ -176,6 +200,9 @@ events:
     category: politics
     tags: [ロシア]
     summary: 動乱を収めた新王朝が、1917年まで300年続く。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロマノフ朝
 
   - id: pereyaslav
     year: 1654
@@ -197,6 +224,9 @@ events:
     category: war
     tags: [ロシア, スウェーデン]
     summary: スウェーデンの北方支配が終わり、ロシアが取って代わった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ポルタヴァの戦い
 
   - id: partitions-of-poland
     year: 1772
@@ -218,6 +248,9 @@ events:
     category: society
     tags: [ロシア, 改革]
     summary: 西欧を見た将校たちの蜂起。以後のロシア革命運動の原点とされる。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/デカブリストの乱
 
   - id: crimean-war
     year: 1853
@@ -225,6 +258,9 @@ events:
     category: war
     tags: [ロシア, ヨーロッパ]
     summary: 敗北で後進性が露わになり、農奴解放など大改革の引き金になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/クリミア戦争
 
   - id: serf-emancipation
     year: 1861
@@ -232,6 +268,9 @@ events:
     category: society
     tags: [ロシア, 改革]
     summary: 2000万人以上の農奴が法的に解放されたが、土地問題は残った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/農奴解放令
 
   - id: war-and-peace
     year: 1869
@@ -239,6 +278,9 @@ events:
     category: culture
     tags: [ロシア, 文学]
     summary: 19世紀ロシア文学の頂点。歴史を動かすのは誰かという問いを小説で扱った。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/戦争と平和
 
   - id: alexander2-assassinated
     year: 1881
@@ -246,6 +288,9 @@ events:
     category: politics
     tags: [ロシア]
     summary: 改革を進めた皇帝が革命家に殺され、以後は反動政治に傾いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/アレクサンドル2世_(ロシア皇帝)
 
   - id: trans-siberian
     year: 1891
@@ -271,6 +316,9 @@ events:
       2月の革命で皇帝が退位し、10月にボリシェヴィキが権力を握った。
       「労働者の国家」という実験は各国の政治に影響を与え続け、
       資本主義側にも社会保障を急がせる圧力になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロシア革命
 
   - id: holodomor
     year: 1932
@@ -278,6 +326,9 @@ events:
     category: disaster
     tags: [ソ連, 飢饉]
     summary: 強制的な穀物徴発で数百万人が餓死。ウクライナは今も虐殺と位置づけている。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ホロドモール
 
   - id: great-purge
     year: 1937
@@ -292,6 +343,9 @@ events:
     category: war
     tags: [ソ連, ドイツ]
     summary: 第二次世界大戦最大の戦場となり、ソ連だけで2700万人が犠牲になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/独ソ戦
 
   - id: stalingrad
     year: 1942
@@ -299,6 +353,9 @@ events:
     category: war
     tags: [ソ連, ドイツ]
     summary: ドイツ軍の敗北で東部戦線の流れが変わり、大戦全体の転換点になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スターリングラード攻防戦
 
   - id: sputnik
     year: 1957
@@ -306,6 +363,9 @@ events:
     category: science
     tags: [ソ連, 宇宙]
     summary: 人類初の人工衛星。米国に衝撃を与え、宇宙開発競争と科学教育改革を招いた。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/スプートニク1号
 
   - id: gagarin
     year: 1961
@@ -313,6 +373,9 @@ events:
     category: science
     tags: [ソ連, 宇宙]
     summary: 人類が初めて地球を外から見た。「地球は青かった」の言葉が残る。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ユーリイ・ガガーリン
 
   - id: prague-spring
     year: 1968
@@ -320,6 +383,9 @@ events:
     category: society
     tags: [チェコ, 冷戦]
     summary: 「人間の顔をした社会主義」の試みがソ連軍に潰され、東側の限界が露わになった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/プラハの春
 
   - id: chernobyl
     year: 1986
@@ -334,6 +400,9 @@ events:
     category: politics
     tags: [冷戦, 東欧]
     summary: 東欧各国の体制が相次いで倒れ、冷戦の終わりが決定的になった。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ベルリンの壁崩壊
 
   - id: ussr-dissolution
     year: 1991
@@ -355,3 +424,6 @@ events:
     category: war
     tags: [ロシア, ウクライナ]
     summary: 冷戦後のヨーロッパの秩序が崩れ、各国が安全保障を根本から見直した。
+    links:
+      - label: Wikipedia
+        url: https://ja.wikipedia.org/wiki/ロシアのウクライナ侵攻
