@@ -1,0 +1,347 @@
+lane: mediterranean
+
+# ギリシア・ローマ・ビザンツ・イタリア諸国の指導者と、ローマ教皇。
+leaders:
+  - id: pericles
+    title: ペリクレス
+    start: -461
+    end: -429
+    category: politics
+    tags: [アテネ, 民主政]
+    summary: 民会中心の民主政を完成させ、パルテノン建設でアテネを「ギリシアの学校」にした。
+
+  - id: alexander-the-great
+    title: アレクサンドロス大王
+    start: -336
+    end: -323
+    category: war
+    tags: [マケドニア, ヘレニズム]
+    summary: 13年でギリシアからインダスまで征服し、東西の文化が混じるヘレニズム世界を生んだ。
+
+  - id: hannibal-barca
+    title: ハンニバル
+    start: -221
+    end: -202
+    category: war
+    tags: [カルタゴ, ポエニ戦争]
+    summary: 象を連れてアルプスを越えローマを追い詰め、最強の敵として長く記憶された。
+
+  - id: julius-caesar
+    title: カエサル
+    start: -49
+    end: -44
+    category: politics
+    tags: [ローマ, 共和政の終わり]
+    summary: ガリア征服と内戦の勝利で共和政を実質的に終わらせ、暗殺されて帝政への道を開いた。
+
+  - id: augustus
+    title: アウグストゥス
+    start: -27
+    end: 14
+    category: politics
+    tags: [ローマ, 帝政]
+    summary: 共和政の看板を残したまま一人が実権を握る仕組みを作り、200年の平和を始めた。
+
+  - id: nero
+    title: ネロ
+    start: 54
+    end: 68
+    category: politics
+    tags: [ローマ, 迫害]
+    summary: ローマ大火の責任をキリスト教徒に負わせ、暴君像の原型として語り継がれた。
+
+  - id: trajan
+    title: トラヤヌス
+    start: 98
+    end: 117
+    category: war
+    tags: [ローマ, 最大版図]
+    summary: ダキアとメソポタミアを加えてローマ帝国の版図を最大にした。
+
+  - id: hadrian
+    title: ハドリアヌス
+    start: 117
+    end: 138
+    category: politics
+    tags: [ローマ, 国境]
+    summary: 拡大をやめて国境を固める方針に転じ、ブリタニアに長城を築いた。
+
+  - id: marcus-aurelius
+    title: マルクス・アウレリウス
+    start: 161
+    end: 180
+    category: religion
+    tags: [ローマ, 哲学]
+    summary: 『自省録』を戦陣で書いた哲人皇帝で、その死が五賢帝時代の終わりになった。
+
+  - id: diocletian
+    title: ディオクレティアヌス
+    start: 284
+    end: 305
+    category: politics
+    tags: [ローマ, 分割統治]
+    summary: 帝国を四分して統治する仕組みを作り、混乱を収めると同時に東西分裂の下地も作った。
+
+  - id: constantine-the-great
+    title: コンスタンティヌス1世
+    start: 306
+    end: 337
+    category: religion
+    tags: [ローマ, キリスト教]
+    summary: キリスト教を公認し新都を東に築いて、帝国の宗教と重心を同時に移した。
+
+  - id: theodosius-i
+    title: テオドシウス1世
+    start: 379
+    end: 395
+    category: religion
+    tags: [ローマ, 国教]
+    summary: キリスト教を国教とし、死に際して帝国を東西に分けた最後の統一皇帝。
+
+  - id: justinian-i
+    title: ユスティニアヌス1世
+    start: 527
+    end: 565
+    category: society
+    tags: [ビザンツ, 法典]
+    summary: ローマ法を集大成し地中海の再統一を試みた、東ローマ帝国の絶頂。
+
+  - id: pope-gregory-i
+    title: 教皇グレゴリウス1世
+    start: 590
+    end: 604
+    category: religion
+    tags: [教皇, 布教]
+    summary: ゲルマン人への布教を組織し、ローマ司教を西欧の精神的な中心に押し上げた。
+
+  - id: heraclius
+    title: ヘラクレイオス
+    start: 610
+    end: 641
+    category: war
+    tags: [ビザンツ, ペルシア]
+    summary: ペルシアに辛勝した直後にイスラム勢力の進出を受け、帝国をギリシア化して守りに入った。
+
+  - id: leo-iii-isaurian
+    title: レオン3世
+    start: 717
+    end: 741
+    category: religion
+    tags: [ビザンツ, 聖像禁止]
+    summary: コンスタンティノープルを守り抜き、聖像禁止令で東西教会の溝を深めた。
+
+  - id: basil-ii
+    title: バシレイオス2世
+    start: 976
+    end: 1025
+    category: war
+    tags: [ビザンツ]
+    summary: ブルガリアを屈服させて中世ビザンツ帝国を最大に広げた。
+
+  - id: pope-gregory-vii
+    title: 教皇グレゴリウス7世
+    start: 1073
+    end: 1085
+    category: religion
+    tags: [教皇, 叙任権闘争]
+    summary: 聖職者の任命権を皇帝から取り戻そうとし、カノッサで教皇権の頂点を見せた。
+
+  - id: alexios-i
+    title: アレクシオス1世
+    start: 1081
+    end: 1118
+    category: politics
+    tags: [ビザンツ, 十字軍]
+    summary: 西欧に援軍を求めたことが十字軍を呼び、結果的に帝国を危うくした。
+
+  - id: pope-urban-ii
+    title: 教皇ウルバヌス2世
+    start: 1088
+    end: 1099
+    category: religion
+    tags: [教皇, 十字軍]
+    summary: クレルモンの説教で十字軍を呼びかけ、西欧の武力を東へ向けた。
+
+  - id: pope-innocent-iii
+    title: 教皇インノケンティウス3世
+    start: 1198
+    end: 1216
+    category: religion
+    tags: [教皇]
+    summary: 各国の王を破門で従わせ、「教皇は太陽、皇帝は月」と言われる権勢の頂点に立った。
+
+  - id: frederick-ii-sicily
+    title: フリードリヒ2世（シチリア）
+    start: 1220
+    end: 1250
+    category: culture
+    tags: [シチリア, 神聖ローマ]
+    summary: アラビア語も解する宮廷を南イタリアに営み、「世界の驚異」と呼ばれた皇帝。
+
+  - id: pope-boniface-viii
+    title: 教皇ボニファティウス8世
+    start: 1294
+    end: 1303
+    category: religion
+    tags: [教皇, アナーニ事件]
+    summary: フランス王に捕らえられ、教皇権が王権に屈する時代の始まりを印した。
+
+  - id: pope-clement-v
+    title: 教皇クレメンス5世
+    start: 1305
+    end: 1314
+    category: religion
+    tags: [教皇, アヴィニョン]
+    summary: 教皇庁をアヴィニョンへ移し、フランス王の影響下に入る70年の始まりになった。
+
+  - id: cosimo-de-medici
+    title: コジモ・デ・メディチ
+    start: 1434
+    end: 1464
+    category: economy
+    tags: [フィレンツェ, ルネサンス]
+    summary: 公職に就かないまま銀行の力で市政を動かし、芸術への出資で都市の性格を変えた。
+
+  - id: constantine-xi
+    title: コンスタンティノス11世
+    start: 1449
+    end: 1453
+    category: war
+    tags: [ビザンツ, 滅亡]
+    summary: 城壁の上で戦死した最後のビザンツ皇帝で、1000年の帝国がここで終わった。
+
+  - id: lorenzo-de-medici
+    title: ロレンツォ・デ・メディチ
+    start: 1469
+    end: 1492
+    category: culture
+    tags: [フィレンツェ, ルネサンス]
+    summary: 芸術家を手元に集めて庇護し、イタリア諸国の均衡を保つ調停役も務めた。
+
+  - id: pope-julius-ii
+    title: 教皇ユリウス2世
+    start: 1503
+    end: 1513
+    category: culture
+    tags: [教皇, ルネサンス]
+    summary: みずから軍を率いる一方、サン・ピエトロ大聖堂とシスティーナ礼拝堂を起こさせた。
+
+  - id: pope-leo-x
+    title: 教皇レオ10世
+    start: 1513
+    end: 1521
+    category: religion
+    tags: [教皇, 宗教改革]
+    summary: 大聖堂の造営費を贖宥状でまかなおうとして、ルターの抗議を招いた。
+
+  - id: pope-paul-iii
+    title: 教皇パウルス3世
+    start: 1534
+    end: 1549
+    category: religion
+    tags: [教皇, 対抗宗教改革]
+    summary: トリエント公会議の招集とイエズス会の公認で、カトリック側の立て直しを始めた。
+
+  - id: cosimo-i
+    title: コジモ1世
+    start: 1537
+    end: 1574
+    category: politics
+    tags: [フィレンツェ, トスカーナ]
+    summary: 分裂した都市国家をトスカーナ大公国にまとめ、共和政の伝統を終わらせた。
+
+  - id: pope-urban-viii
+    title: 教皇ウルバヌス8世
+    start: 1623
+    end: 1644
+    category: religion
+    tags: [教皇, バロック]
+    summary: バロックのローマを作らせる一方、ガリレオを異端審問にかけた。
+
+  - id: pope-benedict-xiv
+    title: 教皇ベネディクトゥス14世
+    start: 1740
+    end: 1758
+    category: religion
+    tags: [教皇, 啓蒙]
+    summary: 啓蒙の知識人と文通し、対決ではなく対話で時代に向き合った教皇。
+
+  - id: pope-pius-ix
+    title: 教皇ピウス9世
+    start: 1846
+    end: 1878
+    category: religion
+    tags: [教皇, 教皇領]
+    summary: イタリア統一で教皇領を失い、代わりに教皇不可謬の教義で霊的権威を固めた。
+
+  - id: cavour
+    title: カヴール
+    start: 1852
+    end: 1861
+    category: politics
+    tags: [イタリア, 統一]
+    summary: 外交と同盟でオーストリアを追い出し、イタリア統一を現実の政治にした。
+
+  - id: garibaldi
+    title: ガリバルディ
+    start: 1860
+    end: 1861
+    category: war
+    tags: [イタリア, 統一]
+    summary: 千人隊で南イタリアを制圧し、征服地を国王に差し出して統一を完成させた。
+
+  - id: victor-emmanuel-ii
+    title: ヴィットーリオ・エマヌエーレ2世
+    start: 1861
+    end: 1878
+    category: politics
+    tags: [イタリア, 統一]
+    summary: 分裂していた半島を一つの王国にまとめた初代イタリア国王。
+
+  - id: mussolini
+    title: ムッソリーニ
+    start: 1922
+    end: 1943
+    category: politics
+    tags: [イタリア, ファシズム]
+    summary: ファシズムという新しい独裁の型を作り、各国の運動の手本にされた。
+
+  - id: pope-pius-xii
+    title: 教皇ピウス12世
+    start: 1939
+    end: 1958
+    category: religion
+    tags: [教皇, 第二次世界大戦]
+    summary: 戦時下でナチスの迫害に公然と抗議しなかったことが、今も議論され続けている。
+
+  - id: pope-john-xxiii
+    title: 教皇ヨハネ23世
+    start: 1958
+    end: 1963
+    category: religion
+    tags: [教皇, 第2バチカン公会議]
+    summary: 公会議を招集して典礼と他宗派への姿勢を改め、教会を現代社会に開いた。
+
+  - id: pope-john-paul-ii
+    title: 教皇ヨハネ・パウロ2世
+    start: 1978
+    end: 2005
+    category: religion
+    tags: [教皇, 東欧]
+    summary: ポーランド出身の教皇として東欧の民主化を後押しし、世界を歩き回る教皇像を作った。
+
+  - id: pope-francis
+    title: 教皇フランシスコ
+    start: 2013
+    end: 2025
+    category: religion
+    tags: [教皇, 南米]
+    summary: 南米出身の初の教皇として、貧困と環境を正面から語り教会の姿勢を変えた。
+
+  - id: pope-leo-xiv
+    title: 教皇レオ14世
+    start: 2025
+    ongoing: true
+    category: religion
+    tags: [教皇]
+    summary: 米国出身として初めて選ばれた教皇。

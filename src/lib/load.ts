@@ -2,11 +2,16 @@ import yaml from 'js-yaml';
 import { DataFileSchema, EventSchema, PeriodSchema } from './schema.ts';
 import { LANES, type Item, type LaneId, type Period, type TimelineEvent } from './model.ts';
 
+export type LaneBucket = { periods: Period[]; leaders: Period[]; events: TimelineEvent[] };
+
 export type LoadResult = {
+  /** 王朝・時代区分の帯（人物は含まない） */
   periods: Period[];
+  /** 人物の治世の帯 */
+  leaders: Period[];
   events: TimelineEvent[];
   items: Item[];
-  byLane: Map<LaneId, { periods: Period[]; events: TimelineEvent[] }>;
+  byLane: Map<LaneId, LaneBucket>;
   files: string[];
   errors: string[];
 };
@@ -38,6 +43,7 @@ function titleAt(raw: unknown, issuePath: readonly PropertyKey[]): string {
 export function parseFiles(rawFiles: RawFile[]): LoadResult {
   const errors: string[] = [];
   const periods: Period[] = [];
+  const leaders: Period[] = [];
   const events: TimelineEvent[] = [];
   const files = [...rawFiles].sort((a, b) => a.path.localeCompare(b.path));
 
@@ -67,10 +73,11 @@ export function parseFiles(rawFiles: RawFile[]): LoadResult {
     // 1項目ずつ検証する。1つ壊れていても他の項目は読み込み、エラーは全部出す
     for (const [kind, list] of [
       ['periods', parsed.data.periods],
+      ['leaders', parsed.data.leaders],
       ['events', parsed.data.events],
     ] as const) {
       list.forEach((entry, i) => {
-        const result = kind === 'periods' ? PeriodSchema.safeParse(entry) : EventSchema.safeParse(entry);
+        const result = kind === 'events' ? EventSchema.safeParse(entry) : PeriodSchema.safeParse(entry);
         const where = `${rel} ${kind}[${i}]${titleAt(raw, [kind, i])}`;
         if (!result.success) {
           for (const issue of result.error.issues) {
@@ -84,37 +91,46 @@ export function parseFiles(rawFiles: RawFile[]): LoadResult {
           errors.push(`${where}: lane が決まりません（ファイル先頭に lane: を書くか、項目に lane: を足してください）`);
           return;
         }
-        if (kind === 'periods') periods.push({ ...(item as Omit<Period, 'lane' | 'kind'>), lane, kind: 'period' });
-        else events.push({ ...(item as Omit<TimelineEvent, 'lane' | 'kind'>), lane, kind: 'event' });
+        if (kind === 'events') {
+          events.push({ ...(item as Omit<TimelineEvent, 'lane' | 'kind'>), lane, kind: 'event' });
+        } else {
+          const bar = { ...(item as Omit<Period, 'lane' | 'kind' | 'leader'>), lane, kind: 'period' as const, leader: kind === 'leaders' };
+          (kind === 'leaders' ? leaders : periods).push(bar);
+        }
       });
     }
   }
 
+  const all: Item[] = [...periods, ...leaders, ...events];
+
   // 横断チェック: id の重複
   const seen = new Map<string, string>();
-  for (const item of [...periods, ...events]) {
-    const where = `${item.kind === 'period' ? '期間' : '出来事'}「${item.title}」`;
+  for (const item of all) {
+    const where = `${item.kind === 'event' ? '出来事' : item.leader ? '人物' : '期間'}「${item.title}」`;
     const prev = seen.get(item.id);
     if (prev) errors.push(`id の重複: "${item.id}" が ${prev} と ${where} の両方にあります`);
     else seen.set(item.id, where);
   }
 
   // 横断チェック: related の参照先
-  for (const item of [...periods, ...events]) {
+  for (const item of all) {
     for (const ref of item.related) {
       if (!seen.has(ref)) errors.push(`「${item.title}」の related: "${ref}" という id は存在しません`);
     }
   }
 
-  periods.sort((a, b) => a.start - b.start || a.id.localeCompare(b.id));
+  const byStart = (a: Period, b: Period) => a.start - b.start || a.id.localeCompare(b.id);
+  periods.sort(byStart);
+  leaders.sort(byStart);
   events.sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
 
-  const byLane = new Map<LaneId, { periods: Period[]; events: TimelineEvent[] }>();
-  for (const lane of LANES) byLane.set(lane.id, { periods: [], events: [] });
+  const byLane = new Map<LaneId, LaneBucket>();
+  for (const lane of LANES) byLane.set(lane.id, { periods: [], leaders: [], events: [] });
   for (const p of periods) byLane.get(p.lane)!.periods.push(p);
+  for (const l of leaders) byLane.get(l.lane)!.leaders.push(l);
   for (const e of events) byLane.get(e.lane)!.events.push(e);
 
-  return { periods, events, items: [...periods, ...events], byLane, files: files.map((f) => f.path), errors };
+  return { periods, leaders, events, items: all, byLane, files: files.map((f) => f.path), errors };
 }
 
 /** ビルド時用: データが壊れていたら止める */

@@ -64,5 +64,7 @@ export const EventSchema = z.strictObject({
 export const DataFileSchema = z.strictObject({
   lane: z.enum(LANE_IDS).optional(),
   periods: z.array(z.unknown()).default([]),
+  /** 人物の治世。形は periods と同じで、置かれる帯だけが違う */
+  leaders: z.array(z.unknown()).default([]),
   events: z.array(z.unknown()).default([]),
 });

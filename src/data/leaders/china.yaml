@@ -1,0 +1,333 @@
+lane: china
+
+# 中原王朝と征服王朝の君主。王朝の帯の下に並ぶので、
+# 「この王朝の、いつごろの人か」が縦に見比べられる。
+leaders:
+  - id: qin-shi-huang
+    title: 始皇帝
+    start: -221
+    end: -210
+    category: politics
+    tags: [中国, 秦, 皇帝]
+    summary: 「皇帝」という称号と中央集権の型を作り、以後2000年の統治の手本になった。
+
+  - id: liu-bang
+    title: 高祖 劉邦
+    start: -202
+    end: -195
+    category: politics
+    tags: [中国, 漢]
+    summary: 庶民から皇帝になった最初の人物で、実力で天下を取る道があることを示した。
+
+  - id: emperor-wen-han
+    title: 文帝（前漢）
+    start: -180
+    end: -157
+    category: politics
+    tags: [中国, 漢]
+    summary: 減税と倹約で国力を蓄えた「文景の治」の前半で、後の武帝の遠征を支えた。
+
+  - id: emperor-wu-han
+    title: 武帝（前漢）
+    start: -141
+    end: -87
+    category: politics
+    tags: [中国, 漢]
+    summary: 匈奴への反攻と西域経営で版図を最大にし、儒学を官学として国家の背骨にした。
+
+  - id: wang-mang
+    title: 王莽
+    start: 9
+    end: 23
+    category: politics
+    tags: [中国, 新]
+    summary: 古代の理想を丸写しにした復古改革が現実と噛み合わず、15年で王朝ごと倒れた。
+
+  - id: guangwu
+    title: 光武帝
+    start: 25
+    end: 57
+    category: politics
+    tags: [中国, 後漢]
+    summary: 一度滅んだ漢を建て直し、王朝が「再興」しうることを歴史に刻んだ。
+
+  - id: cao-cao
+    title: 曹操
+    start: 196
+    end: 220
+    category: war
+    tags: [中国, 三国]
+    summary: 皇帝を擁して号令する形を取り、実力者が帝位を経ずに国を動かす手本になった。
+
+  - id: zhuge-liang
+    title: 諸葛亮
+    start: 223
+    end: 234
+    category: war
+    tags: [中国, 三国, 蜀]
+    summary: 小国の蜀を統治と外交で支え続け、忠臣の理想像として後世に語り継がれた。
+
+  - id: sima-yan
+    title: 武帝 司馬炎
+    start: 265
+    end: 290
+    category: politics
+    tags: [中国, 晋]
+    summary: 三国を統一したが、一族に兵権を分け与えた結果が八王の乱と分裂を招いた。
+
+  - id: emperor-xiaowen-wei
+    title: 孝文帝（北魏）
+    start: 471
+    end: 499
+    category: politics
+    tags: [中国, 北魏, 漢化]
+    summary: 遊牧民の王朝が自ら中国式に衣食・姓・言葉を改め、南北融合の下地を作った。
+
+  - id: emperor-wen-sui
+    title: 文帝 楊堅
+    start: 581
+    end: 604
+    category: politics
+    tags: [中国, 隋]
+    summary: 300年の分裂を終わらせ、科挙と均田制など唐へ引き継がれる制度を整えた。
+
+  - id: emperor-yang-sui
+    title: 煬帝
+    start: 604
+    end: 618
+    category: politics
+    tags: [中国, 隋]
+    summary: 大運河と高句麗遠征を急ぎすぎて民を疲れさせ、短命王朝の代名詞になった。
+
+  - id: tang-taizong
+    title: 太宗 李世民
+    start: 626
+    end: 649
+    category: politics
+    tags: [中国, 唐]
+    summary: 臣下の諫言を容れた「貞観の治」が、東アジア中で理想の君主像として読まれた。
+
+  - id: wu-zetian
+    title: 則天武后
+    start: 690
+    end: 705
+    category: politics
+    tags: [中国, 唐, 女帝]
+    summary: 中国史でただ一人の女帝として、科挙出身者の登用で門閥貴族の力をそいだ。
+
+  - id: tang-xuanzong
+    title: 玄宗
+    start: 712
+    end: 756
+    category: politics
+    tags: [中国, 唐]
+    summary: 唐の絶頂と安史の乱による転落を1代で味わい、盛衰の教材になった治世。
+
+  - id: abaoji
+    title: 耶律阿保機
+    start: 916
+    end: 926
+    category: politics
+    tags: [契丹, 遼]
+    summary: 遊牧民と農耕民を別々の制度で治める二重統治を考え出し、征服王朝の型を作った。
+
+  - id: song-taizu
+    title: 太祖 趙匡胤
+    start: 960
+    end: 976
+    category: politics
+    tags: [中国, 宋, 文治]
+    summary: 武将の兵権を平和裏に取り上げ、文官が軍を統べる文治主義を定着させた。
+
+  - id: song-shenzong
+    title: 神宗
+    start: 1067
+    end: 1085
+    category: politics
+    tags: [中国, 宋, 改革]
+    summary: 王安石を起用して財政と軍制の大改革に踏み切り、以後の党争の火種にもなった。
+
+  - id: song-huizong
+    title: 徽宗
+    start: 1100
+    end: 1126
+    category: culture
+    tags: [中国, 宋, 芸術]
+    summary: 一流の画家・書家でありながら国を守れず、金の捕虜となって北宋を終わらせた。
+
+  - id: aguda
+    title: 完顔阿骨打
+    start: 1115
+    end: 1123
+    category: war
+    tags: [女真, 金]
+    summary: 遼の支配を脱して金を建て、わずか十数年で華北を奪う勢いの出発点になった。
+
+  - id: yue-fei
+    title: 岳飛
+    start: 1134
+    end: 1141
+    category: war
+    tags: [中国, 南宋]
+    summary: 金への反攻を主導しながら和平派に殺され、後世に忠義の象徴として祀られた。
+
+  - id: kublai-khan
+    title: クビライ
+    start: 1260
+    end: 1294
+    category: politics
+    tags: [中国, モンゴル, 元]
+    summary: 国号を元と定めて中国式の統治を敷き、遊牧帝国と中華王朝をひとつに重ねた。
+
+  - id: hongwu
+    title: 洪武帝 朱元璋
+    start: 1368
+    end: 1398
+    category: politics
+    tags: [中国, 明]
+    summary: 貧農から皇帝になり、宰相を廃して皇帝ひとりに権力を集める形を作った。
+
+  - id: yongle
+    title: 永楽帝
+    start: 1402
+    end: 1424
+    category: politics
+    tags: [中国, 明]
+    summary: 北京遷都と鄭和の大航海で、明の威信を内陸と海の双方に広げた。
+
+  - id: emperor-yingzong-ming
+    title: 英宗（正統帝）
+    start: 1435
+    end: 1449
+    category: war
+    tags: [中国, 明, 土木の変]
+    summary: 親征でモンゴルの捕虜となり、明が守勢に転じる分かれ目になった。
+
+  - id: jiajing
+    title: 嘉靖帝
+    start: 1521
+    end: 1567
+    category: politics
+    tags: [中国, 明]
+    summary: 道教の修行に没頭して政務を離れ、北虜南倭に悩まされた45年。
+
+  - id: wanli
+    title: 万暦帝
+    start: 1572
+    end: 1620
+    category: politics
+    tags: [中国, 明]
+    summary: 治世後半に政務を放棄し、朝廷の空転が明の滅亡を準備したとされる。
+
+  - id: nurhaci
+    title: ヌルハチ
+    start: 1616
+    end: 1626
+    category: politics
+    tags: [中国, 満洲, 清]
+    summary: 女真の諸部を八旗という軍事社会組織にまとめ、清の土台を築いた。
+
+  - id: hong-taiji
+    title: ホンタイジ
+    start: 1626
+    end: 1643
+    category: politics
+    tags: [中国, 満洲, 清]
+    summary: 国号を清と改め、モンゴル・漢人も取り込む多民族帝国の形を先に用意した。
+
+  - id: kangxi
+    title: 康熙帝
+    start: 1661
+    end: 1722
+    category: politics
+    tags: [中国, 清]
+    summary: 61年の在位で三藩の乱・台湾・ロシア国境を片付け、清の最盛期を開いた。
+
+  - id: yongzheng
+    title: 雍正帝
+    start: 1722
+    end: 1735
+    category: politics
+    tags: [中国, 清]
+    summary: 軍機処の設置と徹底した実務で財政を立て直し、父と子の繁栄をつないだ。
+
+  - id: qianlong
+    title: 乾隆帝
+    start: 1735
+    end: 1796
+    category: politics
+    tags: [中国, 清]
+    summary: 版図を最大に広げた一方、晩年の腐敗と対外的な硬直が衰退の始まりになった。
+
+  - id: cixi
+    title: 西太后
+    start: 1861
+    end: 1908
+    category: politics
+    tags: [中国, 清, 摂政]
+    summary: 半世紀近く垂簾聴政で実権を握り、改革と保守のあいだで清の最後を左右した。
+
+  - id: sun-yat-sen
+    title: 孫文
+    start: 1912
+    end: 1925
+    category: politics
+    tags: [中国, 革命, 三民主義]
+    summary: 三民主義を掲げて共和国を構想し、国民党・共産党の双方から「国父」とされた。
+
+  - id: yuan-shikai
+    title: 袁世凱
+    start: 1912
+    end: 1916
+    category: politics
+    tags: [中国, 中華民国]
+    summary: 清の軍を握ったまま大総統となり、帝政復活に失敗して軍閥割拠を招いた。
+
+  - id: chiang-kai-shek
+    title: 蒋介石
+    start: 1928
+    end: 1949
+    category: politics
+    tags: [中国, 国民党]
+    summary: 北伐で中国を名目上統一し、日本との戦争と国共内戦を戦って台湾へ退いた。
+
+  - id: mao-zedong
+    title: 毛沢東
+    start: 1949
+    end: 1976
+    category: politics
+    tags: [中国, 共産党]
+    summary: 農村から革命を組み立てて中華人民共和国を建てたが、大躍進と文革で甚大な犠牲も出した。
+
+  - id: deng-xiaoping
+    title: 鄧小平
+    start: 1978
+    end: 1992
+    endCirca: true
+    category: politics
+    tags: [中国, 改革開放]
+    summary: 市場経済を「社会主義」の枠内に持ち込み、今日の中国の経済路線を決めた。
+
+  - id: jiang-zemin
+    title: 江沢民
+    start: 1989
+    end: 2002
+    category: politics
+    tags: [中国, 共産党]
+    summary: 天安門事件後の孤立を切り抜け、WTO加盟で世界経済への参加を確定させた。
+
+  - id: hu-jintao
+    title: 胡錦濤
+    start: 2002
+    end: 2012
+    category: politics
+    tags: [中国, 共産党]
+    summary: 二桁成長と北京五輪の時代を統べ、中国を世界第2の経済大国に押し上げた。
+
+  - id: xi-jinping
+    title: 習近平
+    start: 2012
+    ongoing: true
+    category: politics
+    tags: [中国, 共産党]
+    summary: 任期制限を外して権力を集中させ、対外的にも強い姿勢を前面に出している。

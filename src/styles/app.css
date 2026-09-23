@@ -76,6 +76,9 @@ a { color: #1c5cab; }
 .chip .ev__dot { width: 14px; height: 14px; flex-basis: 14px; }
 .chip:hover { background: var(--fam-tint-2); }
 
+/* 人物レーンの表示切り替え。カテゴリのチップと同じ操作感にそろえる */
+.chip--leader { --fam: var(--ink-2); --fam-tint: var(--paper-alt); --fam-tint-2: var(--rule); }
+
 .controls { display: flex; align-items: center; gap: 10px; margin-left: auto; }
 .control {
   display: inline-flex; align-items: center; gap: 4px;
@@ -220,6 +223,23 @@ a { color: #1c5cab; }
 .bar[data-end-circa] { border-right: 2px dashed var(--fam); }
 .bar[data-ongoing] { border-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; }
 
+/* 人物の帯: 王朝の帯より低く、塗りではなく枠で描いて「下の段」だと分かるようにする */
+.bar--leader {
+  height: var(--ld-h);
+  top: calc(var(--ld-top) + var(--row) * (var(--ld-h) + var(--ld-gap)));
+  padding: 0 5px;
+  border: 1px solid var(--fam-tint-2);
+  border-left: 2px solid var(--fam);
+  border-radius: 2px;
+  background: var(--surface);
+  color: var(--ink-2);
+  font-size: 10.5px;
+}
+.bar--leader:hover { background: var(--fam-tint); color: var(--ink); }
+.bar--leader .bar__label { left: calc(var(--label-w) + 5px); }
+/* 人物をまとめて隠す（段組みは JS が計算し直すのでレーンも縮む） */
+[data-leaders='off'] .bar--leader { display: none; }
+
 /* 点イベント */
 .ev {
   position: absolute;
@@ -309,6 +329,10 @@ a { color: #1c5cab; }
 }
 .snapshot button.link:hover { text-decoration-color: var(--ink); }
 .snapshot__dot { width: 8px; height: 8px; flex: 0 0 8px; background: var(--fam); border-radius: 2px; align-self: center; }
+/* スナップショットの中で、その年に在位していた人物の行の印 */
+.snapshot__person { width: 10px; height: 10px; flex: 0 0 10px; background: var(--ink-3); align-self: center; }
+.snapshot__row[data-leader] { padding-left: 8px; }
+.snapshot__row[data-leader] .link { color: var(--ink-2); }
 
 /* ───────── スマホ: 12レーンの横年表は成立しないので縦の年代順リストに切り替える ───────── */
 .mlist { display: none; }

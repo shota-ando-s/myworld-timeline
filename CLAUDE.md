@@ -19,7 +19,8 @@
 
 ## データの置き場所
 
-`src/data/<レーンid>.yaml` の12枚。1ファイル＝1レーンで、ファイル先頭の `lane:` が既定値になる。
+`src/data/<レーンid>.yaml` の12枚と、人物の治世を入れる `src/data/leaders/<レーンid>.yaml` の12枚。
+1ファイル＝1レーンで、ファイル先頭の `lane:` が既定値になる。
 ファイルが大きくなったら `src/data/china/tang.yaml` のようにサブディレクトリへ分けてよい（再帰的に読む）。
 
 | ファイル / lane | 範囲の目安 |
@@ -63,6 +64,15 @@ periods:               # 期間バー（王朝・帝国・時代区分）
         url: https://ja.wikipedia.org/wiki/...
     related: [qin]     # 省略可。他の項目の id（存在しない id はエラー）
 
+leaders:               # 人物の治世。形は periods と同じで、置かれる帯だけが違う
+  - id: tang-taizong
+    title: 太宗 李世民
+    start: 626
+    end: 649
+    category: politics
+    tags: [中国, 唐]
+    summary: 臣下の諫言を容れた「貞観の治」が、東アジア中で理想の君主像として読まれた。
+
 events:                # 点イベント（単年の出来事）
   - id: qin-unification
     year: -221
@@ -105,10 +115,22 @@ events:                # 点イベント（単年の出来事）
 `src/styles/icons.css`（mask-image の data URI）を作り直す。
 項目ごとに SVG を置くと1000件規模でHTMLが膨らむので、CSS のマスクで描いている。
 
+### 人物（`leaders:`）
+
+王朝の帯のすぐ下に、一回り低い帯として並ぶ。上のフィルタの「人物」でまとめて消せる。
+
+- フィールドは `periods` と同じ。**役割で `category` を選ぶ**（君主＝`politics`、宗教指導者＝`religion`、
+  将軍＝`war`、文化で名を残した君主＝`culture`、制度を作った人＝`society`）。色とアイコンはそこから決まる。
+- 期間は**在位、または実権を握っていた期間**。即位年に諸説あるときは `startCirca` / `endCirca` を付ける。
+- 同じ人物の出来事が `events` にあるときは id を分ける（`akbar-throne` は出来事、`akbar-reign` は治世）。
+- 1レーン20〜45人。人数より**時代が途切れないこと**を優先する。
+  数百年にわたって誰も並ばない区間があれば、そこを埋めるほうが人数を増やすより効く。
+
 ### 量の目安
 
-1レーンあたり50〜90項目（全体で600〜1000）を目安にしている。現在は約725項目。
-`npm run validate` が各レーンの件数を棒グラフで出すので、薄いレーンから埋めていく。
+期間と出来事は1レーンあたり50〜90項目、人物は20〜45人を目安にしている。
+現在は期間221・人物426・出来事502の約1150項目。
+`npm run validate` が各レーンの件数を棒グラフ（■＝期間と出来事、□＝人物）で出すので、薄いレーンから埋めていく。
 特定の時代だけ厚くすると年表が偏るので、追加するときは時代の散らばりも見ること。
 
 ## コードの構成
@@ -121,13 +143,17 @@ events:                # 点イベント（単年の出来事）
 | `src/lib/load-glob.ts` | Astro 側の読み込み。`import.meta.glob` でビルドに YAML を同梱する |
 | `src/lib/load-fs.ts` | `npm run validate` 用の読み込み（node の fs） |
 | `src/lib/scale.ts` | 年↔x座標の区分線形スケール、目盛り、時代帯 |
-| `src/lib/layout.ts` | レーン内の段組み（重なり回避） |
+| `src/lib/layout.ts` | レーン内の段組み（王朝・人物・出来事の3段に積む） |
 | `src/pages/index.astro` | ビルド時に全項目の DOM を出力 |
 | `src/scripts/timeline.ts` | 選択・パネル・フィルタ・ズーム・スナップショット |
 | `src/styles/tokens.css` | 配色トークン |
 | `src/styles/icons.css` | カテゴリのアイコン（**生成物。`npm run icons` で作る**） |
 
 レーンを増減するときは `src/lib/model.ts` の `LANES` だけを直せばよい（データファイル名も合わせる）。
+
+人物は `Period` に `leader: true` を立てたものとして読み込む（`src/lib/load.ts`）。
+見た目は `.bar--leader`、まとめて隠すのは `html[data-leaders='off']`、
+隠したときのレーンの高さは `laneBands()` が段を詰めて計算し直す。
 
 配色は dataviz スキルの検証器（全ペアで色覚特性を確認）を通した4色を使っている。
 **色を変えるときは必ず検証し直すこと。**

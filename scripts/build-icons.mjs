@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-/** src/lib/model.ts の CATEGORIES[].shape と一致させること */
+/** src/lib/model.ts の CATEGORIES[].shape と LEADER_LAYER.shape に一致させること */
 const ICONS = {
   crown: '政治・王朝',
   'scale-balanced': '社会・制度',
@@ -22,6 +22,7 @@ const ICONS = {
   coins: '経済・交易',
   'place-of-worship': '宗教・思想',
   palette: '文化・芸術',
+  'user-tie': '人物（王朝の帯の下に並ぶ治世）',
 };
 
 const root = fileURLToPath(new URL('..', import.meta.url));

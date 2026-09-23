@@ -1,0 +1,372 @@
+lane: west-asia
+
+# メソポタミア・ペルシア・アラブ・オスマンの君主と、イスラムの宗教的指導者。
+leaders:
+  - id: sargon-of-akkad
+    title: サルゴン
+    start: -2334
+    startCirca: true
+    end: -2279
+    endCirca: true
+    category: war
+    tags: [アッカド, 帝国]
+    summary: 複数の都市国家を一人の王の下に束ね、世界最初の「帝国」を作ったとされる。
+
+  - id: ur-nammu
+    title: ウル・ナンム
+    start: -2112
+    startCirca: true
+    end: -2095
+    endCirca: true
+    category: society
+    tags: [シュメール, 法]
+    summary: 現存最古級の法典を発布し、シュメール文明の最後の輝きを作った。
+
+  - id: hammurabi
+    title: ハンムラビ王
+    start: -1792
+    end: -1750
+    category: society
+    tags: [バビロニア, 法]
+    summary: メソポタミアを再統一し、石柱に刻んだ法で統治の基準を公示した。
+
+  - id: suppiluliuma-i
+    title: シュッピルリウマ1世
+    start: -1350
+    startCirca: true
+    end: -1322
+    endCirca: true
+    category: war
+    tags: [ヒッタイト]
+    summary: ヒッタイトをオリエントの大国に押し上げ、エジプトと勢力を二分した。
+
+  - id: nebuchadnezzar-i
+    title: ネブカドネザル1世
+    start: -1125
+    startCirca: true
+    end: -1104
+    endCirca: true
+    category: war
+    tags: [バビロニア, エラム]
+    summary: エラムからマルドゥク神像を取り戻し、バビロンの守護神を国家の中心に据えた。
+
+  - id: tiglath-pileser-iii
+    title: ティグラト・ピレセル3世
+    start: -745
+    end: -727
+    category: war
+    tags: [アッシリア, 強制移住]
+    summary: 常備軍と住民の強制移住で、アッシリアを最初の「世界帝国」に変えた。
+
+  - id: ashurbanipal
+    title: アッシュールバニパル
+    start: -668
+    end: -627
+    category: culture
+    tags: [アッシリア, 図書館]
+    summary: 各地の粘土板を集めた大図書館を作り、ギルガメシュ叙事詩を今日まで残した。
+
+  - id: nebuchadnezzar-ii
+    title: ネブカドネザル2世
+    start: -605
+    end: -562
+    category: war
+    tags: [新バビロニア, ユダヤ]
+    summary: ユダ王国を滅ぼしてバビロン捕囚を行い、一神教の形成に大きな影を落とした。
+
+  - id: cyrus-the-great
+    title: キュロス2世
+    start: -559
+    end: -530
+    category: politics
+    tags: [アケメネス朝, 寛容]
+    summary: 征服地の宗教と慣習を認める統治で、多民族を束ねる帝国の手本になった。
+
+  - id: darius-i
+    title: ダレイオス1世
+    start: -522
+    end: -486
+    category: society
+    tags: [アケメネス朝, 街道]
+    summary: 州制と「王の道」で広大な帝国を運営し、統治の技術を後世に残した。
+
+  - id: xerxes-i
+    title: クセルクセス1世
+    start: -486
+    end: -465
+    category: war
+    tags: [アケメネス朝, ペルシア戦争]
+    summary: ギリシア遠征に失敗し、東地中海の主導権がギリシア側に傾く転機になった。
+
+  - id: seleucus-i
+    title: セレウコス1世
+    start: -305
+    end: -281
+    category: politics
+    tags: [セレウコス朝, ヘレニズム]
+    summary: アレクサンドロスの後継者として西アジアを継ぎ、ギリシア風の都市を各地に置いた。
+
+  - id: mithridates-i
+    title: ミトラダテス1世
+    start: -171
+    end: -138
+    category: war
+    tags: [パルティア]
+    summary: メソポタミアを奪ってパルティアをイランの主役にし、ローマの東の壁になった。
+
+  - id: ardashir-i
+    title: アルダシール1世
+    start: 224
+    end: 241
+    category: politics
+    tags: [ササン朝, ゾロアスター教]
+    summary: パルティアを倒してササン朝を開き、ゾロアスター教を国教として帝国を再建した。
+
+  - id: shapur-i
+    title: シャープール1世
+    start: 240
+    end: 270
+    category: war
+    tags: [ササン朝, ローマ]
+    summary: ローマ皇帝を捕虜にし、ペルシアがローマと並ぶ大国であることを示した。
+
+  - id: khosrow-i
+    title: ホスロー1世
+    start: 531
+    end: 579
+    category: politics
+    tags: [ササン朝]
+    summary: 税制と軍制の改革でササン朝の最盛期を作り、学問の保護でも知られた。
+
+  - id: muhammad
+    title: ムハンマド
+    start: 610
+    end: 632
+    category: religion
+    tags: [イスラム, 預言者]
+    summary: 啓示を受けて説いた信仰が、そのまま国家と法をもつ共同体になった。
+
+  - id: umar-ibn-al-khattab
+    title: ウマル1世
+    start: 634
+    end: 644
+    category: war
+    tags: [正統カリフ, 征服]
+    summary: シリア・エジプト・ペルシアを一気に征服し、イスラム世界の骨格を作った。
+
+  - id: ali-ibn-abi-talib
+    title: アリー
+    start: 656
+    end: 661
+    category: religion
+    tags: [正統カリフ, シーア派]
+    summary: その継承をめぐる対立がスンナ派とシーア派の分かれ目になった。
+
+  - id: muawiya
+    title: ムアーウィヤ
+    start: 661
+    end: 680
+    category: politics
+    tags: [ウマイヤ朝]
+    summary: カリフを世襲の王朝に変え、イスラム国家を帝国の形に組み替えた。
+
+  - id: abd-al-malik
+    title: アブドゥルマリク
+    start: 685
+    end: 705
+    category: society
+    tags: [ウマイヤ朝, アラビア語]
+    summary: 行政の言語をアラビア語に統一し、独自の貨幣を作って帝国の一体感を作った。
+
+  - id: harun-al-rashid
+    title: ハールーン・アッラシード
+    start: 786
+    end: 809
+    category: culture
+    tags: [アッバース朝, バグダード]
+    summary: バグダードの繁栄を象徴する君主で、『千夜一夜物語』にも姿をとどめた。
+
+  - id: al-mamun
+    title: マアムーン
+    start: 813
+    end: 833
+    category: science
+    tags: [アッバース朝, 翻訳]
+    summary: 「知恵の館」でギリシアの学術をアラビア語に訳させ、科学の中心を西アジアに移した。
+
+  - id: tughril-beg
+    title: トゥグリル・ベク
+    start: 1055
+    end: 1063
+    category: politics
+    tags: [セルジューク朝, スルタン]
+    summary: バグダードに入ってスルタンの称号を得、軍事とカリフの権威を分ける形を作った。
+
+  - id: saladin
+    title: サラディン
+    start: 1174
+    end: 1193
+    category: war
+    tags: [アイユーブ朝, 十字軍]
+    summary: エルサレムを奪回し、その寛大な処置が敵味方の双方に語り継がれた。
+
+  - id: baybars
+    title: バイバルス
+    start: 1260
+    end: 1277
+    category: war
+    tags: [マムルーク朝, モンゴル]
+    summary: モンゴル軍を破って西進を止め、マムルーク朝をイスラム世界の守り手にした。
+
+  - id: osman-i
+    title: オスマン1世
+    start: 1299
+    startCirca: true
+    end: 1326
+    category: politics
+    tags: [オスマン朝]
+    summary: 小さな辺境の君侯から始まり、600年続く帝国の名の由来になった。
+
+  - id: bayezid-i
+    title: バヤズィト1世
+    start: 1389
+    end: 1402
+    category: war
+    tags: [オスマン帝国, ティムール]
+    summary: 十字軍を破って「雷帝」と呼ばれたが、ティムールに敗れて帝国を一時崩壊させた。
+
+  - id: mehmed-ii
+    title: メフメト2世
+    start: 1451
+    end: 1481
+    category: war
+    tags: [オスマン帝国, コンスタンティノープル]
+    summary: コンスタンティノープルを落として中世を終わらせ、帝国を東西にまたがらせた。
+
+  - id: ismail-i
+    title: イスマーイール1世
+    start: 1501
+    end: 1524
+    category: religion
+    tags: [サファヴィー朝, シーア派]
+    summary: シーア派を国教と定め、今日までのイラン独自の宗教的な立ち位置を作った。
+
+  - id: selim-i
+    title: セリム1世
+    start: 1512
+    end: 1520
+    category: war
+    tags: [オスマン帝国, カリフ]
+    summary: エジプトを征服して聖地の守護者となり、スルタンにカリフの権威を重ねた。
+
+  - id: suleiman-the-magnificent
+    title: スレイマン1世
+    start: 1520
+    end: 1566
+    category: politics
+    tags: [オスマン帝国, 最盛期]
+    summary: 法整備と遠征で帝国を最大に広げ、ウィーンまで迫ってヨーロッパを震え上がらせた。
+
+  - id: abbas-i
+    title: アッバース1世
+    start: 1588
+    end: 1629
+    category: politics
+    tags: [サファヴィー朝, イスファハーン]
+    summary: 「世界の半分」と讃えられた新都を築き、ヨーロッパとの通商で国を富ませた。
+
+  - id: ahmed-iii
+    title: アフメト3世
+    start: 1703
+    end: 1730
+    category: culture
+    tags: [オスマン帝国, チューリップ時代]
+    summary: 西欧の様式を取り入れた華やかな宮廷文化「チューリップ時代」を現出させた。
+
+  - id: nader-shah
+    title: ナーディル・シャー
+    start: 1736
+    end: 1747
+    category: war
+    tags: [イラン, 遠征]
+    summary: 崩壊したイランを軍事力で立て直し、デリーまで攻め込んで孔雀の玉座を奪った。
+
+  - id: mahmud-ii
+    title: マフムト2世
+    start: 1808
+    end: 1839
+    category: society
+    tags: [オスマン帝国, 近代化]
+    summary: 旧来の常備軍を解体し、西欧式の軍と官僚制への改革に踏み切った。
+
+  - id: abdulhamid-ii
+    title: アブデュルハミト2世
+    start: 1876
+    end: 1909
+    category: politics
+    tags: [オスマン帝国, 専制]
+    summary: 憲法を停止して専制を敷く一方、鉄道と電信で帝国をつなぎ直した。
+
+  - id: ataturk
+    title: ムスタファ・ケマル
+    start: 1923
+    end: 1938
+    category: society
+    tags: [トルコ, 世俗化]
+    summary: カリフ制を廃して政教分離と文字改革を断行し、共和国トルコを作り替えた。
+
+  - id: reza-shah
+    title: レザー・シャー
+    start: 1925
+    end: 1941
+    category: politics
+    tags: [イラン, 近代化]
+    summary: 軍人から王朝を起こし、上からの近代化と中央集権を進めた。
+
+  - id: ibn-saud
+    title: イブン・サウード
+    start: 1932
+    end: 1953
+    category: politics
+    tags: [サウジアラビア, 石油]
+    summary: 半島を統一してサウジアラビアを建て、直後の油田発見が世界の力学を変えた。
+
+  - id: mossadegh
+    title: モサデグ
+    start: 1951
+    end: 1953
+    category: economy
+    tags: [イラン, 石油国有化]
+    summary: 石油を国有化して英米のクーデタで倒され、資源をめぐる南北の対立を象徴した。
+
+  - id: khomeini
+    title: ホメイニ
+    start: 1979
+    end: 1989
+    category: religion
+    tags: [イラン, イスラム革命]
+    summary: 法学者が国家を統べる体制を作り、政治的イスラムの力を世界に見せつけた。
+
+  - id: saddam-hussein
+    title: サダム・フセイン
+    start: 1979
+    end: 2003
+    category: war
+    tags: [イラク, 独裁]
+    summary: イラン・クウェートへの戦争を重ね、最後は米軍の侵攻で倒された。
+
+  - id: khamenei
+    title: ハメネイ
+    start: 1989
+    ongoing: true
+    category: religion
+    tags: [イラン, 最高指導者]
+    summary: 選挙で選ばれる大統領の上に立つ最高指導者として、30年以上体制を保っている。
+
+  - id: erdogan
+    title: エルドアン
+    start: 2003
+    ongoing: true
+    category: politics
+    tags: [トルコ]
+    summary: 世俗主義の枠を緩めながら大統領制へ移行し、地域大国としての独自外交を進めている。

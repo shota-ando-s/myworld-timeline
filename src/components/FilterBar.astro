@@ -1,5 +1,5 @@
 ---
-import { CATEGORIES, FAMILIES, LANES } from '../lib/model.ts';
+import { CATEGORIES, FAMILIES, LANES, LEADER_LAYER } from '../lib/model.ts';
 ---
 
 <div class="filters" id="filters">
@@ -17,6 +17,14 @@ import { CATEGORIES, FAMILIES, LANES } from '../lib/model.ts';
       </div>
     ))
   }
+
+  <div class="famgroup">
+    <span class="famgroup__name">{LEADER_LAYER.label}</span>
+    <button type="button" class="chip chip--leader" id="leader-toggle" aria-pressed="true">
+      <span class="ev__dot" data-shape={LEADER_LAYER.shape} aria-hidden="true" />
+      {LEADER_LAYER.hint}
+    </button>
+  </div>
 </div>
 
 <div class="controls">

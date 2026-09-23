@@ -1,0 +1,328 @@
+lane: japan
+
+# 天皇・摂関・将軍・首相。同じ時期に別の主体が並ぶ（天皇と将軍など）ときは
+# 段が分かれるので、「誰が実権を持っていたか」も帯の重なりから読める。
+leaders:
+  - id: himiko
+    title: 卑弥呼
+    start: 180
+    startCirca: true
+    end: 248
+    endCirca: true
+    category: politics
+    tags: [日本, 邪馬台国]
+    summary: 倭の諸国が共立した女王で、中国の史書に名の残る列島最初の統治者。
+
+  - id: emperor-yuryaku
+    title: 雄略天皇
+    start: 456
+    startCirca: true
+    end: 479
+    endCirca: true
+    category: politics
+    tags: [日本, 大和政権]
+    summary: 「倭王武」として中国に上表し、大和政権が列島の広い範囲に及んだことを示した。
+
+  - id: shotoku-taishi
+    title: 聖徳太子
+    start: 593
+    end: 622
+    category: politics
+    tags: [日本, 飛鳥]
+    summary: 家柄ではなく能力と理念で国を運営する形を、冠位十二階と憲法十七条で示した。
+
+  - id: emperor-tenmu
+    title: 天武天皇
+    start: 673
+    end: 686
+    category: politics
+    tags: [日本, 律令]
+    summary: 壬申の乱に勝って豪族を抑え、「天皇」の称号と律令国家の骨格を定めた。
+
+  - id: emperor-shomu
+    title: 聖武天皇
+    start: 724
+    end: 749
+    category: religion
+    tags: [日本, 奈良, 仏教]
+    summary: 大仏と国分寺に国家の安泰を託し、仏教を統治の道具として全国に配置した。
+
+  - id: emperor-kanmu
+    title: 桓武天皇
+    start: 781
+    end: 806
+    category: politics
+    tags: [日本, 平安]
+    summary: 平安京への遷都と蝦夷征討で、寺社の影響を断って律令国家を立て直そうとした。
+
+  - id: fujiwara-michinaga
+    title: 藤原道長
+    start: 995
+    end: 1027
+    category: politics
+    tags: [日本, 藤原氏, 摂関]
+    summary: 天皇の外祖父という立場で朝廷を動かし、摂関政治の頂点を築いた。
+
+  - id: emperor-shirakawa
+    title: 白河上皇
+    start: 1086
+    end: 1129
+    category: politics
+    tags: [日本, 院政]
+    summary: 退位後に「治天の君」として実権を握る院政を始め、摂関家の力をそいだ。
+
+  - id: taira-kiyomori
+    title: 平清盛
+    start: 1167
+    end: 1181
+    category: politics
+    tags: [日本, 平氏]
+    summary: 武士が中央政界の頂点に立てることを実証し、のちの武家政権の先触れになった。
+
+  - id: minamoto-yoritomo
+    title: 源頼朝
+    start: 1185
+    end: 1199
+    category: politics
+    tags: [日本, 鎌倉]
+    summary: 京都から独立した統治機構を鎌倉に置き、武家政権の原型を作った。
+
+  - id: hojo-yasutoki
+    title: 北条泰時
+    start: 1224
+    end: 1242
+    category: society
+    tags: [日本, 鎌倉, 法]
+    summary: 御成敗式目を定め、武士の慣習を成文法として全国に通用させた。
+
+  - id: hojo-tokimune
+    title: 北条時宗
+    start: 1268
+    end: 1284
+    category: war
+    tags: [日本, 鎌倉, 元寇]
+    summary: 二度の元寇を退けたが、恩賞を払えず御家人の不満を残した。
+
+  - id: emperor-godaigo
+    title: 後醍醐天皇
+    start: 1318
+    end: 1339
+    category: politics
+    tags: [日本, 建武の新政]
+    summary: 天皇みずからの親政を復活させようとして失敗し、南北朝の分裂を招いた。
+
+  - id: ashikaga-takauji
+    title: 足利尊氏
+    start: 1338
+    end: 1358
+    category: politics
+    tags: [日本, 室町]
+    summary: 幕府を京都に置き、朝廷と隣り合わせで武家が政治を担う形を作った。
+
+  - id: ashikaga-yoshimitsu
+    title: 足利義満
+    start: 1368
+    end: 1408
+    category: politics
+    tags: [日本, 室町, 日明貿易]
+    summary: 南北朝を合一し、明との朝貢貿易で幕府の財政と権威を同時に固めた。
+
+  - id: ashikaga-yoshimasa
+    title: 足利義政
+    start: 1449
+    end: 1473
+    category: culture
+    tags: [日本, 室町, 東山文化]
+    summary: 政務を離れて東山文化を育てる一方、後継争いが応仁の乱の引き金になった。
+
+  - id: oda-nobunaga
+    title: 織田信長
+    start: 1568
+    end: 1582
+    category: politics
+    tags: [日本, 戦国, 天下統一]
+    summary: 寺社や座の特権を実力で壊し、身分や伝統によらない支配の道を開いた。
+
+  - id: toyotomi-hideyoshi
+    title: 豊臣秀吉
+    start: 1582
+    end: 1598
+    category: politics
+    tags: [日本, 天下統一]
+    summary: 検地と刀狩で武士と農民を分け、近世の身分の枠組みを作り直した。
+
+  - id: tokugawa-ieyasu
+    title: 徳川家康
+    start: 1603
+    end: 1616
+    category: politics
+    tags: [日本, 江戸, 幕府]
+    summary: 260年続く幕藩体制を設計し、戦国の世に長い平和をもたらした。
+
+  - id: tokugawa-iemitsu
+    title: 徳川家光
+    start: 1623
+    end: 1651
+    category: politics
+    tags: [日本, 江戸]
+    summary: 参勤交代と貿易の制限で、幕府の支配を仕組みとして固定した。
+
+  - id: tokugawa-tsunayoshi
+    title: 徳川綱吉
+    start: 1680
+    end: 1709
+    category: society
+    tags: [日本, 江戸, 文治]
+    summary: 生類憐みの令に象徴される文治政治で、武力から儀礼と学問へ重心を移した。
+
+  - id: tokugawa-yoshimune
+    title: 徳川吉宗
+    start: 1716
+    end: 1745
+    category: politics
+    tags: [日本, 江戸, 享保の改革]
+    summary: 倹約と新田開発で財政を立て直し、漢訳洋書の輸入を認めて実学に道を開いた。
+
+  - id: tanuma-okitsugu
+    title: 田沼意次
+    start: 1772
+    end: 1786
+    category: economy
+    tags: [日本, 江戸]
+    summary: 商業の活力を財源に取り込もうとした異色の政策で、賄賂批判を受けて失脚した。
+
+  - id: matsudaira-sadanobu
+    title: 松平定信
+    start: 1787
+    end: 1793
+    category: politics
+    tags: [日本, 江戸, 寛政の改革]
+    summary: 緊縮と統制に引き戻す改革で、田沼期の商業重視を否定した。
+
+  - id: tokugawa-yoshinobu
+    title: 徳川慶喜
+    start: 1866
+    end: 1867
+    category: politics
+    tags: [日本, 江戸, 大政奉還]
+    summary: 自ら政権を朝廷に返し、内戦を最小限にとどめて幕府を畳んだ最後の将軍。
+
+  - id: emperor-meiji
+    title: 明治天皇
+    start: 1867
+    end: 1912
+    category: politics
+    tags: [日本, 明治]
+    summary: 近代国家の統合の中心に置かれ、天皇が政治の正統性を担う仕組みが作られた。
+
+  - id: ito-hirobumi
+    title: 伊藤博文
+    start: 1885
+    end: 1909
+    category: politics
+    tags: [日本, 明治, 憲法]
+    summary: 初代首相として憲法と議会を設計し、近代日本の政治の枠組みを定めた。
+
+  - id: emperor-taisho
+    title: 大正天皇
+    start: 1912
+    end: 1926
+    category: politics
+    tags: [日本, 大正]
+    summary: 病により政務から退き、結果として政党内閣と大正デモクラシーの余地が広がった。
+
+  - id: hara-takashi
+    title: 原敬
+    start: 1918
+    end: 1921
+    category: politics
+    tags: [日本, 政党政治]
+    summary: 爵位を持たない初の首相として、本格的な政党内閣を実現した。
+
+  - id: emperor-showa
+    title: 昭和天皇
+    start: 1926
+    end: 1989
+    category: politics
+    tags: [日本, 昭和]
+    summary: 戦争と敗戦、そして象徴天皇への転換を一身で経験した62年の在位。
+
+  - id: tojo-hideki
+    title: 東条英機
+    start: 1941
+    end: 1944
+    category: war
+    tags: [日本, 太平洋戦争]
+    summary: 首相と陸相を兼ねて対米開戦に踏み切り、戦後に戦犯として裁かれた。
+
+  - id: yoshida-shigeru
+    title: 吉田茂
+    start: 1946
+    end: 1954
+    category: politics
+    tags: [日本, 戦後]
+    summary: 軽武装と経済優先という戦後日本の針路を定め、講和と日米安保を結んだ。
+
+  - id: ikeda-hayato
+    title: 池田勇人
+    start: 1960
+    end: 1964
+    category: economy
+    tags: [日本, 高度成長]
+    summary: 所得倍増計画を掲げ、国民の関心を政治対立から経済成長へ移した。
+
+  - id: sato-eisaku
+    title: 佐藤栄作
+    start: 1964
+    end: 1972
+    category: politics
+    tags: [日本, 沖縄]
+    summary: 沖縄返還を実現し、非核三原則を国の方針として掲げた。
+
+  - id: tanaka-kakuei
+    title: 田中角栄
+    start: 1972
+    end: 1974
+    category: politics
+    tags: [日本, 日中国交正常化]
+    summary: 日中国交正常化と列島改造を進め、利益配分型の政治の典型にもなった。
+
+  - id: nakasone-yasuhiro
+    title: 中曽根康弘
+    start: 1982
+    end: 1987
+    category: economy
+    tags: [日本, 民営化]
+    summary: 国鉄・電電公社の民営化を進め、日米関係を首脳の個人的な関係で前に出した。
+
+  - id: emperor-akihito
+    title: 明仁天皇
+    start: 1989
+    end: 2019
+    category: politics
+    tags: [日本, 平成]
+    summary: 被災地訪問と慰霊の旅を重ねて象徴天皇の務めを自ら形にし、生前退位を実現した。
+
+  - id: koizumi-junichiro
+    title: 小泉純一郎
+    start: 2001
+    end: 2006
+    category: politics
+    tags: [日本, 構造改革]
+    summary: 郵政民営化を争点に党内の抵抗を押し切り、劇場型の政治を定着させた。
+
+  - id: abe-shinzo
+    title: 安倍晋三
+    start: 2012
+    end: 2020
+    category: politics
+    tags: [日本, 平成, 令和]
+    summary: 憲政史上最長の在任で、金融緩和と安全保障法制を進めた。
+
+  - id: emperor-naruhito
+    title: 徳仁天皇
+    start: 2019
+    ongoing: true
+    category: politics
+    tags: [日本, 令和]
+    summary: 近代では例のない生前退位を受けて即位した、令和の天皇。

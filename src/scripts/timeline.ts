@@ -1,26 +1,20 @@
 /**
  * 年表のクライアント側の挙動。
  * - 選択と右パネル（ハッシュで復元できる）
- * - カテゴリ / 地域のフィルタ
+ * - カテゴリ / 人物 / 地域のフィルタ
  * - ズーム（座標と段組みの計算し直し）
  * - 同時代スナップショット（縦のスキャンライン）
  */
-import {
-  BAR_GAP,
-  BAR_H,
-  LABEL_COL_W,
-  LANE_PAD_TOP,
-  laneHeight,
-  packEvents,
-  packPeriods,
-} from '../lib/layout.ts';
+import { LABEL_COL_W, MIN_LEADER_W, laneBands, packEvents, packPeriods } from '../lib/layout.ts';
 import {
   CATEGORIES,
   LANES,
+  LEADER_LAYER,
   categoryById,
   formatItemDate,
   formatItemDateShort,
   formatYear,
+  isLeader,
   itemSpan,
   type CategoryId,
   type Item,
@@ -39,6 +33,7 @@ const items: Item[] = JSON.parse(document.getElementById('tl-data')!.textContent
 const byId = new Map(items.map((i) => [i.id, i]));
 const laneItems = new Map<LaneId, Item[]>();
 const lanePeriods = new Map<LaneId, Period[]>();
+const laneLeaders = new Map<LaneId, Period[]>();
 const laneEvents = new Map<LaneId, TimelineEvent[]>();
 for (const lane of LANES) {
   const mine = items.filter((i) => i.lane === lane.id);
@@ -46,8 +41,18 @@ for (const lane of LANES) {
     lane.id,
     [...mine].sort((a, b) => itemSpan(a)[0] - itemSpan(b)[0]),
   );
-  lanePeriods.set(lane.id, mine.filter((i): i is Period => i.kind === 'period'));
+  // ビルド時（index.astro）と同じ並びでないと、段組みの計算結果が DOM とずれる
+  const bars = mine.filter((i): i is Period => i.kind === 'period');
+  const byStart = (a: Period, b: Period) => a.start - b.start || a.id.localeCompare(b.id);
+  lanePeriods.set(lane.id, bars.filter((p) => !p.leader).sort(byStart));
+  laneLeaders.set(lane.id, bars.filter((p) => p.leader).sort(byStart));
   laneEvents.set(lane.id, mine.filter((i): i is TimelineEvent => i.kind === 'event'));
+}
+
+/** いま見えている（人物フィルタを反映した）レーンの並び。← → の移動とパネルの前後で使う */
+function laneNeighbours(lane: LaneId): Item[] {
+  const list = laneItems.get(lane)!;
+  return view.leaders ? list : list.filter((i) => !isLeader(i));
 }
 
 const tl = $('#tl')!;
@@ -61,8 +66,8 @@ const scanHandle = $('#scan-handle')!;
 const centerButton = $('#center-year')!;
 const centerLabel = centerButton.querySelector('b')!;
 
-type View = { zoom: number; off: CategoryId[]; hiddenLanes: LaneId[] };
-const view: View = { zoom: 1, off: [], hiddenLanes: [] };
+type View = { zoom: number; off: CategoryId[]; hiddenLanes: LaneId[]; leaders: boolean };
+const view: View = { zoom: 1, off: [], hiddenLanes: [], leaders: true };
 
 let selectedId: string | null = null;
 let scanYear: number | null = null;
@@ -109,6 +114,7 @@ function restore() {
     if (ZOOM_LEVELS.includes(saved.zoom as number)) view.zoom = saved.zoom!;
     if (Array.isArray(saved.off)) view.off = saved.off.filter((c) => categoryById.has(c));
     if (Array.isArray(saved.hiddenLanes)) view.hiddenLanes = saved.hiddenLanes.filter((l) => LANES.some((x) => x.id === l));
+    if (typeof saved.leaders === 'boolean') view.leaders = saved.leaders;
   } catch {
     /* 壊れていたら初期値のまま */
   }
@@ -150,17 +156,24 @@ function relayout() {
     if (!track) continue;
 
     const periods = lanePeriods.get(lane.id)!;
+    // 人物を隠しているあいだは段も取らない（レーンがその分だけ縮む）
+    const leaders = view.leaders ? laneLeaders.get(lane.id)! : [];
     const events = laneEvents.get(lane.id)!;
     const packedBars = packPeriods(periods, zoom);
+    const packedLeaders = packPeriods(leaders, zoom, MIN_LEADER_W);
     const packedDots = packEvents(events, zoom);
 
-    periods.forEach((p, i) => {
-      const el = track.querySelector<HTMLElement>(`.bar[data-id="${p.id}"]`);
-      if (!el) return;
-      el.style.setProperty('--bx', `${yearToX(itemSpan(p)[0], zoom)}px`);
-      el.style.setProperty('--bw', `${packedBars.widths[i]!}px`);
-      el.style.setProperty('--row', String(packedBars.rows[i]!));
-    });
+    const placeBars = (list: Period[], packed: ReturnType<typeof packPeriods>) => {
+      list.forEach((p, i) => {
+        const el = track.querySelector<HTMLElement>(`.bar[data-id="${p.id}"]`);
+        if (!el) return;
+        el.style.setProperty('--bx', `${yearToX(itemSpan(p)[0], zoom)}px`);
+        el.style.setProperty('--bw', `${packed.widths[i]!}px`);
+        el.style.setProperty('--row', String(packed.rows[i]!));
+      });
+    };
+    placeBars(periods, packedBars);
+    placeBars(leaders, packedLeaders);
 
     events.forEach((e, i) => {
       const el = track.querySelector<HTMLElement>(`.ev[data-id="${e.id}"]`);
@@ -169,9 +182,10 @@ function relayout() {
       el.style.setProperty('--row', String(packedDots.rows[i]!));
     });
 
-    const barsHeight = packedBars.rowCount > 0 ? packedBars.rowCount * BAR_H + (packedBars.rowCount - 1) * BAR_GAP : 0;
-    track.style.setProperty('--h', `${laneHeight(packedBars.rowCount, packedDots.rowCount)}px`);
-    track.style.setProperty('--ev-top', `${LANE_PAD_TOP + barsHeight + (barsHeight && packedDots.rowCount ? 6 : 0)}px`);
+    const bands = laneBands(packedBars.rowCount, packedLeaders.rowCount, packedDots.rowCount);
+    track.style.setProperty('--h', `${bands.height}px`);
+    track.style.setProperty('--ld-top', `${bands.leaderTop}px`);
+    track.style.setProperty('--ev-top', `${bands.eventTop}px`);
   }
 
   if (scanYear !== null) moveScan(scanYear, false);
@@ -203,8 +217,14 @@ function applyFilters() {
     chip?.setAttribute('aria-pressed', String(!off.has(cat.id)));
   }
 
+  document.documentElement.dataset.leaders = view.leaders ? 'on' : 'off';
+  $('#leader-toggle')!.setAttribute('aria-pressed', String(view.leaders));
+
   for (const row of mlist.querySelectorAll<HTMLElement>('.mrow')) {
-    row.hidden = off.has(row.dataset.cat as CategoryId) || view.hiddenLanes.includes(row.dataset.lane as LaneId);
+    row.hidden =
+      off.has(row.dataset.cat as CategoryId) ||
+      view.hiddenLanes.includes(row.dataset.lane as LaneId) ||
+      (!view.leaders && row.dataset.leader !== undefined);
   }
 
   const hidden = new Set(view.hiddenLanes);
@@ -228,15 +248,16 @@ function itemDot(item: Item) {
 function renderItem(item: Item) {
   const cat = categoryById.get(item.category)!;
   const lane = LANES.find((l) => l.id === item.lane)!;
-  const neighbours = laneItems.get(item.lane)!;
+  const neighbours = laneNeighbours(item.lane);
   const at = neighbours.findIndex((n) => n.id === item.id);
   const prev = neighbours[at - 1];
   const next = neighbours[at + 1];
+  const role = isLeader(item) ? `${LEADER_LAYER.label}（${cat.label}）` : cat.label;
 
   panel.removeAttribute('data-empty');
   panelBody.innerHTML = `
     <button type="button" class="panel__close" id="panel-close" aria-label="閉じる">×</button>
-    <div class="panel__kicker" data-fam="${cat.family}">${itemDot(item)} ${esc(lane.label)} ・ ${esc(cat.label)}</div>
+    <div class="panel__kicker" data-fam="${cat.family}">${itemDot(item)} ${esc(lane.label)} ・ ${esc(role)}</div>
     <h2 class="panel__title">${esc(item.title)}</h2>
     <div class="panel__date">${esc(formatItemDate(item))}</div>
     <p class="panel__summary">${esc(item.summary)}</p>
@@ -285,9 +306,9 @@ function renderSnapshot(year: number) {
   const off = new Set(view.off);
 
   const blocks = LANES.filter((l) => !hidden.has(l.id)).map((lane) => {
-    const active = lanePeriods
-      .get(lane.id)!
-      .filter((p) => !off.has(p.category) && itemSpan(p)[0] <= year && year <= itemSpan(p)[1]);
+    const covers = (p: Period) => !off.has(p.category) && itemSpan(p)[0] <= year && year <= itemSpan(p)[1];
+    const active = lanePeriods.get(lane.id)!.filter(covers);
+    const rulers = view.leaders ? laneLeaders.get(lane.id)!.filter(covers) : [];
     const near = laneEvents
       .get(lane.id)!
       .filter((e) => !off.has(e.category) && Math.abs(e.year - year) <= span)
@@ -300,6 +321,14 @@ function renderSnapshot(year: number) {
         (p) =>
           `<div class="snapshot__row" data-fam="${categoryById.get(p.category)!.family}">
              <span class="snapshot__dot"></span>
+             <button type="button" class="link" data-goto="${p.id}">${esc(p.title)}</button>
+             <span class="snapshot__year">${esc(formatItemDate(p))}</span>
+           </div>`,
+      ),
+      ...rulers.map(
+        (p) =>
+          `<div class="snapshot__row" data-leader>
+             <span class="ev__dot snapshot__person" data-shape="${LEADER_LAYER.shape}"></span>
              <button type="button" class="link" data-goto="${p.id}">${esc(p.title)}</button>
              <span class="snapshot__year">${esc(formatItemDate(p))}</span>
            </div>`,
@@ -324,7 +353,7 @@ function renderSnapshot(year: number) {
     <button type="button" class="panel__close" id="panel-close" aria-label="閉じる">×</button>
     <div class="panel__kicker">同時代スナップショット</div>
     <h2 class="panel__title">${esc(formatYear(year))}の世界</h2>
-    <div class="panel__date">進行中の王朝・時代と、前後${span}年以内の出来事</div>
+    <div class="panel__date">進行中の王朝・時代${view.leaders ? 'と在位していた人物' : ''}、前後${span}年以内の出来事</div>
     <div class="snapshot">${blocks.join('')}</div>`;
 }
 
@@ -396,6 +425,13 @@ document.getElementById('filters')!.addEventListener('click', (e) => {
   if (scanYear !== null) renderSnapshot(scanYear);
 });
 
+$('#leader-toggle')!.addEventListener('click', () => {
+  view.leaders = !view.leaders;
+  applyFilters();
+  relayout();
+  if (scanYear !== null) renderSnapshot(scanYear);
+});
+
 $('#lanepick')!.addEventListener('change', (e) => {
   const box = e.target as HTMLInputElement;
   const lane = box.value as LaneId;
@@ -455,7 +491,7 @@ document.addEventListener('keydown', (e) => {
   if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
   if (!selectedId) return;
   const item = byId.get(selectedId)!;
-  const list = laneItems.get(item.lane)!;
+  const list = laneNeighbours(item.lane);
   const at = list.findIndex((n) => n.id === selectedId);
   const next = list[at + (e.key === 'ArrowRight' ? 1 : -1)];
   if (next) {
@@ -497,10 +533,10 @@ function buildMobileList() {
     }
     const cat = categoryById.get(item.category)!;
     const lane = LANES.find((l) => l.id === item.lane)!;
-    parts.push(`<button type="button" class="mrow" data-id="${item.id}" data-cat="${item.category}" data-lane="${item.lane}" data-fam="${cat.family}">
+    parts.push(`<button type="button" class="mrow" data-id="${item.id}" data-cat="${item.category}" data-lane="${item.lane}" data-fam="${cat.family}"${isLeader(item) ? ' data-leader' : ''}>
         <span class="mrow__year">${esc(formatItemDateShort(item))}</span>
         <span class="mrow__main">
-          <span class="ev__dot" data-shape="${cat.shape}"></span>
+          <span class="ev__dot" data-shape="${isLeader(item) ? LEADER_LAYER.shape : cat.shape}"></span>
           <span><span class="mrow__title">${esc(item.title)}</span><span class="mrow__lane">${esc(lane.label)} ・ ${esc(cat.label)}</span></span>
         </span>
       </button>`);
@@ -523,7 +559,8 @@ narrow.addEventListener('change', onBreakpoint);
 
 restore();
 $('#zoom-value')!.textContent = `×${view.zoom}`;
-if (view.zoom !== 1) relayout();
+document.documentElement.dataset.leaders = view.leaders ? 'on' : 'off';
+if (view.zoom !== 1 || !view.leaders) relayout();
 onBreakpoint();
 applyFilters();
 applyHash();

@@ -1,0 +1,291 @@
+lane: americas
+
+# 先住民の王、征服者、そして独立後の南北アメリカの指導者。
+leaders:
+  - id: pakal
+    title: パカル王
+    start: 615
+    end: 683
+    category: politics
+    tags: [マヤ, パレンケ]
+    summary: 碑文と地下墓を残し、マヤ古典期の都市国家の政治と信仰を今に伝える。
+
+  - id: itzcoatl
+    title: イツコアトル
+    start: 1427
+    end: 1440
+    category: politics
+    tags: [アステカ, 三国同盟]
+    summary: 三都市の同盟を組んでアステカを支配者側に変え、歴史書を焼いて神話を書き直させた。
+
+  - id: pachacuti
+    title: パチャクティ
+    start: 1438
+    end: 1471
+    category: politics
+    tags: [インカ, アンデス]
+    summary: クスコの一都市をアンデス全域の帝国に広げ、マチュピチュを造らせた。
+
+  - id: moctezuma-ii
+    title: モクテスマ2世
+    start: 1502
+    end: 1520
+    category: politics
+    tags: [アステカ]
+    summary: 最盛期のアステカを率いながら、スペイン人の到来で帝国を失った。
+
+  - id: cortes
+    title: コルテス
+    start: 1519
+    end: 1521
+    category: war
+    tags: [スペイン, 征服]
+    summary: 現地の反アステカ勢力と疫病を味方につけ、わずかな兵力で帝国を倒した。
+
+  - id: pizarro
+    title: ピサロ
+    start: 1531
+    end: 1533
+    category: war
+    tags: [スペイン, 征服]
+    summary: 内戦で割れたインカを少数の兵で制し、銀山の富をスペインにもたらした。
+
+  - id: atahualpa
+    title: アタワルパ
+    start: 1532
+    end: 1533
+    category: politics
+    tags: [インカ]
+    summary: 内戦に勝った直後に捕らえられ、身代金の金を払ってなお処刑された最後の皇帝。
+
+  - id: tupac-amaru-ii
+    title: トゥパク・アマル2世
+    start: 1780
+    end: 1781
+    category: war
+    tags: [ペルー, 反乱]
+    summary: インカの末裔を名乗って先住民の大反乱を起こし、植民地支配を揺るがした。
+
+  - id: washington
+    title: ワシントン
+    start: 1789
+    end: 1797
+    category: politics
+    tags: [アメリカ, 建国]
+    summary: 二期で自ら退いたことが、権力を譲る共和国の慣習を作った。
+
+  - id: jefferson
+    title: ジェファソン
+    start: 1801
+    end: 1809
+    category: politics
+    tags: [アメリカ, 領土拡大]
+    summary: 独立宣言を起草し、ルイジアナ買収で国土を一気に倍にした。
+
+  - id: san-martin
+    title: サン・マルティン
+    start: 1817
+    end: 1822
+    category: war
+    tags: [南米, 独立]
+    summary: アンデスを越えてチリ・ペルーを解放し、南から独立戦争を進めた。
+
+  - id: bolivar
+    title: ボリバル
+    start: 1819
+    end: 1830
+    category: politics
+    tags: [南米, 独立]
+    summary: 北から南米の独立を導き、統一国家の夢は果たせず「解放者」と呼ばれた。
+
+  - id: andrew-jackson
+    title: ジャクソン
+    start: 1829
+    end: 1837
+    category: politics
+    tags: [アメリカ, 民主化]
+    summary: 庶民の支持で当選した一方、先住民強制移住という汚点も残した。
+
+  - id: juarez
+    title: フアレス
+    start: 1858
+    end: 1872
+    category: politics
+    tags: [メキシコ, 改革]
+    summary: 先住民出身の大統領としてフランスの介入を退け、教会の特権を削った。
+
+  - id: lincoln
+    title: リンカン
+    start: 1861
+    end: 1865
+    category: society
+    tags: [アメリカ, 南北戦争]
+    summary: 分裂の危機に連邦を保ち、奴隷解放を戦争目的として掲げた。
+
+  - id: porfirio-diaz
+    title: ディアス
+    start: 1876
+    end: 1911
+    category: economy
+    tags: [メキシコ, 開発独裁]
+    summary: 外資による近代化と長期独裁が、メキシコ革命の火種になった。
+
+  - id: theodore-roosevelt
+    title: セオドア・ローズヴェルト
+    start: 1901
+    end: 1909
+    category: politics
+    tags: [アメリカ, 帝国主義]
+    summary: パナマ運河を進め、アメリカを世界の大国として振る舞わせ始めた。
+
+  - id: woodrow-wilson
+    title: ウィルソン
+    start: 1913
+    end: 1921
+    category: politics
+    tags: [アメリカ, 国際連盟]
+    summary: 民族自決と国際連盟を掲げ、自国は加盟できないまま戦後秩序の理念を残した。
+
+  - id: vargas
+    title: ヴァルガス
+    start: 1930
+    end: 1945
+    category: politics
+    tags: [ブラジル, ポピュリズム]
+    summary: 労働者を味方につける統治でブラジルの工業化と大衆政治の型を作った。
+
+  - id: fdr
+    title: F・ローズヴェルト
+    start: 1933
+    end: 1945
+    category: economy
+    tags: [アメリカ, ニューディール]
+    summary: 恐慌への大規模な介入と戦争指導で、政府の役割そのものを作り替えた。
+
+  - id: truman
+    title: トルーマン
+    start: 1945
+    end: 1953
+    category: politics
+    tags: [アメリカ, 冷戦]
+    summary: 原爆投下を決め、封じ込め政策で冷戦の枠組みを敷いた。
+
+  - id: peron
+    title: ペロン
+    start: 1946
+    end: 1955
+    category: politics
+    tags: [アルゼンチン, ポピュリズム]
+    summary: 労働者への分配と個人的人気で、今日まで続くアルゼンチン政治の対立軸を作った。
+
+  - id: eisenhower
+    title: アイゼンハワー
+    start: 1953
+    end: 1961
+    category: politics
+    tags: [アメリカ]
+    summary: 州間高速道路網を整え、退任演説で軍産複合体の危険を警告した。
+
+  - id: castro
+    title: カストロ
+    start: 1959
+    end: 2008
+    category: politics
+    tags: [キューバ, 革命]
+    summary: 米国の目の前に社会主義国を作り、半世紀の経済封鎖にも体制を保った。
+
+  - id: jfk
+    title: ケネディ
+    start: 1961
+    end: 1963
+    category: politics
+    tags: [アメリカ, 冷戦]
+    summary: キューバ危機を交渉で回避し、月着陸計画と公民権に道を開いた。
+
+  - id: lyndon-johnson
+    title: ジョンソン
+    start: 1963
+    end: 1969
+    category: society
+    tags: [アメリカ, 公民権]
+    summary: 公民権法と「偉大な社会」を実現する一方、ベトナム戦争の泥沼に踏み込んだ。
+
+  - id: nixon
+    title: ニクソン
+    start: 1969
+    end: 1974
+    category: politics
+    tags: [アメリカ, 米中接近]
+    summary: 訪中とドル金交換停止で冷戦と経済の枠組みを変え、盗聴事件で辞任した。
+
+  - id: pinochet
+    title: ピノチェト
+    start: 1973
+    end: 1990
+    category: politics
+    tags: [チリ, 軍政]
+    summary: クーデタで社会主義政権を倒し、弾圧と市場改革を同時に進めた。
+
+  - id: reagan
+    title: レーガン
+    start: 1981
+    end: 1989
+    category: economy
+    tags: [アメリカ, 新自由主義]
+    summary: 減税と規制緩和、軍拡を同時に進め、冷戦終結の局面をソ連と作った。
+
+  - id: bill-clinton
+    title: クリントン
+    start: 1993
+    end: 2001
+    category: economy
+    tags: [アメリカ, グローバル化]
+    summary: 冷戦後の好況とNAFTA・WTOで、グローバル化を政策として推し進めた。
+
+  - id: george-w-bush
+    title: ブッシュ（子）
+    start: 2001
+    end: 2009
+    category: war
+    tags: [アメリカ, 対テロ戦争]
+    summary: 同時多発テロ後にアフガン・イラクへ派兵し、対テロ戦争の時代を始めた。
+
+  - id: lula
+    title: ルラ
+    start: 2003
+    end: 2010
+    category: society
+    tags: [ブラジル, 貧困対策]
+    summary: 労働組合出身の大統領として現金給付で貧困を減らし、南南外交を進めた。
+
+  - id: obama
+    title: オバマ
+    start: 2009
+    end: 2017
+    category: politics
+    tags: [アメリカ]
+    summary: 初の黒人大統領として金融危機に対処し、医療保険改革を実現した。
+
+  - id: trump
+    title: トランプ（第1期）
+    start: 2017
+    end: 2021
+    category: politics
+    tags: [アメリカ, 自国第一]
+    summary: 既存の同盟と自由貿易の前提を揺さぶり、支持者の分断そのものを力に変えた。
+
+  - id: biden
+    title: バイデン
+    start: 2021
+    end: 2025
+    category: politics
+    tags: [アメリカ]
+    summary: 同盟の立て直しと大型の産業政策を進め、ウクライナ支援を主導した。
+
+  - id: trump-second
+    title: トランプ（第2期）
+    start: 2025
+    ongoing: true
+    category: politics
+    tags: [アメリカ, 関税]
+    summary: 4年をおいて返り咲き、関税と対外関与の見直しを一段と強めている。

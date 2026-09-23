@@ -110,14 +110,6 @@ periods:
     tags: [北朝鮮]
     summary: 一族による支配が三代続き、核開発で国際社会と対峙している。
 
-  - id: park-era
-    title: 朴正煕体制
-    start: 1961
-    end: 1979
-    category: economy
-    tags: [韓国, 開発独裁]
-    summary: 強権のもとで輸出主導の工業化を進め、「漢江の奇跡」と呼ばれる成長を実現した。
-
 events:
   - id: lelang-falls
     year: 313

@@ -89,14 +89,6 @@ periods:
     tags: [ロシア, 社会主義]
     summary: 世界初の社会主義国家。冷戦期は米国と並ぶ超大国だった。
 
-  - id: stalin-era
-    title: スターリン体制
-    start: 1928
-    end: 1953
-    category: politics
-    tags: [ソ連, 独裁]
-    summary: 計画経済で重工業を築く一方、粛清と飢饉で膨大な犠牲を出した。
-
   - id: eastern-bloc
     title: 東側陣営
     start: 1945

@@ -1,0 +1,178 @@
+lane: central-eurasia
+
+# 草原の遊牧国家の君主。定住国家と違って本拠が動くので、
+# 「いつ誰が草原をまとめていたか」が周りのレーンの動きと直結する。
+leaders:
+  - id: modu-chanyu
+    title: 冒頓単于
+    start: -209
+    end: -174
+    category: war
+    tags: [匈奴]
+    summary: 草原の諸部族を初めて一つの帝国にまとめ、漢を和親策に追い込んだ。
+
+  - id: huhanye
+    title: 呼韓邪単于
+    start: -58
+    end: -31
+    category: politics
+    tags: [匈奴, 漢]
+    summary: 漢に臣従して和平を選び、草原と中華が共存する形を初めて作った。
+
+  - id: tanshihuai
+    title: 檀石槐
+    start: 156
+    startCirca: true
+    end: 181
+    endCirca: true
+    category: war
+    tags: [鮮卑]
+    summary: 匈奴が去った草原を鮮卑でまとめ、後漢を北から圧迫した。
+
+  - id: attila-reign
+    title: アッティラ
+    start: 434
+    end: 453
+    category: war
+    tags: [フン, ゲルマン移動]
+    summary: 東西ローマを同時に脅かし、ゲルマン諸族の移動を押し出して西ローマの終わりを早めた。
+
+  - id: bilge-qaghan
+    title: ビルゲ・カガン
+    start: 716
+    end: 734
+    category: politics
+    tags: [突厥, 碑文]
+    summary: 突厥碑文に「唐に近づくな」と自らの言葉を刻み、遊牧民の自意識を文字で残した。
+
+  - id: satuq-bughra-khan
+    title: サトゥク・ブグラ・ハン
+    start: 940
+    startCirca: true
+    end: 955
+    endCirca: true
+    category: religion
+    tags: [カラハン朝, イスラム化]
+    summary: テュルク系の君主として初めてイスラムに改宗し、中央アジアの宗教地図を変えた。
+
+  - id: chinggis-reign
+    title: チンギス・ハン
+    start: 1206
+    end: 1227
+    category: war
+    tags: [モンゴル]
+    summary: 部族の枠を解体して千戸制に組み替え、ユーラシアを貫く帝国の出発点を作った。
+
+  - id: batu
+    title: バトゥ
+    start: 1227
+    end: 1255
+    category: war
+    tags: [モンゴル, キプチャク・ハン国]
+    summary: ロシアと東欧に遠征し、以後200年続くルーシ支配の基礎を作った。
+
+  - id: ogedei
+    title: オゴデイ
+    start: 1229
+    end: 1241
+    category: politics
+    tags: [モンゴル, カラコルム]
+    summary: 首都と駅伝制を整えて帝国を運営に乗せ、その急死が東欧遠征を止めた。
+
+  - id: mongke
+    title: モンケ
+    start: 1251
+    end: 1259
+    category: war
+    tags: [モンゴル]
+    summary: 西アジアと南宋への二正面作戦を進め、その死が帝国分裂の引き金になった。
+
+  - id: timur-reign
+    title: ティムール
+    start: 1370
+    end: 1405
+    category: war
+    tags: [ティムール朝, サマルカンド]
+    summary: 破壊と建設を同時に行い、サマルカンドを世界有数の都市に育てた。
+
+  - id: esen-taishi
+    title: エセン・ハン
+    start: 1439
+    end: 1454
+    category: war
+    tags: [オイラト, 土木の変]
+    summary: 明の皇帝を捕虜にし、遊牧勢力がなお中華を脅かせることを見せつけた。
+
+  - id: ulugh-beg-reign
+    title: ウルグ・ベク
+    start: 1447
+    end: 1449
+    category: science
+    tags: [ティムール朝, 天文学]
+    summary: 自ら天文台を築いて星表を作った学者君主で、政争のなかで殺された。
+
+  - id: dayan-khan
+    title: ダヤン・ハン
+    start: 1480
+    startCirca: true
+    end: 1517
+    endCirca: true
+    category: politics
+    tags: [モンゴル]
+    summary: 分裂していたモンゴルを一時まとめ直し、以後の部族編成の原型を作った。
+
+  - id: shaybani-khan
+    title: シャイバーニー・ハン
+    start: 1500
+    end: 1510
+    category: war
+    tags: [ウズベク, 中央アジア]
+    summary: ティムール朝を倒して中央アジアを制し、今日の民族分布の枠を決めた。
+
+  - id: altan-khan
+    title: アルタン・ハン
+    start: 1543
+    end: 1582
+    category: religion
+    tags: [モンゴル, チベット仏教]
+    summary: 明と和議を結んで交易を開き、ダライ・ラマの称号を贈ってモンゴルを仏教化した。
+
+  - id: galdan
+    title: ガルダン
+    start: 1671
+    end: 1697
+    category: war
+    tags: [ジュンガル, 清]
+    summary: 内陸アジア最後の遊牧帝国を率いて清と争い、康熙帝の親征に敗れた。
+
+  - id: yaqub-beg
+    title: ヤクブ・ベク
+    start: 1865
+    end: 1877
+    category: politics
+    tags: [新疆, カシュガル]
+    summary: 新疆に独立政権を立て、英露の駆け引きのただ中で清の支配を一時断ち切った。
+
+  - id: nazarbayev
+    title: ナザルバエフ
+    start: 1991
+    end: 2019
+    category: politics
+    tags: [カザフスタン]
+    summary: ソ連解体から28年国を率い、資源収入と多方位外交で体制を保った。
+
+  - id: karimov
+    title: カリモフ
+    start: 1991
+    end: 2016
+    category: politics
+    tags: [ウズベキスタン]
+    summary: 独立後の中央アジア最大の人口国を強権で統治し、地域の安定と抑圧を両立させた。
+
+  - id: niyazov
+    title: ニヤゾフ
+    start: 1991
+    end: 2006
+    category: politics
+    tags: [トルクメニスタン, 個人崇拝]
+    summary: 自らを「トルクメン人の長」と称し、月の名まで変える個人崇拝を敷いた。

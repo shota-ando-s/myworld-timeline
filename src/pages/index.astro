@@ -7,7 +7,7 @@ import FilterBar from '../components/FilterBar.astro';
 import Lane, { type LaneView } from '../components/Lane.astro';
 import TimeAxis from '../components/TimeAxis.astro';
 import { loadOrThrow } from '../lib/load-glob.ts';
-import { BAR_GAP, BAR_H, LANE_PAD_TOP, laneHeight, packEvents, packPeriods } from '../lib/layout.ts';
+import { MIN_LEADER_W, laneBands, packEvents, packPeriods } from '../lib/layout.ts';
 import { LANES, itemSpan } from '../lib/model.ts';
 import { timelineWidth, yearToX } from '../lib/scale.ts';
 
@@ -19,22 +19,29 @@ const width = timelineWidth(ZOOM);
 const groupOrder = [...new Set(LANES.map((l) => l.group))];
 
 const laneViews: LaneView[] = LANES.map((lane) => {
-  const { periods, events } = data.byLane.get(lane.id)!;
+  const { periods, leaders, events } = data.byLane.get(lane.id)!;
   const packedBars = packPeriods(periods, ZOOM);
+  const packedLeaders = packPeriods(leaders, ZOOM, MIN_LEADER_W);
   const packedDots = packEvents(events, ZOOM);
-  const barsHeight = packedBars.rowCount > 0 ? packedBars.rowCount * BAR_H + (packedBars.rowCount - 1) * BAR_GAP : 0;
+  const bands = laneBands(packedBars.rowCount, packedLeaders.rowCount, packedDots.rowCount);
+
+  /** 帯（王朝・人物）は同じ形で描く */
+  const toBars = (list: typeof periods, packed: typeof packedBars) =>
+    list.map((item, i) => ({
+      item,
+      row: packed.rows[i]!,
+      x: yearToX(itemSpan(item)[0], ZOOM),
+      w: packed.widths[i]!,
+    }));
 
   return {
     lane,
     stripe: groupOrder.indexOf(lane.group) % 2,
-    height: laneHeight(packedBars.rowCount, packedDots.rowCount),
-    evTop: LANE_PAD_TOP + barsHeight + (barsHeight && packedDots.rowCount ? 6 : 0),
-    bars: periods.map((item, i) => ({
-      item,
-      row: packedBars.rows[i]!,
-      x: yearToX(itemSpan(item)[0], ZOOM),
-      w: packedBars.widths[i]!,
-    })),
+    height: bands.height,
+    ldTop: bands.leaderTop,
+    evTop: bands.eventTop,
+    bars: toBars(periods, packedBars),
+    leaders: toBars(leaders, packedLeaders),
     dots: events.map((item, i) => ({ item, row: packedDots.rows[i]!, x: yearToX(item.year, ZOOM) })),
   };
 });
@@ -59,7 +66,9 @@ const payload = JSON.stringify(data.items).replace(/</g, '\\u003c');
     <header class="topbar">
       <h1 class="topbar__title">
         世界史タイムライン
-        <small>紀元前3500年 — {new Date().getFullYear()}年 / 全{data.items.length}項目</small>
+        <small>
+          紀元前3500年 — {new Date().getFullYear()}年 / 全{data.items.length}項目（うち人物{data.leaders.length}人）
+        </small>
       </h1>
       <FilterBar />
     </header>

@@ -1,12 +1,17 @@
 ---
 import { categoryById, formatItemDate, type Period, type TimelineEvent } from '../lib/model.ts';
 
+/** 帯1本（王朝でも人物でも中身は同じ） */
+export type BarView = { item: Period; row: number; x: number; w: number };
+
 export interface LaneView {
   lane: { id: string; label: string; note: string; group: string };
   stripe: number;
   height: number;
+  ldTop: number;
   evTop: number;
-  bars: { item: Period; row: number; x: number; w: number }[];
+  bars: BarView[];
+  leaders: BarView[];
   dots: { item: TimelineEvent; row: number; x: number }[];
 }
 
@@ -15,6 +20,11 @@ interface Props {
 }
 const { view } = Astro.props;
 const { lane } = view;
+
+const allBars: { bar: BarView; leader: boolean }[] = [
+  ...view.bars.map((bar) => ({ bar, leader: false })),
+  ...view.leaders.map((bar) => ({ bar, leader: true })),
+];
 ---
 
 <section class="lane" data-lane={lane.id} data-group={lane.group} data-stripe={view.stripe}>
@@ -22,14 +32,18 @@ const { lane } = view;
     <b>{lane.label}</b>
     <small>{lane.note}</small>
   </div>
-  <div class="lane__track" style={`--h:${view.height}px; --ev-top:${view.evTop}px`}>
+  <div
+    class="lane__track"
+    style={`--h:${view.height}px; --ld-top:${view.ldTop}px; --ev-top:${view.evTop}px`}
+  >
     {
-      view.bars.map(({ item, row, x, w }) => (
+      allBars.map(({ bar: { item, row, x, w }, leader }) => (
         <button
           type="button"
-          class="bar"
+          class:list={['bar', { 'bar--leader': leader }]}
           data-id={item.id}
           data-kind="period"
+          data-leader={leader ? '' : undefined}
           data-cat={item.category}
           data-fam={categoryById.get(item.category)!.family}
           data-start={item.start}

@@ -1,0 +1,282 @@
+lane: south-asia
+
+leaders:
+  - id: chandragupta-maurya
+    title: チャンドラグプタ
+    start: -321
+    startCirca: true
+    end: -297
+    endCirca: true
+    category: politics
+    tags: [マウリヤ朝]
+    summary: アレクサンドロス撤退後の空白を突いて北インドを統一し、最初の広域帝国を築いた。
+
+  - id: ashoka-reign
+    title: アショーカ王
+    start: -268
+    startCirca: true
+    end: -232
+    endCirca: true
+    category: religion
+    tags: [マウリヤ朝, 仏教]
+    summary: 征服の惨禍を悔いて仏教を保護し、石柱に刻んだ統治の理念をアジア中に広めた。
+
+  - id: pushyamitra-shunga
+    title: プシュヤミトラ
+    start: -185
+    end: -149
+    category: religion
+    tags: [シュンガ朝, バラモン教]
+    summary: マウリヤ朝を倒し、仏教保護からバラモン教復興へ流れを引き戻した。
+
+  - id: kanishka
+    title: カニシカ王
+    start: 127
+    startCirca: true
+    end: 150
+    endCirca: true
+    category: religion
+    tags: [クシャーナ朝, 大乗仏教]
+    summary: 東西交易の要を押さえ、大乗仏教とガンダーラ美術の広がりを後押しした。
+
+  - id: chandragupta-ii
+    title: チャンドラグプタ2世
+    start: 375
+    end: 415
+    category: culture
+    tags: [グプタ朝, 古典文化]
+    summary: サンスクリット文学と数学が花開いた、インド古典文化の黄金期の王。
+
+  - id: harsha-reign
+    title: ハルシャ王
+    start: 606
+    end: 647
+    category: politics
+    tags: [北インド]
+    summary: グプタ朝崩壊後の北インドを再統一し、玄奘を迎えてその記録に姿を残した。
+
+  - id: dharmapala
+    title: ダルマパーラ
+    start: 770
+    startCirca: true
+    end: 810
+    endCirca: true
+    category: religion
+    tags: [パーラ朝, 仏教]
+    summary: ナーランダーなどの仏教僧院を支え、インド仏教最後の繁栄を作った。
+
+  - id: rajaraja-i
+    title: ラージャラージャ1世
+    start: 985
+    end: 1014
+    category: war
+    tags: [チョーラ朝, 海上帝国]
+    summary: 海軍でスリランカと東南アジアに遠征し、インド洋交易圏に南インドを刻んだ。
+
+  - id: mahmud-of-ghazni
+    title: マフムード
+    start: 998
+    end: 1030
+    category: war
+    tags: [ガズナ朝, 侵入]
+    summary: 十数度の北インド侵入でイスラム勢力の進出路を開いた。
+
+  - id: rajendra-i
+    title: ラージェンドラ1世
+    start: 1014
+    end: 1044
+    category: war
+    tags: [チョーラ朝, 海上遠征]
+    summary: ガンジス川とシュリーヴィジャヤに遠征し、南インドの海上帝国を最大にした。
+
+  - id: prithviraj-iii
+    title: プリトビーラージ3世
+    start: 1178
+    end: 1192
+    category: war
+    tags: [ラージプート, ターラインの戦い]
+    summary: 敗北によって北インドにイスラム政権が定着する転機となった王。
+
+  - id: iltutmish
+    title: イルトゥトミシュ
+    start: 1211
+    end: 1236
+    category: politics
+    tags: [デリー・スルタン朝]
+    summary: デリーの政権を軍閥から国家に育て、インドのイスラム支配を定着させた。
+
+  - id: alauddin-khalji
+    title: アラーウッディーン・ハルジー
+    start: 1296
+    end: 1316
+    category: economy
+    tags: [デリー・スルタン朝, 物価統制]
+    summary: 価格統制と徴税の強化で大軍を養い、モンゴルの侵入を退けた。
+
+  - id: muhammad-bin-tughluq
+    title: ムハンマド・ビン・トゥグルク
+    start: 1325
+    end: 1351
+    category: politics
+    tags: [デリー・スルタン朝]
+    summary: 遷都と銅貨の発行という壮大な実験に失敗し、スルタン朝の衰えを早めた。
+
+  - id: firuz-shah-tughluq
+    title: フィールーズ・シャー
+    start: 1351
+    end: 1388
+    category: society
+    tags: [デリー・スルタン朝, 灌漑]
+    summary: 運河と施療院の整備で内政を立て直し、戦争より統治に力を注いだ。
+
+  - id: krishnadevaraya
+    title: クリシュナデーヴァラーヤ
+    start: 1509
+    end: 1529
+    category: culture
+    tags: [ヴィジャヤナガル]
+    summary: 南インドのヒンドゥー王国を最盛期に導き、詩人としても名を残した。
+
+  - id: babur
+    title: バーブル
+    start: 1526
+    end: 1530
+    category: war
+    tags: [ムガル帝国]
+    summary: 中央アジアから来て火器でデリーを制し、ムガル帝国を開いた。
+
+  - id: akbar-reign
+    title: アクバル
+    start: 1556
+    end: 1605
+    category: politics
+    tags: [ムガル帝国, 宗教共存]
+    summary: 非イスラム教徒への人頭税を廃して諸宗教を取り込み、帝国を根づかせた。
+
+  - id: jahangir
+    title: ジャハーンギール
+    start: 1605
+    end: 1627
+    category: culture
+    tags: [ムガル帝国, 細密画]
+    summary: 細密画と庭園を愛し、イギリス使節を迎えて交易の扉を開いた。
+
+  - id: shah-jahan
+    title: シャー・ジャハーン
+    start: 1628
+    end: 1658
+    category: culture
+    tags: [ムガル帝国, タージ・マハル]
+    summary: タージ・マハルをはじめ壮麗な建築を残し、帝国の富を石に変えた。
+
+  - id: aurangzeb-reign
+    title: アウラングゼーブ
+    start: 1658
+    end: 1707
+    category: politics
+    tags: [ムガル帝国]
+    summary: 版図を最大にしたが、宗教政策の転換と長い戦争が帝国の解体を早めた。
+
+  - id: shivaji
+    title: シヴァージー
+    start: 1674
+    end: 1680
+    category: war
+    tags: [マラーター, ヒンドゥー]
+    summary: 機動戦でムガルに抗い、後のマラーター勢力とインド民族意識の原点になった。
+
+  - id: tipu-sultan
+    title: ティプー・スルタン
+    start: 1782
+    end: 1799
+    category: war
+    tags: [マイソール, イギリス]
+    summary: ロケット兵器も使ってイギリスに最後まで抵抗した南インドの君主。
+
+  - id: ranjit-singh
+    title: ランジート・シング
+    start: 1801
+    end: 1839
+    category: politics
+    tags: [シク王国, パンジャーブ]
+    summary: パンジャーブにシク教徒の王国を築き、イギリスの北上を一代のあいだ止めた。
+
+  - id: gandhi
+    title: ガンディー
+    start: 1915
+    end: 1948
+    category: society
+    tags: [インド, 非暴力]
+    summary: 非暴力・不服従という戦い方を発明し、植民地支配への抵抗の形を世界に広めた。
+
+  - id: jinnah
+    title: ジンナー
+    start: 1947
+    end: 1948
+    category: politics
+    tags: [パキスタン, 分離独立]
+    summary: ムスリムの別国家を主張してパキスタンを建国し、分離独立の当事者になった。
+
+  - id: nehru
+    title: ネルー
+    start: 1947
+    end: 1964
+    category: politics
+    tags: [インド, 非同盟]
+    summary: 初代首相として計画経済と非同盟を掲げ、独立国インドの性格を決めた。
+
+  - id: ambedkar
+    title: アンベードカル
+    start: 1947
+    end: 1950
+    category: society
+    tags: [インド, 憲法, カースト]
+    summary: 被差別カースト出身の法律家として憲法を起草し、不可触民制の廃止を書き込んだ。
+
+  - id: indira-gandhi
+    title: インディラ・ガンディー
+    start: 1966
+    end: 1984
+    category: politics
+    tags: [インド]
+    summary: 緑の革命と核実験を進める一方、非常事態宣言で民主主義を一時停止した。
+
+  - id: zia-ul-haq
+    title: ジア・ウル・ハク
+    start: 1977
+    end: 1988
+    category: religion
+    tags: [パキスタン, イスラム化]
+    summary: 軍政のもとで法のイスラム化を進め、アフガン戦争に深く関わった。
+
+  - id: rajiv-gandhi
+    title: ラジーブ・ガンディー
+    start: 1984
+    end: 1989
+    category: science
+    tags: [インド, 情報化]
+    summary: 通信と計算機の規制を緩め、後のIT産業の下地を作った。
+
+  - id: benazir-bhutto
+    title: ベナジル・ブット
+    start: 1988
+    end: 1990
+    category: politics
+    tags: [パキスタン]
+    summary: イスラム圏で初の女性首相となり、のちに選挙運動中に暗殺された。
+
+  - id: manmohan-singh
+    title: マンモハン・シン
+    start: 2004
+    end: 2014
+    category: economy
+    tags: [インド, 自由化]
+    summary: 1991年の経済自由化を設計した経済学者で、首相として高成長を続けた。
+
+  - id: modi
+    title: モディ
+    start: 2014
+    ongoing: true
+    category: politics
+    tags: [インド, ヒンドゥー・ナショナリズム]
+    summary: 強い指導者像とヒンドゥー色の政治で長期政権を築き、インドを世界の主要国に押し出した。

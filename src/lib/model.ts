@@ -53,6 +53,18 @@ export const CATEGORIES = [
 export type CategoryId = (typeof CATEGORIES)[number]['id'];
 export const CATEGORY_IDS = CATEGORIES.map((c) => c.id) as [CategoryId, ...CategoryId[]];
 
+/**
+ * 人物の治世は期間バーの一種だが、王朝の帯とは別の段に分けて描く。
+ * カテゴリは役割で選ぶ（君主 = politics / 宗教指導者 = religion / 将軍 = war）ので、
+ * 色とアイコンはそのまま流用でき、ここでは帯の呼び名とアイコンだけを持つ。
+ */
+export const LEADER_LAYER = { label: '人物', hint: '君主・宗教・将軍', shape: 'user-tie' } as const;
+
+/** 王朝の帯か、人物の帯か */
+export function isLeader(item: Item): boolean {
+  return item.kind === 'period' && item.leader;
+}
+
 /** 年表が扱う年の範囲（負 = 紀元前。0年は使わない） */
 export const MIN_YEAR = -3500;
 export const MAX_YEAR = new Date().getFullYear() + 1;
@@ -78,6 +90,11 @@ export type Period = Common & {
   startCirca: boolean;
   endCirca: boolean;
   ongoing: boolean;
+  /**
+   * 人物の治世（君主・宗教指導者・将軍など）かどうか。
+   * true のものは王朝バーとは別の帯にまとめ、フィルタでまとめて隠せる。
+   */
+  leader: boolean;
 };
 
 export type TimelineEvent = Common & {

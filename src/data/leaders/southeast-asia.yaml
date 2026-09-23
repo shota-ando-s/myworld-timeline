@@ -1,0 +1,219 @@
+lane: southeast-asia
+
+leaders:
+  - id: jayavarman-ii-reign
+    title: ジャヤーヴァルマン2世
+    start: 802
+    end: 835
+    endCirca: true
+    category: religion
+    tags: [クメール, 神王]
+    summary: 自らを神と一体の王と宣言し、アンコール王朝600年の正統性の型を作った。
+
+  - id: anawrahta
+    title: アノーラター
+    start: 1044
+    end: 1077
+    category: religion
+    tags: [パガン, 上座部仏教]
+    summary: ビルマを統一して上座部仏教を国教とし、東南アジア大陸部の宗教地図を決めた。
+
+  - id: suryavarman-ii
+    title: スーリヤヴァルマン2世
+    start: 1113
+    end: 1150
+    category: culture
+    tags: [クメール, アンコール・ワット]
+    summary: アンコール・ワットを造営し、ヒンドゥーの宇宙観を石の都に実現した。
+
+  - id: jayavarman-vii
+    title: ジャヤーヴァルマン7世
+    start: 1181
+    end: 1218
+    category: politics
+    tags: [クメール, 仏教]
+    summary: チャンパを退けて領土を最大にし、病院と道路を整えた仏教王。
+
+  - id: ramkhamhaeng
+    title: ラームカムヘーン
+    start: 1279
+    end: 1298
+    category: culture
+    tags: [スコータイ, タイ文字]
+    summary: タイ文字を定めたと伝えられ、タイ人の国家意識の出発点とされる。
+
+  - id: gajah-mada
+    title: ガジャ・マダ
+    start: 1331
+    end: 1364
+    category: politics
+    tags: [マジャパヒト, ジャワ]
+    summary: 群島の統一を誓って遠征を重ね、のちのインドネシアが理想として振り返る版図を作った。
+
+  - id: le-loi
+    title: 黎利
+    start: 1428
+    end: 1433
+    category: war
+    tags: [ベトナム, 黎朝]
+    summary: 明の支配を10年の抗戦で退け、ベトナムの独立を取り戻した。
+
+  - id: le-thanh-tong
+    title: 黎聖宗
+    start: 1460
+    end: 1497
+    category: society
+    tags: [ベトナム, 法典]
+    summary: 中国式の官僚制と法典を整え、南進でベトナムの形を広げた。
+
+  - id: bayinnaung
+    title: バインナウン
+    start: 1551
+    end: 1581
+    category: war
+    tags: [ビルマ, タウングー朝]
+    summary: 大陸部の広い範囲を征服し、東南アジア史上まれな軍事帝国を作った。
+
+  - id: naresuan
+    title: ナレースワン
+    start: 1590
+    end: 1605
+    category: war
+    tags: [アユタヤ, タイ]
+    summary: ビルマの支配を脱してアユタヤの独立を回復し、タイの英雄となった。
+
+  - id: sultan-agung
+    title: スルタン・アグン
+    start: 1613
+    end: 1645
+    category: war
+    tags: [マタラム, ジャワ]
+    summary: ジャワの大半を統一してオランダのバタヴィアを攻め、抵抗の記憶として残った。
+
+  - id: alaungpaya
+    title: アラウンパヤー
+    start: 1752
+    end: 1760
+    category: war
+    tags: [ビルマ, コンバウン朝]
+    summary: 分裂したビルマを再統一し、イギリスと衝突するまで続く王朝を開いた。
+
+  - id: taksin
+    title: タークシン
+    start: 1767
+    end: 1782
+    category: war
+    tags: [タイ, トンブリー]
+    summary: アユタヤ陥落の直後に国を建て直し、タイの国家としての連続性を保った。
+
+  - id: rama-i
+    title: ラーマ1世
+    start: 1782
+    end: 1809
+    category: politics
+    tags: [タイ, チャクリー朝]
+    summary: バンコクに新王朝を開き、現在まで続くタイ王室の祖になった。
+
+  - id: gia-long
+    title: 嘉隆帝
+    start: 1802
+    end: 1820
+    category: politics
+    tags: [ベトナム, 阮朝]
+    summary: 南北のベトナムを一つにまとめ、現在の国土に近い版図を初めて実現した。
+
+  - id: mongkut
+    title: ラーマ4世（モンクット）
+    start: 1851
+    end: 1868
+    category: politics
+    tags: [タイ, 開国]
+    summary: 西洋の学問を学んだ王として不平等条約を受け入れつつ、独立を保つ道を選んだ。
+
+  - id: chulalongkorn
+    title: ラーマ5世（チュラロンコン）
+    start: 1868
+    end: 1910
+    category: society
+    tags: [タイ, 近代化]
+    summary: 奴隷制の廃止と行政改革を進め、タイを東南アジア唯一の独立国として残した。
+
+  - id: aung-san
+    title: アウンサン
+    start: 1945
+    end: 1947
+    category: politics
+    tags: [ビルマ, 独立]
+    summary: 独立をまとめる直前に暗殺され、ビルマ建国の父として神話化された。
+
+  - id: sukarno
+    title: スカルノ
+    start: 1945
+    end: 1967
+    category: politics
+    tags: [インドネシア, 非同盟]
+    summary: 独立を宣言し、バンドン会議で「第三世界」という立場を世界に示した。
+
+  - id: ho-chi-minh
+    title: ホー・チ・ミン
+    start: 1945
+    end: 1969
+    category: politics
+    tags: [ベトナム, 独立]
+    summary: 対仏・対米の二つの戦争を通じてベトナム統一の旗を立て続けた。
+
+  - id: sihanouk
+    title: シハヌーク
+    start: 1953
+    end: 1970
+    category: politics
+    tags: [カンボジア, 中立]
+    summary: 独立を勝ち取り中立を保とうとしたが、インドシナ戦争の渦に巻き込まれた。
+
+  - id: lee-kuan-yew
+    title: リー・クアンユー
+    start: 1959
+    end: 1990
+    category: economy
+    tags: [シンガポール, 開発]
+    summary: 資源のない都市国家を一代で先進国にし、「開発独裁」の成功例として語られた。
+
+  - id: marcos
+    title: マルコス
+    start: 1965
+    end: 1986
+    category: politics
+    tags: [フィリピン, 戒厳令]
+    summary: 戒厳令で長期支配を敷き、ピープルパワー革命で国外に追われた。
+
+  - id: suharto
+    title: スハルト
+    start: 1967
+    end: 1998
+    category: politics
+    tags: [インドネシア, 開発独裁]
+    summary: 大量殺害を伴う政変で権力を握り、32年の開発独裁を通貨危機で終えた。
+
+  - id: pol-pot
+    title: ポル・ポト
+    start: 1975
+    end: 1979
+    category: disaster
+    tags: [カンボジア, 虐殺]
+    summary: 都市と知識人を否定する極端な農本主義で、人口の2割近い犠牲を出した。
+
+  - id: mahathir
+    title: マハティール
+    start: 1981
+    end: 2003
+    category: economy
+    tags: [マレーシア, ルックイースト]
+    summary: 日本や韓国に学ぶ工業化を掲げ、マレーシアを中所得国に押し上げた。
+
+  - id: aung-san-suu-kyi
+    title: アウンサンスーチー
+    start: 2016
+    end: 2021
+    category: politics
+    tags: [ミャンマー, 民主化]
+    summary: 長い軟禁を経て民政を率いたが、国軍のクーデタで再び拘束された。

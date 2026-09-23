@@ -1,0 +1,337 @@
+lane: africa
+
+# エジプトのファラオを含むアフリカ全域の君主・指導者。
+leaders:
+  - id: khufu
+    title: クフ王
+    start: -2589
+    startCirca: true
+    end: -2566
+    endCirca: true
+    category: politics
+    tags: [エジプト, ピラミッド]
+    summary: ギザの大ピラミッドを築かせ、初期国家が動員できた力の大きさを今に伝える。
+
+  - id: senusret-iii
+    title: センウセレト3世
+    start: -1878
+    end: -1839
+    category: politics
+    tags: [エジプト, 中王国]
+    summary: 州の長官の力を削いで中央集権を固め、ヌビアへ国境を押し上げた。
+
+  - id: ahmose-i
+    title: アハメス1世
+    start: -1550
+    end: -1525
+    category: war
+    tags: [エジプト, 新王国]
+    summary: 異民族ヒクソスを追い出してエジプトを再統一し、新王国を開いた。
+
+  - id: hatshepsut
+    title: ハトシェプスト
+    start: -1479
+    end: -1458
+    category: politics
+    tags: [エジプト, 女性ファラオ]
+    summary: 女性でありながらファラオを名乗り、戦争よりも交易遠征で富を築いた。
+
+  - id: thutmose-iii
+    title: トトメス3世
+    start: -1479
+    end: -1425
+    category: war
+    tags: [エジプト, 新王国]
+    summary: 十数回の遠征でシリアまで支配を広げ、エジプトの版図を最大にした。
+
+  - id: akhenaten-reign
+    title: アクエンアテン
+    start: -1353
+    startCirca: true
+    end: -1336
+    endCirca: true
+    category: religion
+    tags: [エジプト, アテン信仰]
+    summary: 唯一神アテンの信仰へ強引に切り替え、美術様式まで変えた異例の王。
+
+  - id: tutankhamun
+    title: ツタンカーメン
+    start: -1332
+    startCirca: true
+    end: -1323
+    endCirca: true
+    category: politics
+    tags: [エジプト]
+    summary: 在位も短く事績も乏しいが、ほぼ無傷で見つかった墓が古代の豊かさを伝えた。
+
+  - id: ramesses-ii
+    title: ラメセス2世
+    start: -1279
+    end: -1213
+    category: war
+    tags: [エジプト, カデシュ]
+    summary: ヒッタイトと史上最古級の和平条約を結び、巨大建築でファラオの威信を刻んだ。
+
+  - id: shoshenq-i
+    title: シェションク1世
+    start: -943
+    startCirca: true
+    end: -922
+    endCirca: true
+    category: war
+    tags: [エジプト, リビア系]
+    summary: リビア系の王としてエジプトをまとめ直し、パレスチナへ遠征した。
+
+  - id: piye
+    title: ピイ（ピアンキ）
+    start: -744
+    end: -714
+    category: war
+    tags: [クシュ, ヌビア]
+    summary: ヌビアからエジプトを征服し、黒人王朝と呼ばれる第25王朝を開いた。
+
+  - id: taharqa
+    title: タハルカ
+    start: -690
+    end: -664
+    category: war
+    tags: [クシュ, アッシリア]
+    summary: クシュ王朝のエジプト支配を頂点に導いたが、アッシリアの侵攻に追われた。
+
+  - id: necho-ii
+    title: ネコ2世
+    start: -610
+    end: -595
+    category: economy
+    tags: [エジプト, 航海]
+    summary: 紅海と地中海を結ぶ運河を試み、フェニキア人にアフリカ周航を命じたと伝わる。
+
+  - id: ptolemy-i
+    title: プトレマイオス1世
+    start: -305
+    end: -283
+    category: culture
+    tags: [エジプト, アレクサンドリア]
+    summary: アレクサンドロスの部将からエジプト王となり、図書館と学術の都を築いた。
+
+  - id: cleopatra
+    title: クレオパトラ7世
+    start: -51
+    end: -30
+    category: politics
+    tags: [エジプト, ローマ]
+    summary: ローマの実力者と結んで独立を保とうとした、プトレマイオス朝最後の君主。
+
+  - id: ezana
+    title: エザナ王
+    start: 320
+    startCirca: true
+    end: 360
+    endCirca: true
+    category: religion
+    tags: [アクスム, キリスト教]
+    summary: アクスム王国にキリスト教を受け入れ、今日まで続くエチオピア教会の起点になった。
+
+  - id: kaleb
+    title: カレブ王
+    start: 510
+    startCirca: true
+    end: 540
+    endCirca: true
+    category: war
+    tags: [アクスム, 紅海]
+    summary: 紅海を渡ってイエメンに遠征し、アクスムを紅海交易の覇者にした。
+
+  - id: al-muizz
+    title: ムイッズ
+    start: 953
+    end: 975
+    category: religion
+    tags: [ファーティマ朝, カイロ]
+    summary: シーア派の王朝をエジプトに移し、新都カイロを築いてスンナ派のバグダードに対抗した。
+
+  - id: sundiata
+    title: スンジャタ
+    start: 1235
+    startCirca: true
+    end: 1255
+    endCirca: true
+    category: politics
+    tags: [マリ帝国, 叙事詩]
+    summary: マリ帝国を建て、その生涯が西アフリカの口承叙事詩として語り継がれた。
+
+  - id: mansa-musa
+    title: マンサ・ムーサ
+    start: 1312
+    end: 1337
+    category: economy
+    tags: [マリ帝国, 金]
+    summary: メッカ巡礼で配った金が相場を動かしたと伝わる、西アフリカの富の象徴。
+
+  - id: sonni-ali
+    title: ソンニ・アリ
+    start: 1464
+    end: 1492
+    category: war
+    tags: [ソンガイ帝国, トンブクトゥ]
+    summary: 川を使う水軍と騎兵でニジェール川流域を制し、ソンガイを帝国に育てた。
+
+  - id: qaitbay
+    title: カーイトバーイ
+    start: 1468
+    end: 1496
+    category: culture
+    tags: [マムルーク朝, 建築]
+    summary: 交易の富で壮麗な建築を残し、マムルーク朝最後の安定期を作った。
+
+  - id: askia-muhammad
+    title: アスキア・ムハンマド
+    start: 1493
+    end: 1528
+    category: politics
+    tags: [ソンガイ帝国, トンブクトゥ]
+    summary: ソンガイを最盛期に導き、トンブクトゥをイスラム学問の中心に育てた。
+
+  - id: idris-alauma
+    title: イドリース・アローマ
+    start: 1571
+    end: 1603
+    category: war
+    tags: [カネム・ボルヌ, 火器]
+    summary: オスマンから火器を導入し、サハラ交易の要を押さえた。
+
+  - id: nzinga
+    title: ンジンガ女王
+    start: 1624
+    end: 1663
+    category: politics
+    tags: [アンゴラ, 奴隷貿易]
+    summary: ポルトガルの奴隷貿易に外交と戦の両方で40年抗い続けた。
+
+  - id: osei-tutu
+    title: オセイ・トゥトゥ
+    start: 1701
+    end: 1717
+    category: politics
+    tags: [アシャンティ, 黄金]
+    summary: 「黄金の床几」の下に諸部族をまとめ、金と奴隷の交易で栄える王国を建てた。
+
+  - id: usman-dan-fodio
+    title: オスマン・ダン・フォディオ
+    start: 1804
+    end: 1817
+    category: religion
+    tags: [ソコト, ジハード]
+    summary: 宗教改革のジハードでソコト帝国を建て、西アフリカのイスラム化を進めた。
+
+  - id: muhammad-ali-egypt
+    title: ムハンマド・アリー
+    start: 1805
+    end: 1848
+    category: politics
+    tags: [エジプト, 近代化]
+    summary: オスマンから事実上独立し、軍と綿花産業の近代化を急いだ。
+
+  - id: shaka
+    title: シャカ・ズールー
+    start: 1816
+    end: 1828
+    category: war
+    tags: [ズールー, 軍制]
+    summary: 戦術と軍制の革新で小部族を王国に変え、南部アフリカの民族分布を動かした。
+
+  - id: menelik-ii
+    title: メネリク2世
+    start: 1889
+    end: 1913
+    category: war
+    tags: [エチオピア, アドワ]
+    summary: アドワでイタリア軍を破り、アフリカで唯一独立を守り抜いた。
+
+  - id: haile-selassie
+    title: ハイレ・セラシエ
+    start: 1930
+    end: 1974
+    category: politics
+    tags: [エチオピア]
+    summary: 亡命と復位を経て近代化を進めたが、飢饉と軍のクーデタで王政ごと倒れた。
+
+  - id: nasser
+    title: ナセル
+    start: 1954
+    end: 1970
+    category: politics
+    tags: [エジプト, アラブ民族主義]
+    summary: スエズ運河の国有化で列強に勝ち、アラブ民族主義の旗手になった。
+
+  - id: nkrumah
+    title: ンクルマ
+    start: 1957
+    end: 1966
+    category: politics
+    tags: [ガーナ, 汎アフリカ主義]
+    summary: サハラ以南で最初の独立を実現し、アフリカ統一の理念を唱えた。
+
+  - id: kenyatta
+    title: ケニヤッタ
+    start: 1963
+    end: 1978
+    category: politics
+    tags: [ケニア, 独立]
+    summary: 独立運動の指導者から初代大統領となり、白人入植者との和解を選んだ。
+
+  - id: nyerere
+    title: ニエレレ
+    start: 1964
+    end: 1985
+    category: society
+    tags: [タンザニア, ウジャマー]
+    summary: 村落共同体に基づくアフリカ型社会主義を試み、教育の普及に成果を残した。
+
+  - id: mobutu
+    title: モブツ
+    start: 1965
+    end: 1997
+    category: politics
+    tags: [コンゴ, 独裁]
+    summary: 冷戦下で西側の支援を受けつつ国富を私物化した、資源国の独裁の典型。
+
+  - id: gaddafi
+    title: カダフィ
+    start: 1969
+    end: 2011
+    category: politics
+    tags: [リビア, 独裁]
+    summary: 独自の革命思想で42年統治し、「アラブの春」のなかで殺された。
+
+  - id: sadat
+    title: サダト
+    start: 1970
+    end: 1981
+    category: politics
+    tags: [エジプト, 和平]
+    summary: 第四次中東戦争のあとイスラエルと和平を結び、アラブ世界から孤立して暗殺された。
+
+  - id: mubarak
+    title: ムバラク
+    start: 1981
+    end: 2011
+    category: politics
+    tags: [エジプト]
+    summary: 30年続いた強権支配が、「アラブの春」の街頭デモで終わった。
+
+  - id: sankara
+    title: サンカラ
+    start: 1983
+    end: 1987
+    category: society
+    tags: [ブルキナファソ, 自立]
+    summary: 援助に頼らない自立と質素を掲げ、4年の改革のあと暗殺された。
+
+  - id: mandela
+    title: マンデラ
+    start: 1994
+    end: 1999
+    category: society
+    tags: [南アフリカ, 和解]
+    summary: 27年の投獄を経て大統領となり、報復ではなく和解で新しい国を始めた。

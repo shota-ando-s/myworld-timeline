@@ -1,0 +1,282 @@
+lane: korea
+
+leaders:
+  - id: gwanggaeto
+    title: 広開土王
+    start: 391
+    end: 412
+    category: war
+    tags: [高句麗]
+    summary: 満洲と半島北部へ版図を広げ、碑文が当時の東アジアの勢力図を今に伝える。
+
+  - id: jangsu
+    title: 長寿王
+    start: 413
+    end: 491
+    category: politics
+    tags: [高句麗]
+    summary: 平壌へ遷都して南下を進め、79年の在位で高句麗の最盛期を保った。
+
+  - id: king-seong-baekje
+    title: 聖王（百済）
+    start: 523
+    end: 554
+    category: religion
+    tags: [百済, 仏教]
+    summary: 仏教を倭に伝えた王として知られ、南朝との交流で百済文化を高めた。
+
+  - id: jinheung
+    title: 真興王
+    start: 540
+    end: 576
+    category: war
+    tags: [新羅]
+    summary: 漢江流域を奪って新羅を半島の主役に押し上げ、花郎の制度を整えた。
+
+  - id: munmu
+    title: 文武王
+    start: 661
+    end: 681
+    category: politics
+    tags: [新羅, 統一]
+    summary: 唐軍を半島から退け、朝鮮半島で初めての統一国家を完成させた。
+
+  - id: dae-joyeong
+    title: 大祚栄
+    start: 698
+    end: 719
+    category: politics
+    tags: [渤海]
+    summary: 高句麗の遺民を率いて渤海を建て、「海東の盛国」の礎を作った。
+
+  - id: wang-geon
+    title: 王建
+    start: 918
+    end: 943
+    category: politics
+    tags: [高麗]
+    summary: 豪族との婚姻を重ねて後三国を統一し、高麗500年の出発点を作った。
+
+  - id: gwangjong
+    title: 光宗
+    start: 949
+    end: 975
+    category: society
+    tags: [高麗, 科挙]
+    summary: 奴婢の身分を洗い直し科挙を導入して、豪族から国王へ権力を移した。
+
+  - id: choe-chungheon
+    title: 崔忠献
+    start: 1196
+    end: 1219
+    category: war
+    tags: [高麗, 武臣政権]
+    summary: 王を立て退けする武臣政権の実権を握り、崔氏4代60年の支配を始めた。
+
+  - id: chungnyeol
+    title: 忠烈王
+    start: 1274
+    end: 1308
+    category: politics
+    tags: [高麗, 元]
+    summary: 元の皇女を妃に迎え、高麗が元の姻戚として生き延びる形を作った。
+
+  - id: gongmin
+    title: 恭愍王
+    start: 1351
+    end: 1374
+    category: politics
+    tags: [高麗, 自立]
+    summary: 元の衰えに乗じて自立と改革を進めたが、反発のなかで殺された。
+
+  - id: yi-seonggye-reign
+    title: 太祖 李成桂
+    start: 1392
+    end: 1398
+    category: politics
+    tags: [朝鮮王朝]
+    summary: 高麗を倒して朝鮮王朝を開き、明への事大と儒教国家という方向を定めた。
+
+  - id: sejong-the-great
+    title: 世宗
+    start: 1418
+    end: 1450
+    category: culture
+    tags: [朝鮮王朝, ハングル]
+    summary: 訓民正音の創製と科学技術の振興で、朝鮮の文化的な頂点を作った。
+
+  - id: sejo-joseon
+    title: 世祖
+    start: 1455
+    end: 1468
+    category: society
+    tags: [朝鮮王朝, 法典]
+    summary: 甥から王位を奪ったが、『経国大典』の編纂で統治を法典として固めた。
+
+  - id: seonjo
+    title: 宣祖
+    start: 1567
+    end: 1608
+    category: politics
+    tags: [朝鮮王朝, 壬辰倭乱]
+    summary: 党争の激化と日本の侵攻が重なり、国土が荒廃した治世。
+
+  - id: yi-sun-sin
+    title: 李舜臣
+    start: 1592
+    end: 1598
+    category: war
+    tags: [朝鮮王朝, 水軍]
+    summary: 制海権を握って日本軍の補給を断ち、半島の防衛を支えた名将。
+
+  - id: gwanghaegun
+    title: 光海君
+    start: 1608
+    end: 1623
+    category: politics
+    tags: [朝鮮王朝, 外交]
+    summary: 明と後金のあいだで均衡を取る現実外交を試みたが、反正で追放された。
+
+  - id: yeongjo
+    title: 英祖
+    start: 1724
+    end: 1776
+    category: politics
+    tags: [朝鮮王朝, 蕩平策]
+    summary: 党派を均等に登用する蕩平策で対立を抑え、52年の在位で民政を立て直した。
+
+  - id: jeongjo
+    title: 正祖
+    start: 1776
+    end: 1800
+    category: culture
+    tags: [朝鮮王朝, 実学]
+    summary: 実学者を登用し、朝鮮後期の学問と文化の盛りを作った。
+
+  - id: heungseon-daewongun
+    title: 興宣大院君
+    start: 1863
+    end: 1873
+    category: politics
+    tags: [朝鮮王朝, 鎖国]
+    summary: 王権の立て直しと鎖国を進め、開国をめぐる国内対立の軸になった。
+
+  - id: gojong
+    title: 高宗
+    start: 1863
+    end: 1907
+    category: politics
+    tags: [朝鮮王朝, 大韓帝国]
+    summary: 大韓帝国を称して自立を図ったが、日本の保護国化を止められなかった。
+
+  - id: syngman-rhee
+    title: 李承晩
+    start: 1948
+    end: 1960
+    category: politics
+    tags: [韓国]
+    summary: 初代大統領として反共を掲げたが、不正選挙が四月革命を招いて亡命した。
+
+  - id: kim-il-sung
+    title: 金日成
+    start: 1948
+    end: 1994
+    category: politics
+    tags: [北朝鮮, 主体思想]
+    summary: 主体思想を掲げ、個人崇拝と世襲を組み込んだ体制を築いた。
+
+  - id: park-chung-hee
+    title: 朴正煕
+    start: 1961
+    end: 1979
+    category: economy
+    tags: [韓国, 開発独裁]
+    summary: 強権のもとで輸出主導の工業化を進め、「漢江の奇跡」と呼ばれる成長を実現した。
+
+  - id: chun-doo-hwan
+    title: 全斗煥
+    start: 1980
+    end: 1988
+    category: politics
+    tags: [韓国, 軍政]
+    summary: 光州の弾圧の上に成立した軍出身政権で、民主化運動に押されて退いた。
+
+  - id: roh-tae-woo
+    title: 盧泰愚
+    start: 1988
+    end: 1993
+    category: politics
+    tags: [韓国, 北方外交]
+    summary: 直接選挙で選ばれ、ソ連・中国との国交を開く北方外交を進めた。
+
+  - id: kim-young-sam
+    title: 金泳三
+    start: 1993
+    end: 1998
+    category: politics
+    tags: [韓国, 民主化]
+    summary: 32年ぶりの文民大統領として、軍の政治介入を断ち切った。
+
+  - id: kim-jong-il
+    title: 金正日
+    start: 1994
+    end: 2011
+    category: politics
+    tags: [北朝鮮]
+    summary: 先軍政治と核開発を進め、大飢饉のなかで体制を保った。
+
+  - id: kim-dae-jung
+    title: 金大中
+    start: 1998
+    end: 2003
+    category: politics
+    tags: [韓国, 太陽政策]
+    summary: 通貨危機からの立て直しと同時に、初の南北首脳会談を実現した。
+
+  - id: roh-moo-hyun
+    title: 盧武鉉
+    start: 2003
+    end: 2008
+    category: politics
+    tags: [韓国]
+    summary: 地方分権と対米自主を掲げ、既存のエリート層と対立し続けた。
+
+  - id: kim-jong-un
+    title: 金正恩
+    start: 2011
+    ongoing: true
+    category: politics
+    tags: [北朝鮮, 核開発]
+    summary: 核・ミサイル開発を加速させる一方、米韓首脳との会談にも臨んだ。
+
+  - id: park-geun-hye
+    title: 朴槿恵
+    start: 2013
+    end: 2017
+    category: politics
+    tags: [韓国]
+    summary: 初の女性大統領だったが、国政介入事件で弾劾・罷免された。
+
+  - id: moon-jae-in
+    title: 文在寅
+    start: 2017
+    end: 2022
+    category: politics
+    tags: [韓国, 南北対話]
+    summary: 南北・米朝の首脳会談を仲介し、対話による非核化を模索した。
+
+  - id: yoon-suk-yeol
+    title: 尹錫悦
+    start: 2022
+    end: 2025
+    category: politics
+    tags: [韓国]
+    summary: 非常戒厳の宣布が国会に覆され、弾劾されて罷免された。
+
+  - id: lee-jae-myung
+    title: 李在明
+    start: 2025
+    ongoing: true
+    category: politics
+    tags: [韓国]
+    summary: 前大統領の罷免を受けた繰り上げ選挙で当選した。

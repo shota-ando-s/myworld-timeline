@@ -1,0 +1,253 @@
+lane: east-europe
+
+# ルーシ・ロシア・ポーランド・ソ連圏の統治者。
+leaders:
+  - id: rurik-reign
+    title: リューリク
+    start: 862
+    startCirca: true
+    end: 879
+    endCirca: true
+    category: politics
+    tags: [ルーシ, 伝承]
+    summary: 年代記が伝えるルーシ最初の君主で、以後700年続く王家の祖とされた。
+
+  - id: vladimir-i
+    title: ウラジーミル1世
+    start: 980
+    end: 1015
+    category: religion
+    tags: [キエフ・ルーシ, 正教]
+    summary: ギリシア正教を国教に選び、ロシアの文化の向きを千年先まで決めた。
+
+  - id: yaroslav-the-wise
+    title: ヤロスラフ賢公
+    start: 1019
+    end: 1054
+    category: society
+    tags: [キエフ・ルーシ, 法]
+    summary: 最初の法典と婚姻外交でキエフ・ルーシの最盛期を作った。
+
+  - id: vladimir-monomakh
+    title: ウラジーミル・モノマフ
+    start: 1113
+    end: 1125
+    category: politics
+    tags: [キエフ・ルーシ]
+    summary: 分裂しかけた諸公をまとめ直し、キエフ・ルーシ最後の輝きを作った。
+
+  - id: andrei-bogolyubsky
+    title: アンドレイ・ボゴリュブスキー
+    start: 1157
+    end: 1174
+    category: politics
+    tags: [ルーシ, ウラジーミル]
+    summary: 政治の重心を南のキエフから北東のウラジーミルへ移し、のちのモスクワへの道を開いた。
+
+  - id: alexander-nevsky
+    title: アレクサンドル・ネフスキー
+    start: 1252
+    end: 1263
+    category: war
+    tags: [ルーシ, モンゴル]
+    summary: 西の騎士団は武力で退け、東のモンゴルには従うという選択で北ルーシを守った。
+
+  - id: casimir-iii
+    title: カジミェシュ3世
+    start: 1333
+    end: 1370
+    category: politics
+    tags: [ポーランド]
+    summary: 「木の国を石の国に変えた」と言われる内政で、ポーランドを安定した王国にした。
+
+  - id: jogaila
+    title: ヤギェウォ
+    start: 1386
+    end: 1434
+    category: politics
+    tags: [ポーランド, リトアニア]
+    summary: リトアニアとの合同で中欧最大の国家を作り、ドイツ騎士団の北上を止めた。
+
+  - id: ivan-iii
+    title: イヴァン3世
+    start: 1462
+    end: 1505
+    category: politics
+    tags: [モスクワ, 独立]
+    summary: モンゴルへの貢納をやめ、ビザンツの後継を名乗ってモスクワを主権国家にした。
+
+  - id: ivan-iv
+    title: イヴァン4世（雷帝）
+    start: 1547
+    end: 1584
+    category: politics
+    tags: [ロシア, ツァーリ]
+    summary: 初めてツァーリを称し、恐怖政治と東方への拡大でロシアの形を変えた。
+
+  - id: boris-godunov
+    title: ボリス・ゴドゥノフ
+    start: 1598
+    end: 1605
+    category: politics
+    tags: [ロシア, 動乱]
+    summary: 王家断絶後の空位を埋めたが、大飢饉と偽皇帝の出現で動乱時代を招いた。
+
+  - id: mikhail-romanov
+    title: ミハイル・ロマノフ
+    start: 1613
+    end: 1645
+    category: politics
+    tags: [ロシア, ロマノフ朝]
+    summary: 動乱を終わらせ、革命まで300年続くロマノフ朝を開いた。
+
+  - id: jan-sobieski
+    title: ヤン3世ソビエスキ
+    start: 1674
+    end: 1696
+    category: war
+    tags: [ポーランド, オスマン]
+    summary: 第二次ウィーン包囲を破り、オスマン帝国の中欧進出を終わらせた。
+
+  - id: peter-the-great
+    title: ピョートル1世
+    start: 1682
+    end: 1725
+    category: politics
+    tags: [ロシア, 西欧化]
+    summary: 西欧の技術と官僚制を力ずくで移植し、ロシアをヨーロッパの列強に変えた。
+
+  - id: catherine-the-great
+    title: エカチェリーナ2世
+    start: 1762
+    end: 1796
+    category: politics
+    tags: [ロシア, 啓蒙専制]
+    summary: 啓蒙を語りながら農奴制を強め、ポーランド分割と黒海進出で版図を広げた。
+
+  - id: alexander-i-russia
+    title: アレクサンドル1世
+    start: 1801
+    end: 1825
+    category: war
+    tags: [ロシア, ナポレオン戦争]
+    summary: ナポレオンの遠征を退けてウィーン体制の主役となり、神聖同盟を唱えた。
+
+  - id: nicholas-i
+    title: ニコライ1世
+    start: 1825
+    end: 1855
+    category: politics
+    tags: [ロシア, 反動]
+    summary: デカブリストの乱を鎮めて言論を締めつけ、クリミア戦争で後進性を露呈した。
+
+  - id: alexander-ii
+    title: アレクサンドル2世
+    start: 1855
+    end: 1881
+    category: society
+    tags: [ロシア, 農奴解放]
+    summary: 農奴解放をはじめ上からの大改革を進めたが、テロで命を落とした。
+
+  - id: nicholas-ii
+    title: ニコライ2世
+    start: 1894
+    end: 1917
+    category: politics
+    tags: [ロシア, 革命]
+    summary: 敗戦と革命に応えられず、300年のロマノフ朝を終わらせた最後の皇帝。
+
+  - id: lenin
+    title: レーニン
+    start: 1917
+    end: 1924
+    category: politics
+    tags: [ソ連, 革命]
+    summary: 世界初の社会主義政権を樹立し、前衛党が国家を率いるという型を世界に広めた。
+
+  - id: pilsudski
+    title: ピウスツキ
+    start: 1918
+    end: 1935
+    category: politics
+    tags: [ポーランド, 独立]
+    summary: 123年ぶりに独立したポーランドを率い、ソ連の西進を食い止めた。
+
+  - id: stalin
+    title: スターリン
+    start: 1924
+    end: 1953
+    category: politics
+    tags: [ソ連, 独裁]
+    summary: 計画経済で重工業を築く一方、粛清と飢饉で膨大な犠牲を出した。
+
+  - id: tito
+    title: ティトー
+    start: 1945
+    end: 1980
+    category: politics
+    tags: [ユーゴスラビア, 非同盟]
+    summary: ソ連と距離を置く独自路線で、多民族のユーゴスラビアを一代でまとめた。
+
+  - id: khrushchev
+    title: フルシチョフ
+    start: 1953
+    end: 1964
+    category: politics
+    tags: [ソ連, 雪どけ]
+    summary: スターリン批判で共産圏を揺さぶり、キューバ危機では核戦争の瀬戸際まで行った。
+
+  - id: brezhnev
+    title: ブレジネフ
+    start: 1964
+    end: 1982
+    category: politics
+    tags: [ソ連, 停滞]
+    summary: 安定と停滞が同義になった18年で、改革の先送りがソ連の体力を奪った。
+
+  - id: ceausescu
+    title: チャウシェスク
+    start: 1965
+    end: 1989
+    category: politics
+    tags: [ルーマニア, 独裁]
+    summary: 独自外交で西側の評価を得ながら国内を締め上げ、革命で処刑された。
+
+  - id: gorbachev
+    title: ゴルバチョフ
+    start: 1985
+    end: 1991
+    category: politics
+    tags: [ソ連, ペレストロイカ]
+    summary: 体制を開こうとした改革が、結果として冷戦とソ連そのものを終わらせた。
+
+  - id: walesa
+    title: ワレサ
+    start: 1990
+    end: 1995
+    category: politics
+    tags: [ポーランド, 連帯]
+    summary: 造船所の電気工から自主管理労組を率い、東欧の体制転換の象徴になった。
+
+  - id: yeltsin
+    title: エリツィン
+    start: 1991
+    end: 1999
+    category: politics
+    tags: [ロシア, 市場化]
+    summary: 急進的な市場化でロシアを作り直したが、混乱と新興財閥も同時に生んだ。
+
+  - id: putin
+    title: プーチン
+    start: 1999
+    ongoing: true
+    category: politics
+    tags: [ロシア]
+    summary: 資源収入と中央集権で秩序を回復させ、ウクライナ侵攻で西側と決定的に対立した。
+
+  - id: zelensky
+    title: ゼレンスキー
+    start: 2019
+    ongoing: true
+    category: politics
+    tags: [ウクライナ, 戦争]
+    summary: 侵攻を受けた国にとどまって抗戦を指揮し、各国の支援を引き出し続けている。
