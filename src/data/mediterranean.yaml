@@ -21,6 +21,16 @@ periods:
     tags: [ギリシア]
     summary: ギリシア本土の戦士王たちの文明。前1200年頃に一斉に崩壊した。
 
+  - id: greek-dark-ages
+    title: ギリシアの暗黒時代
+    start: -1200
+    startCirca: true
+    end: -800
+    endCirca: true
+    category: society
+    tags: [ギリシア]
+    summary: 文字も宮殿も失われた400年。この沈黙のあとにポリスが現れる。
+
   - id: greek-poleis
     title: 古代ギリシアのポリス時代
     start: -800
@@ -28,6 +38,15 @@ periods:
     category: politics
     tags: [ギリシア, 都市国家]
     summary: アテネ・スパルタなど小さな都市国家が競い合い、民主政と哲学が生まれた。
+
+  - id: etruscan
+    title: エトルリア
+    start: -750
+    startCirca: true
+    end: -264
+    category: culture
+    tags: [イタリア]
+    summary: ローマ以前のイタリアを支配した都市連合。建築と占いの技術をローマに残した。
 
   - id: hellenistic
     title: ヘレニズム時代
@@ -53,6 +72,22 @@ periods:
     tags: [ローマ]
     summary: 地中海世界を一つにまとめた帝国。法・道路・都市の遺産は今も残る。
 
+  - id: pax-romana
+    title: パクス・ロマーナ
+    start: -27
+    end: 180
+    category: society
+    tags: [ローマ, 平和]
+    summary: 地中海全域が一つの法と通貨で結ばれた約200年。交易と都市が栄えた。
+
+  - id: crisis-third-century
+    title: 三世紀の危機（軍人皇帝時代）
+    start: 235
+    end: 284
+    category: war
+    tags: [ローマ, 混乱]
+    summary: 50年で20人以上の皇帝が立ち、疫病と侵入で帝国が分解しかけた。
+
   - id: byzantine
     title: ビザンツ帝国（東ローマ）
     start: 395
@@ -60,6 +95,22 @@ periods:
     category: politics
     tags: [ローマ, ギリシア正教]
     summary: 西ローマ滅亡後も1000年続き、ギリシア・ローマの遺産を中世へ受け渡した。
+
+  - id: papal-states
+    title: 教皇領
+    start: 756
+    end: 1870
+    category: religion
+    tags: [イタリア, 教皇]
+    summary: 教皇が世俗の君主でもあった1100年。宗教と政治の絡み合いの舞台になった。
+
+  - id: venice-republic
+    title: ヴェネツィア共和国
+    start: 697
+    end: 1797
+    category: economy
+    tags: [イタリア, 交易]
+    summary: 東地中海の交易を握った海洋国家。1100年続いた商人の共和政。
 
   - id: italian-renaissance
     title: イタリア・ルネサンス
@@ -69,8 +120,44 @@ periods:
     category: culture
     tags: [イタリア, 文化]
     summary: フィレンツェなど商業都市の富を背景に、古典の復興と人間中心の文化が花開いた。
+    detail: |
+      毛織物と銀行で得た富が芸術家を雇い、都市が競って自らを飾った。
+      古代の彫刻や文献を「手本」として学び直したことが、
+      人間と自然を観察する態度につながっていく。
+
+  - id: italian-wars
+    title: イタリア戦争
+    start: 1494
+    end: 1559
+    category: war
+    tags: [イタリア, フランス, スペイン]
+    summary: 半島が大国の戦場になり、ルネサンスの担い手だった都市国家が力を失った。
 
 events:
+  - id: bronze-age-collapse
+    year: -1177
+    circa: true
+    title: 青銅器時代の崩壊
+    category: disaster
+    tags: [地中海, 海の民]
+    summary: 東地中海の王国が数十年で次々に倒れ、交易網ごと失われた。
+
+  - id: homer-epics
+    year: -750
+    circa: true
+    title: ホメロスの叙事詩
+    category: culture
+    tags: [ギリシア, 文学]
+    summary: 『イリアス』『オデュッセイア』がギリシア人共通の教養と英雄像を与えた。
+
+  - id: rome-founded
+    year: -753
+    circa: true
+    title: ローマ建国の伝説
+    category: politics
+    tags: [ローマ]
+    summary: ロムルスによる建国譚。ローマ人が自らの起源として語り継いだ年。
+
   - id: first-olympiad
     year: -776
     title: 第1回オリンピア競技祭
@@ -78,12 +165,40 @@ events:
     tags: [ギリシア]
     summary: 古代ギリシア人が共通の暦の起点とした祭典。
 
+  - id: solon-reform
+    year: -594
+    title: ソロンの改革
+    category: society
+    tags: [アテネ, 法]
+    summary: 借金による奴隷化を禁じ、市民の権利を財産で区分した。民主政への第一歩。
+
+  - id: cleisthenes
+    year: -508
+    title: クレイステネスの改革
+    category: society
+    tags: [アテネ, 民主政]
+    summary: 血縁でなく地域で市民を編成し、アテネ民主政の骨格ができた。
+
   - id: marathon
     year: -490
     title: マラトンの戦い
     category: war
     tags: [ギリシア, ペルシア戦争]
     summary: アテネ軍がペルシアの遠征軍を撃退し、ポリスの自信を決定づけた。
+
+  - id: salamis
+    year: -480
+    title: サラミスの海戦
+    category: war
+    tags: [ギリシア, ペルシア戦争]
+    summary: 三段櫂船の漕ぎ手となった無産市民が発言力を得て、民主政が深まった。
+
+  - id: parthenon
+    year: -447
+    title: パルテノン神殿の造営
+    category: culture
+    tags: [アテネ, 建築]
+    summary: ペリクレス時代のアテネの繁栄と自負を形にした建築。
 
   - id: peloponnesian-war
     year: -431
@@ -99,12 +214,64 @@ events:
     tags: [ギリシア, 哲学]
     summary: 民主政アテネが哲学者を死刑にした事件。西洋哲学の原点の一つ。
 
+  - id: plato-academy
+    year: -387
+    circa: true
+    title: プラトンのアカデメイア
+    category: religion
+    tags: [ギリシア, 哲学]
+    summary: 900年続いた学園。理念と現実を分けて考える伝統がここから広がった。
+
+  - id: chaeronea
+    year: -338
+    title: カイロネイアの戦い
+    category: war
+    tags: [ギリシア, マケドニア]
+    summary: マケドニアがギリシアを制し、ポリスの自立の時代が終わった。
+
+  - id: alexander-campaign
+    year: -334
+    title: アレクサンドロスの東方遠征
+    category: war
+    tags: [マケドニア, ペルシア]
+    summary: 10年でインダスまで達し、ギリシア文化が西アジアへ広がる道を開いた。
+    related: [hellenistic]
+
+  - id: euclid-elements
+    year: -300
+    circa: true
+    title: エウクレイデス『原論』
+    category: science
+    tags: [数学, アレクサンドリア]
+    summary: 定義と証明で組み立てる方法を確立し、2000年以上教科書であり続けた。
+
   - id: punic-war-1
     year: -264
     title: 第一次ポエニ戦争
     category: war
     tags: [ローマ, カルタゴ]
     summary: カルタゴとの120年に及ぶ抗争の始まり。勝利でローマは海の帝国になった。
+
+  - id: hannibal-alps
+    year: -218
+    title: ハンニバルのアルプス越え
+    category: war
+    tags: [カルタゴ, ローマ]
+    summary: 象を連れて山を越えイタリアを16年荒らした。ローマは存亡の危機に立った。
+
+  - id: carthage-destroyed
+    year: -146
+    title: カルタゴの滅亡とギリシアの属州化
+    category: war
+    tags: [ローマ, 地中海]
+    summary: 同じ年に東西の対抗勢力が消え、地中海がローマの内海になった。
+
+  - id: spartacus
+    year: -73
+    title: スパルタクスの反乱
+    category: society
+    tags: [ローマ, 奴隷]
+    summary: 剣闘士が率いた大規模な奴隷反乱。ローマ社会の土台を可視化した。
 
   - id: caesar-assassination
     year: -44
@@ -113,6 +280,35 @@ events:
     tags: [ローマ]
     summary: 共和政の終わりを象徴する事件。17年後に帝政が始まる。
 
+  - id: actium
+    year: -31
+    title: アクティウムの海戦
+    category: war
+    tags: [ローマ, エジプト]
+    summary: オクタウィアヌスが勝ち、翌年プトレマイオス朝が滅んでヘレニズムが終わった。
+
+  - id: augustus-principate
+    year: -27
+    title: アウグストゥスの元首政
+    category: politics
+    tags: [ローマ, 帝政]
+    summary: 共和政の看板を残したまま一人が実権を握る仕組みで、200年の平和が始まった。
+
+  - id: jesus-crucifixion
+    year: 30
+    circa: true
+    title: イエスの処刑
+    category: religion
+    tags: [キリスト教, ローマ]
+    summary: ローマ属州での一処刑が、やがて世界最大の宗教の出発点になった。
+
+  - id: great-fire-rome
+    year: 64
+    title: ローマの大火とキリスト教徒の迫害
+    category: disaster
+    tags: [ローマ, キリスト教]
+    summary: 責任を負わされた信徒への迫害が、殉教という記憶を宗教に刻んだ。
+
   - id: vesuvius
     year: 79
     title: ヴェスヴィオ山の噴火
@@ -120,12 +316,40 @@ events:
     tags: [ローマ, 災害]
     summary: ポンペイなどが火山灰に埋もれ、結果としてローマ人の日常が保存された。
 
+  - id: trajan-peak
+    year: 117
+    title: ローマ帝国の最大版図
+    category: politics
+    tags: [ローマ]
+    summary: トラヤヌス帝のもとで領土が最大に。以後は守りに転じる。
+
+  - id: antonine-constitution
+    year: 212
+    title: アントニヌス勅令
+    category: society
+    tags: [ローマ, 市民権]
+    summary: 帝国内の全自由民にローマ市民権を与え、「ローマ人」の意味が変わった。
+
+  - id: constantinople-founded
+    year: 330
+    title: コンスタンティノープルへの遷都
+    category: politics
+    tags: [ローマ, ビザンツ]
+    summary: 帝国の重心が東へ移り、1000年続く新しい都が生まれた。
+
   - id: edict-of-milan
     year: 313
     title: ミラノ勅令
     category: religion
     tags: [ローマ, キリスト教]
     summary: キリスト教が公認され、迫害される宗教から帝国の宗教へ向かう。
+
+  - id: christianity-state-religion
+    year: 392
+    title: キリスト教の国教化
+    category: religion
+    tags: [ローマ, キリスト教]
+    summary: 他の宗教が禁じられ、ヨーロッパが一つの信仰でまとまる道が決まった。
 
   - id: rome-division
     year: 395
@@ -141,6 +365,62 @@ events:
     tags: [ローマ]
     summary: ゲルマン人傭兵隊長が皇帝を廃位。ヨーロッパの中世が始まる。
 
+  - id: justinian-code
+    year: 529
+    title: ユスティニアヌス法典
+    category: society
+    tags: [ビザンツ, 法]
+    summary: ローマ法を集大成し、のちのヨーロッパ各国の法の源になった。
+
+  - id: hagia-sophia
+    year: 537
+    title: ハギア・ソフィアの完成
+    category: culture
+    tags: [ビザンツ, 建築]
+    summary: 巨大な円蓋で空間を包む技術。1000年間、世界最大の教会だった。
+
+  - id: plague-of-justinian
+    year: 541
+    title: ユスティニアヌスの疫病
+    category: disaster
+    tags: [ビザンツ, 疫病]
+    summary: 地中海の人口を大きく減らし、ローマ世界の再統一の望みを絶った。
+
+  - id: iconoclasm
+    year: 726
+    title: 聖像禁止令
+    category: religion
+    tags: [ビザンツ, 教会]
+    summary: 聖画像をめぐる100年の対立。東西の教会が離れていく一因になった。
+
+  - id: great-schism
+    year: 1054
+    title: 東西教会の分裂
+    category: religion
+    tags: [キリスト教]
+    summary: カトリックと正教が互いを破門。ヨーロッパの東西の溝が決定的になった。
+
+  - id: fourth-crusade
+    year: 1204
+    title: 第4回十字軍のコンスタンティノープル占領
+    category: war
+    tags: [十字軍, ビザンツ]
+    summary: 同じキリスト教の都を略奪し、ビザンツは回復できないまま衰えた。
+
+  - id: medici-bank
+    year: 1397
+    title: メディチ銀行の設立
+    category: economy
+    tags: [フィレンツェ, 金融]
+    summary: 為替と複式簿記で欧州に支店網を築き、その富が芸術家を育てた。
+
+  - id: medici-florence
+    year: 1434
+    title: メディチ家のフィレンツェ支配
+    category: politics
+    tags: [フィレンツェ, ルネサンス]
+    summary: 商人が都市の実権を握り、芸術と学問の保護者になった。
+
   - id: fall-of-constantinople
     year: 1453
     title: コンスタンティノープル陥落
@@ -150,3 +430,45 @@ events:
     detail: |
       大砲による城壁の突破は、中世の築城術が終わったことを示した。
       逃れた学者がイタリアへ渡り、ルネサンスの古典研究を後押ししたとも言われる。
+
+  - id: last-supper
+    year: 1498
+    title: ダ・ヴィンチ「最後の晩餐」
+    category: culture
+    tags: [ルネサンス, 絵画]
+    summary: 遠近法と人物の心理描写を結びつけ、絵画の可能性を広げた。
+
+  - id: sistine-chapel
+    year: 1512
+    title: ミケランジェロのシスティーナ礼拝堂天井画
+    category: culture
+    tags: [ルネサンス, 絵画]
+    summary: 4年をかけた一人仕事。人体の表現がここで一つの頂点に達した。
+
+  - id: the-prince
+    year: 1513
+    title: マキャヴェリ『君主論』
+    category: religion
+    tags: [イタリア, 政治思想]
+    summary: 政治を道徳から切り離して観察し、近代の政治学の出発点になった。
+
+  - id: lepanto
+    year: 1571
+    title: レパントの海戦
+    category: war
+    tags: [オスマン, スペイン]
+    summary: 地中海でのオスマンの拡大を止めたが、勢力は東地中海に残り続けた。
+
+  - id: march-on-rome
+    year: 1922
+    title: ムッソリーニのローマ進軍
+    category: politics
+    tags: [イタリア, ファシズム]
+    summary: 世界初のファシスト政権が成立し、ヨーロッパの他国にも手本を与えた。
+
+  - id: lateran-treaty
+    year: 1929
+    title: ラテラノ条約
+    category: religion
+    tags: [イタリア, バチカン]
+    summary: 教皇領の消滅から59年、バチカン市国として教皇の主権が復活した。

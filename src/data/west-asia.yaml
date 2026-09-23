@@ -26,6 +26,33 @@ periods:
     tags: [メソポタミア]
     summary: ハンムラビのもとで統一され、法と天文の伝統を残した。
 
+  - id: hittite
+    title: ヒッタイト
+    start: -1650
+    end: -1180
+    endCirca: true
+    category: war
+    tags: [アナトリア, 鉄]
+    summary: 鉄器と戦車で勢力を広げ、エジプトと世界最古級の講和条約を結んだ。
+
+  - id: phoenicia
+    title: フェニキア諸都市
+    start: -1200
+    startCirca: true
+    end: -539
+    category: economy
+    tags: [地中海, 交易]
+    summary: 地中海一帯に交易網と植民市を広げ、アルファベットを各地に伝えた。
+
+  - id: israel-kingdom
+    title: イスラエル・ユダ王国
+    start: -1020
+    startCirca: true
+    end: -586
+    category: religion
+    tags: [ユダヤ教]
+    summary: ダビデ・ソロモンの王国と分裂後の王国。一神教の伝統がここで形を得た。
+
   - id: neo-assyria
     title: 新アッシリア帝国
     start: -911
@@ -34,6 +61,14 @@ periods:
     tags: [メソポタミア, 軍事]
     summary: 鉄製武器と騎兵でオリエントを初めて統一した軍事帝国。
 
+  - id: neo-babylon
+    title: 新バビロニア
+    start: -626
+    end: -539
+    category: politics
+    tags: [メソポタミア]
+    summary: アッシリアを倒して栄えた短い王国。空中庭園と天文学で知られる。
+
   - id: achaemenid
     title: アケメネス朝ペルシア
     start: -550
@@ -41,6 +76,17 @@ periods:
     category: politics
     tags: [ペルシア]
     summary: エジプトからインダスまでを結んだ大帝国。寛容な統治と王の道で知られる。
+    detail: |
+      征服した民族の宗教や慣習を認め、20以上の州に総督を置いて統治した。
+      「王の道」と駅伝制度は、広い領域を一つの行政で動かす最初の本格的な試みだった。
+
+  - id: seleucid
+    title: セレウコス朝
+    start: -312
+    end: -63
+    category: culture
+    tags: [ヘレニズム, ペルシア]
+    summary: アレクサンドロスの後継国家。ギリシア語と都市が西アジアに根づいた。
 
   - id: parthia
     title: パルティア
@@ -58,6 +104,14 @@ periods:
     tags: [ペルシア, ゾロアスター教]
     summary: ペルシア文化の復興を掲げた帝国。イスラム勢力に滅ぼされた。
 
+  - id: rashidun
+    title: 正統カリフ時代
+    start: 632
+    end: 661
+    category: religion
+    tags: [イスラム]
+    summary: ムハンマドの死後30年で、シリア・エジプト・ペルシアを制した急拡大の時期。
+
   - id: umayyad
     title: ウマイヤ朝
     start: 661
@@ -73,6 +127,49 @@ periods:
     category: culture
     tags: [イスラム, バグダード]
     summary: バグダードを中心に、ギリシア・インドの学問を継承発展させた黄金期。
+    detail: |
+      ギリシア語の哲学・医学・数学がアラビア語に翻訳され、インドの数字と組み合わされた。
+      その蓄積が12世紀以降にラテン語へ訳し戻され、ヨーロッパの学問を立ち上げ直す。
+
+  - id: fatimid
+    title: ファーティマ朝
+    start: 909
+    end: 1171
+    category: religion
+    tags: [イスラム, シーア派]
+    summary: シーア派のカリフを名乗りカイロを築いた。イスラム世界は一つではなくなった。
+
+  - id: seljuk
+    title: セルジューク朝
+    start: 1037
+    end: 1194
+    category: politics
+    tags: [トルコ系, イスラム]
+    summary: トルコ系が西アジアの支配層になり、十字軍を招く直接の原因にもなった。
+
+  - id: ayyubid
+    title: アイユーブ朝
+    start: 1171
+    end: 1250
+    category: war
+    tags: [イスラム, 十字軍]
+    summary: サラディンが十字軍からエルサレムを奪回し、エジプトとシリアを束ねた。
+
+  - id: mamluk
+    title: マムルーク朝
+    start: 1250
+    end: 1517
+    category: politics
+    tags: [エジプト, 軍事]
+    summary: 奴隷出身の軍人が国を治めた260年。モンゴルの西進を食い止めた。
+
+  - id: ilkhanate
+    title: イルハン朝
+    start: 1256
+    end: 1353
+    category: politics
+    tags: [モンゴル, ペルシア]
+    summary: モンゴルがイランに築いた国。やがて支配層自身がイスラムを受け入れた。
 
   - id: ottoman
     title: オスマン帝国
@@ -90,6 +187,30 @@ periods:
     tags: [イラン, シーア派]
     summary: シーア派を国教とし、現在のイランの宗教的な輪郭を作った。
 
+  - id: qajar
+    title: ガージャール朝
+    start: 1789
+    end: 1925
+    category: politics
+    tags: [イラン]
+    summary: 英露に挟まれて利権を切り売りし、立憲革命と石油利権の時代を迎えた。
+
+  - id: pahlavi
+    title: パフラヴィー朝
+    start: 1925
+    end: 1979
+    category: politics
+    tags: [イラン, 近代化]
+    summary: 上からの急速な西欧化が社会の反発を生み、イスラム革命で倒れた。
+
+  - id: iran-iraq-war
+    title: イラン・イラク戦争
+    start: 1980
+    end: 1988
+    category: war
+    tags: [中東, 現代]
+    summary: 8年で100万人規模の死者を出した消耗戦。中東の力関係を大きく変えた。
+
 events:
   - id: cuneiform
     year: -3300
@@ -99,6 +220,14 @@ events:
     tags: [文字, メソポタミア]
     summary: 倉庫の記録から始まった文字が、歴史を記録できる社会を作った。
 
+  - id: ur-nammu-code
+    year: -2100
+    circa: true
+    title: ウル・ナンム法典
+    category: society
+    tags: [法, メソポタミア]
+    summary: 現存する最古級の法典。刑罰を賠償で定める考え方がすでに見える。
+
   - id: hammurabi-code
     year: -1750
     circa: true
@@ -107,12 +236,34 @@ events:
     tags: [法, メソポタミア]
     summary: 石柱に刻まれた282条。国家が刑罰の基準を公示した初期の例。
 
+  - id: alphabet-invented
+    year: -1050
+    circa: true
+    title: アルファベットの成立
+    category: science
+    tags: [文字, フェニキア]
+    summary: 20数文字で言葉を書ける仕組み。書く技術が専門家のものでなくなった。
+
   - id: kadesh
     year: -1274
     title: カデシュの戦い
     category: war
     tags: [エジプト, ヒッタイト]
     summary: エジプトとヒッタイトが激突し、現存最古級の講和条約が結ばれた。
+
+  - id: israel-falls
+    year: -722
+    title: アッシリアがイスラエル王国を滅ぼす
+    category: war
+    tags: [アッシリア, ユダヤ教]
+    summary: 住民が各地へ移され、「失われた十支族」の伝承が生まれた。
+
+  - id: babylonian-captivity
+    year: -586
+    title: バビロン捕囚
+    category: religion
+    tags: [ユダヤ教]
+    summary: 神殿を失った経験が、土地に依らない一神教の信仰を鍛え上げた。
 
   - id: cyrus-babylon
     year: -539
@@ -121,12 +272,108 @@ events:
     tags: [ペルシア]
     summary: 捕囚のユダヤ人を解放し、寛容な支配の伝説を残した。
 
+  - id: zoroaster
+    year: -600
+    circa: true
+    title: ゾロアスター教の成立
+    category: religion
+    tags: [ペルシア]
+    summary: 善と悪の対立や最後の審判という枠組みが、のちの一神教にも影響したとされる。
+
+  - id: achaemenid-falls
+    year: -330
+    title: アケメネス朝の滅亡
+    category: war
+    tags: [ペルシア, マケドニア]
+    summary: アレクサンドロスに敗れ、オリエントがギリシア文化圏に組み込まれた。
+
+  - id: muhammad-born
+    year: 570
+    circa: true
+    title: ムハンマドの生誕
+    category: religion
+    tags: [イスラム]
+    summary: 交易都市メッカの商人として育ち、40歳頃から預言者として活動を始めた。
+
   - id: hijra
     year: 622
     title: ヒジュラ（聖遷）
     category: religion
     tags: [イスラム]
     summary: ムハンマドのメディナ移住。イスラム暦の元年にあたる。
+
+  - id: yarmouk
+    year: 636
+    title: ヤルムークの戦い
+    category: war
+    tags: [イスラム, ビザンツ]
+    summary: ビザンツからシリアを奪い、イスラム勢力の大拡張が始まった。
+
+  - id: nahavand
+    year: 642
+    title: ニハーヴァンドの戦い
+    category: war
+    tags: [イスラム, ペルシア]
+    summary: ササン朝が事実上崩壊し、イランがイスラム世界に組み込まれていく。
+
+  - id: karbala
+    year: 680
+    title: カルバラーの悲劇
+    category: religion
+    tags: [イスラム, シーア派]
+    summary: ムハンマドの孫が殺され、スンナ派とシーア派の分裂が決定的になった。
+
+  - id: baghdad-founded
+    year: 762
+    title: バグダードの建設
+    category: society
+    tags: [イスラム, 都市]
+    summary: 円形の計画都市として築かれ、100万人規模の世界最大級の都市になった。
+
+  - id: house-of-wisdom
+    year: 830
+    circa: true
+    title: 知恵の館
+    category: science
+    tags: [イスラム, 翻訳]
+    summary: ギリシア・インドの学問をアラビア語に訳し、代数学や天文学を発展させた。
+
+  - id: al-khwarizmi
+    year: 820
+    circa: true
+    title: フワーリズミーの代数学
+    category: science
+    tags: [数学]
+    summary: 「アルゴリズム」の語源になった学者。方程式を体系的に解く方法を示した。
+
+  - id: seljuk-baghdad
+    year: 1055
+    title: セルジューク朝のバグダード入城
+    category: politics
+    tags: [トルコ系, カリフ]
+    summary: カリフは宗教的権威に退き、実権はスルタンが握る形が定着した。
+
+  - id: jerusalem-crusade
+    year: 1099
+    title: 十字軍のエルサレム占領
+    category: war
+    tags: [十字軍]
+    summary: 住民の大量殺害を伴い、以後の対立の記憶として長く残った。
+
+  - id: saladin-jerusalem
+    year: 1187
+    title: サラディンのエルサレム奪回
+    category: war
+    tags: [イスラム, 十字軍]
+    summary: 寛大な処置が敵味方の双方に語り継がれ、騎士道の理想像にもなった。
+
+  - id: ibn-sina
+    year: 1025
+    circa: true
+    title: イブン・シーナー『医学典範』
+    category: science
+    tags: [医学, イスラム]
+    summary: ヨーロッパの大学でも600年にわたり使われた医学の教科書。
 
   - id: baghdad-sack
     year: 1258
@@ -135,6 +382,90 @@ events:
     tags: [イスラム, モンゴル]
     summary: アッバース朝が滅び、イスラム世界の学術の中心が失われた。
 
+  - id: ain-jalut
+    year: 1260
+    title: アイン・ジャールートの戦い
+    category: war
+    tags: [マムルーク, モンゴル]
+    summary: モンゴルの西進を初めて止め、エジプトがイスラム世界の中心になった。
+
+  - id: ibn-khaldun
+    year: 1377
+    title: イブン・ハルドゥーン『歴史序説』
+    category: religion
+    tags: [歴史学, 思想]
+    summary: 王朝の盛衰を社会の仕組みから説明し、歴史学と社会学の先駆けとなった。
+
+  - id: ottoman-egypt
+    year: 1517
+    title: オスマン帝国のエジプト征服
+    category: politics
+    tags: [オスマン, カリフ]
+    summary: 聖地の保護者となり、スンナ派イスラム世界の盟主の地位を得た。
+
+  - id: vienna-siege-1
+    year: 1529
+    title: 第一次ウィーン包囲
+    category: war
+    tags: [オスマン, ヨーロッパ]
+    summary: オスマンが中欧に迫った衝撃は、ヨーロッパの対外意識を長く規定した。
+
+  - id: vienna-siege-2
+    year: 1683
+    title: 第二次ウィーン包囲
+    category: war
+    tags: [オスマン, ヨーロッパ]
+    summary: 敗北を境にオスマンは後退に転じ、力関係が逆転していく。
+
+  - id: tulip-period
+    year: 1718
+    title: チューリップ時代
+    category: culture
+    tags: [オスマン, 西欧化]
+    summary: ヨーロッパの文物を積極的に取り入れた時期。印刷所も初めて置かれた。
+
+  - id: tanzimat
+    year: 1839
+    title: タンジマート（オスマンの改革）
+    category: society
+    tags: [オスマン, 近代化]
+    summary: 法と軍と教育を西欧式に作り替えたが、帝国の解体は止められなかった。
+
+  - id: persian-oil
+    year: 1908
+    title: ペルシアで石油が発見される
+    category: economy
+    tags: [中東, 石油]
+    summary: 中東が世界のエネルギーの中心になり、列強の介入を招く原因になった。
+
+  - id: sykes-picot
+    year: 1916
+    title: サイクス・ピコ協定
+    category: politics
+    tags: [中東, 列強]
+    summary: 英仏がオスマン領の分割を密約。現在の国境線の多くがここに由来する。
+
+  - id: balfour-declaration
+    year: 1917
+    title: バルフォア宣言
+    category: politics
+    tags: [中東, ユダヤ人]
+    summary: 相反する約束を各方面に与えた結果、パレスチナ問題の原型ができた。
+
+  - id: turkish-republic
+    year: 1923
+    title: トルコ共和国の成立
+    category: politics
+    tags: [トルコ, 世俗化]
+    summary: カリフ制を廃止し、政教分離と文字改革を断行した。
+
+  - id: saudi-arabia
+    year: 1932
+    title: サウジアラビア王国の成立
+    category: politics
+    tags: [中東]
+    summary: 建国直後に発見された石油が、王国と世界経済を結びつけた。
+
   - id: israel-founded
     year: 1948
     title: イスラエル建国
@@ -142,9 +473,51 @@ events:
     tags: [中東, 現代]
     summary: 直後に第一次中東戦争が起き、今日まで続く対立の起点となった。
 
+  - id: opec-founded
+    year: 1960
+    title: OPECの結成
+    category: economy
+    tags: [石油, 中東]
+    summary: 産油国が価格決定の主導権を握り、資源が外交の武器になった。
+
+  - id: six-day-war
+    year: 1967
+    title: 第三次中東戦争（六日戦争）
+    category: war
+    tags: [中東]
+    summary: イスラエルが領土を大きく広げ、占領地問題が中東の中心課題になった。
+
+  - id: oil-crisis
+    year: 1973
+    title: 第四次中東戦争と石油危機
+    category: economy
+    tags: [石油, 世界経済]
+    summary: 原油価格が4倍になり、先進国の高度成長が終わった。
+
   - id: iranian-revolution
     year: 1979
     title: イラン革命
     category: religion
     tags: [イラン, 現代]
     summary: 王政が倒れイスラム共和国が成立。中東の力関係が大きく変わった。
+
+  - id: gulf-war
+    year: 1991
+    title: 湾岸戦争
+    category: war
+    tags: [中東, 冷戦後]
+    summary: 冷戦後初の大規模な多国籍軍の行動。中東への米軍の常駐が深まった。
+
+  - id: iraq-war
+    year: 2003
+    title: イラク戦争
+    category: war
+    tags: [中東, アメリカ]
+    summary: 大量破壊兵器を理由に始まったが見つからず、地域の秩序が不安定化した。
+
+  - id: arab-spring
+    year: 2011
+    title: アラブの春
+    category: society
+    tags: [中東, 民主化]
+    summary: 各国で長期政権が倒れたが、多くは内戦や強権の復活に至った。

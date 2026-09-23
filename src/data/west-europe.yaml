@@ -9,6 +9,16 @@ periods:
     tags: [ヨーロッパ, ゲルマン]
     summary: 西ヨーロッパを統合した最初のゲルマン国家。分裂して独仏伊の原型になった。
 
+  - id: carolingian-renaissance
+    title: カロリング・ルネサンス
+    start: 780
+    startCirca: true
+    end: 900
+    endCirca: true
+    category: culture
+    tags: [フランク, 学問]
+    summary: 修道院で古典写本が写され、ラテン語と学校の伝統が中世に引き継がれた。
+
   - id: holy-roman-empire
     title: 神聖ローマ帝国
     start: 962
@@ -16,6 +26,22 @@ periods:
     category: politics
     tags: [ドイツ, ヨーロッパ]
     summary: ドイツを中心とする緩やかな連合体。名目上のローマ帝国の後継を844年間名乗った。
+
+  - id: crusades
+    title: 十字軍
+    start: 1096
+    end: 1291
+    category: religion
+    tags: [ヨーロッパ, 中東]
+    summary: 聖地回復を掲げた遠征。結果として東方の物と知識がヨーロッパに流れ込んだ。
+
+  - id: capetian-france
+    title: カペー朝フランス
+    start: 987
+    end: 1328
+    category: politics
+    tags: [フランス]
+    summary: パリ周辺の小領主から始まり、340年かけて王権を全土に広げた。
 
   - id: hundred-years-war
     title: 百年戦争
@@ -25,6 +51,40 @@ periods:
     tags: [イギリス, フランス]
     summary: 英仏の王位と領土をめぐる断続的な戦争。両国の国民意識を育てた。
 
+  - id: age-of-discovery
+    title: 大航海時代
+    start: 1415
+    end: 1600
+    endCirca: true
+    category: economy
+    tags: [ポルトガル, スペイン, 航海]
+    summary: ヨーロッパが海路で世界とつながり、富と病と支配が同時に広がった。
+
+  - id: reformation
+    title: 宗教改革
+    start: 1517
+    end: 1648
+    category: religion
+    tags: [ヨーロッパ, キリスト教]
+    summary: 西方キリスト教世界が分裂し、100年以上の宗教戦争を経て共存の原則に至った。
+
+  - id: thirty-years-war
+    title: 三十年戦争
+    start: 1618
+    end: 1648
+    category: war
+    tags: [ドイツ, 宗教]
+    summary: ドイツを荒廃させた最後の大宗教戦争。主権国家体制はこの戦後に生まれた。
+
+  - id: enlightenment
+    title: 啓蒙思想
+    start: 1680
+    startCirca: true
+    end: 1789
+    category: religion
+    tags: [ヨーロッパ, 思想]
+    summary: 理性と経験で社会を問い直す思想。アメリカ独立とフランス革命の下地になった。
+
   - id: industrial-revolution
     title: 産業革命
     start: 1760
@@ -33,6 +93,25 @@ periods:
     category: economy
     tags: [イギリス, 技術]
     summary: 石炭と蒸気機関による機械生産が始まり、人類の暮らしの前提が変わった。
+    detail: |
+      生産量だけでなく、時間の使い方・住む場所・働き方まで変わった。
+      都市に人口が集中し、労働問題と社会主義という新しい問いが生まれる。
+
+  - id: napoleonic-wars
+    title: ナポレオン戦争
+    start: 1803
+    end: 1815
+    category: war
+    tags: [フランス, ヨーロッパ]
+    summary: 革命の理念と支配が武力で各地に運ばれ、国民国家の意識を各国に植えつけた。
+
+  - id: british-empire-peak
+    title: 大英帝国の最盛期
+    start: 1815
+    end: 1914
+    category: politics
+    tags: [イギリス, 帝国主義]
+    summary: 海軍と資本で世界の4分の1を支配し、自由貿易の秩序を主導した。
 
   - id: ww1
     title: 第一次世界大戦
@@ -42,6 +121,14 @@ periods:
     tags: [世界大戦]
     summary: 総力戦となり、ヨーロッパの帝国と旧秩序が崩れ落ちた。
 
+  - id: nazi-germany
+    title: ナチス・ドイツ
+    start: 1933
+    end: 1945
+    category: politics
+    tags: [ドイツ, 全体主義]
+    summary: 合法的に成立した独裁が戦争とホロコーストに至り、12年で崩壊した。
+
   - id: ww2
     title: 第二次世界大戦
     start: 1939
@@ -49,6 +136,14 @@ periods:
     category: war
     tags: [世界大戦]
     summary: 史上最大の戦争。戦後は米ソ二極と脱植民地化の時代になる。
+
+  - id: cold-war
+    title: 冷戦
+    start: 1947
+    end: 1991
+    category: politics
+    tags: [ヨーロッパ, 米ソ]
+    summary: 直接戦火を交えないまま世界を二分した対立。ヨーロッパはその最前線だった。
 
 events:
   - id: charlemagne-coronation
@@ -65,6 +160,13 @@ events:
     tags: [フランク]
     summary: フランク王国が三分割され、のちのフランス・ドイツ・イタリアの輪郭ができた。
 
+  - id: viking-raids
+    year: 793
+    title: ヴァイキングの活動が始まる
+    category: war
+    tags: [北欧, 交易]
+    summary: 略奪と交易と植民を同時に行い、ヨーロッパの海と川の世界を塗り替えた。
+
   - id: norman-conquest
     year: 1066
     title: ノルマン・コンクェスト
@@ -78,6 +180,22 @@ events:
     category: religion
     tags: [十字軍, 教皇]
     summary: 聖地回復の呼びかけから、約200年続く東方への軍事遠征が始まった。
+    related: [crusades]
+
+  - id: canossa
+    year: 1077
+    title: カノッサの屈辱
+    category: religion
+    tags: [教皇, 皇帝]
+    summary: 皇帝が教皇に謝罪した事件。聖職者の任命権をめぐる争いの象徴になった。
+
+  - id: university-bologna
+    year: 1088
+    circa: true
+    title: ボローニャ大学の成立
+    category: science
+    tags: [大学, 学問]
+    summary: 学生と教師の組合から生まれ、ヨーロッパの大学制度の出発点になった。
 
   - id: magna-carta
     year: 1215
@@ -92,6 +210,16 @@ events:
     category: disaster
     tags: [疫病, ヨーロッパ]
     summary: 数年で人口の3分の1が失われ、荘園制と教会の権威が大きく揺らいだ。
+    detail: |
+      働き手が激減したことで農民の立場が相対的に強まり、賃金が上がって農奴制が緩んだ。
+      祈っても救われなかった経験は、教会への信頼と死生観にも影響を残した。
+
+  - id: joan-of-arc
+    year: 1429
+    title: ジャンヌ・ダルクのオルレアン解放
+    category: war
+    tags: [フランス, 百年戦争]
+    summary: 劣勢のフランスを立て直し、王国としてのまとまりを取り戻す転機になった。
 
   - id: gutenberg-press
     year: 1450
@@ -101,12 +229,55 @@ events:
     tags: [技術, 出版]
     summary: 本の複製費用が激減し、知識の広がる速さが一変した。
 
+  - id: reconquista-end
+    year: 1492
+    title: レコンキスタの完成
+    category: war
+    tags: [スペイン, イスラム]
+    summary: グラナダ陥落でイベリア半島のイスラム政権が終わり、同じ年に大西洋へ乗り出した。
+
   - id: ninety-five-theses
     year: 1517
     title: ルターの九十五か条の論題
     category: religion
     tags: [宗教改革]
     summary: 免罪符批判から宗教改革が始まり、西欧キリスト教世界が二つに割れた。
+    related: [reformation]
+
+  - id: copernicus
+    year: 1543
+    title: コペルニクスの地動説
+    category: science
+    tags: [天文学]
+    summary: 地球が宇宙の中心ではないという見方が、世界像の作り替えを始めた。
+
+  - id: st-bartholomew
+    year: 1572
+    title: サン・バルテルミの虐殺
+    category: religion
+    tags: [フランス, 宗教戦争]
+    summary: カトリックによるプロテスタント殺害事件。宗教対立の残酷さを象徴する。
+
+  - id: spanish-armada
+    year: 1588
+    title: アルマダの海戦
+    category: war
+    tags: [イギリス, スペイン]
+    summary: スペイン無敵艦隊の敗北。制海権が南から北西ヨーロッパへ移り始めた。
+
+  - id: edict-of-nantes
+    year: 1598
+    title: ナントの勅令
+    category: religion
+    tags: [フランス, 寛容]
+    summary: 信仰の自由を認めてフランスの宗教戦争を終わらせた（1685年に廃止）。
+
+  - id: galileo-trial
+    year: 1633
+    title: ガリレオの裁判
+    category: science
+    tags: [天文学, 教会]
+    summary: 科学の主張と教会の権威が正面から衝突した事件として記憶されている。
 
   - id: peace-of-westphalia
     year: 1648
@@ -115,6 +286,13 @@ events:
     tags: [国際関係]
     summary: 三十年戦争を終わらせ、主権国家が並び立つ国際秩序の原型を作った。
 
+  - id: versailles-palace
+    year: 1682
+    title: ルイ14世がヴェルサイユに移る
+    category: politics
+    tags: [フランス, 絶対王政]
+    summary: 貴族を宮廷に集めて力を削ぐ絶対王政の完成形。各国の宮廷が手本にした。
+
   - id: glorious-revolution
     year: 1688
     title: 名誉革命（イギリス）
@@ -122,12 +300,165 @@ events:
     tags: [イギリス, 立憲]
     summary: 流血なく王を替え、議会が王権に優越する仕組みを確立した。
 
+  - id: newton-principia
+    year: 1687
+    title: ニュートン『プリンキピア』
+    category: science
+    tags: [物理学]
+    summary: 天も地も同じ法則で動くと示し、科学革命の到達点になった。
+
+  - id: encyclopedie
+    year: 1751
+    title: 『百科全書』の刊行開始
+    category: religion
+    tags: [フランス, 啓蒙]
+    summary: 知識を体系化して公開する試み。啓蒙思想を広く伝える器になった。
+
+  - id: watt-steam-engine
+    year: 1769
+    title: ワットの蒸気機関
+    category: science
+    tags: [イギリス, 技術]
+    summary: 燃料効率を大きく高め、工場と鉄道と船を動かす動力になった。
+
   - id: french-revolution
     year: 1789
     title: フランス革命
     category: society
     tags: [フランス, 革命]
     summary: 身分制社会を打ち倒し、人権と国民主権の理念を世界に広げた。
+    detail: |
+      国王の処刑、恐怖政治、ナポレオンの独裁と、理想は何度も裏切られた。
+      それでも「人は生まれながらに権利を持つ」という前提は各国に残り続けた。
+
+  - id: napoleon-emperor
+    year: 1804
+    title: ナポレオンの皇帝即位とナポレオン法典
+    category: society
+    tags: [フランス, 法]
+    summary: 法の下の平等と所有権を定めた法典は、ヨーロッパ各国の民法の手本になった。
+
+  - id: waterloo
+    year: 1815
+    title: ワーテルローの戦いとウィーン体制
+    category: politics
+    tags: [ヨーロッパ, 国際関係]
+    summary: ナポレオンが退場し、革命前への復帰をめざす保守的な国際秩序が敷かれた。
+
+  - id: stephenson-railway
+    year: 1825
+    title: 世界初の営業鉄道
+    category: science
+    tags: [イギリス, 鉄道]
+    summary: 人と物が動く速さと量が桁違いになり、産業革命が社会全体に及んだ。
+
+  - id: revolutions-1848
+    year: 1848
+    title: 1848年革命と『共産党宣言』
+    category: society
+    tags: [ヨーロッパ, 革命]
+    summary: 各地で自由と統一を求める蜂起が連鎖し、労働者が政治の主体として現れた。
+
+  - id: great-exhibition
+    year: 1851
+    title: ロンドン万国博覧会
+    category: economy
+    tags: [イギリス, 産業]
+    summary: 工業化の成果を世界に見せる場。以後の万博と国際競争の型を作った。
+
+  - id: darwin-origin
+    year: 1859
+    title: ダーウィン『種の起源』
+    category: science
+    tags: [生物学]
+    summary: 種は変化するという説明が、人間の位置づけそのものを揺さぶった。
+
+  - id: italian-unification
+    year: 1861
+    title: イタリア王国の成立
+    category: politics
+    tags: [イタリア, 国民国家]
+    summary: 1000年以上分裂していた半島が一つの国になった。
+
+  - id: german-unification
+    year: 1871
+    title: ドイツ帝国の成立
+    category: politics
+    tags: [ドイツ, 国民国家]
+    summary: ビスマルクの主導で統一され、ヨーロッパの勢力均衡が一変した。
+
+  - id: berlin-conference-eu
+    year: 1884
+    title: ベルリン会議でアフリカ分割を協議
+    category: politics
+    tags: [帝国主義]
+    summary: 列強が現地の意思と無関係に境界を決め、20世紀の紛争の種をまいた。
+    related: [berlin-conference]
+
+  - id: sarajevo
+    year: 1914
+    title: サラエボ事件
+    category: war
+    tags: [第一次世界大戦]
+    summary: 一発の銃弾が同盟網を連鎖させ、1か月で大戦に発展した。
+    related: [ww1]
+
+  - id: spanish-flu
+    year: 1918
+    title: スペイン風邪の大流行
+    category: disaster
+    tags: [疫病, 世界]
+    summary: 戦争の死者を上回る数千万人が亡くなり、人の移動が疫病を広げることを示した。
+
+  - id: treaty-of-versailles
+    year: 1919
+    title: ヴェルサイユ条約
+    category: politics
+    tags: [第一次世界大戦, 戦後処理]
+    summary: ドイツへの過酷な賠償が不満を残し、次の戦争の火種になったとされる。
+
+  - id: great-depression-eu
+    year: 1929
+    title: 世界恐慌がヨーロッパに波及
+    category: economy
+    tags: [経済危機]
+    summary: 失業と困窮が各国の民主政治を揺さぶり、極端な政治勢力を押し上げた。
+    related: [great-depression]
+
+  - id: munich-agreement
+    year: 1938
+    title: ミュンヘン会談
+    category: politics
+    tags: [ドイツ, 外交]
+    summary: 譲歩で戦争を避けようとして失敗した例として、以後の外交で繰り返し参照される。
+
+  - id: holocaust
+    year: 1941
+    title: ホロコースト
+    category: society
+    tags: [ドイツ, 人権]
+    summary: 約600万人のユダヤ人が組織的に殺害され、人権という概念の重みが変わった。
+
+  - id: d-day
+    year: 1944
+    title: ノルマンディー上陸作戦
+    category: war
+    tags: [第二次世界大戦]
+    summary: 西部戦線が開かれ、11か月後のドイツ降伏につながった。
+
+  - id: marshall-plan
+    year: 1948
+    title: マーシャル・プラン
+    category: economy
+    tags: [アメリカ, 戦後復興]
+    summary: 米国の大規模援助が西欧の復興を支え、同時に東西の分断を固定した。
+
+  - id: berlin-wall-built
+    year: 1961
+    title: ベルリンの壁の建設
+    category: politics
+    tags: [冷戦, ドイツ]
+    summary: 分断が目に見える形になり、以後28年間ドイツ人を隔てた。
 
   - id: eu-founded
     year: 1993
@@ -135,3 +466,17 @@ events:
     category: politics
     tags: [ヨーロッパ, 統合]
     summary: 二度の大戦への反省から始まった統合が、通貨と市民権を共有する段階に進んだ。
+
+  - id: euro-introduced
+    year: 2002
+    title: ユーロの流通開始
+    category: economy
+    tags: [ヨーロッパ, 通貨]
+    summary: 国家の象徴だった通貨を手放す実験。統合の深さと限界を同時に示した。
+
+  - id: brexit
+    year: 2020
+    title: イギリスのEU離脱
+    category: politics
+    tags: [ヨーロッパ, 統合]
+    summary: 統合が一方向には進まないことを示し、各国の主権論議に火をつけた。
