@@ -8,6 +8,7 @@
 import {
   BAR_GAP,
   BAR_H,
+  LABEL_COL_W,
   LANE_PAD_TOP,
   MIN_BAR_W,
   laneHeight,
@@ -58,12 +59,35 @@ const panel = $('#panel')!;
 const panelBody = $('#panel-body')!;
 const scan = $('#scan')!;
 const scanHandle = $('#scan-handle')!;
+const centerButton = $('#center-year')!;
+const centerLabel = centerButton.querySelector('b')!;
 
 type View = { zoom: number; off: CategoryId[]; hiddenLanes: LaneId[] };
 const view: View = { zoom: 1, off: [], hiddenLanes: [] };
 
 let selectedId: string | null = null;
 let scanYear: number | null = null;
+
+/** 中央線の、スクロール領域の左端からの距離（レーン名の固定列を除いた真ん中） */
+function centerOffset(): number {
+  return LABEL_COL_W + (tl.clientWidth - LABEL_COL_W) / 2;
+}
+
+/** いま中央線が指している年 */
+function centerYear(): number {
+  return xToYear(tl.scrollLeft + centerOffset() - LABEL_COL_W, view.zoom);
+}
+
+/** その年が中央線に来るようにスクロールする */
+function scrollYearToCenter(year: number, behavior: ScrollBehavior = 'smooth') {
+  tl.scrollTo({ left: Math.max(0, yearToX(year, view.zoom) + LABEL_COL_W - centerOffset()), behavior });
+}
+
+let centerRaf = 0;
+function updateCenterYear() {
+  centerRaf = 0;
+  centerLabel.textContent = formatYear(centerYear());
+}
 
 const esc = (s: string) =>
   s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
@@ -159,11 +183,12 @@ function relayout() {
 function setZoom(next: number) {
   const zoom = Math.min(...ZOOM_LEVELS.filter((z) => z >= next).concat(ZOOM_LEVELS[ZOOM_LEVELS.length - 1]!));
   if (zoom === view.zoom) return;
-  // 画面中央の年を保つ
-  const centerYear = xToYear(tl.scrollLeft + tl.clientWidth / 2 - 152, view.zoom);
+  // 中央線が指している年を保ったまま拡大縮小する
+  const keep = centerYear();
   view.zoom = zoom;
   relayout();
-  tl.scrollLeft = yearToX(centerYear, zoom) + 152 - tl.clientWidth / 2;
+  scrollYearToCenter(keep, 'instant');
+  updateCenterYear();
   $('#zoom-value')!.textContent = `×${zoom}`;
   save();
 }
@@ -329,8 +354,7 @@ function select(id: string, opts: { scroll?: boolean; push?: boolean } = {}) {
   const el = lanesEl.querySelector<HTMLElement>(`[data-id="${id}"]`);
   el?.setAttribute('data-selected', '');
   if (el && opts.scroll !== false) {
-    const x = yearToX(itemSpan(item)[0], view.zoom);
-    tl.scrollTo({ left: Math.max(0, x + 152 - tl.clientWidth / 2), behavior: 'smooth' });
+    scrollYearToCenter(itemSpan(item)[0]);
     const top = el.getBoundingClientRect().top - tl.getBoundingClientRect().top + tl.scrollTop;
     if (top < tl.scrollTop + 60 || top > tl.scrollTop + tl.clientHeight - 60) {
       tl.scrollTo({ top: Math.max(0, top - tl.clientHeight / 2), behavior: 'smooth' });
@@ -391,7 +415,7 @@ function goToYear() {
   const year = Number(yearInput.value);
   if (!Number.isFinite(year) || yearInput.value === '') return;
   moveScan(year);
-  tl.scrollTo({ left: Math.max(0, yearToX(year, view.zoom) + 152 - tl.clientWidth / 2), behavior: 'smooth' });
+  scrollYearToCenter(year);
 }
 $('#year-go')!.addEventListener('click', goToYear);
 yearInput.addEventListener('keydown', (e) => {
@@ -418,6 +442,16 @@ scanHandle.addEventListener('pointerdown', (e) => {
   scanHandle.addEventListener('pointerup', onUp);
 });
 
+tl.addEventListener(
+  'scroll',
+  () => {
+    if (!centerRaf) centerRaf = requestAnimationFrame(updateCenterYear);
+  },
+  { passive: true },
+);
+new ResizeObserver(updateCenterYear).observe(tl);
+centerButton.addEventListener('click', () => moveScan(centerYear()));
+
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') return closePanel();
   if (e.target instanceof HTMLInputElement) return;
@@ -440,7 +474,7 @@ function applyHash() {
     const year = Number(hash.slice(2));
     if (Number.isFinite(year)) {
       moveScan(year);
-      tl.scrollLeft = Math.max(0, yearToX(year, view.zoom) + 152 - tl.clientWidth / 2);
+      scrollYearToCenter(year, 'instant');
     }
   }
 }

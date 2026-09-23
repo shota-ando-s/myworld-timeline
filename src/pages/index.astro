@@ -64,14 +64,17 @@ const payload = JSON.stringify(data.items).replace(/</g, '\\u003c');
     </header>
 
     <main class="app">
-      <div class="tl" id="tl">
-        <div class="tl__inner" style={`--w:${width}px; --scan-x:0px`} id="tl-inner">
-          <TimeAxis zoom={ZOOM} />
-          <div class="lanes" id="lanes">
-            {laneViews.map((view) => <Lane view={view} />)}
+      <div class="tl-wrap">
+        <div class="tl" id="tl">
+          <div class="tl__inner" style={`--w:${width}px; --scan-x:0px`} id="tl-inner">
+            <TimeAxis zoom={ZOOM} />
+            <div class="lanes" id="lanes">
+              {laneViews.map((view) => <Lane view={view} />)}
+            </div>
+            <div class="scan" id="scan" hidden></div>
           </div>
-          <div class="scan" id="scan" hidden></div>
         </div>
+        <div class="center-line" aria-hidden="true"></div>
       </div>
       <div class="mlist" id="mlist"></div>
       <DetailPanel />

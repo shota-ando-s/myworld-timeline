@@ -106,7 +106,26 @@ a { color: #1c5cab; }
 /* ───────── 本体 ───────── */
 .app { display: grid; grid-template-columns: minmax(0, 1fr) auto; min-height: 0; }
 
+/* 中央線はスクロールしない。スクロール領域の外側に重ねる必要があるので一枚包む */
+.tl-wrap { position: relative; display: grid; min-width: 0; min-height: 0; }
 .tl { position: relative; overflow: auto; overscroll-behavior-x: contain; }
+
+/* いま画面のどのへんの年を見ているかの基準線（軸の下から下端まで） */
+.center-line {
+  position: absolute;
+  top: 53px; bottom: 0;
+  left: calc(var(--label-w) + (100% - var(--label-w)) / 2);
+  width: 0; z-index: 8; pointer-events: none;
+  border-left: 1px dashed var(--ink-3);
+  opacity: 0.4;
+}
+.center-line::before {
+  content: '';
+  position: absolute; top: -6px; left: -4px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--ink-3);
+}
 .tl__inner { position: relative; width: max-content; min-width: 100%; }
 
 /* 時代帯と目盛り */
@@ -119,9 +138,21 @@ a { color: #1c5cab; }
   position: sticky; left: 0; z-index: 7;
   width: var(--label-w); flex: 0 0 var(--label-w);
   background: var(--surface); border-right: 1px solid var(--rule-strong);
-  display: flex; align-items: flex-end; padding: 0 8px 4px;
+  display: flex; align-items: flex-end; padding: 0 8px 5px;
   font-size: 10px; color: var(--ink-3);
 }
+
+/* 中央線が指している年。押すとその年のスナップショットを開く */
+.axis__center {
+  display: flex; flex-direction: column; align-items: flex-start;
+  border: 0; background: none; padding: 0; text-align: left; line-height: 1.2;
+}
+.axis__center small { font-size: 9px; color: var(--ink-3); letter-spacing: 0.06em; }
+.axis__center b {
+  font-size: 14px; font-weight: 600; color: var(--ink);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.axis__center:hover b { text-decoration: underline; text-underline-offset: 2px; }
 .axis__track { position: relative; width: var(--w); flex: 0 0 var(--w); height: 52px; }
 
 .era {
@@ -300,7 +331,7 @@ a { color: #1c5cab; }
   .mrow__year { padding-top: 3px; }
 
   .app { grid-template-columns: minmax(0, 1fr); }
-  .tl { display: none; }
+  .tl-wrap { display: none; }
 
   .mlist { display: block; overflow-y: auto; padding: 0 0 48px; }
   .mlist__era {

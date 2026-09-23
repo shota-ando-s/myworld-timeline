@@ -16,7 +16,12 @@ const tickList = ticks(zoom);
 ---
 
 <div class="axis">
-  <div class="axis__corner">年代 →</div>
+  <div class="axis__corner">
+    <button type="button" class="axis__center" id="center-year" title="この年の世界を見る">
+      <small>画面中央</small>
+      <b>—</b>
+    </button>
+  </div>
   <div class="axis__track" id="axis-track">
     {
       eras.map((e) => (
