@@ -14,7 +14,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { loadAll } from '../src/lib/load-fs.ts';
 
-const UA = 'myworld-timeline/0.1 (https://github.com/ando-and-ando; personal history timeline; ando@fuenn.co.jp)';
+const UA = 'myworld-timeline/0.1 (personal history timeline; https://github.com/shota-ando-s/myworld-timeline)';
 const API = 'https://ja.wikipedia.org/w/api.php';
 const OUT = fileURLToPath(new URL('.cache/wiki-match.json', import.meta.url));
 

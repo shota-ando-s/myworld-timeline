@@ -156,3 +156,25 @@ export function formatItemDate(item: Item): string {
   const to = item.ongoing || item.end === undefined ? '現在' : `${formatYear(item.end)}${item.endCirca ? '頃' : ''}`;
   return `${from} 〜 ${to}`;
 }
+
+/**
+ * ポッドキャストのシリーズ1本（ブラウザに送る形）。
+ * 番組が扱っている話題を「聴ける副教材」として項目に添えるだけのもので、
+ * 持つのはシリーズ単位の事実と第1回へのリンクだけ。
+ */
+export type PodcastSeriesView = {
+  title: string;
+  episodes: number;
+  firstAired: string;
+  url: string;
+};
+
+/** 項目 id から、その項目を扱っているシリーズを引くための索引 */
+export type PodcastIndex = {
+  show: string;
+  /** season 番号（文字列キー）→ シリーズ */
+  series: Record<string, PodcastSeriesView>;
+  /** 項目 id → season 番号の配列（1項目が複数シリーズに出ることがある） */
+  byItem: Record<string, number[]>;
+};
+

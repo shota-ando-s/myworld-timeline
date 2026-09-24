@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { parseFiles, type LoadResult, type RawFile } from './load.ts';
 
 const DATA_DIR = fileURLToPath(new URL('../data', import.meta.url));
+const PODCAST_DIR = fileURLToPath(new URL('../podcasts', import.meta.url));
 
 /** _ や . で始まるファイルは説明書扱いで読み飛ばす */
 function collect(dir: string): string[] {
@@ -25,4 +26,12 @@ export function loadAll(): LoadResult {
     text: fs.readFileSync(file, 'utf8'),
   }));
   return parseFiles(files);
+}
+
+/** ポッドキャストの対応表。年表そのものではないので src/data の外に置いてある */
+export function loadPodcastFiles(): RawFile[] {
+  return collect(PODCAST_DIR).map((file) => ({
+    path: path.relative(process.cwd(), file),
+    text: fs.readFileSync(file, 'utf8'),
+  }));
 }

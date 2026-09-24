@@ -20,6 +20,7 @@ import {
   type Item,
   type LaneId,
   type Period,
+  type PodcastIndex,
   type TimelineEvent,
 } from '../lib/model.ts';
 import { ERAS, ticks, timelineWidth, xToYear, yearToX } from '../lib/scale.ts';
@@ -47,6 +48,17 @@ const $ = <T extends Element = HTMLElement>(sel: string) => document.querySelect
 
 const items: Item[] = JSON.parse(document.getElementById('tl-data')!.textContent!);
 const byId = new Map(items.map((i) => [i.id, i]));
+
+/** ポッドキャストの対応表。無くても年表は動く（src/podcasts が空の場合） */
+const podEl = document.getElementById('tl-podcast');
+const podcast: PodcastIndex = podEl?.textContent
+  ? JSON.parse(podEl.textContent)
+  : { show: '', series: {}, byItem: {} };
+
+/** その項目を扱っているシリーズ（1項目が複数シリーズに出ることがある） */
+function seriesFor(id: string) {
+  return (podcast.byItem[id] ?? []).map((season) => podcast.series[String(season)]).filter(Boolean);
+}
 const laneItems = new Map<LaneId, Item[]>();
 const lanePeriods = new Map<LaneId, Period[]>();
 const laneLeaders = new Map<LaneId, Period[]>();
@@ -367,6 +379,11 @@ function itemDot(item: Item) {
   return `<span class="ev__dot" data-shape="${cat.shape}" data-fam="${cat.family}" style="--fam:var(--fam-${cat.family})"></span>`;
 }
 
+/** 「聴く」の行頭の印。カテゴリの色は使わない（典拠でも分類でもないので） */
+function podDot() {
+  return `<span class="ev__dot" data-shape="headphones" style="--fam:var(--ink-3)"></span>`;
+}
+
 /**
  * detail は空行で段落に分ける。段落の中の改行は原稿を読みやすくするためのもので、
  * 表示では continuous な文に戻す（英数字のあいだだけ空白を残す）。
@@ -411,6 +428,18 @@ function renderItem(item: Item) {
         ? `<p class="panel__source">参考: ${item.links
             .map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)}</a>`)
             .join(' / ')}</p>`
+        : ''
+    }
+    ${
+      // 典拠（参考:）とは役割が違うので、同じ行に混ぜず独立した条件で出す
+      seriesFor(item.id).length
+        ? // 番組名は先頭に一度だけ出す（同じ項目に複数シリーズが付くと繰り返しになるので）
+          `<p class="panel__listen">${podDot()}<span>聴く: ${esc(podcast.show)} ${seriesFor(item.id)
+            .map(
+              (sr) =>
+                `<a href="${esc(sr.url)}" target="_blank" rel="noopener">${esc(sr.title)}</a>（全${sr.episodes}回）`,
+            )
+            .join(' / ')}</span></p>`
         : ''
     }
     ${

@@ -288,6 +288,18 @@ a { color: #1c5cab; }
 .ev[data-selected] .ev__dot { outline: 2px solid var(--ink); outline-offset: 2px; }
 .ev[data-selected] .ev__label { color: var(--ink); font-weight: 600; }
 
+/* ポッドキャストで聴ける回がある項目。
+   帯の幅と点の間隔は layout.ts が題名の文字幅から予約しているので、
+   印に幅を持たせられない（アイコンを挟むと題名が切れる）。横に広がらない下線で示す */
+.bar[data-listen] .bar__label,
+.ev[data-listen] .ev__label { border-bottom: 1px dotted currentColor; }
+/* 帯が短くて題名を出せないものは下線の置き場が無いので、右端に小さな点を置く */
+.bar[data-listen][data-label='none']::after {
+  content: ''; position: absolute; right: 3px; top: 50%;
+  width: 5px; height: 5px; margin-top: -2.5px;
+  border-radius: 50%; background: var(--fam); opacity: 0.55;
+}
+
 /* 同時代スキャンライン */
 .scan {
   position: absolute; top: 0; bottom: 0;
@@ -346,6 +358,14 @@ a { color: #1c5cab; }
 .panel__detail:last-of-type { margin-bottom: 14px; }
 /* 説明の末尾に置く出典。本文ではなく典拠なので小さく添える */
 .panel__source { font-size: 12px; color: var(--ink-3); margin: -6px 0 14px; }
+
+/* 聴ける回。典拠（参考:）とは役割が違うので別の行にする */
+.panel__listen {
+  font-size: 12px; color: var(--ink-3);
+  margin: -8px 0 14px;
+  display: flex; align-items: baseline; gap: 5px;
+}
+.panel__listen .ev__dot { --dot: 11px; align-self: flex-start; margin-top: 3px; }
 .panel h3 { font-size: 11px; color: var(--ink-3); font-weight: 600; margin: 16px 0 6px; letter-spacing: 0.06em; }
 .panel__tags { display: flex; flex-wrap: wrap; gap: 4px; }
 .panel__tags span { font-size: 11px; background: var(--paper-alt); border-radius: 4px; padding: 1px 6px; color: var(--ink-2); }

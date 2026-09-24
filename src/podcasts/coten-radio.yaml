@@ -1,0 +1,611 @@
+# COTEN RADIO と年表項目の対応表。
+# 出所: 番組公式 RSS（https://anchor.fm/s/8c2088c/podcast/rss）。
+#
+# season / title / episodes / firstAired / lastAired / url は scripts/coten-series.mjs が RSS から作り、
+# items / kind / note / laneHint だけを人が決める。書き戻しは scripts/coten-apply.mjs。
+# シリーズごとの補足はコメントではなく note: に書くこと（apply が再生成するとコメントは消える）。
+#
+# 本編67シリーズ（583回）だけを扱う。番外編と形式外（告知・特別編）は入れない。
+# エピソードの題名や説明文は転記せず、シリーズ単位の事実と第1回へのリンクだけを持つ。
+
+podcast:
+  title: COTEN RADIO
+  url: https://coten.co.jp/services/cotenradio/
+  feed: https://anchor.fm/s/8c2088c/podcast/rss
+  note: 歴史を扱う日本語ポッドキャスト。1シリーズ4〜16回の連続もの。
+
+series:
+  - season: 1
+    title: 吉田松陰編
+    episodes: 4
+    firstAired: '2018-11'
+    lastAired: '2019-01'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/1-1-COTEN-RADIO-1-e30roe
+    kind: uncovered
+    items: []
+    laneHint: japan
+    note: 幕末長州の私塾と門下。明治維新の前史にあたるが、年表に項目が無い。
+
+  - season: 2
+    title: スパルタ編
+    episodes: 7
+    firstAired: '2019-01'
+    lastAired: '2019-01'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/2-1COTEN-RADIO-1-e30rst
+    items: [greek-poleis, peloponnesian-war]
+
+  - season: 3
+    title: 人類のコミュニケーション史
+    episodes: 4
+    firstAired: '2019-02'
+    lastAired: '2019-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/3-1COTEN-RADIO-1-e355gg
+    kind: theme
+    items: []
+    note: 言語・文字・印刷・電信へと続く伝達手段の通史。特定の出来事には紐づかない。
+
+  - season: 4
+    title: 天皇編
+    episodes: 4
+    firstAired: '2019-03'
+    lastAired: '2019-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/4-1COTEN-RADIO-1-e3cs9h
+    kind: theme
+    items: []
+    note: 天皇という制度の通史。歴代の天皇は日本レーンの人物帯に個別に並んでいる。
+
+  - season: 5
+    title: 秦の始皇帝編
+    episodes: 5
+    firstAired: '2019-04'
+    lastAired: '2019-05'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/5-1SP--10-COTEN-RADIO-1-e3l2jl
+    items: [qin, qin-unification, qin-shi-huang]
+
+  - season: 6
+    title: 諸葛孔明編
+    episodes: 7
+    firstAired: '2019-05'
+    lastAired: '2019-06'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/6-1--COTEN-RADIO-1-e423tu
+    items: [zhuge-liang, three-kingdoms]
+
+  - season: 7
+    title: 世界三大宗教編
+    episodes: 7
+    firstAired: '2019-06'
+    lastAired: '2019-07'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/7-1-COTEN-RADIO-1-e4d5hg
+    items: [buddha-birth, jesus-crucifixion, muhammad]
+
+  - season: 8
+    title: ヒトラー編
+    episodes: 8
+    firstAired: '2019-07'
+    lastAired: '2019-08'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/8-1-COTEN-RADIO-1-e4ost4
+    items: [hitler, nazi-germany]
+
+  - season: 9
+    title: フランス革命編
+    episodes: 9
+    firstAired: '2019-09'
+    lastAired: '2019-10'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/9-1--Want-you---COTEN-RADIO-1-e57k0m
+    items: [french-revolution, robespierre]
+
+  - season: 10
+    title: ガンディー編
+    episodes: 7
+    firstAired: '2019-10'
+    lastAired: '2019-11'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/10-1----COTEN-RADIO-1-e6dpri
+    items: [gandhi, gandhi-returns, gandhi-assassinated]
+
+  - season: 11
+    title: アレクサンドロス編
+    episodes: 9
+    firstAired: '2019-11'
+    lastAired: '2019-12'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/11-1---COTEN-RADIO-1-e8un23
+    items: [alexander-the-great, alexander-campaign, alexander-egypt, alexander-indus]
+
+  - season: 12
+    title: お金の歴史編
+    episodes: 7
+    firstAired: '2019-12'
+    lastAired: '2020-01'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/12-1--HAPPYCOTEN-RADIO-1-e9mumn
+    kind: theme
+    items: []
+    note: 貨幣と信用の通史。特定の王朝・出来事には紐づかない。
+
+  - season: 13
+    title: 三蔵法師玄奘編
+    episodes: 9
+    firstAired: '2020-01'
+    lastAired: '2020-02'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/13-1--COTEN-RADIO-1-eabid2
+    items: [xuanzang]
+
+  - season: 14
+    title: 高杉晋作編
+    episodes: 10
+    firstAired: '2020-03'
+    lastAired: '2020-04'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/14-1--DNACOTEN-RADIO-1-eb881h
+    kind: uncovered
+    items: []
+    laneHint: japan
+    note: 幕末長州の志士で吉田松陰の門下。年表に項目が無い。
+
+  - season: 15
+    title: アメリカ開拓史編
+    episodes: 9
+    firstAired: '2020-04'
+    lastAired: '2020-05'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/15-1--COTEN-RADIO-1-ed0uus
+    items: [indian-removal, gold-rush, transcontinental-railroad, wounded-knee]
+
+  - season: 16
+    title: ヘレン・ケラーとアン・サリヴァン編
+    episodes: 8
+    firstAired: '2020-05'
+    lastAired: '2020-06'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/16-1--COTEN-RADIO-1-eequhv
+    kind: uncovered
+    items: []
+    laneHint: americas
+    note: 障害のある人の教育を切り開いた二人。年表に項目が無い。
+
+  - season: 17
+    title: チンギス・カン編
+    episodes: 8
+    firstAired: '2020-07'
+    lastAired: '2020-07'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/17-1COTEN-RADIO-1-eg9r4k
+    items: [chinggis-reign, chinggis-khan, chinggis-death, mongol-empire]
+
+  - season: 18
+    title: オスマン帝国編
+    episodes: 9
+    firstAired: '2020-08'
+    lastAired: '2020-09'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/18-1--600COTEN-RADIO-1-ehsu79
+    items: [ottoman, osman-i, mehmed-ii, fall-of-constantinople]
+
+  - season: 19
+    title: 最澄と空海編
+    episodes: 10
+    firstAired: '2020-09'
+    lastAired: '2020-10'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/19-1--COTEN-RADIO-1-ejs4hc
+    items: [saicho-kukai]
+
+  - season: 20
+    title: ユリウス・カエサル編
+    episodes: 10
+    firstAired: '2020-11'
+    lastAired: '2020-12'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/20-1--COTEN-RADIO-1-em62ja
+    items: [julius-caesar, caesar-assassination]
+
+  - season: 21
+    title: 宗教改革編
+    episodes: 8
+    firstAired: '2021-01'
+    lastAired: '2021-01'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/21-1-COTEN-RADIO-1-eokksd
+    items: [reformation, ninety-five-theses]
+
+  - season: 22
+    title: 第一次世界大戦編
+    episodes: 14
+    firstAired: '2021-02'
+    lastAired: '2021-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/22-1-COTEN-RADIO-1-eq719f
+    items: [ww1, sarajevo, treaty-of-versailles]
+
+  - season: 23
+    title: エリザベス1世編
+    episodes: 11
+    firstAired: '2021-04'
+    lastAired: '2021-05'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/23-11-COTEN-RADIO-11-eukif2
+    items: [elizabeth-i, spanish-armada]
+
+  - season: 24
+    title: 織田信長編
+    episodes: 12
+    firstAired: '2021-06'
+    lastAired: '2021-07'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/24-1--COTEN-RADIO-1-e11obed
+    items: [oda-nobunaga, nagashino, honnoji]
+
+  - season: 25
+    title: 教育の歴史編
+    episodes: 13
+    firstAired: '2021-07'
+    lastAired: '2021-09'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/25-1-COTEN-RADIO-1-e14ubma
+    kind: theme
+    items: []
+    note: 学校と教える営みの通史。特定の出来事には紐づかない。
+
+  - season: 26
+    title: 性の歴史編
+    episodes: 13
+    firstAired: '2021-10'
+    lastAired: '2021-11'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/26-1PG-18--COTEN-RADIO-1-e17qqm9
+    kind: theme
+    items: []
+    note: 性の規範がどう変わってきたかの通史。特定の出来事には紐づかない。
+
+  - season: 27
+    title: 武則天編
+    episodes: 10
+    firstAired: '2021-12'
+    lastAired: '2022-01'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/27-1--COTEN-RADIO-1-e1b9c4j
+    items: [wu-zetian]
+
+  - season: 28
+    title: 資本主義編
+    episodes: 4
+    firstAired: '2022-01'
+    lastAired: '2022-01'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/28-1---COTEN-RADIO-1-e1cg1j5
+    kind: theme
+    items: []
+    note: 資本主義という仕組みの成り立ちの通史。特定の出来事には紐づかない。
+
+  - season: 29
+    title: マルクス・エンゲルス編
+    episodes: 12
+    firstAired: '2022-02'
+    lastAired: '2022-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/29-1-COTEN-RADIO-1-e1dqcmc
+    items: [revolutions-1848]
+
+  - season: 30
+    title: フリードリヒ大王編
+    episodes: 12
+    firstAired: '2022-04'
+    lastAired: '2022-05'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/30-1--COTEN-RADIO-1-e1g7lom
+    items: [frederick-the-great]
+
+  - season: 31
+    title: ショート 切腹編
+    episodes: 4
+    firstAired: '2022-06'
+    lastAired: '2022-06'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/31-1-COTEN-RADIO-1-e1jra4i
+    kind: theme
+    items: []
+    note: 武士の作法とその変化の通史。特定の出来事には紐づかない。
+
+  - season: 32
+    title: 日露戦争編
+    episodes: 16
+    firstAired: '2022-07'
+    lastAired: '2022-08'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/32-1-COTEN-RADIO-1-e1l0h1s
+    items: [russo-japanese-war]
+
+  - season: 33
+    title: ショート クレオパトラ編
+    episodes: 4
+    firstAired: '2022-09'
+    lastAired: '2022-09'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/33-1-COTEN-RADIO--1-e1n6e58
+    items: [cleopatra, cleopatra-death]
+
+  - season: 34
+    title: 鎌倉武士編
+    episodes: 12
+    firstAired: '2022-09'
+    lastAired: '2022-11'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/34-1COTEN-RADIO-1-e1nhrb7
+    items: [kamakura, jokyu-war, goseibai-shikimoku]
+
+  - season: 35
+    title: ジンブンガク レヴィ＝ストロース編
+    episodes: 4
+    firstAired: '2022-11'
+    lastAired: '2022-11'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/35-1--COTEN-RADIO--1-e1qdsj7
+    kind: uncovered
+    items: []
+    laneHint: west-europe
+    note: '20世紀の人類学者。構造主義。年表に項目が無い。'
+
+  - season: 36
+    title: 老いと死の歴史編
+    episodes: 8
+    firstAired: '2022-11'
+    lastAired: '2022-12'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/36-1-COTEN-RADIO-1-e1rc0v8
+    kind: theme
+    items: []
+    note: 老いと死の扱いがどう変わってきたかの通史。特定の出来事には紐づかない。
+
+  - season: 37
+    title: 障害の歴史編
+    episodes: 8
+    firstAired: '2023-01'
+    lastAired: '2023-02'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/37-1-COTEN-RADIO-1-e1t53ij
+    kind: theme
+    items: []
+    note: 障害のある人がどう扱われてきたかの通史。特定の出来事には紐づかない。
+
+  - season: 38
+    title: 社会福祉の歴史編
+    episodes: 6
+    firstAired: '2023-02'
+    lastAired: '2023-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/38-1-COTEN-RADIO-1-e1uo85t
+    kind: theme
+    items: []
+    note: 救貧から社会保障へ至る通史。特定の出来事には紐づかない。
+
+  - season: 39
+    title: ショート ゲッベルス編
+    episodes: 4
+    firstAired: '2023-03'
+    lastAired: '2023-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/39-1--COTEN-RADIO-1-e1vivfk
+    items: [nazi-germany]
+
+  - season: 40
+    title: サラディンと十字軍編
+    episodes: 12
+    firstAired: '2023-03'
+    lastAired: '2023-04'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/40-1--COTEN-RADIO-1-e20ajt9
+    items: [crusades, jerusalem-crusade, saladin, saladin-jerusalem]
+
+  - season: 41
+    title: ショート ライト兄弟編
+    episodes: 4
+    firstAired: '2023-05'
+    lastAired: '2023-05'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/41-1-COTEN-RADIO-1-e22l1k9
+    items: [wright-brothers]
+
+  - season: 42
+    title: ハンニバル編
+    episodes: 12
+    firstAired: '2023-06'
+    lastAired: '2023-07'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/42-1--COTEN-RADIO--1-e258aft
+    items: [hannibal-barca, hannibal-alps]
+
+  - season: 43
+    title: ショート 龍の歴史編
+    episodes: 4
+    firstAired: '2023-08'
+    lastAired: '2023-08'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/43-1-COTEN-RADIO-1-e26sutt
+    kind: theme
+    items: []
+    note: 想像上の生き物の図像が地域を越えて変わっていく話。特定の出来事には紐づかない。
+
+  - season: 44
+    title: シンドラー編
+    episodes: 12
+    firstAired: '2023-08'
+    lastAired: '2023-10'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/44-1-1-200COTEN-RADIO-1-e28b7ap
+    items: [holocaust]
+
+  - season: 45
+    title: ショート 菅原道真編
+    episodes: 4
+    firstAired: '2023-11'
+    lastAired: '2023-11'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/45-1--COTEN-RADIO-1-e2b00mu
+    items: [kentoshi-end]
+
+  - season: 46
+    title: 民主主義の歴史編
+    episodes: 12
+    firstAired: '2023-11'
+    lastAired: '2023-12'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/46-1-COTEN-RADIO-1-e2bmi0j
+    kind: theme
+    items: []
+    note: 民主主義という仕組みの通史。特定の出来事には紐づかない。
+
+  - season: 47
+    title: ケマル・アタテュルク編
+    episodes: 14
+    firstAired: '2024-01'
+    lastAired: '2024-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/47-1-COTEN-RADIO-1-e2e6m7r
+    items: [ataturk, turkish-republic]
+
+  - season: 48
+    title: ショート やなせたかし編
+    episodes: 6
+    firstAired: '2024-03'
+    lastAired: '2024-04'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/48-1-COTEN-RADIO-1-e2g16s0
+    kind: uncovered
+    items: []
+    laneHint: japan
+    note: '20世紀の漫画家。年表に項目が無い。'
+
+  - season: 49
+    title: ショート 紫式部
+    episodes: 2
+    firstAired: '2024-04'
+    lastAired: '2024-04'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/49-1-COTEN-RADIO-e2idn7f
+    items: [genji-monogatari]
+
+  - season: 50
+    title: ジャンヌ・ダルク編
+    episodes: 12
+    firstAired: '2024-05'
+    lastAired: '2024-06'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/50-1-COTEN-RADIO-1-e2iid1m
+    items: [joan-of-arc-campaigns, joan-of-arc, hundred-years-war]
+
+  - season: 51
+    title: ショート ヌルハチ編
+    episodes: 4
+    firstAired: '2024-06'
+    lastAired: '2024-07'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/51-1--COTEN-RADIO-1-e2ldke3
+    items: [nurhaci, later-jin-founded]
+
+  - season: 52
+    title: 秀吉・家康編
+    episodes: 12
+    firstAired: '2024-07'
+    lastAired: '2024-09'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/52-1-COTEN-RADIO-1-e2m72hv
+    items: [toyotomi-hideyoshi, hideyoshi-unification, tokugawa-ieyasu, sekigahara]
+
+  - season: 53
+    title: ショート ゴッホ編
+    episodes: 4
+    firstAired: '2024-09'
+    lastAired: '2024-09'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/53-1--COTEN-RADIO-1-e2noius
+    kind: uncovered
+    items: []
+    laneHint: west-europe
+    note: '19世紀の画家。年表に項目が無い。'
+
+  - season: 54
+    title: ムガール帝国編
+    episodes: 12
+    firstAired: '2024-10'
+    lastAired: '2024-11'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/54-1-COTEN-RADIO-1-e2oa2b7
+    items: [mughal, babur, akbar-reign]
+
+  - season: 55
+    title: ショート 老子・荘子編
+    episodes: 4
+    firstAired: '2024-11'
+    lastAired: '2024-12'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/55-1-COTEN-RADIO-1-e2r6fnf
+    kind: uncovered
+    items: []
+    laneHint: china
+    note: 道家の思想。年表には儒学の項目があるが道家は無い。
+
+  - season: 56
+    title: ショート 鑑真編
+    episodes: 8
+    firstAired: '2024-12'
+    lastAired: '2025-01'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/56-1--COTEN-RADIO-1-e2sfger
+    kind: uncovered
+    items: []
+    laneHint: japan
+    note: 唐から戒律を伝えた僧。年表に項目が無い。
+
+  - season: 57
+    title: ショート 伊藤野枝編
+    episodes: 8
+    firstAired: '2025-02'
+    lastAired: '2025-03'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/57-1-COTEN-RADIO-1-e2u7j8p
+    kind: uncovered
+    items: []
+    laneHint: japan
+    note: 大正期の無政府主義者・婦人解放運動家。年表に項目が無い。
+
+  - season: 58
+    title: 科学技術の歴史編
+    episodes: 12
+    firstAired: '2025-03'
+    lastAired: '2025-05'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/58-1-COTEN-RADIO-1-e2vbafs
+    kind: theme
+    items: []
+    note: 技術と学問の積み上がりの通史。特定の出来事には紐づかない。
+
+  - season: 59
+    title: ショート ペリー来航編
+    episodes: 8
+    firstAired: '2025-05'
+    lastAired: '2025-06'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/59-1-COTEN-RADIO-1-e31jk76
+    items: [perry-arrival]
+
+  - season: 60
+    title: 項羽と劉邦編
+    episodes: 14
+    firstAired: '2025-07'
+    lastAired: '2025-08'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/60-1--COTEN-RADIO-1-e351sq3
+    items: [liu-bang, han]
+
+  - season: 61
+    title: ショート ニコラ・テスラ編
+    episodes: 8
+    firstAired: '2025-09'
+    lastAired: '2025-10'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/61-1-COTEN-RADIO-1-e381df5
+    kind: uncovered
+    items: []
+    laneHint: americas
+    note: 交流電流を実用化した技術者。年表に項目が無い。
+
+  - season: 62
+    title: リンカン編
+    episodes: 15
+    firstAired: '2025-10'
+    lastAired: '2025-12'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/62-1THIS-IS-AMERICACOTEN-RADIO-1-e3a6t18
+    items: [lincoln, us-civil-war, emancipation-proclamation]
+
+  - season: 63
+    title: ショート ギルガメシュ編
+    episodes: 9
+    firstAired: '2026-01'
+    lastAired: '2026-02'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/63-1-COTEN-RADIO-1-e3dkfdh
+    items: [sumer]
+
+  - season: 64
+    title: 西郷隆盛編
+    episodes: 16
+    firstAired: '2026-03'
+    lastAired: '2026-05'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/64-1-COTEN-RADIO-1-e3e8aqn
+    items: [meiji-restoration]
+
+  - season: 65
+    title: ショート エリザベス・ブラックウェル編
+    episodes: 11
+    firstAired: '2026-05'
+    lastAired: '2026-07'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/65-1Dr--COTEN-RADIO-1-e3j1983
+    kind: uncovered
+    items: []
+    laneHint: americas
+    note: アメリカで最初に医師免許を得た女性。年表に項目が無い。
+
+  - season: 66
+    title: 帝政ローマ編
+    episodes: 14
+    firstAired: '2026-07'
+    lastAired: '2026-09'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/66-1-COTEN-RADIO-1-e3lrpgn
+    items: [roman-empire, augustus, augustus-principate, pax-romana, trajan-peak]
+
+  - season: 67
+    title: モンゴル帝国襲来編
+    episodes: 4
+    firstAired: '2026-09'
+    lastAired: '2026-09'
+    url: https://podcasters.spotify.com/pod/show/coten/episodes/67-1-COTEN-RADIO-1-e3of45n
+    items: [mongol-invasions-japan, hojo-tokimune, kamakura]

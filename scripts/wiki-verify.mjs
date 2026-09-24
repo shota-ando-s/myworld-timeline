@@ -7,7 +7,7 @@
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const UA = 'myworld-timeline/0.1 (personal history timeline; ando@fuenn.co.jp)';
+const UA = 'myworld-timeline/0.1 (personal history timeline; https://github.com/shota-ando-s/myworld-timeline)';
 const OUT = fileURLToPath(new URL('.cache/verified.json', import.meta.url));
 const pairs = process.argv.slice(2).map((a) => {
   const at = a.indexOf('=');

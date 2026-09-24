@@ -41,6 +41,11 @@
 迷ったら「その出来事を探す人がどのレーンを見るか」で決める。
 複数地域にまたがる出来事（例：モンゴルのバグダード占領）は、**舞台になった土地のレーン**に置く。
 
+年表そのものではない付随データは `src/data/` の**外**に置く。いまは
+`src/podcasts/coten-radio.yaml`（COTEN RADIO のシリーズと年表項目の対応表）だけ。
+`src/data/` 配下は `DataFileSchema`（strictObject、`lane`/`periods`/`leaders`/`events` のみ）で
+検査されるので、形の違うデータを混ぜると読み込みが止まる。
+
 ## 書き方
 
 ```yaml
@@ -172,22 +177,72 @@ node scripts/wiki-apply.mjs <承認ファイル.json>     # 承認した分だ�
   （マクロン→発音記号、モディ→丸井のビル、韓流→映画『うなぎ』に当たった）
 - 適切な記事が無いときは**貼らない**。近いだけの記事を貼らない
 
+### ポッドキャストの対応表
+
+`src/podcasts/coten-radio.yaml` に、COTEN RADIO のシリーズ（〇〇編）と年表項目の対応を持たせている。
+パネルでは `参考: Wikipedia` の下に「聴く: COTEN RADIO 帝政ローマ編（全14回）」として出て、
+紐づいた項目は年表上でも題名に点線の下線が付く。
+
+```yaml
+series:
+  - season: 66            # 番組自身が「【66-1】」で使っている連番。これが主キー
+    title: 帝政ローマ編
+    episodes: 14
+    firstAired: '2026-07'  # 'YYYY-MM'。日まで書くと js-yaml が Date に変える
+    lastAired: '2026-09'
+    url: https://...       # 第1回のリンク
+    items: [roman-empire, augustus, pax-romana]
+```
+
+- `kind` は3つ。`topic`（既定、年表項目に紐づく）/ `theme`（テーマ史で単一項目に紐づかない）/
+  `uncovered`（年表に該当項目が無い）。**`theme` と `uncovered` には `note` が必須**で、
+  これは「見たけど紐づけないと決めた」の記録。`topic` なのに `items` が空だと検証で止まるので、
+  67件のレビューが済んだかどうかはファイルを見れば分かる。
+- 持つのは**シリーズ単位の事実（名前・season・回数・配信月）と第1回の公式リンクだけ**。
+  エピソードの題名や説明文は転記しない。番外編146回と形式外33回（告知・特別編）も入れない。
+  Pody のような記事化サービスの本文は、規約上も方針上も入れない。
+- `uncovered` の一覧が「番組は扱っているのに年表に無い話題」＝**後日項目を足す候補リスト**になる
+  （`npm run validate` が出す）。
+- コメントはファイル先頭のヘッダだけ。シリーズごとの補足は `note:` に書く（apply が再生成すると消える）。
+
+```sh
+node scripts/coten-series.mjs [--refetch]        # 公式RSSからシリーズを抜く（.cache に置く）
+node scripts/coten-match.mjs [--only <season>]   # 年表項目の候補を並べる（貼らない。人が選ぶ）
+node scripts/coten-apply.mjs <承認ファイル.json>   # src/podcasts/coten-radio.yaml を書き出す
+```
+
+承認ファイルは `{ "66": { "items": [...] }, "12": { "kind": "theme", "note": "..." } }` の形で、
+人が決めるのは `items` / `kind` / `note` / `laneHint` / `title`（題名の上書き）の5つだけ。
+`coten-apply.mjs` は 承認ファイル > 現行 YAML > 既定値 の順にマージして全体を書き出すので、
+手で直したあとに再実行しても消えない。
+
+**自動マッチは候補提示まで。67件は必ず全部目で見る。** 突き合わせは項目の `title` と `tags` にだけ
+当てて、`id` には当てない。id はローマ字綴りなので、諸葛孔明→`ming`（明）、お金の歴史→`jurchen-jin`（金）、
+民主主義の歴史→`north-korea`（朝鮮民主主義人民共和国）、ニコラ・テスラ→`nicholas-i` のように当たる
+（wiki-match の「マクロン→発音記号」と同じ型）。年表側の名前は番組と違うことが多い
+（武則天→則天武后、鎌倉武士→鎌倉時代、帝政ローマ→ローマ帝国、項羽と劉邦→高祖 劉邦）。
+
+`【特別編】ウクライナとロシア`（全6回）と `財閥の歴史`（前後編）は形式外だが中身は歴史なので、
+入れたくなったら `specials:` を足す余地を残してある。
+
 ### 量の目安
 
 期間と出来事は1レーンあたり50〜90項目、人物は20〜45人を目安にしている。
-現在は期間221・人物426・出来事502の約1150項目。
+現在は期間221・人物432・出来事502の約1150項目。
 `npm run validate` が各レーンの件数を棒グラフ（■＝期間と出来事、□＝人物）で出すので、薄いレーンから埋めていく。
 特定の時代だけ厚くすると年表が偏るので、追加するときは時代の散らばりも見ること。
+COTEN RADIO の内訳（紐付け／テーマ史／未カバー）も同じところに出る。
 
 ## コードの構成
 
 | ファイル | 役割 |
 |---|---|
 | `src/lib/model.ts` | レーン・カテゴリの定義、年の整形。**ブラウザにも送られるので zod や node API を入れない** |
-| `src/lib/schema.ts` | zod スキーマ（検証はここ） |
+| `src/lib/schema.ts` | zod スキーマ（検証はここ）。ポッドキャスト対応表のスキーマもここ |
 | `src/lib/load.ts` | YAML の検証本体（1項目ずつ検証し、id重複・related切れも見る） |
-| `src/lib/load-glob.ts` | Astro 側の読み込み。`import.meta.glob` でビルドに YAML を同梱する |
-| `src/lib/load-fs.ts` | `npm run validate` 用の読み込み（node の fs） |
+| `src/lib/load-glob.ts` | Astro 側の読み込み。`import.meta.glob` でビルドに YAML を同梱する（`src/podcasts/` も読む） |
+| `src/lib/load-fs.ts` | `npm run validate` 用の読み込み（node の fs。`src/podcasts/` も読む） |
+| `src/lib/podcast.ts` | ポッドキャスト対応表の検証（シリーズの形と、`items` の id が実在するか）と索引の生成 |
 | `src/lib/scale.ts` | 年↔x座標の区分線形スケール、目盛り、時代帯 |
 | `src/lib/layout.ts` | レーン内の段組み（王朝・人物・出来事の3段）と、帯の名前を中に入れるか外に出すかの判定 |
 | `src/pages/index.astro` | ビルド時に全項目の DOM を出力 |

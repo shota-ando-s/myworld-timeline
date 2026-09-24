@@ -7,7 +7,7 @@ const yearField = z
   .max(MAX_YEAR, `${MAX_YEAR} より後は扱いません`)
   .refine((y) => y !== 0, { message: '0年は存在しません（紀元前1年は -1、紀元1年は 1）' });
 
-const slug = z
+export const slug = z
   .string()
   .regex(/^[a-z0-9][a-z0-9-]*$/, 'id は半角英小文字・数字・ハイフンのみ（例: qin-unification）');
 
@@ -75,3 +75,67 @@ export const DataFileSchema = z.strictObject({
   leaders: z.array(z.unknown()).default([]),
   events: z.array(z.unknown()).default([]),
 });
+
+/**
+ * ポッドキャストの対応表（src/podcasts/*.yaml）。
+ * 中身は1件ずつ検証する（1本壊れていても残りを読み、エラーをまとめて出すため）。
+ */
+export const PodcastFileSchema = z.strictObject({
+  podcast: z.strictObject({
+    title: z.string().min(1),
+    url: z.url('番組の公式ページの URL を書いてください'),
+    feed: z.url('RSS の URL を書いてください'),
+    note: z.string().optional(),
+  }),
+  series: z.array(z.unknown()).default([]),
+});
+
+/**
+ * シリーズ1本。事実の列（season/title/episodes/配信月/url）は RSS 由来で、
+ * 人が決めるのは items / kind / note / laneHint の4つだけ。
+ */
+/**
+ * 配信月。'YYYY-MM' に限る。
+ * js-yaml は引用符なしの 2026-07-28 を Date に変えてしまい、そのままだと
+ * 「expected string, received Date」という理由の分からないエラーになるので、
+ * 文字列に戻してから形を見る。
+ */
+const airedMonth = z.preprocess(
+  (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v),
+  z
+    .string()
+    .regex(/^\d{4}-\d{2}$/, "配信月は 'YYYY-MM' の形で書いてください（日まで書くと日付として読まれるので、引用符で囲む）"),
+);
+
+export const PodcastSeriesSchema = z
+  .strictObject({
+    /** 番組自身が「【67-4】」で使っている連番。これが主キー */
+    season: z.int().min(1).max(999),
+    title: z.string().min(1),
+    episodes: z.int().min(1).max(99),
+    firstAired: airedMonth,
+    lastAired: airedMonth.optional(),
+    url: z.url('第1回の URL を書いてください'),
+    /** topic = 年表項目に紐づく / theme = テーマ史で紐づかない / uncovered = 年表に該当項目が無い */
+    kind: z.enum(['topic', 'theme', 'uncovered']).default('topic'),
+    items: z.array(slug).default([]),
+    /** uncovered のとき、項目を足すならどのレーンか */
+    laneHint: z.enum(LANE_IDS).optional(),
+    note: z.string().optional(),
+  })
+  .superRefine((s, ctx) => {
+    // 「まだ見ていない」と「見て紐づけないと決めた」を取り違えないよう、必ず言語化させる
+    if (s.kind === 'topic' && s.items.length === 0) {
+      ctx.addIssue({
+        code: 'custom',
+        path: ['items'],
+        message: 'items が空です（紐づけないと決めたなら kind: theme か uncovered にして note に理由を書いてください）',
+      });
+    }
+    if (s.kind !== 'topic' && s.items.length > 0) {
+      ctx.addIssue({ code: 'custom', path: ['kind'], message: `kind: ${s.kind} なのに items があります` });
+    }
+    if (s.kind !== 'topic' && !s.note) {
+      ctx.addIssue({ code: 'custom', path: ['note'], message: '紐づけない理由を note に書いてください' });
+    }
+  });

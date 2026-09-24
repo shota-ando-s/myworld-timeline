@@ -1,13 +1,21 @@
 #!/usr/bin/env node
 /** src/data/**\/*.yaml をスキーマ検証する。ビルドを待たずに AI 生成データを検品する用。 */
-import { loadAll } from '../src/lib/load-fs.ts';
-import { LANES } from '../src/lib/model.ts';
+import { loadAll, loadPodcastFiles } from '../src/lib/load-fs.ts';
+import { LANES, laneById } from '../src/lib/model.ts';
+import { parsePodcasts, podcastSummary } from '../src/lib/podcast.ts';
 
-const { periods, leaders, events, byLane, files, errors } = loadAll();
+const { periods, leaders, events, items, byLane, files, errors } = loadAll();
 
-if (errors.length > 0) {
-  console.error(`\n✗ ${errors.length} 件の問題が見つかりました\n`);
-  for (const e of errors) console.error(`  - ${e}`);
+// 年表側が壊れているときは id 集合が欠けて「存在しません」の誤報が出るので、突き合わせは諦める
+const podcast = parsePodcasts(
+  loadPodcastFiles(),
+  errors.length > 0 ? undefined : new Set(items.map((i) => i.id)),
+);
+const allErrors = [...errors, ...podcast.errors];
+
+if (allErrors.length > 0) {
+  console.error(`\n✗ ${allErrors.length} 件の問題が見つかりました\n`);
+  for (const e of allErrors) console.error(`  - ${e}`);
   console.error('');
   process.exit(1);
 }
@@ -27,6 +35,21 @@ for (const lane of LANES) {
   );
 }
 console.log('');
+
+if (podcast.series.length > 0) {
+  const p = podcastSummary(podcast);
+  console.log(
+    `  ${podcast.show}: ${p.seriesCount}シリーズ（${p.episodeCount}回）/ 紐付け ${p.topic}（年表 ${p.linkedItems}項目）/ テーマ史 ${p.theme} / 未カバー ${p.uncovered.length}`,
+  );
+  if (p.uncovered.length > 0) {
+    // 「番組は扱っているのに年表に無い話題」＝後日、項目を足す候補
+    const list = p.uncovered
+      .map((s) => `${s.title}${s.laneHint ? `(${laneById.get(s.laneHint)?.label ?? s.laneHint})` : ''}`)
+      .join(' ');
+    console.log(`  未カバー（項目を足す候補）: ${list}`);
+  }
+  console.log('');
+}
 
 // detail が Wikipedia の冒頭文をなぞっていないかも見ておく（キャッシュがあるときだけ）
 const { execFileSync } = await import('node:child_process');

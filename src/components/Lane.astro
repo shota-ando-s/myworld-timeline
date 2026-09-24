@@ -3,7 +3,7 @@ import type { LabelFit } from '../lib/layout.ts';
 import { categoryById, formatItemDate, type Period, type TimelineEvent } from '../lib/model.ts';
 
 /** 帯1本（王朝でも人物でも中身は同じ） */
-export type BarView = { item: Period; row: number; x: number; w: number; label: LabelFit };
+export type BarView = { item: Period; row: number; x: number; w: number; label: LabelFit; listen: boolean };
 
 export interface LaneView {
   lane: { id: string; label: string; note: string; group: string };
@@ -13,7 +13,7 @@ export interface LaneView {
   evTop: number;
   bars: BarView[];
   leaders: BarView[];
-  dots: { item: TimelineEvent; row: number; x: number }[];
+  dots: { item: TimelineEvent; row: number; x: number; listen: boolean }[];
 }
 
 interface Props {
@@ -38,13 +38,14 @@ const allBars: { bar: BarView; leader: boolean }[] = [
     style={`--h:${view.height}px; --ld-top:${view.ldTop}px; --ev-top:${view.evTop}px`}
   >
     {
-      allBars.map(({ bar: { item, row, x, w, label }, leader }) => (
+      allBars.map(({ bar: { item, row, x, w, label, listen }, leader }) => (
         <button
           type="button"
           class:list={['bar', { 'bar--leader': leader }]}
           data-id={item.id}
           data-kind="period"
           data-leader={leader ? '' : undefined}
+          data-listen={listen ? '' : undefined}
           data-label={label}
           data-cat={item.category}
           data-fam={categoryById.get(item.category)!.family}
@@ -61,7 +62,7 @@ const allBars: { bar: BarView; leader: boolean }[] = [
       ))
     }
     {
-      view.dots.map(({ item, row, x }) => (
+      view.dots.map(({ item, row, x, listen }) => (
         <button
           type="button"
           class="ev"
@@ -71,6 +72,7 @@ const allBars: { bar: BarView; leader: boolean }[] = [
           data-fam={categoryById.get(item.category)!.family}
           data-year={item.year}
           data-circa={item.circa ? '' : undefined}
+          data-listen={listen ? '' : undefined}
           style={`--ex:${x}px; --row:${row}`}
           title={`${formatItemDate(item)} ${item.title}`}
         >

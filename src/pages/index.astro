@@ -6,7 +6,8 @@ import DetailPanel from '../components/DetailPanel.astro';
 import FilterBar from '../components/FilterBar.astro';
 import Lane, { type LaneView } from '../components/Lane.astro';
 import TimeAxis from '../components/TimeAxis.astro';
-import { loadOrThrow } from '../lib/load-glob.ts';
+import { loadOrThrow, loadPodcastsOrThrow } from '../lib/load-glob.ts';
+import { toPodcastIndex } from '../lib/podcast.ts';
 import { LEADER_STYLE, laneBands, packEvents, packPeriods } from '../lib/layout.ts';
 import { LANES, itemSpan } from '../lib/model.ts';
 import { timelineWidth, yearToX } from '../lib/scale.ts';
@@ -15,6 +16,9 @@ import { timelineWidth, yearToX } from '../lib/scale.ts';
 const ZOOM = 1;
 
 const data = loadOrThrow();
+const podcasts = toPodcastIndex(loadPodcastsOrThrow(new Set(data.items.map((i) => i.id))));
+/** 聴ける回がある項目。帯と点に印を付けるためだけの集合 */
+const listen = new Set(Object.keys(podcasts.byItem));
 const width = timelineWidth(ZOOM);
 const groupOrder = [...new Set(LANES.map((l) => l.group))];
 
@@ -33,6 +37,7 @@ const laneViews: LaneView[] = LANES.map((lane) => {
       x: yearToX(itemSpan(item)[0], ZOOM),
       w: packed.widths[i]!,
       label: packed.labels[i]!,
+      listen: listen.has(item.id),
     }));
 
   return {
@@ -43,11 +48,17 @@ const laneViews: LaneView[] = LANES.map((lane) => {
     evTop: bands.eventTop,
     bars: toBars(periods, packedBars),
     leaders: toBars(leaders, packedLeaders),
-    dots: events.map((item, i) => ({ item, row: packedDots.rows[i]!, x: yearToX(item.year, ZOOM) })),
+    dots: events.map((item, i) => ({
+      item,
+      row: packedDots.rows[i]!,
+      x: yearToX(item.year, ZOOM),
+      listen: listen.has(item.id),
+    })),
   };
 });
 
 const payload = JSON.stringify(data.items).replace(/</g, '\\u003c');
+const podcastPayload = JSON.stringify(podcasts).replace(/</g, '\\u003c');
 ---
 
 <!doctype html>
@@ -92,6 +103,7 @@ const payload = JSON.stringify(data.items).replace(/</g, '\\u003c');
     </main>
 
     <script type="application/json" id="tl-data" is:inline set:html={payload} />
+    <script type="application/json" id="tl-podcast" is:inline set:html={podcastPayload} />
     <script>
       import '../scripts/timeline.ts';
     </script>
