@@ -19,6 +19,7 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 
 const SERIES = fileURLToPath(new URL('.cache/coten-series.json', import.meta.url));
+const PODY = fileURLToPath(new URL('.cache/coten-pody.json', import.meta.url));
 const DEST = fileURLToPath(new URL('../src/podcasts/coten-radio.yaml', import.meta.url));
 
 /** 人が決めるフィールド。これ以外は RSS から作り直す */
@@ -43,6 +44,8 @@ if (!fs.existsSync(SERIES)) {
 
 const series = JSON.parse(fs.readFileSync(SERIES, 'utf8'));
 const approved = JSON.parse(fs.readFileSync(approvedPath, 'utf8'));
+// Pody の URL（coten-pody.mjs が題名を照合済みのもの）。無ければ番組公式のリンクだけになる
+const pody = fs.existsSync(PODY) ? JSON.parse(fs.readFileSync(PODY, 'utf8')) : {};
 
 // 現行 YAML から過去の判断を読む（壊れていても止めない。検証は npm run validate の仕事）
 let podcastMeta = DEFAULT_PODCAST;
@@ -85,6 +88,7 @@ for (const fact of series) {
     firstAired: fact.firstAired,
     lastAired: fact.lastAired,
     url: fact.url,
+    podyUrl: pody[String(fact.season)] ?? p.podyUrl,
     kind,
     items,
     laneHint: pick('laneHint'),
@@ -132,6 +136,7 @@ for (const e of out) {
   lines.push(`    firstAired: '${e.firstAired}'`);
   if (e.lastAired) lines.push(`    lastAired: '${e.lastAired}'`);
   lines.push(`    url: ${scalar(e.url)}`);
+  if (e.podyUrl) lines.push(`    podyUrl: ${scalar(e.podyUrl)}`);
   if (e.kind !== 'topic') lines.push(`    kind: ${e.kind}`);
   lines.push(`    items: [${e.items.map(scalar).join(', ')}]`);
   if (e.laneHint) lines.push(`    laneHint: ${e.laneHint}`);
@@ -146,6 +151,7 @@ const count = (k) => out.filter((e) => e.kind === k).length;
 const linked = new Set(out.filter((e) => e.kind === 'topic').flatMap((e) => e.items)).size;
 console.log(`${out.length} シリーズを書き出しました → ${path.relative(process.cwd(), DEST)}`);
 console.log(`  紐付け ${count('topic')}（年表 ${linked}項目）/ テーマ史 ${count('theme')} / 未カバー ${count('uncovered')}`);
+console.log(`  Pody のリンクあり ${out.filter((e) => e.podyUrl).length} / ${out.length}`);
 if (unknown.length) {
   console.log(`\n未判断 ${unknown.length} 件（kind: topic なのに items が空。npm run validate で止まります）: ${unknown.join(', ')}`);
 }

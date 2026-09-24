@@ -190,7 +190,8 @@ series:
     episodes: 14
     firstAired: '2026-07'  # 'YYYY-MM'。日まで書くと js-yaml が Date に変える
     lastAired: '2026-09'
-    url: https://...       # 第1回のリンク
+    url: https://...       # 第1回のリンク（番組公式）
+    podyUrl: https://...   # 同じ回の Pody の記事。あればパネルはこちらを開く
     items: [roman-empire, augustus, pax-romana]
 ```
 
@@ -207,9 +208,30 @@ series:
 
 ```sh
 node scripts/coten-series.mjs [--refetch]        # 公式RSSからシリーズを抜く（.cache に置く）
+node scripts/coten-pody.mjs [--refetch]          # 第1回に対応する Pody の記事 URL を照合して取る
 node scripts/coten-match.mjs [--only <season>]   # 年表項目の候補を並べる（貼らない。人が選ぶ）
 node scripts/coten-apply.mjs <承認ファイル.json>   # src/podcasts/coten-radio.yaml を書き出す
 ```
+
+#### Pody のリンクについて
+
+パネルは `podyUrl` があればそちらを開き、行頭で「Pody で聴く:」とリンク先を名乗る。
+番組公式のリンクは `url` に残してあるので、Pody をやめたくなったら
+`src/lib/podcast.ts` の `toPodcastIndex()` で `podyUrl` を見るのをやめるだけでよい。
+
+**取るのは URL だけ。記事本文・文字起こし・AI 要約は取らないし持たない。**
+Pody 利用規約 第14条(5) が禁じているのはそれらの転載・データベース化で、
+(10) のクローリング禁止には「ただし、当社が明示的に許可した範囲を除きます」という留保がある。
+pody.jp の robots.txt は全 UA に `Allow: /` を出し（禁止は `/api/` `/mypage` など）、
+`sitemap.xml` を公開している。sitemap は「ここは機械で読んでよい」という表明なので、
+その範囲（公開ページの URL の発見）に留めている。
+
+対応付けは番組の sitemap と公式 RSS の**位置**で行う。どちらも新しい順で件数も一致するが、
+sitemap の `lastmod` は配信日ではなく Pody 側の取り込み日時なので、**日付では対応が付かない**
+（古い回は一括取り込みで、時差が最大64000時間になる）。そのため
+`coten-pody.mjs` は実際に採用する第1回のページだけを1件ずつ開き、
+`<title>` が RSS の題名と一致することを確かめる。1件でも食い違えば何も書かずに止まる。
+件数が違うときも位置対応を諦めて止まる（どちらかに新しい回が入った合図）。
 
 承認ファイルは `{ "66": { "items": [...] }, "12": { "kind": "theme", "note": "..." } }` の形で、
 人が決めるのは `items` / `kind` / `note` / `laneHint` / `title`（題名の上書き）の5つだけ。
@@ -242,7 +264,7 @@ COTEN RADIO の内訳（紐付け／テーマ史／未カバー）も同じと�
 | `src/lib/load.ts` | YAML の検証本体（1項目ずつ検証し、id重複・related切れも見る） |
 | `src/lib/load-glob.ts` | Astro 側の読み込み。`import.meta.glob` でビルドに YAML を同梱する（`src/podcasts/` も読む） |
 | `src/lib/load-fs.ts` | `npm run validate` 用の読み込み（node の fs。`src/podcasts/` も読む） |
-| `src/lib/podcast.ts` | ポッドキャスト対応表の検証（シリーズの形と、`items` の id が実在するか）と索引の生成 |
+| `src/lib/podcast.ts` | ポッドキャスト対応表の検証（シリーズの形と、`items` の id が実在するか）と索引の生成。リンク先の選択（Pody か番組公式か）もここ |
 | `src/lib/scale.ts` | 年↔x座標の区分線形スケール、目盛り、時代帯 |
 | `src/lib/layout.ts` | レーン内の段組み（王朝・人物・出来事の3段）と、帯の名前を中に入れるか外に出すかの判定 |
 | `src/pages/index.astro` | ビルド時に全項目の DOM を出力 |

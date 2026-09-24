@@ -59,6 +59,13 @@ const podcast: PodcastIndex = podEl?.textContent
 function seriesFor(id: string) {
   return (podcast.byItem[id] ?? []).map((season) => podcast.series[String(season)]).filter(Boolean);
 }
+
+/** リンク先が全部同じサービスなら、行頭で一度だけ名乗る */
+function listenLabel(list: { via?: string }[]) {
+  const vias = new Set(list.map((s) => s.via ?? ''));
+  const only = vias.size === 1 ? [...vias][0] : '';
+  return only ? `${only} で聴く` : '聴く';
+}
 const laneItems = new Map<LaneId, Item[]>();
 const lanePeriods = new Map<LaneId, Period[]>();
 const laneLeaders = new Map<LaneId, Period[]>();
@@ -434,7 +441,7 @@ function renderItem(item: Item) {
       // 典拠（参考:）とは役割が違うので、同じ行に混ぜず独立した条件で出す
       seriesFor(item.id).length
         ? // 番組名は先頭に一度だけ出す（同じ項目に複数シリーズが付くと繰り返しになるので）
-          `<p class="panel__listen">${podDot()}<span>聴く: ${esc(podcast.show)} ${seriesFor(item.id)
+          `<p class="panel__listen">${podDot()}<span>${esc(listenLabel(seriesFor(item.id)))}: ${esc(podcast.show)} ${seriesFor(item.id)
             .map(
               (sr) =>
                 `<a href="${esc(sr.url)}" target="_blank" rel="noopener">${esc(sr.title)}</a>（全${sr.episodes}回）`,

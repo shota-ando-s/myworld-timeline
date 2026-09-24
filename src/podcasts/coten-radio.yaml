@@ -21,6 +21,7 @@ series:
     firstAired: '2018-11'
     lastAired: '2019-01'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/1-1-COTEN-RADIO-1-e30roe
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/2w7Xtnoo91smyMs8Vr2M
     kind: uncovered
     items: []
     laneHint: japan
@@ -32,6 +33,7 @@ series:
     firstAired: '2019-01'
     lastAired: '2019-01'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/2-1COTEN-RADIO-1-e30rst
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/XJmaSW2n6ll5kDmJkd97
     items: [greek-poleis, peloponnesian-war]
 
   - season: 3
@@ -40,6 +42,7 @@ series:
     firstAired: '2019-02'
     lastAired: '2019-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/3-1COTEN-RADIO-1-e355gg
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/zkvYkgAEzq8mrKer2DH0
     kind: theme
     items: []
     note: 言語・文字・印刷・電信へと続く伝達手段の通史。特定の出来事には紐づかない。
@@ -50,6 +53,7 @@ series:
     firstAired: '2019-03'
     lastAired: '2019-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/4-1COTEN-RADIO-1-e3cs9h
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/wf3Q8YvCtCYzbuRxfktN
     kind: theme
     items: []
     note: 天皇という制度の通史。歴代の天皇は日本レーンの人物帯に個別に並んでいる。
@@ -60,6 +64,7 @@ series:
     firstAired: '2019-04'
     lastAired: '2019-05'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/5-1SP--10-COTEN-RADIO-1-e3l2jl
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/7Y629sFXuJBRsNFTf8J2
     items: [qin, qin-unification, qin-shi-huang]
 
   - season: 6
@@ -68,6 +73,7 @@ series:
     firstAired: '2019-05'
     lastAired: '2019-06'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/6-1--COTEN-RADIO-1-e423tu
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/3KLRS9ziWZmBAviWL3bN
     items: [zhuge-liang, three-kingdoms]
 
   - season: 7
@@ -76,6 +82,7 @@ series:
     firstAired: '2019-06'
     lastAired: '2019-07'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/7-1-COTEN-RADIO-1-e4d5hg
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/ioqiU1zzGfinXZIzzKSl
     items: [buddha-birth, jesus-crucifixion, muhammad]
 
   - season: 8
@@ -84,6 +91,7 @@ series:
     firstAired: '2019-07'
     lastAired: '2019-08'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/8-1-COTEN-RADIO-1-e4ost4
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/9GJSl2NQ68nZTUoBTuTx
     items: [hitler, nazi-germany]
 
   - season: 9
@@ -92,6 +100,7 @@ series:
     firstAired: '2019-09'
     lastAired: '2019-10'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/9-1--Want-you---COTEN-RADIO-1-e57k0m
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/KDFf9JltnZKp3z7p3vNC
     items: [french-revolution, robespierre]
 
   - season: 10
@@ -100,6 +109,7 @@ series:
     firstAired: '2019-10'
     lastAired: '2019-11'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/10-1----COTEN-RADIO-1-e6dpri
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/yUgNkEaBKuuHW8Lvtanl
     items: [gandhi, gandhi-returns, gandhi-assassinated]
 
   - season: 11
@@ -108,6 +118,7 @@ series:
     firstAired: '2019-11'
     lastAired: '2019-12'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/11-1---COTEN-RADIO-1-e8un23
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/IzQiY9taCRiatwII7DeT
     items: [alexander-the-great, alexander-campaign, alexander-egypt, alexander-indus]
 
   - season: 12
@@ -116,6 +127,7 @@ series:
     firstAired: '2019-12'
     lastAired: '2020-01'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/12-1--HAPPYCOTEN-RADIO-1-e9mumn
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/gGXF7tkvD8xRCmDTrSjn
     kind: theme
     items: []
     note: 貨幣と信用の通史。特定の王朝・出来事には紐づかない。
@@ -126,6 +138,7 @@ series:
     firstAired: '2020-01'
     lastAired: '2020-02'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/13-1--COTEN-RADIO-1-eabid2
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/WySUEcfpv9SLOJfMmP7K
     items: [xuanzang]
 
   - season: 14
@@ -134,6 +147,7 @@ series:
     firstAired: '2020-03'
     lastAired: '2020-04'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/14-1--DNACOTEN-RADIO-1-eb881h
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/rN6FARE1gnK4ftWHcUkY
     kind: uncovered
     items: []
     laneHint: japan
@@ -145,6 +159,7 @@ series:
     firstAired: '2020-04'
     lastAired: '2020-05'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/15-1--COTEN-RADIO-1-ed0uus
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/Psn8TX1Dm1gLcslJAUoZ
     items: [indian-removal, gold-rush, transcontinental-railroad, wounded-knee]
 
   - season: 16
@@ -153,6 +168,7 @@ series:
     firstAired: '2020-05'
     lastAired: '2020-06'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/16-1--COTEN-RADIO-1-eequhv
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/m0nuLDtNidKmZwFVELYq
     kind: uncovered
     items: []
     laneHint: americas
@@ -164,6 +180,7 @@ series:
     firstAired: '2020-07'
     lastAired: '2020-07'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/17-1COTEN-RADIO-1-eg9r4k
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/nuDXgKIl2XqvUY4bY9cz
     items: [chinggis-reign, chinggis-khan, chinggis-death, mongol-empire]
 
   - season: 18
@@ -172,6 +189,7 @@ series:
     firstAired: '2020-08'
     lastAired: '2020-09'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/18-1--600COTEN-RADIO-1-ehsu79
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/d3jZmZt3BvrGg1b97cHl
     items: [ottoman, osman-i, mehmed-ii, fall-of-constantinople]
 
   - season: 19
@@ -180,6 +198,7 @@ series:
     firstAired: '2020-09'
     lastAired: '2020-10'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/19-1--COTEN-RADIO-1-ejs4hc
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/oXUsh6umOwzX8IBknbgY
     items: [saicho-kukai]
 
   - season: 20
@@ -188,6 +207,7 @@ series:
     firstAired: '2020-11'
     lastAired: '2020-12'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/20-1--COTEN-RADIO-1-em62ja
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/DwgoniW0cQmW1xbkZ4ae
     items: [julius-caesar, caesar-assassination]
 
   - season: 21
@@ -196,6 +216,7 @@ series:
     firstAired: '2021-01'
     lastAired: '2021-01'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/21-1-COTEN-RADIO-1-eokksd
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/fHIo42qHdT6PbKyulXdR
     items: [reformation, ninety-five-theses]
 
   - season: 22
@@ -204,6 +225,7 @@ series:
     firstAired: '2021-02'
     lastAired: '2021-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/22-1-COTEN-RADIO-1-eq719f
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/VtaGE4yilxhcOvAj65MC
     items: [ww1, sarajevo, treaty-of-versailles]
 
   - season: 23
@@ -212,6 +234,7 @@ series:
     firstAired: '2021-04'
     lastAired: '2021-05'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/23-11-COTEN-RADIO-11-eukif2
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/4ONsDUMOVqAkDPzNOY18
     items: [elizabeth-i, spanish-armada]
 
   - season: 24
@@ -220,6 +243,7 @@ series:
     firstAired: '2021-06'
     lastAired: '2021-07'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/24-1--COTEN-RADIO-1-e11obed
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/PB43T5GvCuPwshHF6tvd
     items: [oda-nobunaga, nagashino, honnoji]
 
   - season: 25
@@ -228,6 +252,7 @@ series:
     firstAired: '2021-07'
     lastAired: '2021-09'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/25-1-COTEN-RADIO-1-e14ubma
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/v7hoVOKXROwkGuu8udvv
     kind: theme
     items: []
     note: 学校と教える営みの通史。特定の出来事には紐づかない。
@@ -238,6 +263,7 @@ series:
     firstAired: '2021-10'
     lastAired: '2021-11'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/26-1PG-18--COTEN-RADIO-1-e17qqm9
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/kO2NjAh6CchbGl9V1qfd
     kind: theme
     items: []
     note: 性の規範がどう変わってきたかの通史。特定の出来事には紐づかない。
@@ -248,6 +274,7 @@ series:
     firstAired: '2021-12'
     lastAired: '2022-01'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/27-1--COTEN-RADIO-1-e1b9c4j
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/vJffWcJM09toZCCHUjtx
     items: [wu-zetian]
 
   - season: 28
@@ -256,6 +283,7 @@ series:
     firstAired: '2022-01'
     lastAired: '2022-01'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/28-1---COTEN-RADIO-1-e1cg1j5
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/lQTSD2mvKlk4ntWlUJER
     kind: theme
     items: []
     note: 資本主義という仕組みの成り立ちの通史。特定の出来事には紐づかない。
@@ -266,6 +294,7 @@ series:
     firstAired: '2022-02'
     lastAired: '2022-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/29-1-COTEN-RADIO-1-e1dqcmc
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/m1lhYuW9LvOZzxIPKkcI
     items: [revolutions-1848]
 
   - season: 30
@@ -274,6 +303,7 @@ series:
     firstAired: '2022-04'
     lastAired: '2022-05'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/30-1--COTEN-RADIO-1-e1g7lom
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/0V98xaCDJIG5y4QTZQlq
     items: [frederick-the-great]
 
   - season: 31
@@ -282,6 +312,7 @@ series:
     firstAired: '2022-06'
     lastAired: '2022-06'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/31-1-COTEN-RADIO-1-e1jra4i
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/nGxvyW0VzIaXtwH94Avr
     kind: theme
     items: []
     note: 武士の作法とその変化の通史。特定の出来事には紐づかない。
@@ -292,6 +323,7 @@ series:
     firstAired: '2022-07'
     lastAired: '2022-08'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/32-1-COTEN-RADIO-1-e1l0h1s
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/rWaG3x1JsKfP6uonhcIm
     items: [russo-japanese-war]
 
   - season: 33
@@ -300,6 +332,7 @@ series:
     firstAired: '2022-09'
     lastAired: '2022-09'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/33-1-COTEN-RADIO--1-e1n6e58
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/4dhNSJTf9PCOxyiWbRk0
     items: [cleopatra, cleopatra-death]
 
   - season: 34
@@ -308,6 +341,7 @@ series:
     firstAired: '2022-09'
     lastAired: '2022-11'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/34-1COTEN-RADIO-1-e1nhrb7
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/KHvW7AHuYs6heyWUASUM
     items: [kamakura, jokyu-war, goseibai-shikimoku]
 
   - season: 35
@@ -316,6 +350,7 @@ series:
     firstAired: '2022-11'
     lastAired: '2022-11'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/35-1--COTEN-RADIO--1-e1qdsj7
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/pFe0RHrtqDFszgfSOlT9
     kind: uncovered
     items: []
     laneHint: west-europe
@@ -327,6 +362,7 @@ series:
     firstAired: '2022-11'
     lastAired: '2022-12'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/36-1-COTEN-RADIO-1-e1rc0v8
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/YJIupTWatn9nUDlUZWaV
     kind: theme
     items: []
     note: 老いと死の扱いがどう変わってきたかの通史。特定の出来事には紐づかない。
@@ -337,6 +373,7 @@ series:
     firstAired: '2023-01'
     lastAired: '2023-02'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/37-1-COTEN-RADIO-1-e1t53ij
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/Vu18rVKROQqgxMdv1n3g
     kind: theme
     items: []
     note: 障害のある人がどう扱われてきたかの通史。特定の出来事には紐づかない。
@@ -347,6 +384,7 @@ series:
     firstAired: '2023-02'
     lastAired: '2023-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/38-1-COTEN-RADIO-1-e1uo85t
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/7vXqMEQFeVqFOkWqaWmn
     kind: theme
     items: []
     note: 救貧から社会保障へ至る通史。特定の出来事には紐づかない。
@@ -357,6 +395,7 @@ series:
     firstAired: '2023-03'
     lastAired: '2023-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/39-1--COTEN-RADIO-1-e1vivfk
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/OOCwSAzd1zG75q5Ypo1m
     items: [nazi-germany]
 
   - season: 40
@@ -365,6 +404,7 @@ series:
     firstAired: '2023-03'
     lastAired: '2023-04'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/40-1--COTEN-RADIO-1-e20ajt9
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/ETABMgc9fMEiEsiYcbNn
     items: [crusades, jerusalem-crusade, saladin, saladin-jerusalem]
 
   - season: 41
@@ -373,6 +413,7 @@ series:
     firstAired: '2023-05'
     lastAired: '2023-05'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/41-1-COTEN-RADIO-1-e22l1k9
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/W4Ci7NKnuj3joPFjjWZf
     items: [wright-brothers]
 
   - season: 42
@@ -381,6 +422,7 @@ series:
     firstAired: '2023-06'
     lastAired: '2023-07'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/42-1--COTEN-RADIO--1-e258aft
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/1H2wgxE5GEWWO2MtLFLA
     items: [hannibal-barca, hannibal-alps]
 
   - season: 43
@@ -389,6 +431,7 @@ series:
     firstAired: '2023-08'
     lastAired: '2023-08'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/43-1-COTEN-RADIO-1-e26sutt
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/VCKAHhVmYjrxAwD85pkM
     kind: theme
     items: []
     note: 想像上の生き物の図像が地域を越えて変わっていく話。特定の出来事には紐づかない。
@@ -399,6 +442,7 @@ series:
     firstAired: '2023-08'
     lastAired: '2023-10'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/44-1-1-200COTEN-RADIO-1-e28b7ap
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/psnlIaJ3ckci5AMXuBqp
     items: [holocaust]
 
   - season: 45
@@ -407,6 +451,7 @@ series:
     firstAired: '2023-11'
     lastAired: '2023-11'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/45-1--COTEN-RADIO-1-e2b00mu
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/YMuYBst0eNUTqDTiRKNS
     items: [kentoshi-end]
 
   - season: 46
@@ -415,6 +460,7 @@ series:
     firstAired: '2023-11'
     lastAired: '2023-12'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/46-1-COTEN-RADIO-1-e2bmi0j
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/Nq8FJMuGhCafeFLtxtDf
     kind: theme
     items: []
     note: 民主主義という仕組みの通史。特定の出来事には紐づかない。
@@ -425,6 +471,7 @@ series:
     firstAired: '2024-01'
     lastAired: '2024-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/47-1-COTEN-RADIO-1-e2e6m7r
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/L7oyYb8ITmP163DCHYzs
     items: [ataturk, turkish-republic]
 
   - season: 48
@@ -433,6 +480,7 @@ series:
     firstAired: '2024-03'
     lastAired: '2024-04'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/48-1-COTEN-RADIO-1-e2g16s0
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/dWZTqgDFdWvkHZjG3HwE
     kind: uncovered
     items: []
     laneHint: japan
@@ -444,6 +492,7 @@ series:
     firstAired: '2024-04'
     lastAired: '2024-04'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/49-1-COTEN-RADIO-e2idn7f
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/ltiVmhhx8FKFvF1k55AN
     items: [genji-monogatari]
 
   - season: 50
@@ -452,6 +501,7 @@ series:
     firstAired: '2024-05'
     lastAired: '2024-06'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/50-1-COTEN-RADIO-1-e2iid1m
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/YAan1ryyPwmEWixr4Zkj
     items: [joan-of-arc-campaigns, joan-of-arc, hundred-years-war]
 
   - season: 51
@@ -460,6 +510,7 @@ series:
     firstAired: '2024-06'
     lastAired: '2024-07'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/51-1--COTEN-RADIO-1-e2ldke3
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/SOCAJdZkJ6pSofrvz53V
     items: [nurhaci, later-jin-founded]
 
   - season: 52
@@ -468,6 +519,7 @@ series:
     firstAired: '2024-07'
     lastAired: '2024-09'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/52-1-COTEN-RADIO-1-e2m72hv
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/tFW0oSNbW3MdyfbjhTwZ
     items: [toyotomi-hideyoshi, hideyoshi-unification, tokugawa-ieyasu, sekigahara]
 
   - season: 53
@@ -476,6 +528,7 @@ series:
     firstAired: '2024-09'
     lastAired: '2024-09'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/53-1--COTEN-RADIO-1-e2noius
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/RvqdJFHSJKPdH5T5MsHx
     kind: uncovered
     items: []
     laneHint: west-europe
@@ -487,6 +540,7 @@ series:
     firstAired: '2024-10'
     lastAired: '2024-11'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/54-1-COTEN-RADIO-1-e2oa2b7
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/wCcearEuADx4CI6eiiTo
     items: [mughal, babur, akbar-reign]
 
   - season: 55
@@ -495,6 +549,7 @@ series:
     firstAired: '2024-11'
     lastAired: '2024-12'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/55-1-COTEN-RADIO-1-e2r6fnf
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/fqY8x94hpcTsEFjlOYkc
     kind: uncovered
     items: []
     laneHint: china
@@ -506,6 +561,7 @@ series:
     firstAired: '2024-12'
     lastAired: '2025-01'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/56-1--COTEN-RADIO-1-e2sfger
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/1zQrGpqAmyvQAhqQcDPR
     kind: uncovered
     items: []
     laneHint: japan
@@ -517,6 +573,7 @@ series:
     firstAired: '2025-02'
     lastAired: '2025-03'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/57-1-COTEN-RADIO-1-e2u7j8p
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/bt3t9hsm8uq1D2ost2re
     kind: uncovered
     items: []
     laneHint: japan
@@ -528,6 +585,7 @@ series:
     firstAired: '2025-03'
     lastAired: '2025-05'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/58-1-COTEN-RADIO-1-e2vbafs
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/ALFL8chMJCJ90Dus5hZz
     kind: theme
     items: []
     note: 技術と学問の積み上がりの通史。特定の出来事には紐づかない。
@@ -538,6 +596,7 @@ series:
     firstAired: '2025-05'
     lastAired: '2025-06'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/59-1-COTEN-RADIO-1-e31jk76
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/C2NFX1FT8CWwzLTHymZH
     items: [perry-arrival]
 
   - season: 60
@@ -546,6 +605,7 @@ series:
     firstAired: '2025-07'
     lastAired: '2025-08'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/60-1--COTEN-RADIO-1-e351sq3
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/3u2j65qBpJiBKvrTraf8
     items: [liu-bang, han]
 
   - season: 61
@@ -554,6 +614,7 @@ series:
     firstAired: '2025-09'
     lastAired: '2025-10'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/61-1-COTEN-RADIO-1-e381df5
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/kTvQMeM2INihyllHnQaR
     kind: uncovered
     items: []
     laneHint: americas
@@ -565,6 +626,7 @@ series:
     firstAired: '2025-10'
     lastAired: '2025-12'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/62-1THIS-IS-AMERICACOTEN-RADIO-1-e3a6t18
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/EGA3oLxSWxdfeCBjQNbV
     items: [lincoln, us-civil-war, emancipation-proclamation]
 
   - season: 63
@@ -573,6 +635,7 @@ series:
     firstAired: '2026-01'
     lastAired: '2026-02'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/63-1-COTEN-RADIO-1-e3dkfdh
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/k5eo2Y9Wid9zThNVS5gw
     items: [sumer]
 
   - season: 64
@@ -581,6 +644,7 @@ series:
     firstAired: '2026-03'
     lastAired: '2026-05'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/64-1-COTEN-RADIO-1-e3e8aqn
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/Etmgdcnq0PVNGMbrF5qO
     items: [meiji-restoration]
 
   - season: 65
@@ -589,6 +653,7 @@ series:
     firstAired: '2026-05'
     lastAired: '2026-07'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/65-1Dr--COTEN-RADIO-1-e3j1983
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/dfnxGoJ22212e2pdENH6
     kind: uncovered
     items: []
     laneHint: americas
@@ -600,6 +665,7 @@ series:
     firstAired: '2026-07'
     lastAired: '2026-09'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/66-1-COTEN-RADIO-1-e3lrpgn
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/sxCHJq1b9ARPQSx0MAjl
     items: [roman-empire, augustus, augustus-principate, pax-romana, trajan-peak]
 
   - season: 67
@@ -608,4 +674,5 @@ series:
     firstAired: '2026-09'
     lastAired: '2026-09'
     url: https://podcasters.spotify.com/pod/show/coten/episodes/67-1-COTEN-RADIO-1-e3of45n
+    podyUrl: https://pody.jp/player/hh0fJGjBuDtPNVFIvZKq/7YOlJjVFguGULsupTQFG
     items: [mongol-invasions-japan, hojo-tokimune, kamakura]

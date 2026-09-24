@@ -15,6 +15,7 @@ export type PodcastSeries = {
   firstAired: string;
   lastAired?: string;
   url: string;
+  podyUrl?: string;
   kind: 'topic' | 'theme' | 'uncovered';
   items: string[];
   laneHint?: LaneId;
@@ -130,11 +131,13 @@ export function toPodcastIndex(result: PodcastResult): PodcastIndex {
   const index: PodcastIndex = { show: result.show, series: {}, byItem: {} };
   for (const s of result.series) {
     if (s.kind !== 'topic') continue;
+    // Pody に同じ回があればそちらを開く（番組公式のリンクは対応表に残してある）
     index.series[String(s.season)] = {
       title: s.title,
       episodes: s.episodes,
       firstAired: s.firstAired,
-      url: s.url,
+      url: s.podyUrl ?? s.url,
+      ...(s.podyUrl ? { via: 'Pody' } : {}),
     };
     for (const id of s.items) {
       (index.byItem[id] ??= []).push(s.season);

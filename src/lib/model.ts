@@ -166,7 +166,10 @@ export type PodcastSeriesView = {
   title: string;
   episodes: number;
   firstAired: string;
+  /** 実際に開くリンク */
   url: string;
+  /** リンク先のサービス名（Pody など）。番組公式のページなら省略 */
+  via?: string;
 };
 
 /** 項目 id から、その項目を扱っているシリーズを引くための索引 */

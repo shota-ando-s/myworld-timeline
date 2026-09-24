@@ -116,6 +116,8 @@ export const PodcastSeriesSchema = z
     firstAired: airedMonth,
     lastAired: airedMonth.optional(),
     url: z.url('第1回の URL を書いてください'),
+    /** Pody（記事化サービス）に同じ回があるときの URL。あればパネルはこちらを開く */
+    podyUrl: z.url('Pody の記事 URL を書いてください').optional(),
     /** topic = 年表項目に紐づく / theme = テーマ史で紐づかない / uncovered = 年表に該当項目が無い */
     kind: z.enum(['topic', 'theme', 'uncovered']).default('topic'),
     items: z.array(slug).default([]),
